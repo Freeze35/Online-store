@@ -1,7 +1,6 @@
-
-
-# 
-### Для запуска потребуется установить POstgerSQL 
+# Проект онлайн магазина на основе:
+## React,express,POstgerSQL,Node.js
+### Для запуска потребуется установить POstgerSQL и Node.js gfrtn
 ### После чего запустить npm run server. Произойдёт инициализация таблиц хранения данных
     "server": "npm run dev --prefix server",
     "client": "npm run start --prefix client",
