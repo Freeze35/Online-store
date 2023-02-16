@@ -1,39 +1,39 @@
 ### npm i
 
 ## express:
-npm i
-Запуск серверной маршрутизации.
-Маршрутизация определяет, как приложение отвечает на клиентский запрос к конкретному адресу (конечной точке), которым является URI (или путь), и определенному методу запроса HTTP (GET, POST и т.д.).
-Каждый маршрут может иметь одну или несколько функций обработки, которые выполняются при сопоставлении маршрута.
-https://expressjs.com/ru/
+npm i  
+Запуск серверной маршрутизации.  
+Маршрутизация определяет, как приложение отвечает на клиентский запрос к конкретному адресу (конечной точке), которым является URI (или путь), и определенному методу запроса HTTP (GET, POST и т.д.).  
+Каждый маршрут может иметь одну или несколько функций обработки, которые выполняются при сопоставлении маршрута.  
+https://expressjs.com/ru/  
 
 ## pg
-https://www.npmjs.com/package/pg
-POstgerSQL
-Чистый клиент JavaScript и собственные привязки libpq используют один и тот же API
-Пул соединений
-Расширяемый JS↔Приведение типов данных PostgreSQL
-Поддерживаемые функции PostgreSQL
+https://www.npmjs.com/package/pg  
+POstgerSQL  
+Чистый клиент JavaScript и собственные привязки libpq используют один и тот же API  
+Пул соединений  
+Расширяемый JS↔Приведение типов данных PostgreSQL  
+Поддерживаемые функции PostgreSQL  
 
 ## pg-hstore
-https://www.npmjs.com/package/pg-hstore
-Пакет узлов для сериализации и десериализации данных JSON в формат hstore.
+https://www.npmjs.com/package/pg-hstore  
+Пакет узлов для сериализации и десериализации данных JSON в формат hstore.  
 
 ## sequelize
-это Node.js на Object Relational Mapper , который упрощает работу с базами данных MySQL, MariaDB, SQLite, PostgreSQL и другими.
-https://sequelize.org/
-sequelize Позвалаяет легко прописать параметры подключения к БД 
-(.env) - Все данные для подключения
-(db.js) - Прописываем все параметры для подколючения.
-(const sequelize = require('./db')) - В фале index.js запрашиваем параметры для атентификации
-const startserver = async () =>{
-try{
-await sequelize.authenticate() - соответсвенное подключения БД
-await sequelize.async() - сверяет состояние схемы данных
-} catch
-В файле models создаем схемы для SQL базы данных и связи между ними
-Запрашиваем типы данных SQL из sequelize
-const {DataTypes} = require('sequelize') 
+это Node.js на Object Relational Mapper , который упрощает работу с базами данных MySQL, MariaDB, SQLite, PostgreSQL и другими.  
+https://sequelize.org/  
+sequelize Позволаяет легко прописать параметры подключения к БД  
+(.env) - Все данные для подключения  
+(db.js) - Прописываем все параметры для подколючения.  
+(const sequelize = require('./db')) - В фале index.js запрашиваем параметры для атентификации  
+const startserver = async () =>{  
+try{  
+await sequelize.authenticate() - соответсвенное подключения БД  
+await sequelize.async() - сверяет состояние схемы данных  
+} catch  
+В файле models создаем схемы для SQL базы данных и связи между ними  
+Запрашиваем типы данных SQL из sequelize  
+const {DataTypes} = require('sequelize')   
 
 ## cors
 CORS — это пакет node.js для предоставления промежуточного программного обеспечения Connect / Express , которое можно использовать для включения CORS с различными параметрами.
