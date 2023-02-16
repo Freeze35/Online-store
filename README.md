@@ -77,7 +77,7 @@ Device.findAndCountAll также возвращает нам количеств
 Он изоморфный (= он может работать в браузере и node.js с той же базой кодов).
 
 ## react-router-dom
-Пакет react-router-domсодержит привязки для использования React Router в веб-приложениях.
+Пакет react-router-dom содержит привязки для использования React Router в веб-приложениях.
 
 ## mobx
 Слежение за компонентами перерндер в случае изменения компонента
@@ -87,8 +87,8 @@ client/UserStore makeObservable(this)
 observer - слежение за изменением параметров переданого элемента в AppRouter
 makeAutoObservable(this) слежение за изменением параметров в самом контрукторе UserStore
 ## react-bootstrap client
-https://getbootstrap.com/docs/5.0/utilities/spacing/  Margin and padding(Внешние и внутренние отступы) bootstrap 5
-https://getbootstrap.com/docs/5.0/utilities/flex/ Flex(растягивание или выравнивание элемента на странице) bootstrap 5
+https://getbootstrap.com/docs/5.0/utilities/spacing/  Margin and padding(Внешние и внутренние отступы)
+https://getbootstrap.com/docs/5.0/utilities/flex/ Flex(растягивание или выравнивание элемента на странице)
 https://mdbootstrap.com/docs/react/utilities/spacing/ Spacing
 ## uuid client
 Позволяет генерировать уникальный криптографический ключ занимающий небольшое место
@@ -109,25 +109,7 @@ https://www.npmjs.com/package/jwt-decode
 Вы можете перехватывать запросы или ответы до того, как они будут обработаны try,then или catch.
 https://axios-http.com/docs/interceptors
 
-## Получение имен полей из контруктара
-# let parsedArray = JSON.parse(JSON.stringify(device.types)) // parse data for getting keys.name
-#  let keysNames = Object.keys(parsedArray[0])  - получаем имена полей из первого списк
+## Получение имен полей из конcтруктора
+ let parsedArray = JSON.parse(JSON.stringify(device.types)) // parse data for getting keys.name
+ let keysNames = Object.keys(parsedArray[0])  - получаем имена полей из первого списк
 
-## Функция выборки типов,брендов,характеристик для последующей передачи на сервер для входных параметров where id: [1,5,6] 
-##(подходит для любого выбираемого значения ) 
-```
-const typeCheckHeader = (type) => {
-if (device.selectedType.length) {
-device.selectedType.map(i => {
-if (i === type.id) {
-device.setSelectedType(device.selectedType.map(i => i).filter(i => i !== type.id))
-} else {
-device.setSelectedType(Array.from(new Set([...device.selectedType, type.id])))
-}
-})
-}
-else {
-device.setSelectedType(Array.from(new Set([...device.selectedType, type.id])))
-}
-}
-```

@@ -132,3 +132,20 @@ const SelectorBar = observer(() => {
 });
 
 export default SelectorBar;
+
+/*
+Запасной вариант
+## Функция выборки типов,брендов,характеристик для последующей передачи на сервер для входных параметров where id: [1,5,6]
+##(подходит для любого выбираемого значения )
+```
+const typeCheckHeader = (type) => {
+if (device.selectedType.length) {
+device.selectedType.map(i => {
+if (i === type.id) {
+device.setSelectedType(device.selectedType.map(i => i).filter(i => i !== type.id))
+} else {
+device.setSelectedType(Array.from(new Set([...device.selectedType, type.id])))
+}})} else {
+device.setSelectedType(Array.from(new Set([...device.selectedType, type.id])))}}
+```
+ */
