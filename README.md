@@ -6,12 +6,11 @@
     "server": "npm run dev --prefix server",
     "client": "npm run start --prefix client",
     "start": "start npm run server & start npm run client"
-## express:
-npm i  
+## express
 Запуск серверной маршрутизации.  
 Маршрутизация определяет, как приложение отвечает на клиентский запрос к конкретному адресу (конечной точке), которым является URI (или путь), и определенному методу запроса HTTP (GET, POST и т.д.).  
 Каждый маршрут может иметь одну или несколько функций обработки, которые выполняются при сопоставлении маршрута.  
-https://expressjs.com/ru/  
+https://expressjs.com/ru/
 
 ## pg
 https://www.npmjs.com/package/pg  
