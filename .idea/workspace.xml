@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/asstes/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/AppRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/DeviceItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/DeviceList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Pages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/SearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/SelectorBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/SortBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/modals/CreateBrand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/modals/CreateDevice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/modals/CreatePageInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/modals/CreateType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/modals/InfoForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/modals/close_button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/http/deviceApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/http/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/http/userApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/AdminPanel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Basket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/DevicePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/DeviceStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/UserStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/consts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-store.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/brandController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/deviceController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/deviceInfoController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/typeController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/error/ApiError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/ErrorMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/authMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/checkMiddlware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/models.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/brandRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/deviceInfoRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/deviceRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/typeRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/userRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/4546bb7d-beb4-4595-b5ff-d62956c58a7e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/ccd380e3-4f8a-4946-93a1-f734b6884704.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2L2MIgOnGLNesXqlOy3CGtAoQJI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/T/online-store/online-store/client/src/components/modals&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\client\src\components\modals" />
+      <recent name="D:\T\online-store\online-store\client\asstes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\client\src" />
+      <recent name="D:\T\online-store\online-store\client\src\components\modals" />
+      <recent name="D:\T\online-store\online-store\client" />
+      <recent name="D:\T\online-store\online-store\client\src\components" />
+      <recent name="D:\T\online-store\online-store\client\store" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="ds" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ds" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="ff" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ff" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.ds" />
+        <item itemvalue="npm.ff" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="" />
+      <created>1675064646848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675064646848</updated>
+      <workItem from="1675064648196" duration="21924000" />
+      <workItem from="1675097798653" duration="1644000" />
+      <workItem from="1675134833474" duration="6789000" />
+      <workItem from="1675143892974" duration="3566000" />
+      <workItem from="1675147542284" duration="7311000" />
+      <workItem from="1675155054726" duration="64484000" />
+      <workItem from="1675328876869" duration="895000" />
+      <workItem from="1675329855346" duration="130539000" />
+      <workItem from="1675704701137" duration="709000" />
+      <workItem from="1675705450566" duration="262098000" />
+      <workItem from="1676304344082" duration="52980000" />
+      <workItem from="1676403813916" duration="35325000" />
+      <workItem from="1676484053948" duration="32102000" />
+      <workItem from="1676518366290" duration="1723000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+{
+  "name": "online-store",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run start --prefix client",
+    "start": "start npm run server & start npm run client"
+  },
+  "devDependencies": {
+  }
+}
