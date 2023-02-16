@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="SelectorBrand work">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar.js" afterDir="false" />
-    </list>
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="SelectorBrand work + Readme fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +135,7 @@
       <workItem from="1676304344082" duration="52980000" />
       <workItem from="1676403813916" duration="35325000" />
       <workItem from="1676484053948" duration="32102000" />
-      <workItem from="1676518366290" duration="2507000" />
+      <workItem from="1676518366290" duration="2819000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -148,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676520443736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SelectorBrand work + Readme fix">
+      <created>1676520941607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676520941607</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SelectorBrand work + Readme fix">
+      <created>1676521168487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676521168487</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SelectorBrand work" />
-    <option name="LAST_COMMIT_MESSAGE" value="SelectorBrand work" />
+    <MESSAGE value="SelectorBrand work + Readme fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="SelectorBrand work + Readme fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
