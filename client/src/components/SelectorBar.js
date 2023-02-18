@@ -1,19 +1,22 @@
-import React, {useContext, useEffect} from 'react';
+import React, {useCallback, useContext, useMemo, useState} from 'react';
 import {observer} from "mobx-react-lite";
 import Accordion from 'react-bootstrap/Accordion'
 import {Context} from "../index";
 import "./accordion.css"
 import {v4} from "uuid";
-import {fetchDevices} from "../http/deviceApi";
+import {fetchBrands, fetchDevices} from "../http/deviceApi";
+
+
 
 const SelectorBar = observer(() => {
-    const {device} = useContext(Context)
+    const {device,optionDevice} = useContext(Context)
+    const [checked,setChecked] = useState(false)
 
-    useEffect(()=>{
-        device.devices.map(dev=>{
-            device.setCurrentBrands(Array.from(new Set([...device.currentBrands,dev.brandId])))}
-        )}
-    ,[])
+
+
+    const checkBrand =(brand,type)=>{
+        return optionDevice.typeBrandListId.find(d=>d.typeId === type.id && d.brandId === brand.id) !== undefined
+    }
 
     //Функция выборки типов для последующей передачи на сервер для входных параметров where id: [1,5,6]
     const brandCheck = (e, brand) => {
@@ -24,12 +27,19 @@ const SelectorBar = observer(() => {
             let index = device.selectedBrand.indexOf(brand.id)
             if (index > -1) {
                 device.selectedBrand.splice(index, 1)
-                device.setSelectedBrand(device.selectedBrand)
-
+                device.setSelectedBrand(Array.from(device.selectedBrand))
+                if(device.selectedBrand.length===0){
+                    fetchDevices(Array.from(new Set(device.selectedType))
+                        ,Array.from(new Set(device.selectedBrand)),device.page,10).then(data => {
+                        device.setDevices(data.rows)
+                        device.setTotalCount(data.count)
+                        device.setChangedDevices(data.rows)
+                    })
+                }
             }
+
         }
     }
-
 
     // setTimeout для получения атрибута aria-expanded иначе получаем противоположное состояние при нажатии
     const typeCheckHeader = (e, type) => {
@@ -43,34 +53,10 @@ const SelectorBar = observer(() => {
         })
     }
 
-    const checkBrand =async (brand,type)=>{
-            await fetchDevices(type.id,brand.id,1,2)
-            .then(data =>
-            {
-
-                console.log(type.id,brand.id,data.count === 1)
-            })
-        /*device.devices.map(dev=>{
-            console.log(brand.id === dev.brandId && type.id === dev.typeId)
-            return brand.id === dev.brandId && type.id === dev.typeId
-        })*/
-
-
-
-
-        //return device.currentBrands.includes(brand.id)
-        //let brandId = []
-        //device.brands.map(br => brandId.push(br.id))
-        //device.currentBrands.map(idCurrentBrand=>brand.id.includes(idCurrentBrand))
-    }
 
     const typeCheckHeader1 = (e, type) => {
 
-        //Array.from(device.brands.map(br => console.log(br.id)))
-        console.log(device.currentBrands)
-        console.log(device.currentBrands) //.map(curBrand => console.log(curBrand))
         if (device.expand === `true` && device.selectedType.length) {
-            //console.log(device.brands.map(m=>device.currentBrands.map(d=> d=== true)))
             device.selectedType.map(i => {
                 if (i === type.id) {
                     device.setSelectedType(device.selectedType.map(i => i).filter(i => i !== type.id))
@@ -78,13 +64,29 @@ const SelectorBar = observer(() => {
                     device.setSelectedType(Array.from(new Set([...device.selectedType, type.id])))
                 }
             })
-        } else if (device.selectedType.length) {
+        }
+        else if (device.selectedType.length) {
             device.selectedType.map(i => {
                 if (i === type.id) {
                     device.setSelectedType(device.selectedType.map(i => i).filter(i => i !== type.id))
+                    //optionDevice.typeBrandListId.find(d=>d.typeId === type.id && d.brandId === brand.id) !== undefined
+
+                    device.setSelectedBrand(device.selectedBrand.filter(brand => {
+                        if(optionDevice.typeBrandListId.find(brlist => {
+                            return brlist.typeId !== type.id && brlist.brandId === brand
+                        }) !== undefined){
+                            return true
+                        }
+                    }))
+
+
+                    console.log(device.selectedBrand)
+
                 }
             })
-        } else if (device.expand) {
+        }
+        else if (device.expand) {
+            console.log(device.selectedType)
             device.setSelectedType(Array.from(new Set([...device.selectedType, type.id])))
         }
     }
@@ -92,7 +94,7 @@ const SelectorBar = observer(() => {
     return (
 
         <div style={{boxShadow: "0px 0px 3px black", borderRadius: 5, padding: 20}}>
-            {device.types.map(type =>
+            {device.types.map((type,indexType) =>
 
                 <Accordion key={v4()} style={{alignItems: "center"}}>
                     <Accordion.Item key={v4()} eventKey="0">
@@ -101,8 +103,7 @@ const SelectorBar = observer(() => {
                             {type.name}</Accordion.Header>
                         <Accordion.Body style={{overflow: "auto", maxHeight: 200}}>
                             <h4 style={{marginLeft: 6, marginTop: 10, color: "#007afe"}}>Брэнды</h4>
-
-                                {device.brands.map(brand =>{
+                                {device.brands.map((brand,indexBrand) =>{
                                     if(checkBrand(brand,type)){
                                     return(<div key={v4()}>
                                         <div key={v4()} className="form-check"
@@ -111,9 +112,10 @@ const SelectorBar = observer(() => {
                                             <label key={v4()}
                                                    className="form-check-label d-flex justify-content-between"
                                                    style={{cursor: "pointer"}}>
-                                                <input key={v4()} className="form-check-input"
+                                                <input key={indexType*indexBrand} className="form-check-input"
                                                        style={{height: 16, width: 16, cursor: "pointer"}}
                                                        type="checkbox"
+                                                       //checked={checked}
                                                        onChange={e => brandCheck(e, brand)}
                                                 />
                                                 {brand.name}

@@ -9,25 +9,27 @@ import Pages from "../components/Pages";
 import SortBar from "../components/SortBar";
 
 const Shop = observer(() => {
-    const {device} = useContext(Context)
+    const {device,optionDevice} = useContext(Context)
 
     //Подключаем наши get запросы на сервер
+    // page текущая страница limit относиться к deviceController в котором указываем сколько элементов запрашивать
     useEffect(()=>{
-        fetchTypes().then(data => device.setTypes(data)) // Загружаем типы с сервера
-        fetchBrands().then(data => device.setBrands(data)) // Загружаем брэнды с сервера
-        fetchDevices(null,null,1,2).then(data => {
+        fetchDevices(null,null,1,8).then(data => {
             device.setDevices(data.rows)
             device.setTotalCount(data.count)
             device.setChangedDevices(data.rows)
-            device.devices.map(dev=>{
-                device.setCurrentBrands(Array.from(new Set([...device.currentBrands,dev.brandId])))}
-            )
+            data.rows.map(dev =>optionDevice.setTypeBrandListId([...optionDevice.typeBrandListId, {typeId:dev.typeId,brandId:dev.brandId}]))
+
         })
+        fetchTypes().then(data => device.setTypes(data)) // Загружаем типы с сервера
+        fetchBrands().then(data => device.setBrands(data)) // Загружаем брэнды с сервера
+
 
     },[])
 
+    //Мониторинг изменений брендов или типов(постоянное автоматические запросы)
     useEffect(()=>{
-        fetchDevices(device.selectedType,Array.from(new Set(device.selectedBrand)),device.page,10).then(data => {
+        fetchDevices(Array.from(new Set(device.selectedType)),Array.from(new Set(device.selectedBrand)),device.page,8).then(data => {
             device.setDevices(data.rows)
             device.setTotalCount(data.count)
             device.setChangedDevices(data.rows)

@@ -13,7 +13,6 @@ export default class DeviceStore {
         this._expand=false
         this._changedDevices = []
         this._searchOption=''
-        this._currentBrands =[]
         makeAutoObservable(this)
     }
 
@@ -23,6 +22,11 @@ export default class DeviceStore {
 
     setBrands(brands) {
         this._brands = brands
+    }
+
+    setSelectedBrand(brand) {
+        this.setPage(1)
+        this._selectedBrand = brand
     }
 
     setDevices(devices) {
@@ -37,10 +41,6 @@ export default class DeviceStore {
         this._selectedType = type
     }
 
-    setSelectedBrand(brand) {
-        this.setPage(1)
-        this._selectedBrand = brand
-    }
 
     setPage(page) {
         this._page = page
@@ -53,15 +53,11 @@ export default class DeviceStore {
     setExpand(expand) {
         this._expand = expand
     }
-    searchOption
 
     setSearchOption(searchOption) {
         this._searchOption = searchOption
     }
 
-    setCurrentBrands(currentBrands) {
-        this._currentBrands = currentBrands
-    }
     get types() {
         return this._types
     }
@@ -69,6 +65,11 @@ export default class DeviceStore {
     get brands() {
         return this._brands
     }
+
+    get selectedBrand() {
+        return this._selectedBrand
+    }
+
 
     get devices() {
         return this._devices
@@ -79,10 +80,6 @@ export default class DeviceStore {
 
     get selectedType() {
         return this._selectedType
-    }
-
-    get selectedBrand() {
-        return this._selectedBrand
     }
 
     get totalCount() {
@@ -105,7 +102,4 @@ export default class DeviceStore {
         return this._searchOption
     }
 
-    get currentBrands() {
-        return this._currentBrands
-    }
 }
