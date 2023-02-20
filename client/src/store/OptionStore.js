@@ -4,7 +4,7 @@ export default class OptionStore{
     constructor(){
 
         this._typeDevicesList=[]
-        this._brandDevicesList=[]
+        this._specialID=[]
         makeAutoObservable(this)
     }
 
@@ -12,16 +12,16 @@ export default class OptionStore{
         this._typeDevicesList = typeDevicesList
     }
 
-    setBrandDevicesList(brandDevicesList){
-        this._brandDevicesList = brandDevicesList
+    setSpecialID(specialID){
+        this._specialID = specialID
     }
 
     get typeBrandListId(){
         return this._typeDevicesList
     }
 
-    get brandDevicesList(){
-        return this._brandDevicesList
+    get specialID(){
+        return this._specialID
     }
 
 
