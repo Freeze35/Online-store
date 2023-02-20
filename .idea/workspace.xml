@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="SelectorBrand work =&gt; Brand Adapting">
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="SelectorBrand work =&gt; Brand Adapting Over &#10;-- Not Clear Version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/OptionStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/OptionStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,7 @@
       <workItem from="1676484053948" duration="32102000" />
       <workItem from="1676518366290" duration="10042000" />
       <workItem from="1676528964784" duration="20185000" />
-      <workItem from="1676584239316" duration="90191000" />
+      <workItem from="1676584239316" duration="90963000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -199,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676701956780</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="SelectorBrand work =&gt; Brand Adapting Over &#10;-- Not Clear Version">
+      <created>1676869008133</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676869008133</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +226,8 @@
     <MESSAGE value="SelectorBrand work" />
     <MESSAGE value="SelectorBrand work + Readme fix" />
     <MESSAGE value="SelectorBrand work =&gt; Brand Adapting" />
-    <option name="LAST_COMMIT_MESSAGE" value="SelectorBrand work =&gt; Brand Adapting" />
+    <MESSAGE value="SelectorBrand work =&gt; Brand Adapting Over &#10;-- Not Clear Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="SelectorBrand work =&gt; Brand Adapting Over &#10;-- Not Clear Version" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

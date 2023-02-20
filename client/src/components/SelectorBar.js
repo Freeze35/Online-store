@@ -74,55 +74,13 @@ const SelectorBar = observer(() => {
             device.selectedType.map(i => {
                 if (i === type.id) {
                     device.setSelectedType(device.selectedType.map(i => i).filter(i => i !== type.id))
-
-                    //device.selectedBrand.map(sd=>(sd[0]))
-                    //optionDevice.typeBrandListId.find(d=>d.typeId === type.id && d.brandId === brand.id) !== undefined
-                    //console.log(device.selectedBrand)
                     device.brands.find(brand => {
 
                     if(document.getElementById(`${type.id}_${brand.id}`) !== null &&
                         optionDevice.specialID.find(id=>id === `${type.id}_${brand.id}`)
                     ) {
-                        //return brand.id
-                        //console.log(optionDevice.specialID)
                         itemsRef[`${type.id}_${brand.id}`].click()
-                        //console.log(document.getElementById(`${brlist.typeId}_${brlist.brandId}`).ariaChecked)
                     }})
-                    /*device.brands.map(brand => {
-                        console.log(brand.id)
-                        //itemsRef[`${type.id}_${brand}`].click()
-                    })*/
-                    /*device.setSelectedBrand(device.selectedBrand.filter(brand => {
-                        console.log(brand)
-                        if(document.getElementById(`${type.id}_${brand}`) !== null) {
-                            itemsRef[`${type.id}_${brand}`].click()
-                            //console.log(document.getElementById(`${brlist.typeId}_${brlist.brandId}`).ariaChecked)
-                        }
-                        if(optionDevice.typeBrandListId.find(brlist => {
-                            //console.log(device.selectedBrand)
-                            //console.log(type.id,brand,brlist.typeId,brlist.brandId)
-                            console.log(brlist.typeId !== type.id && brlist.brandId === brand,type.id,brand)
-                            //itemsRef.current[`${brlist.typeId}_${brlist.brandId}`].checked(false)
-                            //console.log(document.getElementById(`${brlist.typeId}_${brlist.brandId}`))
-                            //console.log(document.getElementById(`${brlist.typeId}_${brlist.brandId}`))
-                            if(brlist.typeId !== type.id && brlist.brandId === brand){
-                                return true
-
-                            }
-                                else if(document.getElementById(`${brlist.typeId}_${brlist.brandId}`) !== null) {
-                                    console.log(`${type.id}_${brlist.brandId}`)
-                                itemsRef[`${brlist.typeId}_${brlist.brandId}`].click()
-
-                                //console.log(document.getElementById(`${brlist.typeId}_${brlist.brandId}`).ariaChecked)
-
-                            }
-                        }) !== undefined){
-                            return true
-                        }
-
-                    }))*/
-
-                    //itemsRef.current[``].checked=false
 
                 }
             })
