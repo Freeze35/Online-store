@@ -1,6 +1,6 @@
 # Проект онлайн магазина на основе:
-## React,express,POstgerSQL,Node.js
-### Для запуска потребуется установить POstgerSQL и Node.js gfrtn
+## React,express,PostgerSQL,Node.js
+### Для запуска потребуется установить PostgerSQL и Node.js
 ### После чего запустить npm run server. Произойдёт инициализация таблиц хранения данных
     "server": "npm run dev --prefix server",
     "client": "npm run start --prefix client",
@@ -13,7 +13,7 @@ https://expressjs.com/ru/
 
 ## pg
 https://www.npmjs.com/package/pg  
-POstgerSQL  
+PostgerSQL  
 Чистый клиент JavaScript и собственные привязки libpq используют один и тот же API  
 Пул соединений  
 Расширяемый JS↔Приведение типов данных PostgreSQL  
@@ -56,22 +56,6 @@ Dotenv — это модуль с нулевой зависимостью, ко�
 ## bcryprt
 Шифрование JWT токена
 
-## Argument types do not match parameters
-Если вдруг у кого такая же ошибка, то вот решение:
-в routes/index.js первые три строки сделать такими:
-const Router = require('express')
-let router;
-router = new Router();
-||
-const express = require("express")
-const router = express.Router()
-
-Для получения статичных изображений вызываем path.resolve для получения пути обращения к текущей дериктории и папке static
-const path =require('path')
-app.use(express.static(path.resolve(__dirname,"static")))
-
-Device.findAndCountAll также возвращает нам количество това
-
 # Frontend_part
 
 ## npm install
@@ -85,7 +69,8 @@ Device.findAndCountAll также возвращает нам количеств
 
 ## mobx
 Слежение за компонентами перерндер в случае изменения компонента
-client/UserStore makeObservable(this)
+client/store, constructor => makeAutoObservable(this) 
+// не использовать makeObservable
 
 ## mobx-react-lite
 observer - слежение за изменением параметров переданного элемента в AppRouter
