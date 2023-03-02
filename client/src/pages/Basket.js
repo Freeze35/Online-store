@@ -1,25 +1,19 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useState} from 'react';
 import {Context} from "../index";
-import {Col, Container, Image, Row} from "react-bootstrap";
+import {Button, Col, Container, Image, Row} from "react-bootstrap";
 import {v4} from "uuid";
-import {fetchBrands, fetchTypes} from "../http/deviceApi";
-
 import BasketNumberOfDevicesInput from "../components/BasketNumberOfDevicesInput";
 import {createBasketBuy} from "../http/basketApi";
+import {LOGIN_ROUTE} from "../utils/consts";
+import {useNavigate} from "react-router-dom";
+import {observer} from "mobx-react-lite";
 
 
 
-const Basket = () => {
+const Basket = observer(() => {
     const {user, device} = useContext(Context)
     let [totalAmount, setTotalAmount] = useState(0)
-
-
-    useEffect(() => {
-        fetchTypes().then(data => device.setTypes(data))
-        fetchBrands().then(data => device.setBrands(data))
-        console.log(user.userId==="not_authorized"?0:user.userId)
-    }, [])
-
+    const navigate = useNavigate()
 
     const Pay =()=>{
         const formData = new FormData()
@@ -28,6 +22,10 @@ const Basket = () => {
         formData.append('basketId', user.userId==="not_authorized"?1:user.userId)
         createBasketBuy(formData).then(() => {})
 
+    }
+
+    const DeleteDeviceBasket=(basketInfo)=>{
+        user.setBasket([...user.basket.filter(basketDevice=> basketDevice !== basketInfo)])
     }
 
     return (
@@ -48,8 +46,10 @@ const Basket = () => {
                                          style={{paddingRight: 40, fontSize: 40}}>
                                         {device.brands.map(b => b.id === basketInfo.brandId ? b.name : "")} {basketInfo.name}<br/>
                                     </div>
-                                    <BasketNumberOfDevicesInput basketInfo={basketInfo} setTotalAmount={setTotalAmount} totalAmount={totalAmount}
-                                                                />
+                                    <BasketNumberOfDevicesInput basketInfo={basketInfo} setTotalAmount={setTotalAmount} totalAmount={totalAmount}/>
+                                    <Button className="btn" onClick={()=>{DeleteDeviceBasket(basketInfo)}} variant="outline-danger" style={{height:35,width:35,fontSize:15}}>
+                                        x
+                                    </Button>
                                 </div>
                             )
                         }
@@ -60,17 +60,22 @@ const Basket = () => {
                         <label  style={{fontSize: 45,fontWeight:200}}>
                             К Оплате: <br/>
                         </label>
-                        <label style={{ display:"inline-block", fontSize: 45,fontWeight:400,justifyContent:"center"}}>
-                        {totalAmount}</label>
+                        <label style={{ display:"inline-block", fontSize: 40,fontWeight:400,justifyContent:"center",color: "#007afe"}}>
+                        {totalAmount} <label style={{fontSize: 30}}>руб.</label></label>
                         {user.userId!=="not_authorized"?
-                            <button onClick={Pay}> Оплатить</button>:
-                            <button onClick={Pay}> Авторизация</button>
+                            <Button variant="outline-primary" onClick={()=> {
+                                Pay()
+                            }}> Оплатить</Button>:
+                            <Button variant="outline-primary" onClick={()=> {
+                                navigate(LOGIN_ROUTE)
+                                Pay()
+                            }}> Авторизация</Button>
                         }
                     </div>
                 </Col>
             </Row>
         </Container>
     );
-};
+});
 
 export default Basket;

@@ -1,35 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Change Basket list, &#10;Change DeviceList&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js">
-      <change afterPath="$PROJECT_DIR$/client/src/asstes/basket_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/asstes/basket_icon_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/BasketNumberOfDevicesInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/inputChange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/http/basketApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/basketController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/basketRouter.js" afterDir="false" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Change Basket list, &#10;Change DeviceList,&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/DeviceItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/DeviceList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/DeviceList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/BasketNumberOfDevicesInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BasketNumberOfDevicesInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SortBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/http/deviceApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/http/deviceApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/http/userApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/http/userApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/Basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DevicePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/DeviceStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/DeviceStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/store/OptionStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/OptionStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/UserStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/UserStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/models.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +29,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2L2MIgOnGLNesXqlOy3CGtAoQJI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -168,7 +147,7 @@
       <workItem from="1676518366290" duration="10042000" />
       <workItem from="1676528964784" duration="20185000" />
       <workItem from="1676584239316" duration="222142000" />
-      <workItem from="1677415658906" duration="125390000" />
+      <workItem from="1677415658906" duration="136090000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -240,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676882164383</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Change Basket list, &#10;Change DeviceList,&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js">
+      <created>1677772733905</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677772733905</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +250,8 @@
     <MESSAGE value="SelectorBrand work =&gt; Brand Adapting Over &#10;-- Not Clear Version" />
     <MESSAGE value="SelectorBrand work =&gt; Brand Adapting Over &#10;-- Clear Version" />
     <MESSAGE value="Change Basket list, &#10;Change DeviceList&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Basket list, &#10;Change DeviceList&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js" />
+    <MESSAGE value="Change Basket list, &#10;Change DeviceList,&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Basket list, &#10;Change DeviceList,&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

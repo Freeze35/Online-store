@@ -36,7 +36,6 @@ const DevicePage = () => {
                 .map(item => ({...item, info: item.info}))
                 .filter(i => i.id !== id)
             setDevice({...device, info: result})
-
         })
     }
     // Добавление элемента в массив user.basket
@@ -47,7 +46,6 @@ const DevicePage = () => {
                         ...el,
                         numberOfDevices: el.numberOfDevices + 1
                     } : el))
-                    console.log(data)
                 } else {
                     user.setBasket([...user.basket, {
                         name: data.name,

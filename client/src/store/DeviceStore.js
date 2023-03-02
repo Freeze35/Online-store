@@ -13,6 +13,8 @@ export default class DeviceStore {
         this._expand=false
         this._changedDevices = []
         this._searchOption=''
+        this._minPrice=0
+        this._maxPrice=0
         makeAutoObservable(this)
     }
 
@@ -41,7 +43,6 @@ export default class DeviceStore {
         this._selectedType = type
     }
 
-
     setPage(page) {
         this._page = page
     }
@@ -58,6 +59,15 @@ export default class DeviceStore {
         this._searchOption = searchOption
     }
 
+    setMinPrice(minPrice) {
+        this._minPrice = minPrice
+    }
+
+    setMaxPrice(maxPrice) {
+        this._maxPrice = maxPrice
+    }
+
+    //Getters
     get types() {
         return this._types
     }
@@ -69,7 +79,6 @@ export default class DeviceStore {
     get selectedBrand() {
         return this._selectedBrand
     }
-
 
     get devices() {
         return this._devices
@@ -102,4 +111,11 @@ export default class DeviceStore {
         return this._searchOption
     }
 
+    get minPrice() {
+        return this._minPrice
+    }
+
+    get maxPrice() {
+        return this._maxPrice
+    }
 }

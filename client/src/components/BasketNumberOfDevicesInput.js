@@ -45,10 +45,10 @@ const BasketNumberOfDevicesInput = ({basketInfo,setTotalAmount}) => {
              className="form-group row align-items-center justify-content-center"
              style={{marginRight: 20, width: 160, fontSize: 30}}>
             <label >Цена:</label>
-                <label >{basketInfo.price} руб.</label>
+                <label style={{color: "#007afe"}} >{basketInfo.price} руб.</label>
             <div className="input-group align-self-center">
                 <div className="input-group-prepend align-self-center">
-                    <button className="btn btn-outline-primary flex-column justify-content-center" style={{width:40,height:40,fontSize:25}} type="button"
+                    <button className="btn btn-outline-primary flex-column justify-content-center" style={{width:40,height:40,fontSize:25,paddingBottom:10}} type="button"
                             onClick={() => decrement()}>-
                     </button>
                 </div>
@@ -62,7 +62,7 @@ const BasketNumberOfDevicesInput = ({basketInfo,setTotalAmount}) => {
                        value={numbersValue}
                        onChange={() => changeNumbersDevicesBasket()}/>
                 <div className="input-group-append">
-                    <button className="btn btn-outline-primary text-center d-flex flex-column justify-content-center" style={{width:40,height:40,fontSize:25}} type="button"
+                    <button className="btn btn-outline-primary text-center d-flex flex-column justify-content-center" style={{width:40,height:40,fontSize:25,paddingBottom:10}} type="button"
                             onClick={() => increment()}>
                         +
                     </button>

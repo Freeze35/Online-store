@@ -1,6 +1,6 @@
 import React, {useContext, useRef} from 'react';
 import {observer} from "mobx-react-lite";
-import  {Form,Accordion} from 'react-bootstrap'
+import {Form, Accordion} from 'react-bootstrap'
 import {Context} from "../index";
 import "./accordion.css"
 import {v4} from "uuid";
@@ -105,7 +105,7 @@ const SelectorBar = observer(() => {
                                     if(findBrandInDevices(brand,type)){
                                     return(<div key={v4()}>
                                         <div key={v4()} className="form-check"
-                                             style={{marginLeft: 8, marginTop: 10}}>
+                                             style={{marginLeft: 8, marginTop: 10,overflow: "auto"}}>
 
                                             <label key={v4()}
                                                    className="form-check-label d-flex justify-content-between"
@@ -126,15 +126,12 @@ const SelectorBar = observer(() => {
                             <h4 style={{marginLeft: 6, marginTop: 10, color: "#007afe"}}>
                                 Цена</h4>
                             <Form.Range />
-                            <Form.Control
-                                aria-label="Default"
-                                aria-describedby="inputGroup-sizing-default"
-                                placeholder="мин.."
-                                value={device.searchOption}
-                                onChange={e =>
-                                {}
-                                }
-                            />
+                            <div className="input-group">
+                                <input type="text" placeholder="min.."  aria-label="Last name" onChange={e => {}}
+                                       className="form-control"/>
+                                <input type="text" placeholder="max.."  aria-label="Last name" onChange={e => {}}
+                                       className="form-control"/>
+                            </div>
                         </Accordion.Body>
                         <hr></hr>
                     </Accordion.Item>
