@@ -33,5 +33,10 @@ export const publicRoutes = [
     {
         path:DEVICE_ROUTE +"/:id",
         Component: DevicePage
+    },
+    {
+        path:BASKET_ROUTE +"/:id",
+        Component: Basket
     }
+
 ]

@@ -1,0 +1,49 @@
+a{
+    border-radius: 4px;
+    color: #ff9100;
+    transition-duration: 0.4s;
+
+}
+a:active {
+    color: red;
+
+}
+
+a:hover {
+
+    color: #5C9900;
+}
+
+.button1 {
+    color: white;
+}
+
+.button1:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+
+}
+
+.basket_img{
+    background-color: rgba(3, 0, 40, 0.8) !important;
+    border: white 1px;
+    border-radius: 5px;
+    font-size: 2vmin;
+    transition-duration: 0.15s;
+    outline: white solid 1px;
+    color:red
+}
+
+.basket_img:hover{
+    color:rgba(3, 0, 40, 0.8) !important;
+    background-color: white !important;
+}
+
+/*Filter styles*/
+.basket_img_style {
+    transition-duration: 0.15s;
+}
+.basket_img_style:hover {
+    filter: drop-shadow(0px 0px 1px #ff9100) invert(38%) sepia(60%) hue-rotate(-5deg) saturate(4);
+
+}

@@ -26,7 +26,8 @@ class userController {
         const user = await User.create({email,role,password:hashPassword,})
         const basket = await Basket.create({userId:user.id})
         const token = generateJwt(user.id, user.email,user.role)
-        return res.json({token})
+        const id = user.id
+        return res.json({token,id})
     }
     async login(req,res,next){
         const {email, password} = req.body
@@ -39,7 +40,8 @@ class userController {
             return next(ApiError.internal("Incorrect password"))
         }
         const token = generateJwt(user.id,user.email,user.role)
-        return res.json({token})
+        const id = user.id
+        return res.json({token,id})
 
     }
     async check(req,res){

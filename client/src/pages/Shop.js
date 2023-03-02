@@ -23,8 +23,8 @@ const Shop = observer(() => {
         })
         fetchTypes().then(data => device.setTypes(data)) // Загружаем типы с сервера
         fetchBrands().then(data => device.setBrands(data)) // Загружаем брэнды с сервера
-
-
+        device.setSelectedBrand([])// Чистка выборки Brand при загрузке
+        device.setSelectedType([])// Чистка выборки Type при загрузке
     },[])
 
     //Мониторинг изменений брендов или типов(постоянное автоматические запросы)

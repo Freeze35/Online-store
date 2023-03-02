@@ -48,8 +48,8 @@ import {$authHost, $host} from "./index";
     return data
     }
 
-    export const createDeviceInfo = async (info,deviceId) => {
-    const {data} = await $authHost.post('api/device-info', info,deviceId)
+    export const createDeviceInfo = async (info) => {
+    const {data} = await $authHost.post('api/device-info', info)
     return data
     }
 

@@ -1,5 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
-import {Button, Card, Col, Container,Image,Row} from "react-bootstrap";
+import {Button, Card, Col, Container, Image, Row} from "react-bootstrap";
 import star from "../asstes/star.png"
 import {useParams} from "react-router-dom";
 import {deleteOneInfoDevice, fetchOneDevice} from "../http/deviceApi";
@@ -25,7 +25,7 @@ const DevicePage = () => {
 
     }, [device])
 
-    const clearInfo=()=>{
+    const clearInfo = () => {
         setInfo(info.filter(i => i.number === 0))
     }
 
@@ -39,7 +39,28 @@ const DevicePage = () => {
 
         })
     }
-
+    // Добавление элемента в массив user.basket
+    const addToBasket = () => {
+        fetchOneDevice(id).then(data => {
+                if (user.basket.find(d => d.deviceId === data.id)) {
+                    user.setBasket(user.basket.map(el => el.deviceId === data.id ? {
+                        ...el,
+                        numberOfDevices: el.numberOfDevices + 1
+                    } : el))
+                    console.log(data)
+                } else {
+                    user.setBasket([...user.basket, {
+                        name: data.name,
+                        price: data.price,
+                        deviceId: data.id,
+                        numberOfDevices: 1,
+                        img: data.img,
+                        brandId:data.brandId
+                    }])
+                }
+            }
+        )
+    }
 
     if (!loading) {
         return (
@@ -69,7 +90,7 @@ const DevicePage = () => {
                             style={{width: 300, height: 300, fontSize: 32, border: '5px solid lightgray'}}
                         >
                             <h3>От: {device.price} руб.</h3>
-                            <Button variant={"outline-dark"}>Добавить в корзину</Button>
+                            <Button variant={"outline-dark"} onClick={() => addToBasket()}>Добавить в корзину</Button>
                         </Card>
                     </Col>
                 </Row>
@@ -91,10 +112,10 @@ const DevicePage = () => {
                             setInfoVisible(false)
                             clearInfo()
                         }}
-                            device={device} setDevice={setDevice} setLoading={setLoading}
-                            id={id} info={info} setInfo={setInfo} update={update}
-                            setUpdate={setUpdate} clearInfo={clearInfo} removeInfoDB={removeInfoDB}
-                            setInfoVisible={setInfoVisible}
+                                        device={device} setDevice={setDevice} setLoading={setLoading}
+                                        id={id} info={info} setInfo={setInfo} update={update}
+                                        setUpdate={setUpdate} clearInfo={clearInfo} removeInfoDB={removeInfoDB}
+                                        setInfoVisible={setInfoVisible}
                         />
                     </Row>
 
@@ -103,12 +124,14 @@ const DevicePage = () => {
                              style={{background: index % 2 === 0 ? 'lightgray' : 'transparent', padding: 10}}>
                             {user.isAuth
                                 ? <Row>
-                                    <Button variant="outline-success"  onClick={()=> {
+                                    <Button variant="outline-success" onClick={() => {
                                         setInfoVisible(true)
                                         setUpdate(true)
                                         clearInfo()
-                                        setInfo([...info, {id:infoData.id,title: infoData.title,
-                                            description: infoData.description, number: Date.now()}])
+                                        setInfo([...info, {
+                                            id: infoData.id, title: infoData.title,
+                                            description: infoData.description, number: Date.now()
+                                        }])
                                     }} className="me-3 m-2">
                                         Обновить</Button>
                                     <Button variant="outline-danger" onClick={() => removeInfoDB(infoData.id)}
@@ -116,11 +139,11 @@ const DevicePage = () => {
                                     <div className="d-flex align-items-center justify-content-center">
                                         {infoData.title}: {infoData.description}
                                     </div>
-                                  </Row>
+                                </Row>
 
                                 : <div className="d-flex align-items-center justify-content-center">
                                     {infoData.title}: {infoData.description}
-                                  </div>
+                                </div>
                             }
                         </Row>
                     )}

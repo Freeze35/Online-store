@@ -2,7 +2,7 @@ import React, {useContext, useState} from 'react';
 import {Button, Card, Container, Form, Row} from "react-bootstrap";
 import {LOGIN_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE} from "../utils/consts";
 import {NavLink, useLocation, useNavigate} from "react-router-dom";
-import "../styles.module.css"
+import "../styles.css"
 import {login, registration} from "../http/userApi";
 import {observer} from "mobx-react-lite";
 import {Context} from "../index";
@@ -15,6 +15,8 @@ const Auth = observer(() => {
     const [email,setEmail] = useState("")
     const [password,setPassword] = useState("")
 
+
+
     const click = async () =>{
         let data = ""
         try {
@@ -24,6 +26,7 @@ const Auth = observer(() => {
             else {
                 data = registration(email,password)
             }
+            user.setUserId(localStorage.getItem("userId"))
             user.setUser(data)
             localStorage.setItem("email",email)
             user.setIsAuth(true)

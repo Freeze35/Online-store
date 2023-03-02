@@ -10,6 +10,11 @@ const SortBar = () => {
         {value: "name", name: "По названию"},
         {value: "price", name: "По цене."}]
 
+    const sortMethods = {
+        name: {method: (a, b) => a[`name`].localeCompare(b[`name`])},
+        price: {method: (a, b) => a[`price`] - b[`price`]}
+    };
+
     const sortingData = (e,option) => {
         let element= document.getElementById(option.value)
         let sortList = () =>
@@ -27,10 +32,7 @@ const SortBar = () => {
         }
     }
 
-    const sortMethods = {
-        name: {method: (a, b) => a[`name`].localeCompare(b[`name`])},
-        price: {method: (a, b) => a[`price`] - b[`price`]}
-    };
+
 
     return (
         <div>

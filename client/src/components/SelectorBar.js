@@ -1,6 +1,6 @@
 import React, {useContext, useRef} from 'react';
 import {observer} from "mobx-react-lite";
-import Accordion from 'react-bootstrap/Accordion'
+import  {Form,Accordion} from 'react-bootstrap'
 import {Context} from "../index";
 import "./accordion.css"
 import {v4} from "uuid";
@@ -13,7 +13,7 @@ const SelectorBar = observer(() => {
 
     const itemsRef = useRef(null);
 
-    const checkBrand =(brand,type)=>{
+    const findBrandInDevices =(brand,type)=>{
         return optionDevice.typeBrandListId.find(d=> d.typeId === type.id && d.brandId === brand.id) !== undefined
     }
 
@@ -43,7 +43,6 @@ const SelectorBar = observer(() => {
             }
 
         }
-        console.log(optionDevice.specialID)
     }
 
     // setTimeout для получения атрибута aria-expanded иначе получаем противоположное состояние при нажатии
@@ -60,7 +59,6 @@ const SelectorBar = observer(() => {
 
 
     const typeCheckHeader1 = (e, type) => {
-
         if (device.expand === `true` && device.selectedType.length) {
             device.selectedType.map(i => {
                 if (i === type.id) {
@@ -86,8 +84,8 @@ const SelectorBar = observer(() => {
             })
         }
         else if (device.expand) {
-            console.log(device.selectedType)
             device.setSelectedType(Array.from(new Set([...device.selectedType, type.id])))
+
         }
     }
 
@@ -104,7 +102,7 @@ const SelectorBar = observer(() => {
                         <Accordion.Body style={{overflow: "auto", maxHeight: 200}}>
                             <h4 style={{marginLeft: 6, marginTop: 10, color: "#007afe"}}>Брэнды</h4>
                                 {device.brands.map((brand) =>{
-                                    if(checkBrand(brand,type)){
+                                    if(findBrandInDevices(brand,type)){
                                     return(<div key={v4()}>
                                         <div key={v4()} className="form-check"
                                              style={{marginLeft: 8, marginTop: 10}}>
@@ -114,7 +112,6 @@ const SelectorBar = observer(() => {
                                                    style={{cursor: "pointer"}}>
                                                 <input key={`${type.id}_${brand.id}`} id={`${type.id}_${brand.id}`}
                                                        className="form-check-input"
-                                                       value={1}
                                                        ref={ref => itemsRef[`${type.id}_${brand.id}`] = ref}
                                                        style={{height: 16, width: 16, cursor: "pointer"}}
                                                        type="checkbox"
@@ -125,6 +122,19 @@ const SelectorBar = observer(() => {
                                         </div>
                                     </div>)
                                 }})}
+                            <br/>
+                            <h4 style={{marginLeft: 6, marginTop: 10, color: "#007afe"}}>
+                                Цена</h4>
+                            <Form.Range />
+                            <Form.Control
+                                aria-label="Default"
+                                aria-describedby="inputGroup-sizing-default"
+                                placeholder="мин.."
+                                value={device.searchOption}
+                                onChange={e =>
+                                {}
+                                }
+                            />
                         </Accordion.Body>
                         <hr></hr>
                     </Accordion.Item>

@@ -5,6 +5,7 @@ export default class OptionStore{
 
         this._typeDevicesList=[]
         this._specialID=[]
+        this._totalAmount = 0
         makeAutoObservable(this)
     }
 
@@ -16,6 +17,10 @@ export default class OptionStore{
         this._specialID = specialID
     }
 
+    setTotalAmount(totalAmount){
+        this._totalAmount = totalAmount
+    }
+
     get typeBrandListId(){
         return this._typeDevicesList
     }
@@ -24,6 +29,8 @@ export default class OptionStore{
         return this._specialID
     }
 
-
+    get totalAmount(){
+        return this._totalAmount
+    }
 
 }
