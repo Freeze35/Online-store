@@ -16,9 +16,7 @@ const BrandAccordion = observer(({device, type, optionDevice}) => {
 
     //Функция выборки типов для последующей передачи на сервер для входных параметров where id: [1,5,6]
     const brandCheck = (e, brand, type) => {
-
         if (e.target.checked) {
-            console.log(device.devices)
             device.setSelectedBrand([...device.selectedBrand, brand.id])
             optionDevice.setSpecialID([...optionDevice.specialID, `${type.id}_${brand.id}`])
 

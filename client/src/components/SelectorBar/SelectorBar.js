@@ -10,32 +10,47 @@ import BrandAccordion from "./BrandAccordion";
 const SelectorBar = observer(() => {
     const {device, optionDevice} = useContext(Context)
 
-    useEffect(() => {
-        if (optionDevice.specialID.length === 0 && optionDevice.limitPrice.length === 0) {
-            device.setChangedDevices(device.devices)
 
-        } else if (optionDevice.specialID.length === 0 && optionDevice.limitPrice.length > 0) {
-            device.setChangedDevices(device.devices.filter(
-                changedDevice => {
-                    let objLimitPrice = optionDevice.limitPrice.find(limitP => limitP.typeId === changedDevice.typeId)
-                    if (objLimitPrice !== undefined) {
-                        return changedDevice.price >= objLimitPrice.min && objLimitPrice.max >= changedDevice.price
-                    }
-                    let typeFind = optionDevice.limitPrice.find(limitP =>
-                        device.selectedType.find(type => type === changedDevice.typeId && type !== limitP.typeId))
-                    if (typeFind !== undefined) {
+    useEffect(() => {
+
+        const changedDevTypeBrand = (typeDev) => {
+            const currentDevFilter = () => {
+                if (typeDev === "devices") {
+                    return device.devices
+                } else {
+                    return device.changedDevices
+                }
+            }
+
+            device.setChangedDevices(currentDevFilter().filter(changedDev => {
+                    if (optionDevice.specialID.length < 2) {
+                        if (optionDevice.specialID.find(specId =>
+                            `${changedDev.typeId}_${changedDev.brandId}` === specId
+                            ||
+                            device.selectedType.find(type => {
+                                console.log(changedDev.typeId === type, Number(specId.split("_")[0]) !== type)
+                                return changedDev.typeId === type && Number(specId.split("_")[0]) !== type
+                            })
+                        ) !== undefined) {
+                            return true
+                        }
+                    } else if (optionDevice.specialID.find(specId =>
+                        `${changedDev.typeId}_${changedDev.brandId}` === specId)) {
                         return true
                     }
                 }
             ))
-        } else if (optionDevice.limitPrice.length === 0 && optionDevice.specialID.length > 0) {
-            device.setChangedDevices(device.devices.filter(changedDev =>
-                optionDevice.specialID.find(specId =>
-                    `${changedDev.typeId}_${changedDev.brandId}` === specId
-                )
-            ))
-        } else if (optionDevice.limitPrice.length > 0 && optionDevice.specialID.length > 0) {
-            device.setChangedDevices(device.devices.filter(
+        }
+
+        const priceDevicePriceFilter = (typeDev) => {
+            const currentDevFilter = () => {
+                if (typeDev === "devices") {
+                    return device.devices
+                } else {
+                    return device.changedDevices
+                }
+            }
+            device.setChangedDevices(currentDevFilter().filter(
                 changedDevice => {
                     let objLimitPrice = optionDevice.limitPrice.find(limitP => limitP.typeId === changedDevice.typeId)
                     let typeFind = optionDevice.limitPrice.find(limitP =>
@@ -43,7 +58,6 @@ const SelectorBar = observer(() => {
                             console.log(type, changedDevice.typeId, limitP.typeId)
                             return type === changedDevice.typeId && type !== limitP.typeId
                         }))
-
                     if (objLimitPrice !== undefined) {
                         return changedDevice.price >= objLimitPrice.min && objLimitPrice.max >= changedDevice.price
                     } else if (typeFind !== undefined) {
@@ -51,16 +65,19 @@ const SelectorBar = observer(() => {
                     }
                 }
             ))
-            device.setChangedDevices(device.changedDevices.filter(changedDev =>
-                optionDevice.specialID.find(specId => {
+        }
 
-                        if (`${changedDev.typeId}_${changedDev.brandId}` === specId) {
-                            return true
-                        }
-                    }
-                )
-            ))
-            device.setChangedDevices(device.changedDevices)
+        if (optionDevice.specialID.length === 0 && optionDevice.limitPrice.length === 0) {
+            device.setChangedDevices(device.devices)
+
+        } else if (optionDevice.specialID.length === 0 && optionDevice.limitPrice.length > 0) {
+            priceDevicePriceFilter("devices")
+        } else if (optionDevice.limitPrice.length === 0 && optionDevice.specialID.length > 0) {
+            changedDevTypeBrand("devices")
+        } else if (optionDevice.limitPrice.length > 0 && optionDevice.specialID.length > 0) {
+            console.log(242)
+            priceDevicePriceFilter("devices")
+            changedDevTypeBrand("changedDev")
         }
     }, [optionDevice.specialID, optionDevice.limitPrice])
 
