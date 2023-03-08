@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Selector Bar =&gt; Selector Logic Reworking in Progress">
-      <change afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/BrandAccordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/PriceAccordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/TypeAccordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/TooltipSlider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/styles/inputRange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/styles/rcStyles.css" afterDir="false" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add PGSqlDB =&gt; &#10;Selector Logic Reworking in Progress">
+      <change afterPath="$PROJECT_DIR$/server/RestoreDataBasePGSQL/online-store.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/BasketNumberOfDevicesInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/BasketNumberOfDevicesInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/DeviceItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SortBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/styles/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/http/deviceApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/http/deviceApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/DeviceStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/DeviceStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/OptionStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/OptionStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/deviceController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/deviceController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,17 +37,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "18.12.1",
     "javascript.nodejs.core.library.typings.version": "18.14.6",
-    "last_opened_file_path": "D:/T/online-store/online-store/client/src/asstes",
+    "last_opened_file_path": "D:/T/online-store/online-store/server/RestoreDataBasePGSQL",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "Errors",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\server\RestoreDataBasePGSQL" />
       <recent name="D:\T\online-store\online-store\client\src\asstes" />
       <recent name="D:\T\online-store\online-store\client\src\components\modals" />
       <recent name="D:\T\online-store\online-store\client\asstes" />
@@ -172,7 +155,7 @@
       <workItem from="1677415658906" duration="142110000" />
       <workItem from="1677835878963" duration="1652000" />
       <workItem from="1677837565708" duration="47888000" />
-      <workItem from="1677938133646" duration="180525000" />
+      <workItem from="1677938133646" duration="183986000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -265,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677785189069</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Selector Bar =&gt; Selector Logic Reworking in Progress">
+      <created>1678277018727</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678277018727</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +282,8 @@
     <MESSAGE value="Change Basket list, &#10;Change DeviceList,&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js" />
     <MESSAGE value="&#10;Selector Changes, deleteFrom Basket&#10;=&gt; Selector / SelectorBar.js" />
     <MESSAGE value="Selector Bar =&gt; Selector Logic Reworking in Progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selector Bar =&gt; Selector Logic Reworking in Progress" />
+    <MESSAGE value="Add PGSqlDB =&gt; &#10;Selector Logic Reworking in Progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add PGSqlDB =&gt; &#10;Selector Logic Reworking in Progress" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
