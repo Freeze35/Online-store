@@ -32,7 +32,8 @@ const Basket = observer(() => {
         <Container>
             <Row>
                 <Col md={9}>
-                    {user.basket.map(basketInfo => {
+                    {user.basket.length>0?
+                        user.basket.map(basketInfo => {
                             return (
                                 <div key={`${basketInfo.brandId}+${basketInfo.name}`} className="d-flex bd-highlight mb-3"
                                      style={{boxShadow: "0px 0px 3px black", borderRadius: 5, padding: 20}}>
@@ -55,7 +56,8 @@ const Basket = observer(() => {
                                 </div>
                             )
                         }
-                    )}
+                    ):<div style={{fontSize:50,marginLeft:220,marginRight:220,marginTop:80,marginBottom:40}}>Корзина Пуста</div>
+                    }
                 </Col>
                 <Col md={3}>
                     <div style={{boxShadow: "0px 0px 3px black", borderRadius: 5, padding: 20}}>
@@ -63,7 +65,7 @@ const Basket = observer(() => {
                             К Оплате: <br/>
                         </label>
                         <label style={{ display:"inline-block", fontSize: 40,fontWeight:400,justifyContent:"center",color: "#007afe"}}>
-                        {totalAmount} <label style={{fontSize: 30}}>руб.</label></label>
+                        {totalAmount} <label style={{fontSize: 30, marginRight:10}}>руб.</label></label>
                         {user.userId!=="not_authorized"?
                             <Button variant="outline-primary" onClick={()=> {
                                 Pay()
@@ -71,7 +73,7 @@ const Basket = observer(() => {
                             <Button variant="outline-primary" onClick={()=> {
                                 navigate(LOGIN_ROUTE)
                                 Pay()
-                            }}> Авторизация</Button>
+                            }}>Авторизация</Button>
                         }
                     </div>
                 </Col>

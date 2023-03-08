@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="BrandAccordion.js =&gt; Fix Button">
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="SelectorBar.js =&gt; Fix TypeBrandSelector and PriceSelector">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/BrandAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/BrandAccordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +154,7 @@
       <workItem from="1677415658906" duration="142110000" />
       <workItem from="1677835878963" duration="1652000" />
       <workItem from="1677837565708" duration="47888000" />
-      <workItem from="1677938133646" duration="198070000" />
+      <workItem from="1677938133646" duration="199622000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -318,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678284511691</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="SelectorBar.js =&gt; Fix TypeBrandSelector and PriceSelector">
+      <created>1678296297603</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678296297603</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +353,8 @@
     <MESSAGE value="Selector Bar =&gt; Selector Logic Reworking in Progress" />
     <MESSAGE value="Add PGSqlDB =&gt; &#10;Selector Logic Reworking in Progress" />
     <MESSAGE value="BrandAccordion.js =&gt; Fix Button" />
-    <option name="LAST_COMMIT_MESSAGE" value="BrandAccordion.js =&gt; Fix Button" />
+    <MESSAGE value="SelectorBar.js =&gt; Fix TypeBrandSelector and PriceSelector" />
+    <option name="LAST_COMMIT_MESSAGE" value="SelectorBar.js =&gt; Fix TypeBrandSelector and PriceSelector" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
