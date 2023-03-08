@@ -10,9 +10,12 @@ const DeviceList = observer(() => {
     let brands = device.brands
     return (
         <Row className="d-flex">
-            {device.changedDevices.map(device=>
-             <DeviceItem key={device.id} device={device} brands={brands}/>
-            )}
+            {device.changedDevices.length>0
+                ?
+                device.changedDevices.map(device=>
+             <DeviceItem key={device.id} device={device} brands={brands}/>)
+                :<label style={{fontSize:40,alignItems:"center",justifyContent:"center",margin:110}}>Товары не найдены</label>
+            }
         </Row>
     );
 });

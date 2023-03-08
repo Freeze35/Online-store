@@ -23,7 +23,6 @@ const BrandAccordion = observer(({device, type, optionDevice}) => {
             optionDevice.setSpecialID([...optionDevice.specialID, `${type.id}_${brand.id}`])
 
         } else {
-            console.log(`xxdsd`)
             let index = device.selectedBrand.indexOf(brand.id)
             let indexID = optionDevice.specialID.indexOf(`${type.id}_${brand.id}`)
             device.selectedBrand.splice(index, 1)
@@ -31,12 +30,18 @@ const BrandAccordion = observer(({device, type, optionDevice}) => {
             device.setSelectedBrand(Array.from(device.selectedBrand))
             optionDevice.setSpecialID(Array.from(optionDevice.specialID))
 
-
-
-
         }
     }
 
+    const clickOnButtonAccordionBrand=()=>{
+        setOPen(!open)
+        device.brands.find(brand => {
+            if (document.getElementById(`${type.id}_${brand.id}`) !== null &&
+                optionDevice.specialID.find(id => id === `${type.id}_${brand.id}`)) {
+                document.getElementById(`${type.id}_${brand.id}`).click()
+            }
+        })
+    }
 
     return (
         <div key={`${type.id}a${type.name}`}>
@@ -47,7 +52,7 @@ const BrandAccordion = observer(({device, type, optionDevice}) => {
                         justifyContent: "center", alignContent: "center"
                     }}
                     onClick={() => {
-                        setOPen(!open)
+                        clickOnButtonAccordionBrand()
                     }}
                     id={`${type.id}w1${type.name}`}
                     key={`${type.id}w1${type.name}`}
