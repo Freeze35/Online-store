@@ -2,6 +2,7 @@ const {Device,DeviceInfo} = require("../models/models")
 const ApiError = require("../error/ApiError")
 const path = require("path")
 const uuid = require("uuid")
+//const {Op} = require("sequelize");
 class deviceController {
     async create(req,res,next){
         try {
@@ -36,6 +37,7 @@ class deviceController {
         limit = limit || 8
         let offset = page * limit - limit
         let devices
+        //let parsedLimitPrice = limitPrice.JSON.parse(limitPrice)
         if(!brandId && !typeId){
             devices = await Device.findAndCountAll({limit, offset})
         }
@@ -48,6 +50,13 @@ class deviceController {
         if(brandId && typeId){
             devices = await Device.findAndCountAll({where:{brandId, typeId},limit, offset})
         }
+        /*if(!brandId && typeId && limitPrice){
+            devices = await Device.findAndCountAll({where:{[Op.and]: [{typeId:typeId }, { b: 6 }]},limit, offset})
+        }
+        if(brandId && typeId && limitPrice){
+            devices = await Device.findAndCountAll({where:{brandId, typeId},limit, offset})
+        }*/
+
         return res.json(devices)
     }
     async getOne(req, res) {

@@ -1,0 +1,125 @@
+.double-range-slider-container {
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    width: 140px;
+    height: 100%;
+}
+
+.double-range-slider-rail {
+    background-color: #c4c4c4;
+    width: 140px;
+    height: 10px;
+    border-radius: 50px;
+    z-index: 0;
+}
+
+.double-range-slider-track {
+    background-color: rgba(91, 172, 255, 0.5);
+    width: 140px;
+    height: 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.double-range-slider-ball {
+    background-color: #007afe;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.double-range-slider-ball:active {
+    cursor: grabbing;
+}
+
+.double-range-slider-active {
+    z-index: 4;
+    cursor: grab;
+
+}
+
+.double-range-slider-active:active {
+    cursor: grabbing;
+
+}
+
+.double-range-slider-tooltip {
+
+    background-color: #007afe;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10px;
+    width: auto;
+    color: #fff;
+    border-radius: 10px;
+    padding: 25px 10px 5px;
+    flex-wrap: nowrap;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Position the tooltip */
+.double-range-slider-ball .double-range-slider-tooltip {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.double-range-slider-over {
+    bottom: 30px;
+}
+
+.double-range-slider-under {
+    top: 30px;
+}
+
+.double-range-slider-mid {
+    bottom: 30px;
+}
+
+.double-range-slider-over::after {
+    border-color: #007afe transparent transparent transparent;
+    top: 100%; /* At the bottom of the tooltip */
+}
+
+.double-range-slider-under::after {
+    border-color: transparent transparent #007afe transparent;
+    bottom: 100%; /* At the top of the tooltip */
+}
+
+.double-range-slider-tooltip::after {
+    content: " ";
+    position: absolute;
+    border-width: 8px;
+    border-style: solid;
+    pointer-events: none;
+}
+
+.double-range-slider-text-holder {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */ /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */ /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    white-space: nowrap;
+}
+
+.double-range-slider-step {
+    position: absolute;
+    z-index: 1;
+    height: 5px;
+    width: 2px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+/*# sourceMappingURL=index.css.map */

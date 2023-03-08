@@ -1,6 +1,6 @@
 import React, {useContext, useEffect} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import SelectorBar from "../components/SelectorBar";
+import SelectorBar from "../components/SelectorBar/SelectorBar";
 import DeviceList from "../components/DeviceList";
 import {observer} from "mobx-react-lite";
 import {Context} from "../index";
@@ -10,13 +10,15 @@ import SortBar from "../components/SortBar";
 
 const Shop = observer(() => {
     const {device,optionDevice} = useContext(Context)
+    let limitPages = 8
 
     //Подключаем наши get запросы на сервер
     // page текущая страница limit относиться к deviceController в котором указываем сколько элементов запрашивать
     useEffect(()=>{
-        fetchDevices(null,null,1,8).then(data => {
+        fetchDevices(null,null,1,limitPages).then(data => {
             device.setDevices(data.rows)
             device.setTotalCount(data.count)
+            device.setLimit(limitPages)
             device.setChangedDevices(data.rows)
             data.rows.map(dev =>optionDevice.setTypeBrandListId([...optionDevice.typeBrandListId, {typeId:dev.typeId,brandId:dev.brandId}]))
 
@@ -29,19 +31,23 @@ const Shop = observer(() => {
 
     //Мониторинг изменений брендов или типов(постоянное автоматические запросы)
     useEffect(()=>{
-        fetchDevices(Array.from(new Set(device.selectedType)),Array.from(new Set(device.selectedBrand)),device.page,8).then(data => {
+        fetchDevices(Array.from(new Set(device.selectedType)),
+            Array.from(new Set(device.selectedBrand)),device.page,
+            8,JSON.stringify(optionDevice.limitPrice)).then(data => {
+
             device.setDevices(data.rows)
             device.setTotalCount(data.count)
             device.setChangedDevices(data.rows)
         })
-    },[device.page,device.selectedType,device.selectedBrand])
+    },[device.page,device.selectedType])
 
     return (
+
         <Container>
             <Row>
                 <Col md={3}>
                     <SelectorBar/>
-                </Col >
+                </Col>
                 <Col md={9}>
                     <SortBar/>
                     <DeviceList/>

@@ -2,7 +2,7 @@ a{
     border-radius: 4px;
     color: #ff9100;
     transition-duration: 0.4s;
-
+    font-size: 20px;
 }
 a:active {
     color: red;
@@ -10,8 +10,8 @@ a:active {
 }
 
 a:hover {
-
-    color: #5C9900;
+    text-decoration: none;
+    color: white;
 }
 
 .button1 {
@@ -19,7 +19,7 @@ a:hover {
 }
 
 .button1:hover {
-    background-color: #4CAF50; /* Green */
+    background-color: #00dc08; /* Green */
     color: white;
 
 }
@@ -29,7 +29,7 @@ a:hover {
     border: white 1px;
     border-radius: 5px;
     font-size: 2vmin;
-    transition-duration: 0.15s;
+    transition-duration: 0.25s;
     outline: white solid 1px;
     color:red
 }

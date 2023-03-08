@@ -1,5 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
-import {Context} from "../index";
+import {Context} from "../../index";
 
 const BasketNumberOfDevicesInput = ({basketInfo,setTotalAmount}) => {
     const {user} = useContext(Context)
@@ -45,7 +45,7 @@ const BasketNumberOfDevicesInput = ({basketInfo,setTotalAmount}) => {
              className="form-group row align-items-center justify-content-center"
              style={{marginRight: 20, width: 160, fontSize: 30}}>
             <label >Цена:</label>
-                <label style={{color: "#007afe"}} >{basketInfo.price} руб.</label>
+                <label style={{color: "#007afe"}} >{basketInfo.price} <label style={{fontSize:25}}>руб.</label> </label>
             <div className="input-group align-self-center">
                 <div className="input-group-prepend align-self-center">
                     <button className="btn btn-outline-primary flex-column justify-content-center" style={{width:40,height:40,fontSize:25,paddingBottom:10}} type="button"

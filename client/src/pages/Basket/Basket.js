@@ -1,10 +1,9 @@
 import React, {useContext, useState} from 'react';
-import {Context} from "../index";
+import {Context} from "../../index";
 import {Button, Col, Container, Image, Row} from "react-bootstrap";
-import {v4} from "uuid";
-import BasketNumberOfDevicesInput from "../components/BasketNumberOfDevicesInput";
-import {createBasketBuy} from "../http/basketApi";
-import {LOGIN_ROUTE} from "../utils/consts";
+import BasketNumberOfDevicesInput from "./BasketNumberOfDevicesInput";
+import {createBasketBuy} from "../../http/basketApi";
+import {LOGIN_ROUTE} from "../../utils/consts";
 import {useNavigate} from "react-router-dom";
 import {observer} from "mobx-react-lite";
 
@@ -28,23 +27,26 @@ const Basket = observer(() => {
         user.setBasket([...user.basket.filter(basketDevice=> basketDevice !== basketInfo)])
     }
 
+
     return (
         <Container>
             <Row>
                 <Col md={9}>
                     {user.basket.map(basketInfo => {
                             return (
-                                <div key={v4()} className="d-flex bd-highlight mb-3"
+                                <div key={`${basketInfo.brandId}+${basketInfo.name}`} className="d-flex bd-highlight mb-3"
                                      style={{boxShadow: "0px 0px 3px black", borderRadius: 5, padding: 20}}>
                                     <Image key={basketInfo.defaultValue} className="p-2 bd-highlight" style={{
-                                        height: 120, width: 120, marginLeft: 50, boxShadow: "0px 0px 3px black",
+                                        height: 160, width: 160, marginLeft: 50, boxShadow: "0px 0px 3px black",
                                         borderRadius: 5, padding: 5, margin: 22
                                     }}
                                            src={process.env.REACT_APP_API_URL + basketInfo.img}>
                                     </Image>
-                                    <div key={v4()} className="m-auto align-self-center"
+                                    <div key={`${basketInfo.brandId}_${basketInfo.name}`} className="m-auto align-self-center"
                                          style={{paddingRight: 40, fontSize: 40}}>
-                                        {device.brands.map(b => b.id === basketInfo.brandId ? b.name : "")} {basketInfo.name}<br/>
+                                        {device.brands.map(b =>
+                                            b.id === basketInfo.brandId && basketInfo.name.split(" ")[0] !==b.name ? b.name : "")}
+                                        {basketInfo.name}<br/>
                                     </div>
                                     <BasketNumberOfDevicesInput basketInfo={basketInfo} setTotalAmount={setTotalAmount} totalAmount={totalAmount}/>
                                     <Button className="btn" onClick={()=>{DeleteDeviceBasket(basketInfo)}} variant="outline-danger" style={{height:35,width:35,fontSize:15}}>

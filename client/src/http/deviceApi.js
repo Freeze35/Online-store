@@ -31,9 +31,9 @@ import {$authHost, $host} from "./index";
         return data
     }
 
-    export const fetchDevices = async (typeId, brandId, page, limit= 5) => {
+    export const fetchDevices = async (typeId, brandId, page, limit,limitPrice) => {
         const {data} = await $host.get('api/device', {params: {
-                typeId, brandId, page, limit
+                typeId, brandId, page, limit,limitPrice
             }})
         return data
     }

@@ -12,6 +12,8 @@ const App = observer(() => {
     const[isLoading,setIsLoading]=useState(true)
 
     useEffect(()=>{
+        document.body.style.overflow = 'scroll'; // Состояние постоянного scroll элемента на странице
+        document.body.style.overflowX = 'auto';
         if(localStorage.email){
             check(localStorage.email).then(data=>{
                 user.setUser(data)
@@ -33,6 +35,7 @@ const App = observer(() => {
           <NavBar/>
           <AppRouter/>
         </BrowserRouter>
+
     );
 });
 

@@ -30,7 +30,7 @@ const DeviceItem = ({device,brands}) => {
 
     return (
         <Col md = {3} >
-            <Card style={{width:200,height:300,cursor:"pointer",border:"light",boxShadow:"0px 0px 4px black", margin:5, borderRadius:5}} className="mt-3"
+            <Card style={{width:200,height:250,cursor:"pointer",border:"light",boxShadow:"0px 0px 4px black", borderRadius:5}} className="mt-3"
             onClick={()=> navigate(DEVICE_ROUTE+"/"+device.id)}
             >
 
