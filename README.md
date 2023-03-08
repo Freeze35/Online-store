@@ -2,7 +2,8 @@
 ## React,express,PostgerSQL,Node.js
 ### Для запуска потребуется установить PostgerSQL и Node.js
 ### После чего запустить npm run server. Произойдёт инициализация таблиц хранения данных
-## В папке храниться Бд для импорта в Pg server/RestoreDataBasePGSQL/online-store.sql [Как ипортировать sql file in PGSQL](https://www.youtube.com/watch?v=3AKIA8pu8YY)
+## В папке храниться Бд для импорта в Pg server/RestoreDataBasePGSQL/online-store.sql
+[Как ипортировать sql file in PGSQL](https://www.youtube.com/watch?v=3AKIA8pu8YY)  
     "server": "npm run dev --prefix server",
     "client": "npm run start --prefix client",
     "start": "start npm run server & start npm run client"
