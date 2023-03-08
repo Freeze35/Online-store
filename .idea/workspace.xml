@@ -153,7 +153,7 @@
       <workItem from="1677415658906" duration="142110000" />
       <workItem from="1677835878963" duration="1652000" />
       <workItem from="1677837565708" duration="47888000" />
-      <workItem from="1677938133646" duration="184704000" />
+      <workItem from="1677938133646" duration="184823000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -281,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678281019603</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add PGSqlDB =&gt; &#10;Selector Logic Reworking in Progress">
+      <created>1678281152512</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678281152512</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
