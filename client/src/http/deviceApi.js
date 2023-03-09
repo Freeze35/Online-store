@@ -1,6 +1,6 @@
 import {$authHost, $host} from "./index";
 
-    export const createTypes = async (type) =>{
+    export const createType = async (type) =>{
     // проверка авторизованности на сервере по токену соответветсвенно используется  $authHost
     // server/routes/typeRoutes.js router.post('/',checkRoleMiddlware("ADMIN"), typeController.create)
     const {data} = await $authHost.post('api/type', type)

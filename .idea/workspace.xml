@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Basket.js =&gt; Fix Empty">
-      <change afterPath="$PROJECT_DIR$/client/src/asstes/add_to_basket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/AddDeviceToBasket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/buttonDeviceAddToBasket.css" afterDir="false" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="DeviceItem.js.js =&gt; Add to Basket Button">
+      <change afterPath="$PROJECT_DIR$/client/src/pages/AdminPanel/AdminPanel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/DeviceList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DevicePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreateType.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreateType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/http/deviceApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/http/deviceApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/AdminPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/AdminPanel/AdminPanel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,11 +64,11 @@
       <recent name="D:\T\online-store\online-store\client\asstes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\client\src\pages\AdminPanel" />
       <recent name="D:\T\online-store\online-store\client\src\asstes" />
       <recent name="D:\T\online-store\online-store\client\src\pages\DeviceShop" />
       <recent name="D:\T\online-store\online-store\client\src\components\styles" />
       <recent name="D:\T\online-store\online-store\client\src\components\SelectorBar" />
-      <recent name="D:\T\online-store\online-store\client\src\pages\Basket" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -162,7 +159,7 @@
       <workItem from="1677415658906" duration="142110000" />
       <workItem from="1677835878963" duration="1652000" />
       <workItem from="1677837565708" duration="47888000" />
-      <workItem from="1677938133646" duration="206568000" />
+      <workItem from="1677938133646" duration="210538000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -339,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678297764208</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="DeviceItem.js.js =&gt; Add to Basket Button">
+      <created>1678356848736</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678356848736</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +374,8 @@
     <MESSAGE value="BrandAccordion.js =&gt; Fix Button" />
     <MESSAGE value="SelectorBar.js =&gt; Fix TypeBrandSelector and PriceSelector" />
     <MESSAGE value="Basket.js =&gt; Fix Empty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basket.js =&gt; Fix Empty" />
+    <MESSAGE value="DeviceItem.js.js =&gt; Add to Basket Button" />
+    <option name="LAST_COMMIT_MESSAGE" value="DeviceItem.js.js =&gt; Add to Basket Button" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

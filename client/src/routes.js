@@ -1,4 +1,4 @@
-import AdminPanel from "./pages/AdminPanel";
+import AdminPanel from "./pages/AdminPanel/AdminPanel";
 import {ADMIN_ROUTE, BASKET_ROUTE, DEVICE_ROUTE, LOGIN_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE} from "./utils/consts";
 import Basket from "./pages/Basket/Basket";
 import Auth from "./pages/Auth";
