@@ -1,0 +1,36 @@
+.buttonAddToBasket{
+    margin-right:15px;
+    box-shadow: 0 0 4px black;
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    text-align:center;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+    background: white;
+}
+.buttonAddToBasket:active{
+    outline: none;
+    border: none
+}
+.buttonAddToBasket:focus{
+    outline: none;
+    border: none
+}
+.buttonAddToBasket:hover{
+    outline: none;
+    border: none;
+    scale: 120%;
+    background: #007afe;
+    box-shadow: 0 0 5px #007afe;
+}
+
+.add_to_basket {
+    scale: 90%;
+    transition-duration: 0.15s;
+}
+.add_to_basket:hover {
+    filter: drop-shadow(0px 0px 1px #d0cfcf) invert(48%) sepia(60%) hue-rotate(-15deg) saturate(10);
+
+}

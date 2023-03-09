@@ -1,10 +1,11 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {Button, Card, Col, Container, Image, Row} from "react-bootstrap";
-import star from "../asstes/star.png"
+import star from "../../asstes/star.png"
 import {useParams} from "react-router-dom";
-import {deleteOneInfoDevice, fetchOneDevice} from "../http/deviceApi";
-import {Context} from "../index";
-import CreatePageInfo from "../components/modals/CreatePageInfo";
+import {deleteOneInfoDevice, fetchOneDevice} from "../../http/deviceApi";
+import {Context} from "../../index";
+import CreatePageInfo from "../../components/modals/CreatePageInfo";
+import {addToBasket} from "./AddDeviceToBasket";
 
 
 const DevicePage = () => {
@@ -39,26 +40,7 @@ const DevicePage = () => {
         })
     }
     // Добавление элемента в массив user.basket
-    const addToBasket = () => {
-        fetchOneDevice(id).then(data => {
-                if (user.basket.find(d => d.deviceId === data.id)) {
-                    user.setBasket(user.basket.map(el => el.deviceId === data.id ? {
-                        ...el,
-                        numberOfDevices: el.numberOfDevices + 1
-                    } : el))
-                } else {
-                    user.setBasket([...user.basket, {
-                        name: data.name,
-                        price: data.price,
-                        deviceId: data.id,
-                        numberOfDevices: 1,
-                        img: data.img,
-                        brandId:data.brandId
-                    }])
-                }
-            }
-        )
-    }
+
 
     if (!loading) {
         return (
@@ -88,7 +70,7 @@ const DevicePage = () => {
                             style={{width: 300, height: 300, fontSize: 32, border: '5px solid lightgray'}}
                         >
                             <h3>От: {device.price} руб.</h3>
-                            <Button variant={"outline-dark"} onClick={() => addToBasket()}>Добавить в корзину</Button>
+                            <Button variant={"outline-dark"} onClick={() => addToBasket(user,id)}>Добавить в корзину</Button>
                         </Card>
                     </Col>
                 </Row>

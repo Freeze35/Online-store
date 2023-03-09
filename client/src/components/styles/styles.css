@@ -44,6 +44,6 @@ a:hover {
     transition-duration: 0.15s;
 }
 .basket_img_style:hover {
-    filter: drop-shadow(0px 0px 1px #ff9100) invert(38%) sepia(60%) hue-rotate(-5deg) saturate(4);
+    filter: drop-shadow(0px 0px 1px #ff9100) invert(38%) sepia(60%) hue-rotate(-5deg) saturate(6);
 
 }

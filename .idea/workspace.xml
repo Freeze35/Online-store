@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="SelectorBar.js =&gt; Fix TypeBrandSelector and PriceSelector">
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Basket.js =&gt; Fix Empty">
+      <change afterPath="$PROJECT_DIR$/client/src/asstes/add_to_basket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/AddDeviceToBasket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/buttonDeviceAddToBasket.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/DeviceList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DevicePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +67,11 @@
       <recent name="D:\T\online-store\online-store\client\asstes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\client\src\asstes" />
+      <recent name="D:\T\online-store\online-store\client\src\pages\DeviceShop" />
       <recent name="D:\T\online-store\online-store\client\src\components\styles" />
       <recent name="D:\T\online-store\online-store\client\src\components\SelectorBar" />
       <recent name="D:\T\online-store\online-store\client\src\pages\Basket" />
-      <recent name="D:\T\online-store\online-store\client\src\components" />
-      <recent name="D:\T\online-store\online-store\client\src\asstes" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -154,7 +162,7 @@
       <workItem from="1677415658906" duration="142110000" />
       <workItem from="1677835878963" duration="1652000" />
       <workItem from="1677837565708" duration="47888000" />
-      <workItem from="1677938133646" duration="199622000" />
+      <workItem from="1677938133646" duration="206568000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -324,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678296297603</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Basket.js =&gt; Fix Empty">
+      <created>1678297764208</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678297764208</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +369,8 @@
     <MESSAGE value="Add PGSqlDB =&gt; &#10;Selector Logic Reworking in Progress" />
     <MESSAGE value="BrandAccordion.js =&gt; Fix Button" />
     <MESSAGE value="SelectorBar.js =&gt; Fix TypeBrandSelector and PriceSelector" />
-    <option name="LAST_COMMIT_MESSAGE" value="SelectorBar.js =&gt; Fix TypeBrandSelector and PriceSelector" />
+    <MESSAGE value="Basket.js =&gt; Fix Empty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basket.js =&gt; Fix Empty" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
