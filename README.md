@@ -1,15 +1,25 @@
 # Проект онлайн магазина на основе:
 ## React,Express,PostgerSQL,Node.js
+## Также для frontend части соберём реакт приложение с помощью webpack
 ### Для запуска потребуется установить PostgerSQL и Node.js
-### После чего запустить npm run server. Произойдёт инициализация таблиц хранения данных
+### После чего запустить npm run dev или npm run server(запустит сам сервер отдельно). Произойдёт инициализация таблиц хранения данных.
 ## В папке храниться Бд для импорта в ## Pg server/RestoreDataBasePGSQL/online-store.sql
 ### [Как ипортировать sql file in PGSQL](https://www.youtube.com/watch?v=3AKIA8pu8YY)  
     
     Команды для старта приложения,
     Также запуска клиента и сервера отдельно.
-    "server": "npm run dev --prefix server",  
-    "client": "npm run start --prefix client",  
-    "start": "start npm run server & start npm run client"  
+    В папке уже находиться собранный frontend react webpack 
+    build Для пересборки webpack frontend 
+    Готовый проект находиться в папке dist
+    startprod:webpack Для просмотра готовой сборки запустите 
+
+    "server": "npm run dev --prefix server",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open --hot",
+    "client": "npm run start --prefix client",
+    "prod": "webpack-dev-server --mode production --open --hot",
+    "dev": "start npm run server & start npm run client",
+    "startprod:webpack": "start npm run server & start npm run start"
 # Backend(server)
 ## express
 Запуск серверной маршрутизации.  
@@ -58,7 +68,7 @@ Dotenv — это модуль с нулевой зависимостью, ко�
 
 ## jsonwebtoken
 библиотека для генерации JWT токена
-## bcryprt
+## bcryptjs-react
 Шифрование JWT токена
 
 # Frontend(client)
@@ -110,6 +120,51 @@ setOpen вложенный элемент Toggle
 <Toggle key={`${type.id}w${type.name}`} type={type}/> 
 )
 ```
-## Получение имен полей из конcтруктора
 
+### WEBPACK
 
+## webpack
+ [webpack](https://webpack.js.org/guides/getting-started/#using-a-configuration)  
+Инструмент для сборки JS приложений.  
+Позволяет собирать проект в один общий в папке dist  
+Посредством указания в файле webpack.config.js loader
+ @babel/preset-env',"@babel/preset-react 
+При инициализации модуля следуеет ссылаться на входной js => index.js файл
+Исправление ошибок при сборке bundle
+ [async_hooks error](https://stackoverflow.com/questions/71484777/module-not-found-cant-resolve-async-hooks)  
+ [buffer assert error](https://stackoverflow.com/questions/61631937/cant-resolve-buffer-in-c-portal-node-modules-string-decoder-node-modules-s)  
+ [crypto,os,browser and another. Or we can just add to wenbpack.config.js 
+ resolve: fallback: fs,os,...: false,
+](https://stackoverflow.com/questions/64557638/how-to-polyfill-node-core-modules-in-webpack-5)  
+[Module not found : net](https://stackoverflow.com/questions/54275069/module-not-found-error-cant-resolve-net-in-node-modules-stompjs-lib)  
+[Webpack WARNING in ./node_modules/express/lib/view.js, externals: {
+express: 'express'}](https://stackoverflow.com/questions/50105076/webpack-warning-in-node-modules-express-lib-view-js-critical-dependency-the-r)
+## dotenv-webpack
+[Если подключаете сборку на основе Webpack потребуется dotenv-webpack ](https://stackoverflow.com/questions/59759085/heroku-failed-to-load-env)  
+Он предоставляет распознание файлов .env из корня проекта 
+## webpack-cli
+[webpack-cli](https://www.npmjs.com/package/webpack-cli)  
+Для доступа к некоторым командам веб-пакета через CLI, таким как запуск сервера разработки, создание рабочей сборки и т. д.
+## webpack html-webpack-plugin clean-webpack-plugin
+[html-webpack-plugin](https://webpack.js.org/plugins/html-webpack-plugin/)
+[clean-webpack-plugin](https://webpack.js.org/plugins/html-webpack-plugin/)
+Упрощает создание файлов HTML для обслуживания ваших пакетов веб-пакетов.
+## --save-dev style-loader css-loader scss-loader less-loader filer-loader
+Loaders for webpack файлы которые распознает webpack для компиляции  
+рекомендуется только как dev зависисмость
+## babel-loader
+[babel](https://babeljs.io/setup#installation)
+## @babel/preset-react
+[Webpack: Bundle.js — Uncaught ReferenceError](https://stackoverflow.com/questions/41359504/webpack-bundle-js-uncaught-referenceerror-process-is-not-defined)  
+## babel/preset-env
+Исправление ошибки запуска React App
+Если вы используете Babel и React >17, вам может понадобиться добавить «runtime»  
+[["@babel/preset-react", {"runtime": "automatic"}]](https://stackoverflow.com/questions/32070303/uncaught-referenceerror-react-is-not-defined)
+## babel/polyfill
+[babel/polyfill](https://babeljs.io/docs/babel-polyfill)
+## babel-loader
+[babel-loader](https://webpack.js.org/loaders/babel-loader/)
+## Невозможно загрузить файл ps1
+[Решение](https://zawindows.ru/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B-%D0%BD%D0%B5%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7/)
+Скрипт для Windows:  
+Set-ExecutionPolicy unrestricted

@@ -5,7 +5,7 @@ import {useNavigate} from "react-router-dom";
 import {DEVICE_ROUTE} from "../../utils/consts";
 import "./buttonDeviceAddToBasket.css"
 import {addToBasket} from "./AddDeviceToBasket";
-import {Context} from "../../index";
+import {Context} from "../../index.js";
 import add_to_basket from "../../asstes/add_to_basket.png";
 
 const DeviceItem = ({device, brands}) => {

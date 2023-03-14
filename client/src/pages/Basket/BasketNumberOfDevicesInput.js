@@ -1,5 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
-import {Context} from "../../index";
+import {Context} from "../../index.js";
 
 const BasketNumberOfDevicesInput = ({basketInfo,setTotalAmount}) => {
     const {user} = useContext(Context)

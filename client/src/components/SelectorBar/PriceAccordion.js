@@ -1,9 +1,9 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useState} from 'react';
 import Scrollbars from "react-custom-scrollbars-2";
 import {RangeSlider} from "react-double-range-slider";
 import {Form, InputGroup} from "react-bootstrap";
 import {observer} from "mobx-react-lite";
-import {Context} from "../../index";
+import {Context} from "../../index.js";
 
 
 const PriceAccordion = observer(({children, type}) => {
@@ -12,51 +12,7 @@ const PriceAccordion = observer(({children, type}) => {
     const [open, setOPen] = useState(false)
     const [rangeValues, setRangeValues] = useState({min: 0, max: 24});
     const [maxPrice, setMaxPrice] = useState(0);
-    const offsetPriceMax = 2000
-
-    useEffect(() => {
-        console.log(device.changedDevices,optionDevice.limitPrice)
-        //let devTypes = device.selectedType(device.devices)
-        /*device.setChangedDevices(device.devices.filter(device=>
-            device.selectedType.map(type=>))
-        )*/
-        /*if (optionDevice.limitPrice.length > 0) {
-            console.log(`xxdsd`)
-            device.setChangedDevices(device.devices.filter(
-            changedDevice => {
-                let objLimitPrice = optionDevice.limitPrice.find(limitP => limitP.typeId === changedDevice.typeId)
-                if(objLimitPrice !== undefined) {
-                    return changedDevice.price >= objLimitPrice.min && objLimitPrice.max >= changedDevice.price
-                }
-                let typeFind = optionDevice.limitPrice.find(limitP =>
-                    device.selectedType.find(type=> type === changedDevice.typeId && type!==limitP.typeId))
-                if(typeFind !== undefined) {
-                    return true
-                }
-            }
-        ))}
-        else if(optionDevice.limitPrice.length===0 && optionDevice.specialID===0) {
-            console.log(`xxdsd`)
-            device.setChangedDevices(device.devices)
-        }*/
-
-        /*if (optionDevice.limitPrice.length === 0 || device.changedDevices.length===0) {
-            fetchDevices(Array.from(new Set(device.selectedType))
-                , Array.from(new Set(device.selectedBrand)), device.page).then(data => {
-                device.setDevices(data.rows)
-                device.setTotalCount(data.count)
-                device.setChangedDevices(data.rows)
-            })
-        }*/
-    }, [optionDevice.limitPrice])
-
-    /*useEffect(()=>{
-        optionDevice.setLimitPrice([...optionDevice.limitPrice, {
-            typeId: type.id,
-            min: Number(rangeValues.min),
-            max: Number(rangeValues.max)
-        }])
-    },[])*/
+    const offsetPriceMax = 10000
 
     const maxValue = () => {
         device.devices.map(d => {

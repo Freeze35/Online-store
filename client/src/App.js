@@ -1,9 +1,10 @@
 import React, {useContext, useEffect, useState} from 'react';
+
 import AppRouter from "./components/AppRouter";
 import {BrowserRouter} from "react-router-dom";
 import NavBar from "./components/NavBar";
 import {observer} from "mobx-react-lite";
-import {Context} from "./index";
+import {Context} from "./index.js";
 import {check} from "./http/userApi";
 import {Spinner} from "react-bootstrap";
 
@@ -22,13 +23,14 @@ const App = observer(() => {
         }
         else{setIsLoading(false)
         }
-        },[])
+        },[user])
 
     if (isLoading){
         return <div className="text-center py-5" style={{marginTop:120 }}>
                  <Spinner animation="border" variant="primary" style={{ width: 150, height: 150 }}/>
                </div>
     }
+
 
     return (
         <BrowserRouter>

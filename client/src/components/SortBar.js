@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import {ToggleButtonGroup} from "react-bootstrap";
-import {Context} from "../index";
+import {Context} from "../index.js";
 
 
 const SortBar = () => {

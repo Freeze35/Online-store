@@ -1,5 +1,5 @@
 const ApiError = require('../error/ApiError')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs-react')
 const jsonwebtoken = require('jsonwebtoken')
 const {User,Basket} = require('../models/models')
 
@@ -22,7 +22,8 @@ class userController {
         if(candidate){
             return next(ApiError.badRequest('user already exists'))
         }
-        const hashPassword = await bcrypt.hash(password,4)
+        let salt = bcrypt.genSaltSync(4);
+        const hashPassword = await bcrypt.hash(password,salt)
         const user = await User.create({email,role,password:hashPassword,})
         const basket = await Basket.create({userId:user.id})
         const token = generateJwt(user.id, user.email,user.role)

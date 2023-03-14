@@ -2,7 +2,7 @@ import {Navigate, Route, Routes} from "react-router-dom";
 import {authRoutes, publicRoutes} from "../routes";
 import {SHOP_ROUTE} from "../utils/consts";
 import {useContext} from "react";
-import {Context} from "../index";
+import {Context} from "../index.js";
 import {observer} from "mobx-react-lite";
 
 const AppRouter = observer(() => {

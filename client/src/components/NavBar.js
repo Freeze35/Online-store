@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import {Button, Col, Container, Nav, Navbar} from "react-bootstrap";
 import {NavLink, useNavigate} from "react-router-dom";
 import {ADMIN_ROUTE, BASKET_ROUTE, LOGIN_ROUTE, SHOP_ROUTE} from "../utils/consts";
-import {Context} from "../index";
+import {Context} from "../index.js";
 import {observer} from "mobx-react-lite";
 import "./styles/styles.css"
 import SearchBar from "./SearchBar";

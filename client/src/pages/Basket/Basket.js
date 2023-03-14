@@ -1,5 +1,5 @@
 import React, {useContext, useState} from 'react';
-import {Context} from "../../index";
+import {Context} from "../../index.js";
 import {Button, Col, Container, Image, Row} from "react-bootstrap";
 import BasketNumberOfDevicesInput from "./BasketNumberOfDevicesInput";
 import {createBasketBuy} from "../../http/basketApi";

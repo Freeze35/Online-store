@@ -1,6 +1,6 @@
 import React, {useContext, useEffect} from 'react';
 import {observer} from "mobx-react-lite";
-import {Context} from "../../index";
+import {Context} from "../../index.js";
 import "../styles/accordion.css"
 import "../styles/inputRange.css"
 import PriceAccordion from "./PriceAccordion";
@@ -28,7 +28,6 @@ const SelectorBar = observer(() => {
                             `${changedDev.typeId}_${changedDev.brandId}` === specId
                             ||
                             device.selectedType.find(type => {
-                                console.log(changedDev.typeId === type, Number(specId.split("_")[0]) !== type)
                                 return changedDev.typeId === type && Number(specId.split("_")[0]) !== type
                             })
                         ) !== undefined) {
@@ -52,15 +51,18 @@ const SelectorBar = observer(() => {
             }
             device.setChangedDevices(currentDevFilter().filter(
                 changedDevice => {
+
                     let objLimitPrice = optionDevice.limitPrice.find(limitP => limitP.typeId === changedDevice.typeId)
                     let typeFind = optionDevice.limitPrice.find(limitP =>
                         device.selectedType.map(type => {
-                            console.log(type, changedDevice.typeId, limitP.typeId)
+
                             return type === changedDevice.typeId && type !== limitP.typeId
                         }))
                     if (objLimitPrice !== undefined) {
+
                         return changedDevice.price >= objLimitPrice.min && objLimitPrice.max >= changedDevice.price
                     } else if (typeFind !== undefined) {
+
                         return true
                     }
                 }
@@ -75,11 +77,10 @@ const SelectorBar = observer(() => {
         } else if (optionDevice.limitPrice.length === 0 && optionDevice.specialID.length > 0) {
             changedDevTypeBrand("devices")
         } else if (optionDevice.limitPrice.length > 0 && optionDevice.specialID.length > 0) {
-            console.log(242)
             priceDevicePriceFilter("devices")
             changedDevTypeBrand("changedDev")
         }
-    }, [optionDevice.specialID, optionDevice.limitPrice])
+    }, [device,optionDevice.specialID, optionDevice.limitPrice,device.selectedType])
 
     return (
 

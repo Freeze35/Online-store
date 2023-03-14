@@ -22,10 +22,7 @@
     "react-custom-scrollbars-2": "^4.5.0",
     "react-dom": "^18.2.0",
     "react-double-range-slider": "^3.0.1",
-    "react-native": "^0.71.3",
-    "react-native-svg": "^13.8.0",
-    "react-native-web": "^0.18.12",
-    "react-router-dom": "^6.8.0",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
     "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
@@ -53,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2"
   }
 }

@@ -3,7 +3,7 @@ import {Button, Card, Col, Container, Image, Row} from "react-bootstrap";
 import star from "../../asstes/star.png"
 import {useParams} from "react-router-dom";
 import {deleteOneInfoDevice, fetchOneDevice} from "../../http/deviceApi";
-import {Context} from "../../index";
+import {Context} from "../../index.js";
 import CreatePageInfo from "../../components/modals/CreatePageInfo";
 import {addToBasket} from "./AddDeviceToBasket";
 
@@ -24,7 +24,7 @@ const DevicePage = () => {
 
         })
 
-    }, [device])
+    }, [device,id])
 
     const clearInfo = () => {
         setInfo(info.filter(i => i.number === 0))

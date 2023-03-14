@@ -5,7 +5,7 @@ import CreateDevice from "../../components/modals/CreateDevice";
 import CreateBrand from "../../components/modals/CreateBrand";
 import CreateType from "../../components/modals/CreateType";
 import "./AdminPanel.css"
-import {Context} from "../../index";
+import {Context} from "../../index.js";
 
 const AdminPanel = () => {
 

@@ -1,7 +1,7 @@
 import React, {useContext, useEffect, useState} from 'react';
 import Modal from "react-bootstrap/Modal";
 import {Button, Dropdown, Form} from "react-bootstrap";
-import {Context} from "../../index";
+import {Context} from "../../index.js";
 import {createDevice, fetchBrands, fetchTypes} from "../../http/deviceApi";
 import {observer} from "mobx-react-lite";
 import InfoForm from "./InfoForm";

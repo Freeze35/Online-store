@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import {Context} from "../index";
+import {Context} from "../index.js";
 import {Form, InputGroup} from "react-bootstrap";
 import {observer} from "mobx-react-lite";
 

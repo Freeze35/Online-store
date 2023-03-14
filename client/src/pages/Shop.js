@@ -2,7 +2,7 @@ import React, {useContext, useEffect} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import DeviceList from "./DeviceShop/DeviceList";
 import {observer} from "mobx-react-lite";
-import {Context} from "../index";
+import {Context} from "../index.js";
 import {fetchBrands, fetchDevices, fetchTypes} from "../http/deviceApi";
 import Pages from "../components/Pages";
 import SortBar from "../components/SortBar";
