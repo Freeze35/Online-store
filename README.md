@@ -4,7 +4,7 @@
 ### Для запуска потребуется установить PostgerSQL и Node.js
 ### После чего запустить npm run dev или npm run server(запустит сам сервер отдельно). Произойдёт инициализация таблиц хранения данных.
 ## В папке храниться Бд для импорта в ## Pg server/RestoreDataBasePGSQL/online-store.sql
-### [Как ипортировать sql file in PGSQL](https://www.youtube.com/watch?v=3AKIA8pu8YY)  
+### [Как импортировать sql file in PGSQL](https://www.youtube.com/watch?v=3AKIA8pu8YY)  
     
     Команды для старта приложения,
     Также запуска клиента и сервера отдельно.
