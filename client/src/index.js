@@ -5,7 +5,6 @@ import DeviceStore from "./store/DeviceStore";
 import OptionStore from "./store/OptionStore";
 import App from "./App.js";
 
-
 export const Context = createContext(null)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

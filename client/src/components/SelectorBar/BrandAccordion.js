@@ -1,33 +1,36 @@
 import React, {useState} from 'react';
 import Scrollbars from "react-custom-scrollbars-2";
 import {observer} from "mobx-react-lite";
+import findDeviceByTypeAndBrandId from "../changeDevicesByBrandId";
 
 
 
 const BrandAccordion = observer(({device, type, optionDevice}) => {
     const [open, setOPen] = useState(false)
 
-
-
     const findBrandInDevices = (brand, type) => {
         //Поиск сравнения всех брендов со списком device
         return optionDevice.typeBrandListId.find(d => d.typeId === type.id && d.brandId === brand.id) !== undefined
     }
 
+
     //Функция выборки типов для последующей передачи на сервер для входных параметров where id: [1,5,6]
+    //Альтернатива внутренняя выборка
     const brandCheck = (e, brand, type) => {
         if (e.target.checked) {
+                //device.setSelectedType([type:brand.id])
             device.setSelectedBrand([...device.selectedBrand, brand.id])
             optionDevice.setSpecialID([...optionDevice.specialID, `${type.id}_${brand.id}`])
-
-        } else {
+            findDeviceByTypeAndBrandId(device,optionDevice)
+        }
+        else {
             let index = device.selectedBrand.indexOf(brand.id)
             let indexID = optionDevice.specialID.indexOf(`${type.id}_${brand.id}`)
             device.selectedBrand.splice(index, 1)
             optionDevice.specialID.splice(indexID, 1)
             device.setSelectedBrand(Array.from(device.selectedBrand))
             optionDevice.setSpecialID(Array.from(optionDevice.specialID))
-
+            findDeviceByTypeAndBrandId(device,optionDevice)
         }
     }
 

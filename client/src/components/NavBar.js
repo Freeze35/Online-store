@@ -27,7 +27,7 @@ const NavBar = observer(() => {
                 <NavLink to ={SHOP_ROUTE} style={{marginLeft:15}}>О нас</NavLink>
                 <Col className="me-3 "><SearchBar className="ml-auto" /></Col>
                         <img className="basket_img_style" style={{width:35,height:35,marginRight:15,marginLeft:5}} src={basket_white}
-                               onClick={()=>navigate(BASKET_ROUTE+"/"+(user.userId))} alt={basket_white}/>
+                               onClick={()=>navigate(BASKET_ROUTE+"/"+(user.userId))} alt=""/>
                     {user.isAuth && user.userId!=="not_authorized"
                         ?
                             <Nav className="ml-auto" style={{color:"white"}}>

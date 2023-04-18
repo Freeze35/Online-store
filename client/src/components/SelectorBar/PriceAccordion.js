@@ -5,7 +5,6 @@ import {Form, InputGroup} from "react-bootstrap";
 import {observer} from "mobx-react-lite";
 import {Context} from "../../index.js";
 
-
 const PriceAccordion = observer(({children, type}) => {
 
     const {device, optionDevice} = useContext(Context)
@@ -37,22 +36,21 @@ const PriceAccordion = observer(({children, type}) => {
         else if (optionDevice.limitPrice.length > 0 &&
             optionDevice.limitPrice.find(lp => lp.typeId === type.id) !== undefined) {
             optionDevice.setLimitPrice(optionDevice.limitPrice.map(limitType =>
-                limitType.typeId === type.id ? {
+                limitType.typeId === type.id
+                    ? {
                     ...limitType, min: Number(min),
                     max: Number(max)
-                } : limitType
+                    } : limitType
             ))
         }
     }
 
     const addPriceSelector=(e,open,type)=>{
-        console.log(optionDevice.limitPrice)
         if(!open){
             takeSliderParams(rangeValues.min,rangeValues.max)
         }
         else{
             optionDevice.setLimitPrice((optionDevice.limitPrice.filter(lp=>lp.typeId!==type.id)))
-            console.log(optionDevice.limitPrice)
         }
     }
 

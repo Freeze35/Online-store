@@ -33,7 +33,7 @@ const Shop = observer(() => {
     }, [])
 
     //Мониторинг изменений брендов или типов(постоянное автоматические запросы)
-    useEffect(() => {
+    /*useEffect(() => {
         fetchDevices(Array.from(new Set(device.selectedType)),
             Array.from(new Set(device.selectedBrand)), device.page,
             8, JSON.stringify(optionDevice.limitPrice)).then(data => {
@@ -42,7 +42,7 @@ const Shop = observer(() => {
             device.setTotalCount(data.count)
             device.setChangedDevices(data.rows)
         })
-    }, [device.page, device.selectedType])
+    }, [device.page, device.selectedType,device.selectedBrand])*/
 
     return (
 

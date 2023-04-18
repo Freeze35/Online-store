@@ -2,7 +2,7 @@ a{
     border-radius: 4px;
     color: #ff9100;
     transition-duration: 0.4s;
-    font-size: 20px;
+    font-size: clamp(12px, 2vw, 38px);
 }
 a:active {
     color: red;
