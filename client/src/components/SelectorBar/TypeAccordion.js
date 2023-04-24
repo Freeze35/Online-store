@@ -12,7 +12,6 @@ const TypeAccordion = observer(({children, device, type, optionDevice}) => {
     }, [device.selectedType,optionDevice.limitPrice, device.selectedBrand])
 
     const typeCheckHeader = (e, type) => {
-        console.log("sds")
         setOPen(!open)
         if (!open && device.selectedType.length) {
             device.selectedType.map(i => {
@@ -58,30 +57,34 @@ const TypeAccordion = observer(({children, device, type, optionDevice}) => {
             })
 
         } else if (!open) {
-            console.log("ds")
             device.setSelectedType(Array.from(new Set([...device.selectedType, type.id])))
             ChangeDevicesByTypeId(device)
         }
     }
 
+    const notLast =()=> {
+        return device.types[device.types.length - 1].name === type.name
+    }
+
     return (
 
-        <div key={`${type.id}axcddf${type.name}`} style={{paddingTop: 10}}>
+        <div key={`${type.id}axcddf${type.name}`}
+             style={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
             <button className={open ? "button-accordion" : "button-accordion-closed"}
                     key={`${type.id}t${type.name}`}
                     id={`${type.id}t${type.name}`}
+
                     onClick={(e) => {
                         typeCheckHeader(e, type)
                     }}>
                 {type.name}
             </button>
-            <hr/>
+            {notLast()?"":<hr className="hr"/>}
+            {open && notLast()? <hr className="hr" /> : ""}
             <div key={`${type.id}a__a${type.name}`} className={open ? "accordion-box-expanded" : "accordion-box"}
                  id={`${type.id}a__a${type.name}`}>
-                <Scrollbars style={{height: 300, width: "auto", minWidth: 210}}>
-                    <div key={`${type.id}a__abb${type.name}`}>
+                <Scrollbars>
                         {children}
-                    </div>
                 </Scrollbars>
             </div>
         </div>)

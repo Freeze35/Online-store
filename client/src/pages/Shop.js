@@ -1,12 +1,12 @@
 import React, {useContext, useEffect} from 'react';
-import {Col, Container, Row} from "react-bootstrap";
 import DeviceList from "./DeviceShop/DeviceList";
 import {observer} from "mobx-react-lite";
 import {Context} from "../index.js";
 import {fetchBrands, fetchDevices, fetchTypes} from "../http/deviceApi";
 import Pages from "../components/Pages";
-import SortBar from "../components/SortBar";
+import SortBar from "../components/SortBar/SortBar";
 import SelectorBar from "../components/SelectorBar/SelectorBar";
+import "./Shop.css"
 
 const Shop = observer(() => {
     const {device, optionDevice} = useContext(Context)
@@ -45,19 +45,17 @@ const Shop = observer(() => {
     }, [device.page, device.selectedType,device.selectedBrand])*/
 
     return (
-
-        <Container>
-            <Row>
-                <Col md={3}>
-                    <SelectorBar/>
-                </Col>
-                <Col md={9}>
-                    <SortBar/>
-                    <DeviceList/>
-                    <Pages/>
-                </Col>
-            </Row>
-        </Container>
+        <div className="shop_block">
+            <div className="left_side" >
+                <SelectorBar/>
+            </div>
+            <div className="right_side"
+            >
+                <SortBar/>
+                <DeviceList/>
+                <Pages/>
+            </div>
+        </div>
     );
 });
 

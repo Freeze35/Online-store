@@ -1,8 +1,8 @@
 import React,{useContext} from 'react';
-import {Context} from "../index.js";
+import {Context} from "../../index.js";
 import {Form, InputGroup} from "react-bootstrap";
 import {observer} from "mobx-react-lite";
-
+import "./SearchBar.css"
 const SearchBar = observer(() => {
     const {device} = useContext(Context)
 
@@ -16,7 +16,7 @@ const SearchBar = observer(() => {
     return (
         <div>
             <InputGroup>
-                <Form.Control
+                <Form.Control className="input_form"
                     aria-label="Default"
                     aria-describedby="inputGroup-sizing-default"
                     placeholder="Поиск.."

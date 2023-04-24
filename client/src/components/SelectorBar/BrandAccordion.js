@@ -45,32 +45,29 @@ const BrandAccordion = observer(({device, type, optionDevice}) => {
     }
 
     return (
-        <div key={`${type.id}a${type.name}`}>
-            <button className={open ? "button-accordion" : "button-accordion-closed"}
-                    style={{
-                        textAlign: "left", margin: 10, width: 180, minWidth: 180,
-                        alignItems: "center",
-                        justifyContent: "center", alignContent: "center"
-                    }}
+        <div key={`${type.id}a${type.name}`} className="accordion_block">
+            <button className={open ? "inside_button button-accordion" : "inside_button button-accordion-closed"}
+
                     onClick={() => {
                         clickOnButtonAccordionBrand()
                     }}
                     id={`${type.id}w1${type.name}`}
                     key={`${type.id}w1${type.name}`}
                     aria-expanded={open}
+
             >
-                Брэнд
+                Бренд
             </button>
-            <div className={open ? "accordion-box-expanded" : "accordion-box"}
+            <div className={open ? "accordion-box-expanded inside_accordion_block"
+                                 : "accordion-box"}
                  id={`${type.id}acb${type.name}`}
-                 style={{margin: 10, minWidth: 150, width: 180, marginTop: 0, maxHeight: 120}}
                  key={`${type.id}ac___sa${type.name}`}
             >
-                <Scrollbars style={{height: 300, width: "auto", minWidth: 210}}>
+                <Scrollbars className="inside_scroll">
                     {device.brands.map((brand) => {
                         if (findBrandInDevices(brand, type)) {
                             return (
-                                <div key={`${type.id}=--${brand.id}`} style={{margin: 5}}>
+                                <div key={`${type.id}=--${brand.id}`} style={{margin: 5}} >
                                     <div key={`${type.id}=${brand.id}`}
                                          className="form-check"
                                          style={{marginLeft: 8, paddingTop: 5}}>

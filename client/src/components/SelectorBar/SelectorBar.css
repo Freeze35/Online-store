@@ -1,0 +1,18 @@
+.selector_div{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 4px #040217;
+    border-radius: 5px;
+    padding: 20px;
+    width: clamp(150px, 24vw, 340px);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {.selector_div{
+
+    padding:20px;
+    width: clamp(150px, 80%, 100%);
+}}

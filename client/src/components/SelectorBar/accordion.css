@@ -1,0 +1,143 @@
+/*my custom styles*/
+.hr{
+    width: clamp(15px, 10vw, 300px);
+}
+
+.button{
+    background: none;
+}
+
+.button-accordion-closed{
+    display: flex;
+    background: none;
+    border: none;
+    color: #007afe;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: clamp(15px, 2vw, 130px);
+    outline: none;
+    width: clamp(115px, calc(22vw-100px), 300px);
+    transition: 0.3s;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.button-accordion-closed:hover {
+    color: #005cc4;;
+    border: none;
+    transition: 0.3s;
+}
+
+.button-accordion-closed:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.button-accordion{
+    display: flex;
+    background: #007afe;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: clamp(15px, 2vw, 80px);
+    outline: none;
+    width: clamp(115px, calc(22vw-100px), 300px);
+    transition: 0.3s;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.button-accordion:hover {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.button-accordion:focus {
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-box{
+    box-shadow: 0 0 3px black inset;
+    border-radius: 5px;
+    height: 0;
+    transition: 0.3s ease-in-out;
+    z-index: 0;
+    overflow: hidden;
+    width: clamp(100px, 14vw, 300px);
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0;
+}
+
+.accordion-box-expanded{
+    box-shadow: 0 0 3px black inset;
+    border-radius: 5px;
+    height: clamp(135px, 40vh, 300px);
+    transition: 0.3s ease-out;
+    margin: 0 10px 0;
+    z-index: 5;
+    overflow: hidden;
+    width: clamp(150px,20vw, 400px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.accordion_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inside_accordion_block{
+    justify-content: center;
+    width: clamp(100px, 14vw, 400px) !important;
+    height: 150px !important;
+    margin-bottom: 20px;
+}
+
+
+.inside_scroll{
+    height: clamp(135px, 40vh, 400px) !important;
+    width: clamp(115px, 12vw, 600px);
+}
+
+
+@media screen and (max-width: 768px) {
+    .button-accordion-closed {
+        width: clamp(115px, 70vw, 800px);
+        font-size: clamp(15px, 5vw, 800px);
+    }
+    .button-accordion{
+        width: clamp(115px, 70vw, 800px);
+        font-size: clamp(15px, 5vw, 800px);
+    }
+    .accordion-box{
+        width: clamp(115px, 50vw, 800px);
+    }
+    .accordion-box-expanded{
+        height: clamp(135px, 50vh, 700px);
+        width: clamp(115px, 70vw, 800px);
+    }
+    .inside_button{
+        width: clamp(115px, 50vw, 800px) !important;
+    }
+    .inside_accordion_block{
+        width: clamp(100px, 50vw, 600px) !important;
+    }
+
+}

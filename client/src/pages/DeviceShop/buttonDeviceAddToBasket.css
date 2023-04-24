@@ -1,14 +1,21 @@
+.add_div{
+    display: flex;
+    padding-top: clamp(10px, 4vw, 50px);
+    padding-right: clamp(10px, 5vw, 15px);
+    justify-content: right;
+}
+
 .buttonAddToBasket{
-    margin-right:15px;
     box-shadow: 0 0 4px black;
-    height:50px;
-    width:50px;
-    border-radius: 25px;
+    height:clamp(50px, 5vw, 75px);
+    width:clamp(50px, 5vw, 75px);
+    border-radius: 55px;
     text-align:center;
     outline: none;
     border: none;
     transition: 0.3s;
     background: white;
+    justify-content: right;
 }
 .buttonAddToBasket:active{
     outline: none;
@@ -22,15 +29,19 @@
     outline: none;
     border: none;
     scale: 120%;
-    background: #007afe;
     box-shadow: 0 0 5px #007afe;
 }
 
 .add_to_basket {
-    scale: 90%;
+    scale: 120%;
+    width: clamp(20px, 1.5vw, 40px);
+    height: clamp(20px, calc(2vw*1vh), 40px);
     transition-duration: 0.15s;
+    justify-content: center;
 }
-.add_to_basket:hover {
-    filter: drop-shadow(0px 0px 1px #d0cfcf) invert(48%) sepia(60%) hue-rotate(-15deg) saturate(10);
 
+#buttonAddToBasket:hover > #add_to_basket{
+    scale: 140%;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 1px #ff9100) invert(38%) sepia(80%) hue-rotate(-15deg) saturate(6);
 }

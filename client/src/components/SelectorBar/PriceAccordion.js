@@ -1,9 +1,11 @@
 import React, {useContext, useState} from 'react';
 import Scrollbars from "react-custom-scrollbars-2";
 import {RangeSlider} from "react-double-range-slider";
-import {Form, InputGroup} from "react-bootstrap";
+import {Form} from "react-bootstrap";
 import {observer} from "mobx-react-lite";
 import {Context} from "../../index.js";
+import "../styles/inputRange.css"
+
 
 const PriceAccordion = observer(({children, type}) => {
 
@@ -11,7 +13,7 @@ const PriceAccordion = observer(({children, type}) => {
     const [open, setOPen] = useState(false)
     const [rangeValues, setRangeValues] = useState({min: 0, max: 24});
     const [maxPrice, setMaxPrice] = useState(0);
-    const offsetPriceMax = 10000
+    const offsetPriceMax = 5000
 
     const maxValue = () => {
         device.devices.map(d => {
@@ -54,13 +56,39 @@ const PriceAccordion = observer(({children, type}) => {
         }
     }
 
+    const setupMinPrice =(e) =>{
+        if (e.target.value > 0 && e.target.value < maxPrice) {
+            setRangeValues({
+                ...rangeValues,
+                min: Number(e.target.value),max:rangeValues.max
+            })
+            takeSliderParams(Number(e.target.value),rangeValues.max)
+        } else {
+            //Set Limit
+            setRangeValues({
+                ...rangeValues,
+                min: maxPrice
+            })}
+    }
+
+    const setupMaxPrice =(e) =>{
+        if (e.target.value > 0 && e.target.value > rangeValues.min
+            && e.target.value< maxPrice) {
+            setRangeValues({
+                ...rangeValues,
+                min: rangeValues.min, max:Number(e.target.value)
+            })
+            takeSliderParams(rangeValues.min,Number(e.target.value))
+        } else {
+            setRangeValues({...rangeValues, max: maxPrice})
+            takeSliderParams(rangeValues.min,Number(e.target.value))
+        }
+        console.log(optionDevice.limitPrice)
+    }
+
     return (
-        <div key={`${type.id}p_a${type.name}`}>
-            <button className={open ? "button-accordion" : "button-accordion-closed"}
-                    style={{
-                        textAlign: "left", margin: 10, width: 180, minWidth: 180,
-                        alignItems: "center", justifyContent: "center", alignContent: "center"
-                    }}
+        <div key={`${type.id}p_a${type.name}`} className="accordion_block">
+            <button className={open ? "inside_button button-accordion" : "inside_button button-accordion-closed"}
                     onClick={e => {
                         setOPen(!open)
                         addPriceSelector(e,open,type)
@@ -71,48 +99,23 @@ const PriceAccordion = observer(({children, type}) => {
                 Цена
             </button>
 
-            <div key={`${type.id}a__fdcb${type.name}`} className={open ? "accordion-box-expanded" : "accordion-box"}
-                 style={{margin: 10, maxHeight: 120, minWidth: 150, width: 180, marginTop: 0}}
+            <div key={`${type.id}a__fdcb${type.name}`}
+                 className={open ? "accordion-box-expanded inside_accordion_block"
+                                 : "accordion-box"}
                  id={`${type.id}acb${type.name}`}>
-                <Scrollbars style={{maxHeight: 120, width: "auto", minWidth: 210}}>
-                    <div key={`${type.id}a__b${type.name}`}>
+                <Scrollbars>
+                    <div key={`${type.id}a__b${type.name}`} className="price_block">
                         {children}<br/>
-                        <InputGroup style={{width: 160, marginLeft: 10, marginRight: 10}}>
-
+                        <div className="price_setup">
                             <Form.Control value={rangeValues.min}
-                                          onChange={e => {
-                                              if (e.target.value > 0 && e.target.value < maxPrice) {
-                                                  setRangeValues({
-                                                      ...rangeValues,
-                                                      min: Number(e.target.value),max:rangeValues.max
-                                                  })
-                                                  takeSliderParams(Number(e.target.value),rangeValues.max)
-                                              } else {
-                                                  //Set Limit
-                                                  setRangeValues({
-                                                      ...rangeValues,
-                                                      min: maxPrice
-                                                  })}}}/>
-
+                                          onChange={setupMinPrice}/>
                             <Form.Control value={rangeValues.max}
-                                          onChange={e => {
-                                              if (e.target.value > 0 && e.target.value > rangeValues.min
-                                                  && e.target.value< maxPrice) {
-                                                  setRangeValues({
-                                                      ...rangeValues,
-                                                      min: rangeValues.min, max:Number(e.target.value)
-                                                  })
-                                                  takeSliderParams(rangeValues.min,Number(e.target.value))
-                                              } else {
-                                                  setRangeValues({...rangeValues, max: maxPrice})
-                                                  takeSliderParams(rangeValues.min,Number(e.target.value))
-                                              }
-                                              console.log(optionDevice.limitPrice)
-                                          }}/>
-                        </InputGroup>
+                                          onChange={setupMaxPrice}/>
+                        </div>
                     </div>
-                    <div key={`${type.id}a__bs${type.name}`} style={{marginLeft: 20, marginTop: 30}}>
-                        <RangeSlider key={`${type.id}a__bsd${type.name}`}
+                    <div className="price_block" key={`${type.id}a__bs${type.name}`}>
+                        <RangeSlider
+                            key={`${type.id}a__bsd${type.name}`}
                                      id={`${type.id}a__bsd${type.name}`}
                                      value={{min: 0, max: maxValue()}}
                                      onChange={e => {

@@ -1,8 +1,7 @@
 import React, {useContext, useEffect, useState} from 'react';
-
 import AppRouter from "./components/AppRouter";
 import {BrowserRouter} from "react-router-dom";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar/NavBar";
 import {observer} from "mobx-react-lite";
 import {Context} from "./index.js";
 import {check} from "./http/userApi";

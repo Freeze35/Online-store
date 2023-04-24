@@ -2,13 +2,13 @@
     position: relative;
     font-size: 16px;
     color: #fff;
-    width: 140px;
+    width: clamp(80px, 10vw, 400px);
     height: 100%;
 }
 
 .double-range-slider-rail {
     background-color: #c4c4c4;
-    width: 140px;
+    width: clamp(80px, 10vw, 400px);
     height: 10px;
     border-radius: 50px;
     z-index: 0;
@@ -16,7 +16,7 @@
 
 .double-range-slider-track {
     background-color: rgba(91, 172, 255, 0.5);
-    width: 140px;
+    width: clamp(80px, 10vw, 400px);
     height: 10px;
     border-radius: 50px;
     position: absolute;
@@ -36,23 +36,41 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+    .double-range-slider-track,.double-range-slider-rail,.double-range-slider-container{
+        height: 15px;
+        width: clamp(150px,35vw, 800px);
+    }
+    .double-range-slider-ball{
+        width: 30px;
+        height: 30px;
+        top: -7.5px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px){
+    .double-range-slider-track,.double-range-slider-rail,.double-range-slider-container{
+        width: clamp(50px, 8vw, 800px);
+    }
+}
+
+.double-range-slider-ball:active,html {
+    overflow: visible !important;
+}
 .double-range-slider-ball:active {
-    cursor: grabbing;
+    cursor: grabbing !important;
 }
 
 .double-range-slider-active {
     z-index: 4;
     cursor: grab;
-
 }
 
 .double-range-slider-active:active {
     cursor: grabbing;
-
 }
 
 .double-range-slider-tooltip {
-
     background-color: #007afe;
     visibility: hidden;
     display: flex;
@@ -74,6 +92,7 @@
 .double-range-slider-ball .double-range-slider-tooltip {
     left: 50%;
     transform: translateX(-50%);
+    overflow: visible !important;
 }
 
 .double-range-slider-over {
@@ -123,3 +142,36 @@
     background-color: #f5f5f5;
 }
 /*# sourceMappingURL=index.css.map */
+
+/*Custom stylys*/
+.price_block{
+    width: clamp(115px, 14vw, 800px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price_setup{
+    display: flex;
+    flex-direction: row;
+    width: clamp(50px, 13vw, 800px);
+}
+
+@media screen and (max-width: 1000px) {
+    .price_setup{
+        flex-direction: column;
+        width: clamp(50px, 10vw, 800px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .price_block{
+        width: clamp(115px, 50vw, 800px);
+    }
+    .price_setup{
+        flex-direction: column;
+        width: clamp(50px, 40vw, 800px);
+    }
+
+}

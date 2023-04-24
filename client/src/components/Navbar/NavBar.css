@@ -1,0 +1,26 @@
+.inside_navbar_block{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding:0 5vw 0;
+}
+
+.auth_button{
+    border: none;
+    outline: orange solid 2px;
+    color: orange;
+    background: #030028FF;
+    border-radius: 40px;
+    font-size: clamp(12px, 1.5vw, 40px);
+    height: clamp(20px, 4vw, 40px);
+    transition: 0.3s;
+}
+
+.auth_button:hover{
+    outline: none;
+    border: none;
+    color: #030028FF;
+    background: white;
+    border-radius: 20px;
+}

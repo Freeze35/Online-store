@@ -1,12 +1,13 @@
 import React, {useContext} from 'react';
-import {Card, Col, Image} from "react-bootstrap";
+import {Image} from "react-bootstrap";
 import star from "../../asstes/star.png"
 import {useNavigate} from "react-router-dom";
 import {DEVICE_ROUTE} from "../../utils/consts";
-import "./buttonDeviceAddToBasket.css"
 import {addToBasket} from "./AddDeviceToBasket";
 import {Context} from "../../index.js";
 import add_to_basket from "../../asstes/add_to_basket.png";
+import "./buttonDeviceAddToBasket.css"
+import "./DeviceItem.css"
 
 const DeviceItem = ({device, brands}) => {
     let navigate = useNavigate();
@@ -24,47 +25,42 @@ const DeviceItem = ({device, brands}) => {
         })
     }
 
+    const AddInBasket =(e)=>{
+        addToBasket(user, device.id)
+        e.stopPropagation()
+    }
+
     return (
-        <Col md={3}>
-            <Card style={{
-                width: 200,
-                height: 250,
-                cursor: "pointer",
-                border: "light",
-                boxShadow: "0px 0px 4px black",
-                borderRadius: 5
-            }} className="mt-3"
+
+            <div className="container_device"
                   onClick={() => navigate(DEVICE_ROUTE + "/" + device.id)}
             >
-
-                <Image style={{width: 150, height: 150}} src={process.env.REACT_APP_API_URL + device.img}
-                       className={"rounded mx-auto d-block"}
+                <Image src={process.env.REACT_APP_API_URL + device.img}
+                       className="device_image"
                 />
-                <div className="d-flex justify-content-between align-items-center"
-                     style={{marginLeft: 10, fontWeight: 600}}>
+                <div className="rating_name">
                     <div>
                         {setName()} {device.name}
                     </div>
-                    <div className="d-flex align-items-center" style={{fontSize: 20}}>
+                    <div className="rating_name">
                         <div>{device.rating}</div>
-                        <Image src={star} style={{width: 20, height: 20}}></Image>
+                        <Image src={star} className="star"></Image>
                     </div>
                 </div>
-                <div className="d-flex justify-content-between align-items-center"
-                     style={{fontWeight: 600}}>
-                    <div className="d-flex " style={{fontSize: 25, marginLeft: 10, color: "#007afe"}}>
-                        {device.price} <label style={{fontSize:20,marginLeft:5}}>руб.</label>
+                <div className="price_add">
+                    <div className="price">
+                        {device.price} руб.
                     </div>
-                    <button className="buttonAddToBasket" onClick={e=> {
-                        addToBasket(user, device.id)
-                        e.stopPropagation()
-                    }} >
-                        <img className="add_to_basket" style={{width:35,height:35}} src={add_to_basket}
-                             alt={add_to_basket}/>
-                    </button>
+                    <div className="add_div">
+                        <button id="buttonAddToBasket" className="buttonAddToBasket"
+                                onClick={AddInBasket}>
+                            <img id="add_to_basket" className="add_to_basket" src={add_to_basket}
+                                 alt={add_to_basket}/>
+                        </button>
+                    </div>
                 </div>
-            </Card>
-        </Col>
+            </div>
+
     );
 };
 
