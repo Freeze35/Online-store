@@ -1,5 +1,4 @@
 import React, {useContext} from 'react';
-import {ToggleButtonGroup} from "react-bootstrap";
 import {Context} from "../../index.js";
 import "./SortBar.css"
 import RotateArrow from "../helpers/RotateArrow/RotateArrow";
@@ -28,6 +27,7 @@ const SortBar = () => {
             device.setChangedDevices([...device.changedDevices].sort(sortMethods[e.target.getAttribute("value")].method))
         }
         if (e.target.checked) {
+
             const activeClass= "button_toggles_active"
             element.className = checkLast(options,index,activeClass)
             document.getElementById(`${option.value}rotate${option.name}`).click()
@@ -41,7 +41,7 @@ const SortBar = () => {
     }
 
     return (
-        <ToggleButtonGroup className="toggle_group" type="checkbox">
+        <div className="toggle_group">
 
             <label className="sort_text button_toggles">
                 Сортировка
@@ -59,7 +59,7 @@ const SortBar = () => {
                     {option.name}
                     <RotateArrow option={option}/>
                 </label>
-            )}</ToggleButtonGroup>
+            )}</div>
     );
 };
 

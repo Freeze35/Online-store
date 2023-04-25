@@ -1,4 +1,5 @@
 .toggle_group{
+    display: flex;
     margin-left: 50px;
 }
 

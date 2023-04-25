@@ -1,5 +1,4 @@
 import React, {useContext} from 'react';
-import {Button} from "react-bootstrap";
 import {NavLink, useNavigate} from "react-router-dom";
 import {ADMIN_ROUTE, BASKET_ROUTE, LOGIN_ROUTE, SHOP_ROUTE} from "../../utils/consts";
 import {Context} from "../../index.js";
@@ -31,19 +30,30 @@ const NavBar = observer(() => {
                         О нас
                     </NavLink>
                 </div>
-                <SearchBar className="high_res_search"/>
+                {user.isAuth && user.userId!=="not_authorized"
+                    ? <SearchBar className="high_res_search not_auth"/>
+                    : <SearchBar className="high_res_search"/>}
                 <div>
-                        <img className="basket_img" src={basket_white}
-                               onClick={()=>navigate(BASKET_ROUTE+"/"+(user.userId))} alt=""/>
                     {user.isAuth && user.userId!=="not_authorized"
-                        ?
-                            <div >
-                                <Button variant="outline-light"  className="me-3 m-2" onClick={()=> {
+                        ?<div>
+                                <img className="basket_img" src={basket_white}
+                                     onClick={()=>navigate(BASKET_ROUTE+"/"+(user.userId))} alt=""/>
+                                <button className="auth_button" onClick={()=> {
                                     navigate(ADMIN_ROUTE)
-                                }}>Админ панель</Button>
-                                <Button variant="outline-light"  className="me-3 m-2"  onClick={() => logOut()}>Выйти</Button>
+                                }} style={{marginRight:20}}>
+                                    Админ панель
+                                </button>
+                                <button className="auth_button"  onClick={() => logOut()}>
+                                    Выйти
+                                </button>
                             </div>
-                        : <button className="auth_button" onClick={()=>navigate(LOGIN_ROUTE)}>Авторизация</button>
+                        :
+                        <div>
+                            <img className="basket_img" src={basket_white}
+                                 onClick={()=>navigate(BASKET_ROUTE+"/"+(user.userId))} alt=""/>
+                            <button className="auth_button" onClick={()=>navigate(LOGIN_ROUTE)}>Авторизация</button>
+                        </div>
+
                     }
                 </div>
             </div>

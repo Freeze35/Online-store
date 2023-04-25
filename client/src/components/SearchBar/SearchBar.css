@@ -2,3 +2,7 @@
     width: calc(60vw - 100px) !important;
     margin: 0 5px 0;
 }
+
+.not_auth{
+    width: calc(55vw - 100px) !important;
+}

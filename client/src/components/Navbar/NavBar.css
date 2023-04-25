@@ -20,9 +20,10 @@
     outline: orange solid 2px;
     color: orange;
     background: #030028FF;
+    vertical-align: middle;
     border-radius: 40px;
     font-size: clamp(6px, 1.5vw, 40px);
-    height: clamp(20px, 4vw, 40px);
+    height: clamp(20px, 2.5vw, 60px);
     transition: 0.3s;
 }
 

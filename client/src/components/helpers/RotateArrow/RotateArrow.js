@@ -8,11 +8,10 @@ const RotateArrow = ({option}) => {
 
     const Rotate = () =>{
         setRotated(prev =>!prev)
-
     }
 
     return (
-        <div className="full_arrow" id={`${option.value}rotate${option.name}`} onClick={Rotate}>
+        <div className="full_arrow" id={`${option.value}rotate${option.name}`} style={{pointerEvents:"none"}} onClick={Rotate}>
                 <img src={leftArrow} className={rotated?"left_arrow":"left_arrow_rotated"} alt=""/>
                 <img src={leftArrow} className={rotated?"right_arrow":"right_arrow_rotated"} alt="" />
         </div>
