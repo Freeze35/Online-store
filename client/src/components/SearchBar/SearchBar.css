@@ -1,3 +1,4 @@
 .input_form{
-    width: 65vw !important;
+    width: calc(60vw - 100px) !important;
+    margin: 0 5px 0;
 }

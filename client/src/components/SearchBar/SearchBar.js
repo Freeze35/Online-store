@@ -1,9 +1,9 @@
 import React,{useContext} from 'react';
 import {Context} from "../../index.js";
-import {Form, InputGroup} from "react-bootstrap";
+import {Form} from "react-bootstrap";
 import {observer} from "mobx-react-lite";
 import "./SearchBar.css"
-const SearchBar = observer(() => {
+const SearchBar = observer(({className,style}) => {
     const {device} = useContext(Context)
 
     const searchDevice = (e) => {
@@ -14,9 +14,7 @@ const SearchBar = observer(() => {
     }
 
     return (
-        <div>
-            <InputGroup>
-                <Form.Control className="input_form"
+                <Form.Control className={`input_form ${className}`}  style={style}
                     aria-label="Default"
                     aria-describedby="inputGroup-sizing-default"
                     placeholder="Поиск.."
@@ -25,9 +23,6 @@ const SearchBar = observer(() => {
                         searchDevice(e)
                     }
                 />
-            </InputGroup>
-
-        </div>
     );
 });
 

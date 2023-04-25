@@ -1,2 +1,58 @@
-.toggle_button{
+.toggle_group{
+    margin-left: 50px;
+}
+
+
+.button_toggles{
+    color: #007afe;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0 0 3px #007afe;
+    font-size: clamp(10px, 1.5vw, 140px);
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    width:  clamp(80px, 12vw, 240px);
+    transition: 0.3s;
+    height: clamp(25px, 3.5vw, 140px);
+}
+
+.button_toggles_active{
+    color: orange;
+    box-shadow: 0 0 3px orange;
+}
+
+.button_toggles_active:hover{
+    color: #ffb026 !important;
+    box-shadow: 0 0 3px #007afe !important;
+}
+
+.button_toggles:hover{
+    box-shadow: 0 0 3px orange;
+}
+
+
+.sort_text{
+    color: white;
+    background: #007afe;
+    border-radius: 15px 0 0 15px;
+    cursor: default;
+}
+.last_toggles{
+    border-radius: 0 15px 15px 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    .button_toggles{
+        width:  clamp(80px, 22vw, 240px);
+    }
+
+    .toggle_group{
+        padding-right: 60px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

@@ -16,7 +16,7 @@
     font-weight: 600;
     font-size: clamp(15px, 2vw, 130px);
     outline: none;
-    width: clamp(115px, calc(22vw-100px), 300px);
+    width: clamp(115px, calc(22vw - 50px), 300px);
     transition: 0.3s;
     justify-content: center;
     margin: 10px;
@@ -48,7 +48,7 @@
     font-weight: 600;
     font-size: clamp(15px, 2vw, 80px);
     outline: none;
-    width: clamp(115px, calc(22vw-100px), 300px);
+    width: clamp(115px, calc(22vw - 50px), 300px);
     transition: 0.3s;
     justify-content: center;
     margin: 10px;

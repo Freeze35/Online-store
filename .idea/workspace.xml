@@ -2,36 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Adaptive resizing">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SearchBar/SearchBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/styles/multirangeSlider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceItem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/asstes/left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/helpers/RotateArrow/RotateArrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/helpers/RotateArrow/RotateArrow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/27822895-f37b-46ad-b26c-ae5d3b260189.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/4546bb7d-beb4-4595-b5ff-d62956c58a7e.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/ccd380e3-4f8a-4946-93a1-f734b6884704.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SearchBar/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/BrandAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/BrandAccordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/PriceAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/PriceAccordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/TypeAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/TypeAccordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/styles/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/styles/inputRange.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/styles/inputRange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/add_to_basket.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/asstes/add_to_basket.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/basket_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/asstes/basket_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/basket_icon_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/asstes/basket_icon_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/asstes/star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SearchBar/SearchBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SearchBar/SearchBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/accordion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/buttonDeviceAddToBasket.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/buttonDeviceAddToBasket.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/static/27822895-f37b-46ad-b26c-ae5d3b260189.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/static/27822895-f37b-46ad-b26c-ae5d3b260189.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/static/4546bb7d-beb4-4595-b5ff-d62956c58a7e.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/static/4546bb7d-beb4-4595-b5ff-d62956c58a7e.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/static/ccd380e3-4f8a-4946-93a1-f734b6884704.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/static/ccd380e3-4f8a-4946-93a1-f734b6884704.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/deviceController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/deviceController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/static/27822895-f37b-46ad-b26c-ae5d3b260189.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/static/4546bb7d-beb4-4595-b5ff-d62956c58a7e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/static/ccd380e3-4f8a-4946-93a1-f734b6884704.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "18.12.1",
     "javascript.nodejs.core.library.typings.version": "18.14.6",
-    "last_opened_file_path": "D:/T/online-store/online-store/server/static",
+    "last_opened_file_path": "D:/T/online-store/online-store/client/src/asstes",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -85,18 +81,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\client\src\asstes" />
       <recent name="D:\T\online-store\online-store\server\static" />
       <recent name="D:\T\online-store\online-store" />
       <recent name="D:\T\online-store\online-store\client" />
-      <recent name="D:\T\online-store\online-store\client\src\asstes" />
       <recent name="D:\T\online-store\online-store\client\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\client\src\components\helpers\RotateArrow" />
       <recent name="D:\T\online-store\online-store\client\src" />
       <recent name="D:\T\online-store\online-store\client\src\components\SearchBar" />
       <recent name="D:\T\online-store\online-store\client\src\components\Navbar" />
       <recent name="D:\T\online-store\online-store\client\src\components\SelectorBar" />
-      <recent name="D:\T\online-store\online-store\client\src\components\SortBar" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start (1)">
@@ -189,7 +185,7 @@
       <workItem from="1677837565708" duration="47888000" />
       <workItem from="1677938133646" duration="236356000" />
       <workItem from="1678466091219" duration="111529000" />
-      <workItem from="1681688448536" duration="228228000" />
+      <workItem from="1681688448536" duration="270670000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -394,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681796788678</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Adaptive resizing">
+      <created>1682323089414</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1682323089414</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
