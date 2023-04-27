@@ -1,9 +1,9 @@
 const path = require("path");
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const  HtmlWebpackPlugin  =  require ( 'html-webpack-plugin' )
-const nodeExternals = require('webpack-node-externals');
 const Dotenv = require('dotenv-webpack');
 const fs = require('fs');
+const InterpolateHtmlPlugin = require("interpolate-html-plugin");
 let nodeModules = {};
 
 fs.readdirSync(path.resolve(__dirname, 'node_modules'))
@@ -37,12 +37,27 @@ const frontConfig = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            filename: "./index.html",
+            filename: "./client/index.html",
             template: "./client/public/index.html",
-            favicon: './client/public/favicon.ico'
+            favicon: './client/public/favicon.ico',
+            inject: true,
+            minify: {
+                removeComments: true,
+                collapseWhitespace: true,
+                removeRedundantAttributes: true,
+                useShortDoctype: true,
+                removeEmptyAttributes: true,
+                removeStyleLinkTypeAttributes: true,
+                keepClosingSlash: true,
+                minifyJS: true,
+                minifyCSS: true,
+                minifyURLs: true,
+            }
         }),
-
-new CleanWebpackPlugin(),
+        new InterpolateHtmlPlugin({
+            PUBLIC_URL: 'static' // can modify `static` to another name or get it from `process`
+        }),
+        new CleanWebpackPlugin(),
         new Dotenv({
             path: path.resolve(__dirname, './client/.env'),
         }),

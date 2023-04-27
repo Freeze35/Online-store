@@ -1,16 +1,21 @@
 import React, {useContext, useState} from 'react';
 import Scrollbars from "react-custom-scrollbars-2";
-import {RangeSlider} from "react-double-range-slider";
 import {Form} from "react-bootstrap";
 import {observer} from "mobx-react-lite";
 import {Context} from "../../index.js";
 import "../styles/inputRange.css"
+import {RangeSlider} from "react-double-range-slider";
 
+
+/*interface PriceAccordion {
+    children: React.ReactNode,
+    type:any
+}*/
 
 const PriceAccordion = observer(({children, type}) => {
 
     const {device, optionDevice} = useContext(Context)
-    const [open, setOPen] = useState(false)
+    const [open, setOpen] = useState(false)
     const [rangeValues, setRangeValues] = useState({min: 0, max: 24});
     const [maxPrice, setMaxPrice] = useState(0);
     const offsetPriceMax = 5000
@@ -90,7 +95,7 @@ const PriceAccordion = observer(({children, type}) => {
         <div key={`${type.id}p_a${type.name}`} className="accordion_block">
             <button className={open ? "inside_button button-accordion" : "inside_button button-accordion-closed"}
                     onClick={e => {
-                        setOPen(!open)
+                        setOpen(!open)
                         addPriceSelector(e,open,type)
                     }}
                     aria-expanded={open}
@@ -102,19 +107,22 @@ const PriceAccordion = observer(({children, type}) => {
             <div key={`${type.id}a__fdcb${type.name}`}
                  className={open ? "accordion-box-expanded inside_accordion_block"
                                  : "accordion-box"}
-                 id={`${type.id}acb${type.name}`}>
+                 id={`${type.id}acb${type.name}`}
+            >
+
                 <Scrollbars>
                     <div key={`${type.id}a__b${type.name}`} className="price_block">
                         {children}<br/>
-                        <div className="price_setup">
+                        <div className={open?"price_setup":"price_setup off_check"}>
                             <Form.Control value={rangeValues.min}
                                           onChange={setupMinPrice}/>
                             <Form.Control value={rangeValues.max}
                                           onChange={setupMaxPrice}/>
                         </div>
                     </div>
-                    <div className="price_block" key={`${type.id}a__bs${type.name}`}>
+                    <div className={open?"price_block":"price_block off_check"} key={`${type.id}a__bs${type.name}`}>
                         <RangeSlider
+
                             key={`${type.id}a__bsd${type.name}`}
                                      id={`${type.id}a__bsd${type.name}`}
                                      value={{min: 0, max: maxValue()}}

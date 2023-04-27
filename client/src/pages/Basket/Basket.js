@@ -19,7 +19,7 @@ const Basket = observer(() => {
         formData.append('totalAmount', `${totalAmount}`)
         formData.append('basketData', JSON.stringify(user.basket))
         formData.append('basketId', user.userId==="not_authorized"?1:user.userId)
-        createBasketBuy(formData).then(() => {})
+        createBasketBuy(formData)
 
     }
 

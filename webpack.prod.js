@@ -8,6 +8,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const InterpolateHtmlPlugin = require("interpolate-html-plugin");
 
 
 const filesThreshold = 8196; // (bytes) threshold for compression, url-loader plugins
@@ -15,12 +16,21 @@ const filesThreshold = 8196; // (bytes) threshold for compression, url-loader pl
 
 const frontConfig = {
     mode: "production",
-    entry: ["core-js/modules/es.promise", "core-js/modules/es.array.iterator","./src/index.tsx"],
+    entry: ["core-js/modules/es.promise", "core-js/modules/es.array.iterator","./client/src/index.js"],
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "[name].[hash].js",
         clean: true,
         publicPath: '/'
+    },
+    devServer: {
+        //host: 'local-ip',
+        //host: '192.168.0.102', // Required for docker
+        //allowedHosts: "all",
+        port: 3000,
+        hot: true,
+        historyApiFallback: true,
+        compress: true,
     },
     performance: {
         hints: false,
@@ -28,8 +38,11 @@ const frontConfig = {
         maxAssetSize: 512000
     },
     plugins: [
+        new InterpolateHtmlPlugin({
+            PUBLIC_URL: 'static' // can modify `static` to another name or get it from `process`
+        }),
         new HtmlWebpackPlugin({
-            filename: "./client/index.html",
+            filename: "./index.html",
             template: "./client/public/index.html",
             favicon: './client/public/favicon.ico',
             inject: true,

@@ -72,7 +72,8 @@ const BrandAccordion = observer(({device, type, optionDevice}) => {
                                          className="form-check"
                                          style={{marginLeft: 8, paddingTop: 5}}>
                                         <label
-                                            className="form-check-label d-flex justify-content-between"
+                                            className={open?"form-check-label d-flex justify-content-between"
+                                                :"off_check"}
                                             style={{cursor: "pointer"}}>
                                             <input key={`${type.id}_${brand.id}`}
                                                    id={`${type.id}_${brand.id}`}

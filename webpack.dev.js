@@ -16,7 +16,7 @@ const filesThreshold = 8196; // (bytes) threshold for compression, url-loader pl
 
 const frontConfig = {
     mode: "production",
-    entry: ["core-js/modules/es.promise", "core-js/modules/es.array.iterator","./src/index.tsx"],
+    entry: ["core-js/modules/es.promise", "core-js/modules/es.array.iterator","./client/src/index.js"],
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "[name].[hash].js",
@@ -36,16 +36,16 @@ const frontConfig = {
         port: 3000,
         hot: true,
         historyApiFallback: true,
-        static: {
-            directory: path.join(__dirname, "dist")
-        },
         compress: true,
     },
     plugins: [
+        new InterpolateHtmlPlugin({
+            PUBLIC_URL: 'static' // can modify `static` to another name or get it from `process`
+        }),
         new HtmlWebpackPlugin({
             filename: "./index.html",
-            template: "./public/index.html",
-            favicon: './public/favicon.ico',
+            template: "./client/public/index.html",
+            favicon: './client/public/favicon.ico',
             inject: true,
             minify: {
                 removeComments: true,
@@ -72,9 +72,6 @@ const frontConfig = {
             // optional: it creates gzipped (compressed) files in '[path].gz[query]'
             threshold: filesThreshold, // (bytes). Only assets bigger than this size are processed
         }),
-        new InterpolateHtmlPlugin({
-            PUBLIC_URL: 'static' // can modify `static` to another name or get it from `process`
-        })
     ],
     module: {
         rules: [

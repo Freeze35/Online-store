@@ -27,5 +27,6 @@ export const check = async (email) => {
         return jwt_decode(data.token)
     }
     catch (e) {
+        console.log(e)
     }
 }

@@ -6,6 +6,7 @@ import {observer} from "mobx-react-lite";
 import {Context} from "./index.js";
 import {check} from "./http/userApi";
 import {Spinner} from "react-bootstrap";
+import "./App.css"
 
 const App = observer(() => {
     const {user} = useContext(Context)

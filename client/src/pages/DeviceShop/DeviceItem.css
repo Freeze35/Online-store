@@ -38,7 +38,7 @@
 
 .star{
     width: clamp(6px, 1.5vw, 20px);
-    height: clamp(20px, calc(1vw*1vh), 30px);
+    height: clamp(20px, 1vw , 30px);
 }
 
 .price_add{

@@ -1,4 +1,5 @@
 /*my custom styles*/
+
 .hr{
     width: clamp(15px, 10vw, 300px);
 }
@@ -16,7 +17,9 @@
     font-weight: 600;
     font-size: clamp(15px, 2vw, 130px);
     outline: none;
-    width: clamp(115px, calc(22vw - 50px), 300px);
+    min-width: 115px;
+    max-width: 300px;
+    width: calc(22vw - 50px);
     transition: 0.3s;
     justify-content: center;
     margin: 10px;
@@ -40,6 +43,7 @@
 }
 
 .button-accordion{
+
     display: flex;
     background: #007afe;
     border: none;
@@ -48,7 +52,9 @@
     font-weight: 600;
     font-size: clamp(15px, 2vw, 80px);
     outline: none;
-    width: clamp(115px, calc(22vw - 50px), 300px);
+    min-width: 115px;
+    max-width: 300px;
+    width: calc(22vw - 50px);
     transition: 0.3s;
     justify-content: center;
     margin: 10px;
@@ -110,12 +116,16 @@
     margin-bottom: 20px;
 }
 
-
 .inside_scroll{
     height: clamp(135px, 40vh, 400px) !important;
     width: clamp(115px, 12vw, 600px);
 }
 
+.off_check{
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
 
 @media screen and (max-width: 768px) {
     .button-accordion-closed {

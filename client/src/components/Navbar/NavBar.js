@@ -38,9 +38,9 @@ const NavBar = observer(() => {
                         ?<div>
                                 <img className="basket_img" src={basket_white}
                                      onClick={()=>navigate(BASKET_ROUTE+"/"+(user.userId))} alt=""/>
-                                <button className="auth_button" onClick={()=> {
+                                <button className="auth_button auth_margin_right" onClick={()=> {
                                     navigate(ADMIN_ROUTE)
-                                }} style={{marginRight:20}}>
+                                }} >
                                     Админ панель
                                 </button>
                                 <button className="auth_button"  onClick={() => logOut()}>

@@ -2,10 +2,11 @@ import React, {useContext} from 'react';
 import {observer} from "mobx-react-lite";
 import {Context} from "../../index.js";
 import "./accordion.css"
-import PriceAccordion from "./PriceAccordion";
+
 import TypeAccordion from "./TypeAccordion";
 import BrandAccordion from "./BrandAccordion";
 import "./SelectorBar.css"
+import PriceAccordion from "./PriceAccordion";
 
 const SelectorBar = observer(() => {
     const {device, optionDevice} = useContext(Context)

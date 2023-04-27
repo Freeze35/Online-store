@@ -2,13 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reoptimizing for small resolution + add img + Navbar">
+      <change afterPath="$PROJECT_DIR$/client/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/styles/fontface.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/other/_redirects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SearchBar/SearchBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/helpers/RotateArrow/RotateArrow.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/helpers/RotateArrow/RotateArrow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/BrandAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/BrandAccordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/PriceAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/PriceAccordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/accordion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/changeDevicesByBrandId.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/changeDevicesByBrandId.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/changeDevicesByPrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/changeDevicesByPrice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreateType.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreateType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/http/userApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/http/userApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/buttonDeviceAddToBasket.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/buttonDeviceAddToBasket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +48,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,7 +76,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "Errors",
-    "ts.external.directory.path": "D:\\T\\online-store\\online-store\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "D:\\T\\online-store\\online-store\\client\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -63,20 +88,40 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\T\online-store\online-store\client\src\asstes" />
-      <recent name="D:\T\online-store\online-store\server\static" />
-      <recent name="D:\T\online-store\online-store" />
+      <recent name="D:\T\online-store\online-store\client\src\components\styles" />
+      <recent name="D:\T\online-store\online-store\client\src" />
       <recent name="D:\T\online-store\online-store\client" />
-      <recent name="D:\T\online-store\online-store\client\public" />
+      <recent name="D:\T\online-store\online-store\server\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\client" />
       <recent name="D:\T\online-store\online-store\client\src\components\helpers\RotateArrow" />
       <recent name="D:\T\online-store\online-store\client\src" />
       <recent name="D:\T\online-store\online-store\client\src\components\SearchBar" />
       <recent name="D:\T\online-store\online-store\client\src\components\Navbar" />
-      <recent name="D:\T\online-store\online-store\client\src\components\SelectorBar" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start (1)">
+  <component name="RunManager" selected="npm.prod">
+    <configuration name="build-prod-webpack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-prod-webpack" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prod" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -97,31 +142,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start-webpack-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="startprod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="startprod" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="startprod:webpack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="startprod:webpack" />
+        <script value="start-webpack-dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -129,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.prod" />
         <item itemvalue="npm.server" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.startprod:webpack" />
-        <item itemvalue="npm.startprod" />
+        <item itemvalue="npm.start-webpack-dev" />
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.build-prod-webpack" />
       </list>
     </recent_temporary>
   </component>
