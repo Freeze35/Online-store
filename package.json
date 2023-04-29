@@ -64,5 +64,8 @@
     "webpack-dev-server": "^4.13.3",
     "webpack-merge": "^5.8.0",
     "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "mocker-api": "^2.9.8"
   }
 }

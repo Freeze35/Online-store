@@ -4,11 +4,11 @@ const HtmlWebpackPlugin  =  require ( 'html-webpack-plugin' )
 const Dotenv = require('dotenv-webpack');
 const TerserPlugin = require("terser-webpack-plugin");
 const CompressionPlugin = require("compression-webpack-plugin");
-
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const InterpolateHtmlPlugin = require("interpolate-html-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const apiMocker = require('mocker-api');
 
 
 const filesThreshold = 8196; // (bytes) threshold for compression, url-loader plugins
@@ -33,6 +33,15 @@ const frontConfig = {
         //host: 'local-ip',
         //host: '192.168.0.102', // Required for docker
         //allowedHosts: "all",
+        onBeforeSetupMiddleware(api){
+            apiMocker(api.app, path.resolve('./mocker/api.js'),
+                {
+                    proxy: {
+                        '/repos/(.*)': 'https://api.github.com/',
+                    },
+                    changeHost: true,
+                })
+        },
         port: 3000,
         hot: true,
         historyApiFallback: true,

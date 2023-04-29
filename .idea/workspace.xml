@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reoptimizing for small resolution + add img + Navbar">
-      <change afterPath="$PROJECT_DIR$/client/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/styles/fontface.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/other/_redirects" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc" afterDir="false" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="webpack add mocking server">
+      <change afterPath="$PROJECT_DIR$/mocker/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/BrandAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/BrandAccordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/PriceAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/PriceAccordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/changeDevicesByBrandId.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/changeDevicesByBrandId.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/changeDevicesByPrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/changeDevicesByPrice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreateType.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreateType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/http/userApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/http/userApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/buttonDeviceAddToBasket.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/DeviceShop/buttonDeviceAddToBasket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +75,7 @@
       <recent name="D:\T\online-store\online-store\client\src\components\Navbar" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.prod">
+  <component name="RunManager" selected="npm.start-webpack-dev">
     <configuration name="build-prod-webpack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -154,9 +128,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start-webpack-dev" />
         <item itemvalue="npm.prod" />
         <item itemvalue="npm.server" />
-        <item itemvalue="npm.start-webpack-dev" />
         <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.build-prod-webpack" />
       </list>
@@ -410,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682407149715</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="webpack refactoring">
+      <created>1682631764080</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1682631764080</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +428,9 @@
     <MESSAGE value="Reworking selector system" />
     <MESSAGE value="Adaptive resizing" />
     <MESSAGE value="Reoptimizing for small resolution + add img + Navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reoptimizing for small resolution + add img + Navbar" />
+    <MESSAGE value="webpack refactoring" />
+    <MESSAGE value="webpack add mocking server" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack add mocking server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
