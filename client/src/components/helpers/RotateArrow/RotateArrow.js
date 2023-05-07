@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import leftArrow from "../../../asstes/left.svg";
+import leftArrow from "../../../assets/left.svg";
 import "./RotateArrow.css"
 
 const RotateArrow = ({option}) => {

@@ -1,12 +1,12 @@
 import React, {useContext} from 'react';
 import {Image} from "react-bootstrap";
-import star from "../../asstes/star.png"
+import star from "../../../assets/star.png"
 import {useNavigate} from "react-router-dom";
-import {DEVICE_ROUTE} from "../../utils/consts";
-import {addToBasket} from "./AddDeviceToBasket";
-import {Context} from "../../index.js";
-import add_to_basket from "../../asstes/add_to_basket.png";
-import "./buttonDeviceAddToBasket.css"
+import {DEVICE_ROUTE} from "../../../utils/consts";
+import {addToBasket} from "../AddDeviceToBasket";
+import {Context} from "../../../index.js";
+import add_to_basket from "../../../assets/add_to_basket.png";
+import "../buttonDeviceAddToBasket.css"
 import "./DeviceItem.css"
 
 const DeviceItem = ({device, brands}) => {

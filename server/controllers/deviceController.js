@@ -2,7 +2,6 @@ const {Device,DeviceInfo} = require("../models/models")
 const ApiError = require("../error/ApiError")
 const path = require("path")
 const uuid = require("uuid")
-//const {Op} = require("sequelize");
 class deviceController {
     async create(req,res,next){
         try {
@@ -32,7 +31,7 @@ class deviceController {
         }
     }
     async getAll(req,res){
-        let {brandId,typeId,limit,page} =req.query
+        let {brandId,typeId,limit,page} = req.query
         page = page || 1
         limit = limit || 8
         let offset = page * limit - limit

@@ -26,8 +26,8 @@ import {$authHost, $host} from "./index";
 
     // проверка авторизованности на сервере по токену соответветсвенно используется  $authHost
     // server/routes/typeRoutes.js router.post('/',checkRoleMiddlware("ADMIN"), typeController.create)
-    export const createDevice = async (device) => {
-        const {data} = await $authHost.post('api/device', device)
+    export const createDevice = async (device,file) => {
+        const {data} = await $authHost.post('api/device', device,file)
         return data
     }
 
@@ -53,8 +53,8 @@ import {$authHost, $host} from "./index";
     return data
     }
 
-    export const updateDeviceInfo = async (info,deviceId,infoId) => {
-    const {data} = await $authHost.put('api/device-info/'+deviceId, info, deviceId, infoId)
+    export const updateDeviceInfo = async (id,formData) => {
+    const {data} = await $authHost.put('api/device-info/' + id,formData)
     return data
     }
 

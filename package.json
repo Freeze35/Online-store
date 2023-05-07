@@ -66,6 +66,7 @@
     "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
+    "express-fileupload": "^1.4.0",
     "mocker-api": "^2.9.8"
   }
 }

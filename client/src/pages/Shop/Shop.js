@@ -1,11 +1,11 @@
 import React, {useContext, useEffect} from 'react';
-import DeviceList from "./DeviceShop/DeviceList";
+import DeviceList from "../Device/DeviceList/DeviceList";
 import {observer} from "mobx-react-lite";
-import {Context} from "../index.js";
-import {fetchBrands, fetchDevices, fetchTypes} from "../http/deviceApi";
-import Pages from "../components/Pages";
-import SortBar from "../components/SortBar/SortBar";
-import SelectorBar from "../components/SelectorBar/SelectorBar";
+import {Context} from "../../index.js";
+import {fetchBrands, fetchDevices, fetchTypes} from "../../http/deviceApi";
+import Pages from "../../components/Pages/Pages";
+import SortBar from "../../components/SortBar/SortBar";
+import SelectorBar from "../../components/SelectorBar/SelectorBar";
 import "./Shop.css"
 
 const Shop = observer(() => {
@@ -19,12 +19,10 @@ const Shop = observer(() => {
             device.setDevices(data.rows)
             device.setTotalCount(data.count)
             device.setLimit(limitPages)
-            device.setChangedDevices(data.rows)
             data.rows.map(dev => optionDevice.setTypeBrandListId([...optionDevice.typeBrandListId, {
                 typeId: dev.typeId,
                 brandId: dev.brandId
             }]))
-
         })
         fetchTypes().then(data => device.setTypes(data)) // Загружаем типы с сервера
         fetchBrands().then(data => device.setBrands(data)) // Загружаем брэнды с сервера

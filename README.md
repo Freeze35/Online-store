@@ -175,6 +175,8 @@ npm i -D @babel/polyfill @babel/preset-typescript @svgr/webpack @testing-library
 ```
 
 ## [Mocker-api](https://www.npmjs.com/package/mocker-api?activeTab=readme) Moker-Api For concetion mocker server
+If we wanted connecting to our local store PostgreSQL change our client/.env file  
+REACT_APP_API_URL="http://localhost:5001/"  
 Creating options for server  using webpack or a
 call api.app or another calling value (api,..) api.app  
 end set path to our file mocker (api)  
@@ -191,3 +193,5 @@ devServer: {
         }
     },
 ```
+
+add in our api.js file new get,post,put,delete moker

@@ -1,10 +1,10 @@
 require('dotenv').config()//Для считывания файла .env импортируем dotenv
 const express = require('express')
+const app = express()
 const sequelize = require('./db')
 const cors = require('cors')
 const router = require('./routes/index.js') //импортируем роутер который связывает все остальные routes
 const PORT = process.env.PORT || 5000 // for launch server 5000; PostgerDB started on 5001
-const app = express()
 const errorMiddlware = require("./middleware/ErrorMiddleware")
 const fileUpload = require("express-fileupload")
 const path =require('path')

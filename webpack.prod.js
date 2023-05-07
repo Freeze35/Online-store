@@ -9,6 +9,7 @@ const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const InterpolateHtmlPlugin = require("interpolate-html-plugin");
+const apiMocker = require("mocker-api");
 
 
 const filesThreshold = 8196; // (bytes) threshold for compression, url-loader plugins
@@ -27,10 +28,14 @@ const frontConfig = {
         //host: 'local-ip',
         //host: '192.168.0.102', // Required for docker
         //allowedHosts: "all",
+        //contentBase: './dist'
         port: 3000,
         hot: true,
         historyApiFallback: true,
         compress: true,
+        onBeforeSetupMiddleware(api){
+            apiMocker(api.app, path.resolve('./mocker/api.js'))
+        },
     },
     performance: {
         hints: false,

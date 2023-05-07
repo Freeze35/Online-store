@@ -81,6 +81,7 @@
     }
     .basket_img {
         margin: 0 15px 0 0;
+        height: clamp(25px, 5vw, 30px);
         width: clamp(25px, 5vw, 30px);
 
     }

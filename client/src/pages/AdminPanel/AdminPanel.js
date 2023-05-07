@@ -1,24 +1,25 @@
 import React, {useContext, useState} from 'react';
-import {Button, Col, Container, Row} from "react-bootstrap";
+import {Button} from "react-bootstrap";
 
 import CreateDevice from "../../components/modals/CreateDevice";
 import CreateBrand from "../../components/modals/CreateBrand";
 import CreateType from "../../components/modals/CreateType";
 import "./AdminPanel.css"
 import {Context} from "../../index.js";
+import {observer} from "mobx-react-lite";
 
-const AdminPanel = () => {
+const AdminPanel = observer(() => {
 
     const  [visibleType,setTypeVisible]=useState(false)
     const  [deviceVisible,setDeviceVisible]=useState(false)
     const  [brandVisible,setBrandVisible]=useState(false)
     const {device}=useContext(Context)
-    console.log(device.changedDevices)
-    return (
-<Row>
-    <Col md={3} className="d-flex justify-content-between align-items-center">
-        <Container style={{marginLeft:100}}>
-            <Button className="mt-3 add_new"
+    console.log(device.devices)
+return (
+<div className="admin_block">
+    <div className="upper_add">
+        <div className="add_container" >
+            <Button className="add_new"
                     variant={"outline-primary"}
                     onClick={()=>setTypeVisible(true)}
             >
@@ -39,10 +40,10 @@ const AdminPanel = () => {
             <CreateBrand show={brandVisible} onHide={()=>{setBrandVisible(false)}}/>
             <CreateType show={visibleType} onHide={()=>{setTypeVisible(false)}}/>
             <CreateDevice show={deviceVisible} onHide={()=>{setDeviceVisible(false)}}/>
-        </Container>
-    </Col>
-    <Col md={9}>
-        <div>
+        </div>
+    </div>
+    <div className="down_property">
+        <div className="property_block">
             <div className="property">
                 {device.types.map(type =>
                 <>{type.name}, </>)
@@ -59,9 +60,10 @@ const AdminPanel = () => {
                 }
             </div>
         </div>
-    </Col>
-</Row>
+    </div>
+</div>
     );
-};
+}
+);
 
 export default AdminPanel;

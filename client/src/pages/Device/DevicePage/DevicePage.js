@@ -1,12 +1,11 @@
 import React, {useContext, useEffect, useState} from 'react';
-import {Button, Card, Col, Container, Image, Row} from "react-bootstrap";
-import star from "../../asstes/star.png"
+import {Button, Image} from "react-bootstrap";
 import {useParams} from "react-router-dom";
-import {deleteOneInfoDevice, fetchOneDevice} from "../../http/deviceApi";
-import {Context} from "../../index.js";
-import CreatePageInfo from "../../components/modals/CreatePageInfo";
-import {addToBasket} from "./AddDeviceToBasket";
-
+import {deleteOneInfoDevice, fetchOneDevice} from "../../../http/deviceApi";
+import {Context} from "../../../index.js";
+import CreatePageInfo from "../../../components/modals/CreatePageInfo";
+import {addToBasket} from "../AddDeviceToBasket";
+import "./DevicePage.css"
 
 const DevicePage = () => {
     const [device, setDevice] = useState({info: []})
@@ -24,7 +23,7 @@ const DevicePage = () => {
 
         })
 
-    }, [device,id])
+    }, [device, id])
 
     const clearInfo = () => {
         setInfo(info.filter(i => i.number === 0))
@@ -41,45 +40,45 @@ const DevicePage = () => {
     }
     // Добавление элемента в массив user.basket
 
+    const Overwrite = (infoData) => {
+        setInfoVisible(true)
+        setUpdate(true)
+        clearInfo()
+        setInfo([...info, {
+            id: infoData.id, title: infoData.title,
+            description: infoData.description, number: Date.now()
+        }])
+    }
 
     if (!loading) {
         return (
-            <Container className="mt-3">
-                <Row>
-                    <Col md={4}>
-                        <Image style={{height: 350, width: 350}} src={process.env.REACT_APP_API_URL + device.img}/>
-                        <h2 className="d-flex justify-content-center align-items-center "
-                            style={{fontSize: 48}}>{device.name}</h2>
-                    </Col>
-                    <Col md={4}>
-                        <Row className="d-flex flex-column align-items-center">
-                            <div className="d-flex align-items-center justify-content-center"
-                                 style={{
-                                     background: `url(${star}) no-repeat center center`,
-                                     width: 240, height: 240, backgroundSize: "cover",
-                                     fontSize: 64
-                                 }}
-                            >
-                                {device.rating}
-                            </div>
-                        </Row>
-                    </Col>
-                    <Col md={4}>
-                        <Card
-                            className="d-flex flex-column align-items-center justify-content-around"
-                            style={{width: 300, height: 300, fontSize: 32, border: '5px solid lightgray'}}
-                        >
-                            <h3>От: {device.price} руб.</h3>
-                            <Button variant={"outline-dark"} onClick={() => addToBasket(user,id)}>Добавить в корзину</Button>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row className="d-flex flex-column m-3">
-                    <Row>
-                        <h1>Характеристики</h1>
+            <div className="full_block">
+                <div className="up_block">
+                    <div className="img_block">
+                        <Image className="image_device" src={process.env.REACT_APP_API_URL + device.img}/>
+                        <p>{device.name}</p>
+                    </div>
+                    <div className="rating_block">
+                        <div className="star_inside">
+                            {device.rating}
+                        </div>
+                    </div>
+                    <div className="buy_block">
+                        <p className="add_price">Цена:</p>
+                        <p className="add_price">{device.price} руб.</p>
+                        <Button className="add_buy_button" variant={"outline-dark"}
+                                onClick={() => addToBasket(user, id)}>Добавить в корзину</Button>
+                    </div>
+                </div>
+                <div className="down_block">
+                    <div style={{display:"flex",verticalAlign:"center"}}>
+                        <h1 className="characteristics">Характеристики</h1>
+                        {user.isAuth
+                            ?
                         <Button
+                            class
                             variant={"outline-dark"}
-                            className="m-3"
+                            className="add_new_character"
                             onClick={() => {
                                 setInfoVisible(true)
                                 setUpdate(false)
@@ -88,6 +87,8 @@ const DevicePage = () => {
                         >
                             Добавить новое свойство
                         </Button>
+                        :""
+                        }
                         <CreatePageInfo show={visibleInfo} onHide={() => {
                             setInfoVisible(false)
                             clearInfo()
@@ -97,21 +98,18 @@ const DevicePage = () => {
                                         setUpdate={setUpdate} clearInfo={clearInfo} removeInfoDB={removeInfoDB}
                                         setInfoVisible={setInfoVisible}
                         />
-                    </Row>
-
+                    </div>
+                    <div className="characteristics_down_block" >
                     {device.info.map((infoData, index) =>
-                        <Row key={infoData.id}
-                             style={{background: index % 2 === 0 ? 'lightgray' : 'transparent', padding: 10}}>
+                        <div key={infoData.id}
+                             className="info_data"
+                             style={{
+                                 background: index % 2 === 0 ? '#AED3FFFF' : 'transparent',
+                                 borderRadius:index === 0? "0 5px 5px 5px": "5px"}}>
                             {user.isAuth
-                                ? <Row>
+                                ? <div style={{display:"flex"}}>
                                     <Button variant="outline-success" onClick={() => {
-                                        setInfoVisible(true)
-                                        setUpdate(true)
-                                        clearInfo()
-                                        setInfo([...info, {
-                                            id: infoData.id, title: infoData.title,
-                                            description: infoData.description, number: Date.now()
-                                        }])
+                                        Overwrite(infoData)
                                     }} className="me-3 m-2">
                                         Обновить</Button>
                                     <Button variant="outline-danger" onClick={() => removeInfoDB(infoData.id)}
@@ -119,17 +117,18 @@ const DevicePage = () => {
                                     <div className="d-flex align-items-center justify-content-center">
                                         {infoData.title}: {infoData.description}
                                     </div>
-                                </Row>
+                                </div>
 
                                 : <div className="d-flex align-items-center justify-content-center">
                                     {infoData.title}: {infoData.description}
                                 </div>
                             }
-                        </Row>
+                        </div>
                     )}
+                    </div>
 
-                </Row>
-            </Container>
+                </div>
+            </div>
 
         );
     }

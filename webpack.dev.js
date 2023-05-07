@@ -9,10 +9,10 @@ const InterpolateHtmlPlugin = require("interpolate-html-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const apiMocker = require('mocker-api');
-
+const fileUpload = require("express-fileupload")
+const cors = require('cors')
 
 const filesThreshold = 8196; // (bytes) threshold for compression, url-loader plugins
-
 
 const frontConfig = {
     mode: "production",
@@ -34,6 +34,8 @@ const frontConfig = {
         //host: '192.168.0.102', // Required for docker
         //allowedHosts: "all",
         onBeforeSetupMiddleware(api){
+            api.app.use(fileUpload({}))
+            api.app.use(cors())
             apiMocker(api.app, path.resolve('./mocker/api.js'),
                 {
                     proxy: {
@@ -75,7 +77,7 @@ const frontConfig = {
         }),
         new CleanWebpackPlugin(),
         new Dotenv({
-            path: path.resolve(__dirname, './.env'),
+            path: path.resolve(__dirname, './client/.env'),
         }),
         new CompressionPlugin({
             // optional: it creates gzipped (compressed) files in '[path].gz[query]'

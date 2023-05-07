@@ -87,6 +87,7 @@ export default class DeviceStore {
     get devices() {
         return this._devices
     }
+
     get changedDevices() {
         return this._changedDevices
     }

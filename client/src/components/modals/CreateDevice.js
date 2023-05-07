@@ -23,6 +23,7 @@ const CreateDevice = observer(({show, onHide}) => {
     }
 
     const addDevice = () => {
+
         const formData = new FormData()
         formData.append('name', name)
         formData.append('price', `${price}`)
@@ -30,7 +31,8 @@ const CreateDevice = observer(({show, onHide}) => {
         formData.append('brandId', device.selectedBrand.id)
         formData.append('typeId', device.selectedType.id)
         formData.append('info', JSON.stringify(info))
-        createDevice(formData).then(() => onHide())
+        console.log(file)
+        createDevice(formData,file).then(() => onHide())
     }
 
     return (
@@ -63,11 +65,12 @@ const CreateDevice = observer(({show, onHide}) => {
                         </Dropdown.Menu>
                     </Dropdown>
                     <Dropdown className="mt-2 mb-2">
-                        <Dropdown.Toggle>{device.selectedBrand.name || "Выберите тип"}</Dropdown.Toggle>
+                        <Dropdown.Toggle>{device.selectedBrand.name || "Выберите брэнд"}</Dropdown.Toggle>
                         <Dropdown.Menu>
                             {device.brands.map(brand =>
                                 <Dropdown.Item
-                                    onClick={() => device.setSelectedBrand(brand)}
+                                    onClick={() =>
+                                        device.setSelectedBrand(brand)}
                                     key={brand.id}
                                 >
                                     {brand.name}

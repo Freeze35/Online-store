@@ -11,7 +11,7 @@ const CreatePageInfo = observer(({show, onHide,device,setDevice,
     ) => {
     const addDeviceInfo = (e) => {
         e.preventDefault()
-        const formData = new FormData()
+        const formData = new URLSearchParams()
         formData.append('deviceId', device.id)
         formData.append('info', JSON.stringify(info))
         createDeviceInfo(formData).then(() => onHide())
@@ -24,11 +24,12 @@ const CreatePageInfo = observer(({show, onHide,device,setDevice,
 
     const updateInfo = (e) => {
         e.preventDefault()
-        const formData = new FormData()
+        const formData = new URLSearchParams()
         formData.append('info', JSON.stringify(info))
         formData.append('deviceId', id)
         formData.append('infoId', info.at(0).id)
-        updateDeviceInfo(formData).then(() => {
+
+        updateDeviceInfo(id,formData).then(() => {
             fetchOneDevice(id).then(data => {
                 setDevice(data)
                 setLoading(false)})

@@ -2,17 +2,15 @@ import React, {useContext} from 'react';
 import {Context} from "../../index.js";
 import "./SortBar.css"
 import RotateArrow from "../helpers/RotateArrow/RotateArrow";
+import checkTypesBrandsPrices from "../checkTypesBrandsPrices";
+import sortList from "./SortList/SortList";
+import PagesLimit from "../Pages/PagesLimit";
 const SortBar = () => {
-    const {device} = useContext(Context)
+    const {device, optionDevice} = useContext(Context)
 
     const options = [
         {value: "name", name: "Название"},
         {value: "price", name: "Цена"}]
-
-    const sortMethods = {
-        name: {method: (a, b) => a[`name`].localeCompare(b[`name`])},
-        price: {method: (a, b) => a[`price`] - b[`price`]}
-    };
 
     const checkLast =(options,index,addingClass)=>{
         return options.length === ~~(index+1)
@@ -20,24 +18,28 @@ const SortBar = () => {
             : `button_toggles ${addingClass}`
     }
 
+
     const sortingData = (e, option,index) => {
-
+        device.setChangedDevices(device.devices)
+        checkTypesBrandsPrices(device, optionDevice)
+        let sortValue = e.target.getAttribute("value")
         let element = document.getElementById(option.value)
-        let sortList = () => {
-            device.setChangedDevices([...device.changedDevices].sort(sortMethods[e.target.getAttribute("value")].method))
-        }
-        if (e.target.checked) {
 
+        if (e.target.checked) {
+            optionDevice.setSortOptions({sortOption:[`${option.value}`]})
+            console.log(optionDevice.sortOptions.sortOption.length > 0)
             const activeClass= "button_toggles_active"
             element.className = checkLast(options,index,activeClass)
             document.getElementById(`${option.value}rotate${option.name}`).click()
-            sortList()
+            sortList(device,sortValue)
         } else {
+            optionDevice.setSortOptions({sortOption:""})
             element.className = checkLast(options,index)
             document.getElementById(`${option.value}rotate${option.name}`).click()
-            sortList()
+            sortList(device,sortValue)
             device.setChangedDevices([...device.changedDevices].reverse())
         }
+        PagesLimit(device,optionDevice)
     }
 
     return (

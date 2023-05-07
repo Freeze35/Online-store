@@ -4,7 +4,7 @@ import {ADMIN_ROUTE, BASKET_ROUTE, LOGIN_ROUTE, SHOP_ROUTE} from "../../utils/co
 import {Context} from "../../index.js";
 import {observer} from "mobx-react-lite";
 import SearchBar from "../SearchBar/SearchBar";
-import basket_white from "../../asstes/basket_icon_white.png"
+import basket_white from "../../assets/basket_icon_white.png"
 import "./NavBar.css"
 
 const NavBar = observer(() => {

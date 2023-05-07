@@ -88,7 +88,6 @@ const PriceAccordion = observer(({children, type}) => {
             setRangeValues({...rangeValues, max: maxPrice})
             takeSliderParams(rangeValues.min,Number(e.target.value))
         }
-        console.log(optionDevice.limitPrice)
     }
 
     return (

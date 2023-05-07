@@ -1,0 +1,49 @@
+{
+  "count": 4,
+  "rows": [
+    {
+      "id": 4,
+      "name": "LG LQ57",
+      "price": 15000,
+      "rating": 0,
+      "img": "27822895-f37b-46ad-b26c-ae5d3b260189.webp",
+      "createdAt": "2023-02-16T22:14:38.682Z",
+      "updatedAt": "2023-02-16T22:14:38.682Z",
+      "typeId": 6,
+      "brandId": 3
+    },
+    {
+      "id": 1,
+      "name": "S7",
+      "price": 63000,
+      "rating": 0,
+      "img": "062eb0e4-4791-4cb0-bd06-1d7f4022a006.webp",
+      "createdAt": "2023-01-31T15:41:59.583Z",
+      "updatedAt": "2023-01-31T15:41:59.583Z",
+      "typeId": 5,
+      "brandId": 1
+    },
+    {
+      "id": 2,
+      "name": "RL55TGBIH",
+      "price": 70000,
+      "rating": 0,
+      "img": "ccd380e3-4f8a-4946-93a1-f734b6884704.webp",
+      "createdAt": "2023-02-06T15:42:03.873Z",
+      "updatedAt": "2023-02-06T15:42:03.873Z",
+      "typeId": 1,
+      "brandId": 1
+    },
+    {
+      "id": 3,
+      "name": "ZTE Blade A3 2020",
+      "price": 16000,
+      "rating": 0,
+      "img": "4546bb7d-beb4-4595-b5ff-d62956c58a7e.webp",
+      "createdAt": "2023-02-15T21:20:49.343Z",
+      "updatedAt": "2023-02-15T21:20:49.343Z",
+      "typeId": 5,
+      "brandId": 2
+    }
+  ]
+}

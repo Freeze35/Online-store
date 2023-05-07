@@ -6,6 +6,7 @@ export default class OptionStore{
         this._typeDevicesList=[]
         this._specialID=[]
         this._limitPrice=[]
+        this._sortOptions= {sortOption:""}
         makeAutoObservable(this)
     }
 
@@ -21,6 +22,10 @@ export default class OptionStore{
         this._limitPrice = limitPrice
     }
 
+    setSortOptions(sortOptions){
+        this._sortOptions = sortOptions
+    }
+
     get typeBrandListId(){
         return this._typeDevicesList
     }
@@ -30,6 +35,9 @@ export default class OptionStore{
     }
     get limitPrice(){
         return this._limitPrice
+    }
+    get sortOptions(){
+        return this._sortOptions
     }
 
 }

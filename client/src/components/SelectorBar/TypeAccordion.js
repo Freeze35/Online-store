@@ -3,13 +3,19 @@ import Scrollbars from "react-custom-scrollbars-2";
 import {observer} from "mobx-react-lite";
 import ChangeDevicesByTypeId from "../changeDevicesByTypeId";
 import checkTypesBrandsPrices from "../checkTypesBrandsPrices";
+import PagesLimit from "../Pages/PagesLimit";
 
 const TypeAccordion = observer(({children, device, type, optionDevice}) => {
     const [open, setOPen] = useState(false)
 
     useEffect(() => {
-        checkTypesBrandsPrices(device,optionDevice)
+        device.setPage(1)
+        device.setChangedDevices(device.devices)
+        checkTypesBrandsPrices(device, optionDevice)
+        PagesLimit(device,optionDevice)
     }, [device.selectedType,optionDevice.limitPrice, device.selectedBrand])
+
+
 
     const typeCheckHeader = (e, type) => {
         setOPen(!open)
@@ -60,6 +66,7 @@ const TypeAccordion = observer(({children, device, type, optionDevice}) => {
             device.setSelectedType(Array.from(new Set([...device.selectedType, type.id])))
             ChangeDevicesByTypeId(device)
         }
+
     }
 
     const notLast =()=> {
@@ -70,15 +77,18 @@ const TypeAccordion = observer(({children, device, type, optionDevice}) => {
 
         <div key={`${type.id}axcddf${type.name}`}
              style={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
-            <button className={open ? "button-accordion" : "button-accordion-closed"}
-                    key={`${type.id}t${type.name}`}
-                    id={`${type.id}t${type.name}`}
+            <div style={{cursor:"pointer"}} onClick={(e) => {
+                typeCheckHeader(e, type)
+            }}>
+                <button className={open ? "button-accordion" : "button-accordion-closed"}
+                        key={`${type.id}t${type.name}`}
+                        id={`${type.id}t${type.name}`}
 
-                    onClick={(e) => {
-                        typeCheckHeader(e, type)
-                    }}>
-                {type.name}
-            </button>
+                >
+                    {type.name}
+                </button>
+            </div>
+
             {notLast()?"":<hr className="hr"/>}
             {open && notLast()? <hr className="hr" /> : ""}
             <div key={`${type.id}a__a${type.name}`} className={open ? "accordion-box-expanded" : "accordion-box"}

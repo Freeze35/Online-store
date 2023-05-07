@@ -35,7 +35,7 @@
 .add_to_basket {
     scale: 120%;
     width: clamp(20px, 1.5vw, 40px);
-    height: clamp(20px, 2vw, 40px);
+    height: clamp(20px, 1.75vw, 50px);
     transition-duration: 0.15s;
     justify-content: center;
 }

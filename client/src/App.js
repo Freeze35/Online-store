@@ -7,6 +7,7 @@ import {Context} from "./index.js";
 import {check} from "./http/userApi";
 import {Spinner} from "react-bootstrap";
 import "./App.css"
+import "./components/styles/fontface.css"
 
 const App = observer(() => {
     const {user} = useContext(Context)

@@ -2,11 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="webpack add mocking server">
-      <change afterPath="$PROJECT_DIR$/mocker/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/static/27822895-f37b-46ad-b26c-ae5d3b260189.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/static/4546bb7d-beb4-4595-b5ff-d62956c58a7e.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/static/ccd380e3-4f8a-4946-93a1-f734b6884704.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Pages/Pages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Pages/PagesLimit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortList/SortList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mocker/brandApi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mocker/deviceInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mocker/devicesApi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mocker/typesApi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/add_to_basket.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/add_to_basket.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/basket_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/basket_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/basket_icon_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/basket_icon_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/Rubik-Regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/Rubik-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/Rubik-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/Rubik-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/fonts/Rubik-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/Rubik-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/asstes/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/PriceAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/PriceAccordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/TypeAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/TypeAccordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/checkTypesBrandsPrices.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/checkTypesBrandsPrices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/helpers/RotateArrow/RotateArrow.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/helpers/RotateArrow/RotateArrow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreateDevice.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreateDevice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreatePageInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreatePageInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/styles/fontface.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/styles/fontface.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/styles/multirangeSlider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/http/deviceApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/http/deviceApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/AdminPanel/AdminPanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/AdminPanel/AdminPanel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/AdminPanel/AdminPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/AdminPanel/AdminPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/AddDeviceToBasket.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/AddDeviceToBasket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceList.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceList/DeviceList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/DeviceList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceList/DeviceList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/DeviceShop/buttonDeviceAddToBasket.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/buttonDeviceAddToBasket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop/Shop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop/Shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/DeviceStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/DeviceStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/OptionStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/OptionStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/deviceController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/deviceController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/deviceInfoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/deviceInfoController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middleware/authMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/authMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middleware/checkMiddlware.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/checkMiddlware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +87,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2L2MIgOnGLNesXqlOy3CGtAoQJI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,51 +95,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.12.1",
-    "javascript.nodejs.core.library.typings.version": "18.14.6",
-    "last_opened_file_path": "D:/T/online-store/online-store/client/src/asstes",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "Errors",
-    "ts.external.directory.path": "D:\\T\\online-store\\online-store\\client\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.6&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/T/online-store/online-store/mocker&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\T\\online-store\\online-store\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\mocker" />
       <recent name="D:\T\online-store\online-store\client\src\asstes" />
       <recent name="D:\T\online-store\online-store\client\src\components\styles" />
       <recent name="D:\T\online-store\online-store\client\src" />
       <recent name="D:\T\online-store\online-store\client" />
-      <recent name="D:\T\online-store\online-store\server\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\T\online-store\online-store\client" />
-      <recent name="D:\T\online-store\online-store\client\src\components\helpers\RotateArrow" />
-      <recent name="D:\T\online-store\online-store\client\src" />
-      <recent name="D:\T\online-store\online-store\client\src\components\SearchBar" />
-      <recent name="D:\T\online-store\online-store\client\src\components\Navbar" />
+      <recent name="D:\T\online-store\online-store\client\src\components\Pages" />
+      <recent name="D:\T\online-store\online-store\client\src\pages\Device\DevicePage" />
+      <recent name="D:\T\online-store\online-store\client\src\pages\Device\DeviceItem" />
+      <recent name="D:\T\online-store\online-store\client\src\pages\Device\DeviceList" />
+      <recent name="D:\T\online-store\online-store\client\src\pages\Shop" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start-webpack-dev">
+  <component name="RunManager" selected="npm.build-prod-webpack">
     <configuration name="build-prod-webpack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build-prod-webpack" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="client" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -106,16 +175,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="start-webpack-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -128,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start-webpack-dev" />
-        <item itemvalue="npm.prod" />
-        <item itemvalue="npm.server" />
-        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.build-prod-webpack" />
+        <item itemvalue="npm.prod" />
+        <item itemvalue="npm.client" />
+        <item itemvalue="npm.start-webpack-dev" />
+        <item itemvalue="npm.server" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +225,8 @@
       <workItem from="1677938133646" duration="236356000" />
       <workItem from="1678466091219" duration="111529000" />
       <workItem from="1681688448536" duration="275371000" />
+      <workItem from="1682854460478" duration="126251000" />
+      <workItem from="1683125388783" duration="132214000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -391,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682631764080</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="webpack add mocking server">
+      <created>1682796517255</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1682796517255</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
