@@ -20,6 +20,7 @@ const CheckTypesBrandsPrices = (device, optionDevice) => {
         else if(!device.selectedType.length) {
             device.setChangedDevices(device.devices)
         }
+        device.setTotalCount(device.changedDevices.length)
 
 };
 
