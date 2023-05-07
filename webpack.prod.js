@@ -19,7 +19,7 @@ const frontConfig = {
     mode: "production",
     entry: ["core-js/modules/es.promise", "core-js/modules/es.array.iterator","./client/src/index.js"],
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "client/dist"),
         filename: "[name].[hash].js",
         clean: true,
         publicPath: '/'
