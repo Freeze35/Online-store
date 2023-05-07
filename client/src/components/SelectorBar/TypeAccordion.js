@@ -77,7 +77,9 @@ const TypeAccordion = observer(({children, device, type, optionDevice}) => {
 
         <div key={`${type.id}axcddf${type.name}`}
              style={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
-            <div style={{cursor:"pointer"}} onClick={(e) => {
+            <div id={`${type.id}sel_type${type.name}`}
+                style={{cursor:"pointer"}}
+                onClick={(e) => {
                 typeCheckHeader(e, type)
             }}>
                 <button className={open ? "button-accordion" : "button-accordion-closed"}

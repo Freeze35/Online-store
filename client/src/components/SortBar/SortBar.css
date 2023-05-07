@@ -46,7 +46,10 @@
 @media screen and (max-width: 768px) {
 
     .button_toggles{
-        width:  clamp(80px, 22vw, 240px);
+        width:  clamp(180px, 22vw, 240px);
+        height: clamp(60px, 6vw, 240px);
+        font-size: clamp(10px, 3.5vw, 140px);
+
     }
 
     .toggle_group{

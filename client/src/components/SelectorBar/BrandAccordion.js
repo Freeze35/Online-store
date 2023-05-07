@@ -46,7 +46,9 @@ const BrandAccordion = observer(({device, type, optionDevice}) => {
 
     return (
         <div key={`${type.id}a${type.name}`} className="accordion_block">
-            <button className={open ? "inside_button button-accordion" : "inside_button button-accordion-closed"}
+            <button className={open
+                ? "inside_button button-accordion orange_accordion_button"
+                : "inside_button button-accordion-closed orange_accordion_button_closed"}
 
                     onClick={() => {
                         clickOnButtonAccordionBrand()

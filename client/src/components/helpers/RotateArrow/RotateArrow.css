@@ -28,3 +28,11 @@
     rotate: 179deg;
     transition: 0.2s ease-in-out;
 }
+
+@media screen and (max-width: 768px) {
+
+    .full_arrow{
+        height: clamp(15px, 5vw, 140px);
+        width: clamp(15px, 3vw, 140px);
+    }
+}

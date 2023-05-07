@@ -1,10 +1,11 @@
 import React, {useContext} from 'react';
 import {Context} from "../../index.js";
-import "./SortBar.css"
 import RotateArrow from "../helpers/RotateArrow/RotateArrow";
 import checkTypesBrandsPrices from "../checkTypesBrandsPrices";
 import sortList from "./SortList/SortList";
 import PagesLimit from "../Pages/PagesLimit";
+import "./SortBar.css"
+
 const SortBar = () => {
     const {device, optionDevice} = useContext(Context)
 
@@ -12,10 +13,10 @@ const SortBar = () => {
         {value: "name", name: "Название"},
         {value: "price", name: "Цена"}]
 
-    const checkLast =(options,index,addingClass)=>{
+    const checkLast =(options,index)=>{
         return options.length === ~~(index+1)
-            ? `button_toggles last_toggles ${addingClass}`
-            : `button_toggles ${addingClass}`
+            ? `button_toggles last_toggles`
+            : `button_toggles`
     }
 
 

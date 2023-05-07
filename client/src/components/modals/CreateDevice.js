@@ -65,7 +65,7 @@ const CreateDevice = observer(({show, onHide}) => {
                         </Dropdown.Menu>
                     </Dropdown>
                     <Dropdown className="mt-2 mb-2">
-                        <Dropdown.Toggle>{device.selectedBrand.name || "Выберите брэнд"}</Dropdown.Toggle>
+                        <Dropdown.Toggle>{device.selectedBrand.name || "Выберите бренд"}</Dropdown.Toggle>
                         <Dropdown.Menu>
                             {device.brands.map(brand =>
                                 <Dropdown.Item

@@ -1,4 +1,3 @@
-import React from 'react';
 
 const PagesLimit = (device) => {
     let totalC = device.totalCount

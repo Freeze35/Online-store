@@ -92,7 +92,9 @@ const PriceAccordion = observer(({children, type}) => {
 
     return (
         <div key={`${type.id}p_a${type.name}`} className="accordion_block">
-            <button className={open ? "inside_button button-accordion" : "inside_button button-accordion-closed"}
+            <button className={open
+                ? "inside_button button-accordion orange_accordion_button"
+                : "inside_button button-accordion-closed orange_accordion_button_closed"}
                     onClick={e => {
                         setOpen(!open)
                         addPriceSelector(e,open,type)

@@ -43,7 +43,6 @@
 }
 
 .button-accordion{
-
     display: flex;
     background: #007afe;
     border: none;
@@ -127,10 +126,21 @@
     pointer-events: none;
 }
 
+
+
 @media screen and (max-width: 768px) {
     .button-accordion-closed {
         width: clamp(115px, 70vw, 800px);
         font-size: clamp(15px, 5vw, 800px);
+    }
+    .orange_accordion_button_closed{
+        color: #ff9100;
+    }
+    .orange_accordion_button_closed:hover{
+        color: rgba(255, 145, 0, 0.7);
+    }
+    .orange_accordion_button{
+        background: #ff9100;
     }
     .button-accordion{
         width: clamp(115px, 70vw, 800px);
