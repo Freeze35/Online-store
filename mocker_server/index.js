@@ -1,10 +1,15 @@
-const express = require("express");
-const app = express();
-app.get("/", (req, res) => {
-    res.send("Express on Vercel");
-});
-app.listen(5000, () => {
-    console.log("Running on port 5000.");
-});
-// Export the Express API
+const express = require('express');
+const path = require('path');
+const apiMocker = require('mocker-api');
+//const cors = require('cors')
+const app = express()
+
+//app.use(cors())
+
+
+
+
+apiMocker(app, path.resolve('./mocker/api.js'))
+app.listen(5001);
+
 module.exports = app;
