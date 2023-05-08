@@ -7,8 +7,8 @@
 
 .buttonAddToBasket{
     box-shadow: 0 0 4px black;
-    height:clamp(50px, 5vw, 75px);
-    width:clamp(50px, 5vw, 75px);
+    height:clamp(50px, 6vw, 75px);
+    width:clamp(50px, 6vw, 75px);
     border-radius: 55px;
     text-align:center;
     outline: none;
@@ -34,7 +34,7 @@
 
 .add_to_basket {
     scale: 120%;
-    width: clamp(20px, 1.5vw, 40px);
+    width: clamp(20px, 1.75vw, 40px);
     height: clamp(20px, 1.75vw, 50px);
     transition-duration: 0.15s;
     justify-content: center;

@@ -15,8 +15,8 @@ const cors = require('cors')
 const filesThreshold = 8196; // (bytes) threshold for compression, url-loader plugins
 
 const frontConfig = {
-    mode: "production",
-    entry: ["core-js/modules/es.promise", "core-js/modules/es.array.iterator","./client/src/index.js"],
+    mode: "dev",
+    entry: ["core-js/modules/es.promise", "core-js/modules/es.array.iterator","./src/index.js"],
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "[name].[hash].js",
@@ -55,8 +55,8 @@ const frontConfig = {
         }),
         new HtmlWebpackPlugin({
             filename: "./index.html",
-            template: "./client/public/index.html",
-            favicon: './client/public/favicon.ico',
+            template: "./public/index.html",
+            favicon: './public/favicon.ico',
             inject: true,
             minify: {
                 removeComments: true,
@@ -77,7 +77,7 @@ const frontConfig = {
         }),
         new CleanWebpackPlugin(),
         new Dotenv({
-            path: path.resolve(__dirname, './client/.env'),
+            path: path.resolve(__dirname, './.env'),
         }),
         new CompressionPlugin({
             // optional: it creates gzipped (compressed) files in '[path].gz[query]'

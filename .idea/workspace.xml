@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="sorting + page reworking">
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="webpack client/dist set">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/PagesLimit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Pages/PagesLimit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/BrandAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/BrandAccordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/PriceAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/PriceAccordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/TypeAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/TypeAccordion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/checkTypesBrandsPrices.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/checkTypesBrandsPrices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/helpers/RotateArrow/RotateArrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/helpers/RotateArrow/RotateArrow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreateDevice.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreateDevice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop/Shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop/Shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop/Shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/buttonDeviceAddToBasket.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/buttonDeviceAddToBasket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/mocker/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker/brandApi.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/mocker/brandApi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker/deviceInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/mocker/deviceInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker/devicesApi.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/mocker/devicesApi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker/typesApi.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/mocker/typesApi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.prod.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,19 +79,19 @@
       <recent name="D:\T\online-store\online-store\client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\client" />
       <recent name="D:\T\online-store\online-store\client\src\components\Pages" />
       <recent name="D:\T\online-store\online-store\client\src\pages\Device\DevicePage" />
       <recent name="D:\T\online-store\online-store\client\src\pages\Device\DeviceItem" />
       <recent name="D:\T\online-store\online-store\client\src\pages\Device\DeviceList" />
-      <recent name="D:\T\online-store\online-store\client\src\pages\Shop" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.client">
-    <configuration name="build-prod-webpack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
+  <component name="RunManager" selected="npm.build-webpack-prod">
+    <configuration name="build-webpack-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
       <scripts>
-        <script value="build-prod-webpack" />
+        <script value="build-webpack-prod" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -107,31 +107,31 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="prod" />
+        <script value="server" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start-webpack-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start-reactClient-postServer" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start-webpack-dev" />
+        <script value="start-reactClient-postServer" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="startserver" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
+    <configuration name="start-webpack-prodServer" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
       <scripts>
-        <script value="startserver" />
+        <script value="start-webpack-prodServer" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build-webpack-prod" />
         <item itemvalue="npm.client" />
-        <item itemvalue="npm.startserver" />
-        <item itemvalue="npm.build-prod-webpack" />
-        <item itemvalue="npm.prod" />
-        <item itemvalue="npm.start-webpack-dev" />
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.start-reactClient-postServer" />
+        <item itemvalue="npm.start-webpack-prodServer" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,8 @@
       <workItem from="1678466091219" duration="111529000" />
       <workItem from="1681688448536" duration="275371000" />
       <workItem from="1682854460478" duration="126251000" />
-      <workItem from="1683125388783" duration="154495000" />
+      <workItem from="1683125388783" duration="161705000" />
+      <workItem from="1683505933940" duration="5814000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -418,7 +419,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683436707315</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="sorting + page reworking">
+      <created>1683495138508</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1683495138508</updated>
+    </task>
+    <task id="LOCAL-00036" summary="sorting + page reworking">
+      <created>1683495156510</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1683495156510</updated>
+    </task>
+    <task id="LOCAL-00037" summary="webpack client/dist set">
+      <created>1683503112595</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1683503112595</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +480,8 @@
     <MESSAGE value="webpack refactoring" />
     <MESSAGE value="webpack add mocking server" />
     <MESSAGE value="sorting + page reworking" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorting + page reworking" />
+    <MESSAGE value="webpack client/dist set" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack client/dist set" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

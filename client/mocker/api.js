@@ -2,7 +2,7 @@ let devices = require("./devicesApi.json")
 let devicesInfo = require("./deviceInfo.json")
 const path = require("path");
 const fs = require("fs");
-const ApiError = require("../server/error/ApiError");
+const ApiError = require("../../server/error/ApiError");
 const { v4: uuidv4 } = require('uuid');
 
 
@@ -121,10 +121,11 @@ const proxy = {
     'GET /api/brand': (req, res) => {
         return res.json(allBrands)
     },
+    //get our images. If change place mocker folder change this
     'GET /:url.webp': (req, res) => {
         const {url} = req.params;
 
-        res.sendFile(path.resolve(__dirname, `../client/src/assets/static/${url}.webp`))
+        res.sendFile(path.resolve(__dirname, `../src/assets/static/${url}.webp`))
     },
     'DELETE /api/device-info/:id': (req, res) => {
         const {id} = req.params

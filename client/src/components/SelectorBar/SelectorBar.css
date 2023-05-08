@@ -13,7 +13,8 @@
     border-radius: 5px;
     padding: 20px 0 20px;
     height: auto;
-    width: clamp(150px, 24vw, 340px);
+    min-width: 150px;
+    width: 24vw;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -35,14 +36,15 @@
 
 @media screen and (max-width: 768px) {
     .detailed_search{
-        vertical-align: middle;
+        display: inline-block;
+        vertical-align: center;
         height: 10vh;
         line-height: 10vh;
         background: #007afe;
-        width: 100%;
+        width: 97.25vw;
         color: white;
         text-align: center;
-        font-size: clamp(20px, 6vw, 340px);
+        font-size: 6vw;
         border-radius: 0 0 50px 50px;
         box-shadow: 0 0 5px #007afe;
         cursor: pointer;
@@ -51,11 +53,7 @@
     .selector_div{
         margin: 15px 0 15px;
         padding:10px;
-        height: 70vh;
-        width: clamp(150px, 90%, 100%);
-    }
-    .detailed_search{
-        width: 100vw;
-        display: inline-block;
+        height: 65vh;
+        width: clamp(150px, 80%, 900%);
     }
 }

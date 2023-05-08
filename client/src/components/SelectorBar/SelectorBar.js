@@ -73,7 +73,7 @@ const SelectorBar = observer(() => {
         <div className="upper_selector_div">
             <div className="selector_div" id="selector_div">
                 {windowWidth < 768
-                    ? <Scrollbars autoHide={false}>
+                    ? <Scrollbars>
                         {device.types.map((type) => {
                             return (
                                 <TypeAccordion key={`${type.name}op${type.id}`} type={type} device={device}
