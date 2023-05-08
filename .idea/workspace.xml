@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="webpack client change">
-      <change afterPath="$PROJECT_DIR$/client/src/assets/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/star_orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/static/star.svg" afterDir="false" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="pages refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/mocker/devicesApi.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/mocker/devicesApi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceList/DeviceList.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceList/DeviceList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/buttonDeviceAddToBasket.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/buttonDeviceAddToBasket.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +165,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="9312000" />
+      <workItem from="1683517862239" duration="10453000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -460,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683514245932</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="pages refactoring">
+      <created>1683527636155</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1683527636155</updated>
+    </task>
+    <task id="LOCAL-00042" summary="pages refactoring">
+      <created>1683527720201</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1683527720201</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +503,8 @@
     <MESSAGE value="sorting + page reworking" />
     <MESSAGE value="webpack client/dist set" />
     <MESSAGE value="webpack client change" />
-    <option name="LAST_COMMIT_MESSAGE" value="webpack client change" />
+    <MESSAGE value="pages refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="pages refactoring" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
