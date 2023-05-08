@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="pages refactoring">
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="webpack refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "18.12.1",
     "javascript.nodejs.core.library.typings.version": "18.14.6",
-    "last_opened_file_path": "D:/T/online-store/online-store/client/src/assets",
+    "last_opened_file_path": "D:/T/online-store/online-store/client/src",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -61,8 +61,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\T\online-store\online-store\client\src\assets" />
       <recent name="D:\T\online-store\online-store\client\src" />
+      <recent name="D:\T\online-store\online-store\client\src\assets" />
       <recent name="D:\T\online-store\online-store\client\src\assets\static" />
       <recent name="D:\T\online-store\online-store\mocker" />
       <recent name="D:\T\online-store\online-store\client\src\asstes" />
@@ -75,9 +75,9 @@
       <recent name="D:\T\online-store\online-store\client\src\pages\Device\DeviceList" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start-webpack-devServer">
-    <configuration name="build-webpack-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
+  <component name="RunManager" selected="npm.start-webpack-prodServer2">
+    <configuration name="build-webpack-prod (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
       <scripts>
         <script value="build-webpack-prod" />
@@ -86,31 +86,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="server" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start-webpack-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start-webpack-dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start-webpack-devServer" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="mocker1" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start-webpack-devServer" />
+        <script value="mocker1" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -126,13 +106,33 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start-webpack-prodServer2" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start-webpack-prodServer2" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start-webpack-devServer" />
-        <item itemvalue="npm.start-webpack-dev" />
+        <item itemvalue="npm.start-webpack-prodServer2" />
+        <item itemvalue="npm.mocker1" />
         <item itemvalue="npm.start-webpack-prodServer" />
-        <item itemvalue="npm.build-webpack-prod" />
-        <item itemvalue="npm.server" />
+        <item itemvalue="npm.build-webpack-prod (1)" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +169,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="11652000" />
+      <workItem from="1683517862239" duration="28121000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -472,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683528561326</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="webpack refactor">
+      <created>1683530049552</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1683530049552</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SelectorBrand work" />
     <MESSAGE value="SelectorBrand work + Readme fix" />
     <MESSAGE value="SelectorBrand work =&gt; Brand Adapting" />
     <MESSAGE value="SelectorBrand work =&gt; Brand Adapting Over &#10;-- Not Clear Version" />
@@ -515,7 +521,8 @@
     <MESSAGE value="webpack client/dist set" />
     <MESSAGE value="webpack client change" />
     <MESSAGE value="pages refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="pages refactoring" />
+    <MESSAGE value="webpack refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack refactor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

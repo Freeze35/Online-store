@@ -13,6 +13,8 @@ const App = observer(() => {
     const {user} = useContext(Context)
     const[isLoading,setIsLoading]=useState(true)
 
+
+
     useEffect(()=>{
         document.body.style.overflow = 'scroll'; // Состояние постоянного scroll элемента на странице
         document.body.style.overflowX = 'auto';
