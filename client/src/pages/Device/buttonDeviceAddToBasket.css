@@ -45,3 +45,9 @@
     justify-content: center;
     filter: drop-shadow(0px 0px 1px #ff9100) invert(38%) sepia(80%) hue-rotate(-15deg) saturate(6);
 }
+
+@media screen and (max-width: 768px) {
+    .add_div{
+        padding-top: clamp(10px, 10vw, 50px);
+    }
+}

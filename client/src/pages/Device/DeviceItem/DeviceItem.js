@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import {Image} from "react-bootstrap";
-import star from "../../../assets/star.png"
+import star from "../../../assets/star_orange.png"
 import {useNavigate} from "react-router-dom";
 import {DEVICE_ROUTE} from "../../../utils/consts";
 import {addToBasket} from "../AddDeviceToBasket";
@@ -38,13 +38,13 @@ const DeviceItem = ({device, brands}) => {
                 <Image src={process.env.REACT_APP_API_URL + device.img}
                        className="device_image"
                 />
-                <div className="rating_name">
-                    <div>
+                <div className="rating_name" style={{width:"100%"}}>
+                    <div className="device_name">
                         {setName()} {device.name}
                     </div>
-                    <div className="rating_name">
-                        <div>{device.rating}</div>
+                    <div className="rating_name" style={{flexDirection:"column",paddingRight:15}}>
                         <Image src={star} className="star"></Image>
+                        <div style={{color:"orange"}}>{device.rating}</div>
                     </div>
                 </div>
                 <div className="price_add">

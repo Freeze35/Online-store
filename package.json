@@ -7,7 +7,7 @@
     "client": "npm run start --prefix client",
     "start-reactClient-postServer": "start npm run server && start npm run client",
     "start-webpack-dev": "npm run start-webpack-devServer --prefix client",
-    "start-webpack-prod": "start-webpack-prodServer --prefix client",
+    "start-webpack-prod": "npm run start-webpack-prodServer --prefix client",
     "startPostServer": "npm run start --prefix server",
     "build-webpack-prod": "build-webpack-prod --prefix client"
   },

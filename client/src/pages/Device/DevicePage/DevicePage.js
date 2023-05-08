@@ -6,6 +6,7 @@ import {Context} from "../../../index.js";
 import CreatePageInfo from "../../../components/modals/CreatePageInfo";
 import {addToBasket} from "../AddDeviceToBasket";
 import "./DevicePage.css"
+import star from "../../../assets/star_orange.png"
 
 const DevicePage = () => {
     const [device, setDevice] = useState({info: []})
@@ -59,7 +60,9 @@ const DevicePage = () => {
                         <p>{device.name}</p>
                     </div>
                     <div className="rating_block">
-                        <div className="star_inside">
+                        <div className="star_inside"
+                            style={{background: `url(${star})`,backgroundSize: "contain",
+                            backgroundRepeat: "no-repeat"}}>
                             {device.rating}
                         </div>
                     </div>

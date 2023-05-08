@@ -37,14 +37,14 @@
 
 .star_inside{
     display: flex;
-    background: url("../../../assets/star.png") no-repeat center center;
+
     background-size: cover;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding-top: 15px;
     color: white;
-    font-size: clamp(15px, 5vw, 540px);
+    font-size: clamp(15px, 3.5vw, 540px);
     width: clamp(50px, 25vw, 340px);
     height: clamp(50px, 25vw, 340px);
 }

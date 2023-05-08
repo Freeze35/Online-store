@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="webpack client change">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/star_orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/static/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/mocker/devicesApi.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/mocker/devicesApi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceList/DeviceList.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceList/DeviceList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/buttonDeviceAddToBasket.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/buttonDeviceAddToBasket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,36 +45,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.6&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/T/online-store/online-store/mocker&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\T\\online-store\\online-store\\client\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.12.1",
+    "javascript.nodejs.core.library.typings.version": "18.14.6",
+    "last_opened_file_path": "D:/T/online-store/online-store/client/src/assets",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Errors",
+    "ts.external.directory.path": "D:\\T\\online-store\\online-store\\client\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\client\src\assets" />
+      <recent name="D:\T\online-store\online-store\client\src" />
+      <recent name="D:\T\online-store\online-store\client\src\assets\static" />
       <recent name="D:\T\online-store\online-store\mocker" />
       <recent name="D:\T\online-store\online-store\client\src\asstes" />
-      <recent name="D:\T\online-store\online-store\client\src\components\styles" />
-      <recent name="D:\T\online-store\online-store\client\src" />
-      <recent name="D:\T\online-store\online-store\client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\T\online-store\online-store\client" />
@@ -72,17 +84,7 @@
       <recent name="D:\T\online-store\online-store\client\src\pages\Device\DeviceList" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build-webpack-prod">
-    <configuration name="build-webpack-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build-webpack-prod" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.start-webpack-prodServer">
     <configuration name="client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -113,6 +115,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start-webpack-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start-webpack-prod" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start-webpack-prodServer" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -125,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build-webpack-prod" />
-        <item itemvalue="npm.client" />
-        <item itemvalue="npm.server" />
-        <item itemvalue="npm.start-reactClient-postServer" />
         <item itemvalue="npm.start-webpack-prodServer" />
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.client" />
+        <item itemvalue="npm.start-webpack-prod" />
+        <item itemvalue="npm.start-reactClient-postServer" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +177,8 @@
       <workItem from="1681688448536" duration="275371000" />
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
-      <workItem from="1683505933940" duration="7187000" />
+      <workItem from="1683505933940" duration="10619000" />
+      <workItem from="1683517862239" duration="9312000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -440,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683513799401</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="webpack client change">
+      <created>1683514245932</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1683514245932</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
