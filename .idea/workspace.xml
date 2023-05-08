@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="webpack refactor">
-      <change afterPath="$PROJECT_DIR$/mocker_server/versel.json" afterDir="false" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="vercel config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/versel.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/versel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +166,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="37873000" />
+      <workItem from="1683517862239" duration="38997000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -490,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683582717362</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="vercel config">
+      <created>1683585141469</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1683585141469</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SelectorBrand work + Readme fix" />
     <MESSAGE value="SelectorBrand work =&gt; Brand Adapting" />
     <MESSAGE value="SelectorBrand work =&gt; Brand Adapting Over &#10;-- Not Clear Version" />
     <MESSAGE value="SelectorBrand work =&gt; Brand Adapting Over &#10;-- Clear Version" />
@@ -533,7 +539,8 @@
     <MESSAGE value="webpack client change" />
     <MESSAGE value="pages refactoring" />
     <MESSAGE value="webpack refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="webpack refactor" />
+    <MESSAGE value="vercel config" />
+    <option name="LAST_COMMIT_MESSAGE" value="vercel config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
