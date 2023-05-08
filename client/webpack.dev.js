@@ -15,7 +15,7 @@ const cors = require('cors')
 const filesThreshold = 8196; // (bytes) threshold for compression, url-loader plugins
 
 const frontConfig = {
-    mode: "dev",
+    mode: "development",
     entry: ["core-js/modules/es.promise", "core-js/modules/es.array.iterator","./src/index.js"],
     output: {
         path: path.resolve(__dirname, "dist"),
@@ -43,6 +43,9 @@ const frontConfig = {
                     },
                     changeHost: true,
                 })
+        },
+        static: {
+            directory: path.join(__dirname, "./dist")
         },
         port: 3000,
         hot: true,

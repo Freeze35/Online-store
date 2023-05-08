@@ -30,12 +30,13 @@ const frontConfig = {
         //allowedHosts: "all",
         //contentBase: './dist'
         port: 3000,
-        hot: true,
-        historyApiFallback: true,
-        compress: true,
         onBeforeSetupMiddleware(api){
             apiMocker(api.app, path.resolve('./mocker/api.js'))
         },
+        hot: true,
+        historyApiFallback: true,
+        compress: true,
+
     },
     performance: {
         hints: false,

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="pages refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +75,12 @@
       <recent name="D:\T\online-store\online-store\client\src\pages\Device\DeviceList" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start-webpack-prodServer">
-    <configuration name="client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.start-webpack-devServer">
+    <configuration name="build-webpack-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="client" />
+        <script value="build-webpack-prod" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -92,21 +96,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start-reactClient-postServer" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start-webpack-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start-reactClient-postServer" />
+        <script value="start-webpack-dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start-webpack-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
+    <configuration name="start-webpack-devServer" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start-webpack-prod" />
+        <script value="start-webpack-devServer" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -124,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start-webpack-devServer" />
+        <item itemvalue="npm.start-webpack-dev" />
         <item itemvalue="npm.start-webpack-prodServer" />
+        <item itemvalue="npm.build-webpack-prod" />
         <item itemvalue="npm.server" />
-        <item itemvalue="npm.client" />
-        <item itemvalue="npm.start-webpack-prod" />
-        <item itemvalue="npm.start-reactClient-postServer" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +169,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="10453000" />
+      <workItem from="1683517862239" duration="11652000" />
     </task>
     <task id="LOCAL-00001" summary="SelectorBrand work">
       <created>1676520443736</created>
@@ -461,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683527720201</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="pages refactoring">
+      <created>1683528561325</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1683528561326</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

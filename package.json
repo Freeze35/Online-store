@@ -9,7 +9,7 @@
     "start-webpack-dev": "npm run start-webpack-devServer --prefix client",
     "start-webpack-prod": "npm run start-webpack-prodServer --prefix client",
     "startPostServer": "npm run start --prefix server",
-    "build-webpack-prod": "build-webpack-prod --prefix client"
+    "build-webpack-prod": "npm run build-webpack-prod --prefix client"
   },
   "author": "Petr Elshin"
 }
