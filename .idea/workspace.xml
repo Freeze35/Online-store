@@ -163,14 +163,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="40607000" />
-    </task>
-    <task id="LOCAL-00005" summary="SelectorBrand work + Readme fix">
-      <created>1676522245464</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1676522245465</updated>
+      <workItem from="1683517862239" duration="41255000" />
     </task>
     <task id="LOCAL-00006" summary="SelectorBrand work + Readme fix">
       <created>1676523409520</created>
@@ -508,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683587674102</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="vercel config">
+      <created>1683587830712</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1683587830712</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
