@@ -13,3 +13,5 @@ app.get("/", (req, res) => {
 
 apiMocker(app, path.resolve('./mocker/api.js'))
 app.listen(PORT,"localhost", () => console.log(`Server started on port ${PORT}`));
+
+module.exports = app;
