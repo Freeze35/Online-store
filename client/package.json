@@ -53,6 +53,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "compression-webpack-plugin": "^10.0.0",
     "copy-webpack-plugin": "^11.0.0",
+    "core-js": "^3.30.2",
     "css-minimizer-webpack-plugin": "^5.0.0",
     "dotenv-webpack": "^8.0.1",
     "html-webpack-plugin": "^5.5.1",
@@ -96,7 +97,6 @@
     "start-webpack-devServer": "webpack-dev-server --open --hot --config webpack.dev.js",
     "start-webpack-prodServer": "webpack-dev-server --mode production --open --hot --config webpack.prod.js",
     "build-webpack-prod": "webpack --mode production --config webpack.prod.js"
-
   },
   "browserslist": {
     "production": [
