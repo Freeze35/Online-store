@@ -4,8 +4,10 @@
 ### Для запуска потребуется установить PostgerSQL и Node.js
 ### После чего запустить npm run dev или npm run server(запустит сам сервер отдельно). Произойдёт инициализация таблиц хранения данных.
 ## В папке храниться Бд для импорта в ## Pg server/RestoreDataBasePGSQL/online-store.sql
-### [Как ипортировать sql file in PGSQL](https://www.youtube.com/watch?v=3AKIA8pu8YY)  
-    
+### [Как импортировать sql file in PGSQL](https://www.youtube.com/watch?v=3AKIA8pu8YY)  
+    Сейчас порт сервер установлен на мок сервер с портом 3000
+    для подключения к стандартному PGSQL port = 5001 server
+    client .env port-server = 3000
     Команды для старта приложения,
     Также запуска клиента и сервера отдельно.
     В папке уже находиться собранный frontend react webpack 
@@ -14,12 +16,12 @@
     startprod:webpack Для просмотра готовой сборки запустите 
 
     "server": "npm run dev --prefix server",
-    "build": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server --open --hot",
     "client": "npm run start --prefix client",
-    "prod": "webpack-dev-server --mode production --open --hot",
-    "dev": "start npm run server & start npm run client",
-    "startprod:webpack": "start npm run server & start npm run start"
+    "start-reactClient-postServer": "start npm run server && start npm run client",
+    "start-webpack-dev": "npm run start-webpack-devServer --prefix client",
+    "start-webpack-prod": "start-webpack-prodServer --prefix client",
+    "startPostServer": "npm run start --prefix server",
+    "build-webpack-prod": "build-webpack-prod --prefix client"
 # Backend(server)
 ## express
 Запуск серверной маршрутизации.  
@@ -169,17 +171,13 @@ Loaders for webpack файлы которые распознает webpack дл�
 Скрипт для Windows:  
 Set-ExecutionPolicy unrestricted
 
-## Full install
-```
-npm i -D @babel/polyfill @babel/preset-typescript @svgr/webpack @testing-library/jest-dom @testing-library/react @testing-library/user-event @types/enzyme @types/imagemin @types/jest @types/module-alias @types/sharp @types/testing-library__jest-dom @vue/preload-webpack-plugin case-sensitive-paths-webpack-plugin certbot clean-webpack-plugin compression-webpack-plugin copy-webpack-plugin css-loader css-minimizer-webpack-plugin dotenv-webpack eslint-config-react-app eslint-plugin-jest html-webpack-plugin image-minimizer-webpack-plugin imagemin imagemin-gifsicle imagemin-jpegtran imagemin-optipng imagemin-svgo interpolate-html-plugin jest jest-environment-jsdom jest-transform-stub less-loader mini-css-class-name mini-css-extract-plugin npm-check obsolete-webpack-plugin style-loader svg-url-loader svgo terser-webpack-plugin ts-jest ts-loader ts-node tsconfig-paths-webpack-plugin typescript url-loader web-vitals webpack webpack-cli webpack-dev-server webpack-merge webpack-node-externals 
-```
-
 ## [Mocker-api](https://www.npmjs.com/package/mocker-api?activeTab=readme) Moker-Api For concetion mocker server
 If we wanted connecting to our local store PostgreSQL change our client/.env file  
 REACT_APP_API_URL="http://localhost:5001/"  
 Creating options for server  using webpack or a
 call api.app or another calling value (api,..) api.app  
 end set path to our file mocker (api)  
+CRUD server set in client/mocker/api.js
 ```
 devServer: {
         onBeforeSetupMiddleware(api){
