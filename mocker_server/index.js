@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
     res.send("Express on Vercel25");
 });
 
-apiMocker(app, path.resolve('./mocker/api.js'))
+//apiMocker(app, path.resolve('./mocker/api.js'))
 app.listen(PORT,"localhost", () => console.log(`Server started on port ${PORT}`));
 
 module.exports = app;
