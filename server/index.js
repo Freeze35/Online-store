@@ -16,7 +16,6 @@ app.use(express.json()) //парсим json формат
 app.use(fileUpload({}))
 app.use("/api", router)
 app.use(express.static(path.resolve(__dirname,"static")))
-
 //Обработка ошибки
 app.use(errorMiddlware)
 

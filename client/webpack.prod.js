@@ -9,8 +9,6 @@ const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const InterpolateHtmlPlugin = require("interpolate-html-plugin");
-
-const NodePolyfillPlugin = require("node-polyfill-webpack-plugin")
 const filesThreshold = 8196; // (bytes) threshold for compression, url-loader plugins
 
 
@@ -42,7 +40,6 @@ const frontConfig = {
         new InterpolateHtmlPlugin({
             PUBLIC_URL: 'static' // can modify `static` to another name or get it from `process`
         }),
-        new NodePolyfillPlugin(),
         new HtmlWebpackPlugin({
             filename: "./index.html",
             template: "./public/index.html",
@@ -198,22 +195,7 @@ const frontConfig = {
         ],
     },
     resolve: {
-        extensions: ['.js','.jsx', '.json','.ts', '.tsx'],
-        fallback: {
-            "fs": false,
-            "tls": false,
-            "net": false,
-            "path": false,
-            "zlib": false,
-            "http": false,
-            "https": false,
-            "stream": false,
-            "crypto": false,
-            "async_hooks": false,
-            "fsevents": false,
-            "module": false,
-            "crypto-browserify": require.resolve('crypto-browserify'), //if you want to use this module also don't forget npm i crypto-browserify
-        }
+        extensions: ['.js','.jsx', '.json','.ts', '.tsx']
     },
 }
 module.exports = [frontConfig]

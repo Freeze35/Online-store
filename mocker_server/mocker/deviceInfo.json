@@ -1,0 +1,66 @@
+[
+  {
+    "id": 21,
+    "title": "Оперативная память",
+    "description": "32 ГБ",
+    "createdAt": "2023-02-08T16:03:49.369Z",
+    "updatedAt": "2023-05-05T03:02:11.483Z",
+    "deviceId": 1
+  },
+  {
+    "id": 40,
+    "title": "Диаметр экрана",
+    "description": "7 дюймов",
+    "createdAt": "2023-02-15T18:16:27.922Z",
+    "updatedAt": "2023-02-15T18:16:27.922Z",
+    "deviceId": 1
+  },
+  {
+    "id": 7,
+    "title": "Высота",
+    "description": "200 см",
+    "createdAt": "2023-02-06T15:42:03.978Z",
+    "updatedAt": "2023-02-09T20:27:46.684Z",
+    "deviceId": 2
+  },
+  {
+    "id": 8,
+    "title": "Ширина",
+    "description": "60 см",
+    "createdAt": "2023-02-06T15:42:03.978Z",
+    "updatedAt": "2023-02-06T15:42:03.978Z",
+    "deviceId": 2
+  },
+  {
+    "id": 9,
+    "title": "Глубина",
+    "description": "60 см",
+    "createdAt": "2023-02-06T15:42:03.978Z",
+    "updatedAt": "2023-02-06T15:42:03.978Z",
+    "deviceId": 2
+  },
+  {
+    "id": 10,
+    "title": "Объем холодильной камеры",
+    "description": "232 л",
+    "createdAt": "2023-02-06T15:42:03.978Z",
+    "updatedAt": "2023-02-06T15:42:03.978Z",
+    "deviceId": 2
+  },
+  {
+    "id": 41,
+    "title": "Хранилище",
+    "description": "32 ГБ",
+    "createdAt": "2023-02-15T21:20:49.535Z",
+    "updatedAt": "2023-02-15T21:20:49.535Z",
+    "deviceId": 3
+  },
+  {
+    "id": 42,
+    "title": "Диагональ",
+    "description": "81,28 см",
+    "createdAt": "2023-02-16T22:14:38.873Z",
+    "updatedAt": "2023-05-05T03:17:22.034Z",
+    "deviceId": 4
+  }
+]
