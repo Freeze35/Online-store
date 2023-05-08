@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="vercel config">
-      <change beforePath="$PROJECT_DIR$/mocker_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="vercel config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,21 +163,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="42136000" />
-    </task>
-    <task id="LOCAL-00010" summary="SelectorBrand work =&gt; Brand Adapting Over &#10;-- Clear Version">
-      <created>1676882164383</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1676882164383</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Change Basket list, &#10;Change DeviceList,&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js">
-      <created>1677772733905</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1677772733905</updated>
+      <workItem from="1683517862239" duration="42730000" />
     </task>
     <task id="LOCAL-00012" summary="&#10;Selector Changes, deleteFrom Basket&#10;=&gt; Selector / SelectorBar.js">
       <created>1677784812657</created>
@@ -510,7 +494,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683588913167</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="vercel config">
+      <created>1683589251116</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1683589251116</updated>
+    </task>
+    <task id="LOCAL-00060" summary="vercel config">
+      <created>1683589508522</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1683589508522</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

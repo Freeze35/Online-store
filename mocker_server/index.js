@@ -7,8 +7,6 @@ const app = express()
 //app.use(cors())
 
 
-
-
 apiMocker(app, path.resolve('./mocker/api.js'))
 app.listen(5001);
 
