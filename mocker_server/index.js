@@ -13,7 +13,7 @@ app.use(fileUpload({}))
 app.use(function (req, res, next) {
 
     // Website you wish to allow to connect
-    //res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8888');
+    res.setHeader('Access-Control-Allow-Origin', 'https://online-store-mocker-server.vercel.app');
 
     // Request methods you wish to allow
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
