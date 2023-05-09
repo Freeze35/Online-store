@@ -163,14 +163,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="62691000" />
-    </task>
-    <task id="LOCAL-00030" summary="Adaptive resizing">
-      <created>1682323089414</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1682323089414</updated>
+      <workItem from="1683517862239" duration="62994000" />
     </task>
     <task id="LOCAL-00031" summary="Reoptimizing for small resolution + add img + Navbar">
       <created>1682407149715</created>
@@ -508,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683612665013</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="vercel mock server">
+      <created>1683613163847</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1683613163847</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
