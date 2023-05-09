@@ -16,8 +16,5 @@
     "mocker-api": "^2.9.8",
     "path": "^0.12.7",
     "uuid": "^9.0.0"
-  },
-  "devDependencies": {
-    "vercel": "^29.1.1"
   }
 }
