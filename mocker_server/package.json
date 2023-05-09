@@ -17,6 +17,7 @@
     "https-browserify": "^1.0.0",
     "mocker-api": "^2.9.8",
     "path": "^0.12.7",
+    "react-scripts": "^5.0.1",
     "uuid": "^9.0.0"
   }
 }
