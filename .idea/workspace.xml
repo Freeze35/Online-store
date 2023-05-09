@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="vercel config">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="vercel config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,28 +163,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="44198000" />
-    </task>
-    <task id="LOCAL-00013" summary="&#10;Selector Changes, deleteFrom Basket&#10;=&gt; Selector / SelectorBar.js">
-      <created>1677785189069</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1677785189069</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Selector Bar =&gt; Selector Logic Reworking in Progress">
-      <created>1678277018727</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1678277018727</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Add PGSqlDB =&gt; &#10;Selector Logic Reworking in Progress">
-      <created>1678280771071</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1678280771071</updated>
+      <workItem from="1683517862239" duration="45001000" />
     </task>
     <task id="LOCAL-00016" summary="Add PGSqlDB =&gt; &#10;Selector Logic Reworking in Progress">
       <created>1678280876752</created>
@@ -512,7 +487,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683590051673</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="vercel config">
+      <created>1683591312726</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1683591312726</updated>
+    </task>
+    <task id="LOCAL-00063" summary="vercel config">
+      <created>1683591347180</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1683591347180</updated>
+    </task>
+    <task id="LOCAL-00064" summary="vercel config">
+      <created>1683591557662</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1683591557662</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
