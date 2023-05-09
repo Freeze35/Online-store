@@ -6,8 +6,10 @@ const app = express()
 const fileUpload = require("express-fileupload")
 
 app.use(cors())
-app.use("/api", router)
+app.use(express.urlencoded({ extended: true }));
+//app.use(express.json()) //парсим json формат
 app.use(fileUpload({}))
+app.use("/api", router)
 
 app.get("/:url.webp", (req, res) => {
     const {url} = req.params;

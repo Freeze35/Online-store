@@ -192,4 +192,12 @@ devServer: {
     },
 ```
 
-add in our api.js file new get,post,put,delete moker
+## Adding mocker-server
+add in mocker-server/index.js for reading request url  
+```app.use(express.urlencoded({ extended: true }));```    
+by standard app.use(express.json()) for PSQL  
+Send our server on Vercel   
+It's server for App  
+Now for requests in client/env we're setting new path REACT_APP_API_URL  
+[device/api example](https://online-store-mocker-server.vercel.app/api/device)
+mocker_server/mocker/devicesApi.json

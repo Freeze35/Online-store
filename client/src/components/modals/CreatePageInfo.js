@@ -28,7 +28,6 @@ const CreatePageInfo = observer(({show, onHide,device,setDevice,
         formData.append('info', JSON.stringify(info))
         formData.append('deviceId', id)
         formData.append('infoId', info.at(0).id)
-
         updateDeviceInfo(id,formData).then(() => {
             fetchOneDevice(id).then(data => {
                 setDevice(data)
