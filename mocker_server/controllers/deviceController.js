@@ -63,10 +63,10 @@ class deviceController {
                 )
             }
 
-            fs.writeFileSync(path.join(__dirname, "./deviceInfo.json"),
+            fs.writeFileSync(path.join(__dirname, "./../mocker/deviceInfo.json"),
                 JSON.stringify(allDeviceInfo, null, 2), "utf-8");
 
-            fs.writeFileSync(path.join(__dirname, "./devicesApi.json"),
+            fs.writeFileSync(path.join(__dirname, "./../mocker/devicesApi.json"),
                 JSON.stringify(allDevices, null, 2), "utf-8");
 
             res.status(200).send({message: "device added"})

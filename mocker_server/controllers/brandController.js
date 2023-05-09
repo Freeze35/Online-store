@@ -27,7 +27,7 @@ class brandController {
 
                 }
             )
-            fs.writeFileSync(path.join(__dirname, "./brandApi.json"),
+            fs.writeFileSync(path.join(__dirname, "./../mocker/brandApi.json"),
                 JSON.stringify(allBrands, null, 2), "utf-8");
             res.status(200).send({message: "Brand added"})
         }

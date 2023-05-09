@@ -31,7 +31,7 @@ class deviceInfoController {
             }
         )
 
-        fs.writeFileSync(path.join(__dirname, "./deviceInfo.json"),
+        fs.writeFileSync(path.join(__dirname, "./../mocker/deviceInfo.json"),
             JSON.stringify(allDeviceInfo, null, 2), "utf-8");
 
         res.status(200).send({message: "Info added"})
@@ -67,7 +67,7 @@ class deviceInfoController {
             ~~devInfo.id !== ~~id
         )
 
-        fs.writeFileSync(path.join(__dirname, "./deviceInfo.json"),
+        fs.writeFileSync(path.join(__dirname, "./../mocker/deviceInfo.json"),
             JSON.stringify(newDeviceInfo, null, 2), "utf-8");
 
         // file written successfully
@@ -85,7 +85,7 @@ class deviceInfoController {
         allDeviceInfo[idChangeElem].description = parseInfo.description
         allDeviceInfo[idChangeElem].updatedAt = new Date().toISOString()
 
-        fs.writeFileSync(path.join(__dirname, "./deviceInfo.json"),
+        fs.writeFileSync(path.join(__dirname, "./../mocker/deviceInfo.json"),
             JSON.stringify(allDeviceInfo, null, 2), "utf-8");
 
         res.status(200).send({message: "Info was overwrite"})

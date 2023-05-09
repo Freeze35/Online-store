@@ -26,7 +26,7 @@ class TypeController {
 
                 }
             )
-            fs.writeFileSync(path.join(__dirname, "./typesApi.json"),
+            fs.writeFileSync(path.join(__dirname, "./../mocker/typesApi.json"),
                 JSON.stringify(allTypes, null, 2), "utf-8");
             res.status(200).send({message: "Brand added"})
         }
