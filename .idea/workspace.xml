@@ -165,21 +165,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="61988000" />
-    </task>
-    <task id="LOCAL-00027" summary="AdminPanel.js =&gt; Add field">
-      <created>1678360687196</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1678360687196</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Webpack adding for frontend">
-      <created>1678783984851</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1678783984851</updated>
+      <workItem from="1683517862239" duration="62319000" />
     </task>
     <task id="LOCAL-00029" summary="Reworking selector system">
       <created>1681796788678</created>
@@ -510,7 +496,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683612156926</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="vercel mock server">
+      <created>1683612367997</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1683612367997</updated>
+    </task>
+    <task id="LOCAL-00077" summary="vercel mock server">
+      <created>1683612528390</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1683612528390</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
