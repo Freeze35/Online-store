@@ -6,7 +6,7 @@ const fs = require("fs");
 const app = express()
 
 app.use(cors())
-let allDevices = JSON.parse(fs.readFileSync(path.join(__dirname, "./devicesApi.json"), "utf-8"));
+let allDevices = JSON.parse(fs.readFileSync(path.join(__dirname, "./mocker/devicesApi.json"), "utf-8"));
 app.get("/api/device", (req, res) => {
     let {brandId, typeId, limit, page} = req.query
     let newDevices = {"count": 0, "rows": []}
