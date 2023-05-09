@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const apiMocker = require('mocker-api');
+
 const cors = require('cors')
 const fs = require("fs");
 const app = express()
@@ -74,7 +74,7 @@ app.get("/api/device", (req, res) => {
     return res.json(allDevices);
 });
 
-apiMocker(app, path.resolve('./mocker/api.js'))
-//app.listen(5001);
+//apiMocker(app, path.resolve('./mocker/api.js'))
+app.listen(5001);
 
 module.exports = app;
