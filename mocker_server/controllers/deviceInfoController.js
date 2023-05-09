@@ -53,12 +53,9 @@ class deviceInfoController {
     }
     async getOne(req, res) {
         const {id} = req.params
-        const device = await DeviceInfo.findOne(
-            {
-                where: {id}
-            }
-        )
-        return res.json(device)
+        //let dev = devices.rows.filter(dev => ~~dev.id === ~~id)[0]
+        let dev = {...devicesInfo.filter(info => ~~info.deviceId === ~~id)}
+        return res.json(dev)
     }
 
     async deleteOne(req, res) {

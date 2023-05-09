@@ -7,7 +7,7 @@ const fileUpload = require("express-fileupload")
 
 app.use(cors())
 app.use(express.urlencoded({ extended: true }));
-//app.use(express.json()) //парсим json формат
+app.use(express.json()) //парсим json формат
 app.use(fileUpload({}))
 app.use("/api", router)
 
