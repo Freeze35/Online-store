@@ -1,18 +1,19 @@
 const express = require('express');
 const path = require('path');
-
+const router = require('./routes/index.js')
 const cors = require('cors')
-const apiMocker = require('mocker-api')
-const fs = require("fs");
 const app = express()
+const fileUpload = require("express-fileupload")
 
 app.use(cors())
-let allDevices = JSON.parse(fs.readFileSync(path.join(__dirname, "./mocker/devicesApi.json"), "utf-8"));
-/*app.get("/api/device", (req, res) => {
-    return res.json(allDevices);
-});*/
+app.use("/api", router)
+app.use(fileUpload({}))
 
-apiMocker(app, path.resolve('./mocker/api.js'))
-app.listen(5001);
+app.get("/:url.webp", (req, res) => {
+    const {url} = req.params;
+    res.sendFile(path.resolve(__dirname, `./static/${url}.webp`))
+});
+
+app.listen(5001,"localhost", () => console.log(`Server started on port ${5001}`))
 
 module.exports = app;
