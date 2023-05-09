@@ -17,6 +17,6 @@ app.get("/:url.webp", (req, res) => {
     res.sendFile(path.resolve(__dirname, `./static/${url}.webp`))
 });
 
-app.listen(5001,"localhost", () => console.log(`Server started on port ${5001}`))
+app.listen(10000,"localhost", () => console.log(`Server started on port ${10000}`))
 
 module.exports = app;
