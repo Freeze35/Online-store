@@ -2,7 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 
- allDeviceInfo = JSON.parse(fs.readFileSync(path.join(__dirname, "./../mocker/deviceInfo.json"), "utf-8"));
+let allDeviceInfo = JSON.parse(fs.readFileSync(path.join(__dirname, "./../mocker/deviceInfo.json"), "utf-8"));
 
 class deviceInfoController {
     async create(req,res){
@@ -37,7 +37,7 @@ class deviceInfoController {
         res.status(200).send({message: "Info added"})
     }
     async getAll(req,res){
-        let {deviceID,limit,page} =req.query
+        /*let {deviceID,limit,page} =req.query
         page = page || 1
         limit = limit || 8
         let offset = page * limit - limit
@@ -48,8 +48,8 @@ class deviceInfoController {
         if(deviceID){
             devices = await DeviceInfo.findAndCountAll({where:{deviceID},limit, offset})
         }
-
-        return res.json(devices)
+*/
+        return res.json(allDeviceInfo)
     }
     async getOne(req, res) {
         const {id} = req.params
