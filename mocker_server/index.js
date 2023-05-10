@@ -3,18 +3,7 @@ const path = require('path');
 const router = require('./routes/index.js')
 const cors = require('cors')
 const app = express()
-const fileUpload = require("express-fileupload")
-const livereload = require("livereload");
-const connectLiveReload = require("connect-livereload");
 
-const liveReloadServer = livereload.createServer();
-liveReloadServer.server.once("connection", () => {
-    setTimeout(() => {
-        liveReloadServer.refresh("/");
-    }, 100);
-});
-
-app.use(connectLiveReload());
 
 app.use(cors({origin: '*'}))
 app.use(express.urlencoded({ extended: true }));
