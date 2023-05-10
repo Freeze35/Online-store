@@ -203,3 +203,6 @@ It's server for App
 Now for requests in client/env we're setting new path REACT_APP_API_URL  
 [device/api example](https://online-store-mocker-server.vercel.app/api/device)
 mocker_server/mocker/devicesApi.json
+
+## Adding server on render.com
+default port for express server deploy 10000
