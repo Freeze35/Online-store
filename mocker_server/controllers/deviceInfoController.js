@@ -85,7 +85,7 @@ class deviceInfoController {
         fs.writeFileSync(path.join(__dirname, "./../mocker/deviceInfo.json"),
             JSON.stringify(allDeviceInfo, null, 2), "utf-8");
 
-        res.status(200).send({message: "Info was overwrite"})
+        return res.json(parseInfo)
     }
 }
 module.exports = new deviceInfoController()
