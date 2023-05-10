@@ -31,9 +31,9 @@ app.use(connectLiveReload());
 const fileUpload = require("express-fileupload")
 //const cors = require('cors')
 
-//app.use(cors({origin: '*'}))
-//app.use(express.json()) //парсим json формат
 app.use(express.urlencoded({ extended: true }));
+//app.use(cors({origin: '*'}))
+app.use(express.json()) //парсим json формат
 app.use(fileUpload({}))
 
 app.use("/api", router)

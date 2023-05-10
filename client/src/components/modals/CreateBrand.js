@@ -21,7 +21,7 @@ const CreateBrand = ({show, onHide}) => {
         >
             <Modal.Header>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    Добавить тип
+                    Добавить бренд
                 </Modal.Title>
                 <button type="button" className="close" aria-label="Close" onClick={onHide}>
                     <span aria-hidden="true">&times;</span>

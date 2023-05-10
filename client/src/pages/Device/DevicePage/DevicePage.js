@@ -7,8 +7,9 @@ import CreatePageInfo from "../../../components/modals/CreatePageInfo";
 import {addToBasket} from "../AddDeviceToBasket";
 import "./DevicePage.css"
 import star from "../../../assets/star_orange.png"
+import {observer} from "mobx-react-lite";
 
-const DevicePage = () => {
+const DevicePage = observer(() => {
     const [device, setDevice] = useState({info: []})
     const [loading, setLoading] = useState(true)
     const [visibleInfo, setInfoVisible] = useState(false)
@@ -133,8 +134,8 @@ const DevicePage = () => {
                 </div>
             </div>
 
-        );
+        )
     }
-}
+})
 
 export default DevicePage;
