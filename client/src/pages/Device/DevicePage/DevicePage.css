@@ -44,7 +44,7 @@
     text-align: center;
     padding-top: 15px;
     color: white;
-    font-size: clamp(15px, 3.5vw, 540px);
+    font-size: clamp(10px, 3.5vw, 540px);
     width: clamp(50px, 25vw, 340px);
     height: clamp(50px, 25vw, 340px);
 }

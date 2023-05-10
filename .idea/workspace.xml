@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="render.com deploy server online-store" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="render.com deploy server online-store">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,28 +167,7 @@
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
       <workItem from="1683517862239" duration="105543000" />
-      <workItem from="1683751866565" duration="1288000" />
-    </task>
-    <task id="LOCAL-00060" summary="vercel config">
-      <created>1683589508522</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1683589508522</updated>
-    </task>
-    <task id="LOCAL-00061" summary="vercel config">
-      <created>1683590051673</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1683590051673</updated>
-    </task>
-    <task id="LOCAL-00062" summary="vercel config">
-      <created>1683591312726</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1683591312726</updated>
+      <workItem from="1683751866565" duration="2106000" />
     </task>
     <task id="LOCAL-00063" summary="vercel config">
       <created>1683591347180</created>
@@ -509,7 +491,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683753029299</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="render.com deploy server online-store">
+      <created>1683753256434</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1683753256434</updated>
+    </task>
+    <task id="LOCAL-00110" summary="render.com deploy server online-store">
+      <created>1683753345032</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1683753345032</updated>
+    </task>
+    <task id="LOCAL-00111" summary="render.com deploy server online-store">
+      <created>1683753442640</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1683753442640</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
