@@ -54,7 +54,7 @@ class deviceInfoController {
     async getOne(req, res) {
         const {id} = req.params
         //let dev = devices.rows.filter(dev => ~~dev.id === ~~id)[0]
-        let dev = {...allDeviceInfo.filter(info => ~~info.deviceId === ~~id)}
+        let dev = {...allDeviceInfo.filter(info => ~~info.deviceId === ~~id)[0]}
         return res.json(dev)
     }
 
