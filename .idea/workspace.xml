@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="render.com deploy server online-store">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreateBrand.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreateBrand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/mocker/deviceInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/mocker/deviceInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/vercel.json" afterDir="false" />
-    </list>
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="render.com deploy server online-store" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,14 +164,7 @@
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
       <workItem from="1683517862239" duration="105543000" />
-      <workItem from="1683751866565" duration="985000" />
-    </task>
-    <task id="LOCAL-00059" summary="vercel config">
-      <created>1683589251116</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1683589251116</updated>
+      <workItem from="1683751866565" duration="1288000" />
     </task>
     <task id="LOCAL-00060" summary="vercel config">
       <created>1683589508522</created>
@@ -517,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683716900310</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="render.com deploy server online-store">
+      <created>1683753029298</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1683753029299</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
