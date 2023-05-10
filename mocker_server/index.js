@@ -16,11 +16,11 @@ liveReloadServer.server.once("connection", () => {
 
 app.use(connectLiveReload());
 
-app.use(cors({origin: 'https://store-petr-elshin-github-freeze35.netlify.app'}));
+app.use(cors({origin: '*'}));
 app.use(function (req, res, next) {
 
     // Website you wish to allow to connect
-    res.setHeader('Access-Control-Allow-Origin', 'https://store-petr-elshin-github-freeze35.netlify.app');
+    res.setHeader('Access-Control-Allow-Origin', '*');
 
     // Request methods you wish to allow
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
