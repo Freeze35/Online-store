@@ -16,8 +16,7 @@ liveReloadServer.server.once("connection", () => {
 
 app.use(connectLiveReload());
 
-app.use(cors({origin: '*'}));
-
+app.use(cors({origin: '*'}))
 app.use(express.urlencoded({ extended: true }));
 //app.use(express.json()) //парсим json формат
 app.use(fileUpload({}))
