@@ -205,7 +205,26 @@ Now for requests in client/env we're setting new path REACT_APP_API_URL
 mocker_server/mocker/devicesApi.json
 
 ## Adding server on render.com
-default port for express server deploy 10000
+confirmed on 10.05.2023
+Unfortunately, deploying a web service on USA servers gives numerous failures. Preference Singapore or Europe  
+Default port for express server deploy 10000  
+Using only res.headers for server policy instead default app.cors({'*''})
 
 ### [CORS Problem](https://stackoverflow.com/questions/73931111/getting-no-access-control-allow-origin-cors-error-but-the-header-is-set-and-work)
-replace express().use(cors())
+Replace express().use(cors())
+Adding allow origin for working with fileSystem
+
+```
+app.use(function(req, res, next) {
+    // res.header("Access-Control-Allow-Origin", "*");
+    const allowedOrigins = ['*','http://localhost:3000', 'https://store-petr-elshin-github-freeze35.netlify.app'];
+    const origin = req.headers.origin;
+    if (allowedOrigins.includes(origin)) {
+        res.setHeader('Access-Control-Allow-Origin', origin);
+    }
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
+    res.header("Access-Control-Allow-credentials", true);
+    res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, UPDATE");
+    next();
+});
+```

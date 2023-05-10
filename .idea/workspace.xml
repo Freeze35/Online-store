@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="vercel mock server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,21 +167,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="97107000" />
-    </task>
-    <task id="LOCAL-00054" summary="vercel config">
-      <created>1683587830712</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1683587830712</updated>
-    </task>
-    <task id="LOCAL-00055" summary="vercel config">
-      <created>1683588470744</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1683588470744</updated>
+      <workItem from="1683517862239" duration="99803000" />
     </task>
     <task id="LOCAL-00056" summary="vercel config">
       <created>1683588487950</created>
@@ -511,7 +498,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683707318473</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="vercel mock server">
+      <created>1683709267747</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1683709267747</updated>
+    </task>
+    <task id="LOCAL-00104" summary="vercel mock server">
+      <created>1683709274347</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1683709274347</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
