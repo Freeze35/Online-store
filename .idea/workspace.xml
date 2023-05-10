@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mocker_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <recent name="D:\T\online-store\online-store\client\src\pages\Device\DeviceItem" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.nodemon">
+  <component name="RunManager" selected="npm.nodemon_start">
     <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/mocker_server/package.json" />
       <command value="run" />
@@ -94,11 +95,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/server/package.json" />
+    <configuration name="nodemon_start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/mocker_server/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="nodemon_start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.nodemon_start" />
         <item itemvalue="npm.nodemon" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build (1)" />
         <item itemvalue="npm.start (2)" />
-        <item itemvalue="npm.start (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -167,14 +168,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="79069000" />
-    </task>
-    <task id="LOCAL-00039" summary="webpack client change">
-      <created>1683513799401</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1683513799401</updated>
+      <workItem from="1683517862239" duration="82072000" />
     </task>
     <task id="LOCAL-00040" summary="webpack client change">
       <created>1683514245932</created>
@@ -512,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683686026219</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="vercel mock server">
+      <created>1683687149692</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1683687149692</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
