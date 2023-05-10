@@ -1,7 +1,6 @@
 
 const fs = require("fs");
 const path = require("path");
-const deviceInfo = require("../mocker/deviceInfo.json");
 
 let allDeviceInfo = JSON.parse(fs.readFileSync(path.join(__dirname, "./../mocker/deviceInfo.json"), "utf-8"));
 
@@ -55,7 +54,7 @@ class deviceInfoController {
     async getOne(req, res) {
         const {id} = req.params
         //let dev = devices.rows.filter(dev => ~~dev.id === ~~id)[0]
-        let dev = {...deviceInfo.filter(info => ~~info.deviceId === ~~id)}
+        let dev = {...allDeviceInfo.filter(info => ~~info.deviceId === ~~id)}
         return res.json(dev)
     }
 

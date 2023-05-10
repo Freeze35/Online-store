@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="render.com deploy server online-store">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mocker_server/controllers/deviceInfoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/controllers/deviceInfoController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,14 +166,7 @@
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
       <workItem from="1683517862239" duration="105543000" />
-      <workItem from="1683751866565" duration="3489000" />
-    </task>
-    <task id="LOCAL-00064" summary="vercel config">
-      <created>1683591557662</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1683591557662</updated>
+      <workItem from="1683751866565" duration="3979000" />
     </task>
     <task id="LOCAL-00065" summary="vercel config">
       <created>1683592323554</created>
@@ -512,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683754001821</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="render.com deploy server online-store">
+      <created>1683755680691</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1683755680691</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
