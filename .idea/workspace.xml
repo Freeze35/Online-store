@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="vercel mock server">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,14 +165,7 @@
       <workItem from="1682854460478" duration="126251000" />
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
-      <workItem from="1683517862239" duration="86662000" />
-    </task>
-    <task id="LOCAL-00045" summary="webpack refactor">
-      <created>1683572672994</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1683572672994</updated>
+      <workItem from="1683517862239" duration="87333000" />
     </task>
     <task id="LOCAL-00046" summary="webpack refactor">
       <created>1683582717362</created>
@@ -511,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683696790206</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="vercel mock server">
+      <created>1683697802735</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1683697802735</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -3,12 +3,13 @@ const path = require('path');
 const router = require('./routes/index.js')
 const cors = require('cors')
 const app = express()
+const fileUpload = require("express-fileupload")
 
-
+app.use(fileUpload({}))
 app.use(cors({origin: '*'}))
 app.use(express.urlencoded({ extended: true }));
 //app.use(express.json()) //парсим json формат
-app.use(fileUpload({}))
+
 
 app.use("/api", router)
 
