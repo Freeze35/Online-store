@@ -206,3 +206,6 @@ mocker_server/mocker/devicesApi.json
 
 ## Adding server on render.com
 default port for express server deploy 10000
+
+### [CORS Problem](https://stackoverflow.com/questions/73931111/getting-no-access-control-allow-origin-cors-error-but-the-header-is-set-and-work)
+replace express().use(cors())
