@@ -2,10 +2,8 @@ const express = require('express');
 const path = require('path');
 const router = require('./routes/index.js')
 const app = express()
-/*
 let livereload = require("livereload");
 let connectLiveReload = require("connect-livereload");
-*/
 
 
 app.use(function(req, res, next) {
@@ -21,14 +19,14 @@ app.use(function(req, res, next) {
     next();
 });
 
-/*const liveReloadServer = livereload.createServer();
+const liveReloadServer = livereload.createServer();
 liveReloadServer.server.once("connection", () => {
     setTimeout(() => {
         liveReloadServer.refresh("/");
     }, 100);
 });
 
-app.use(connectLiveReload());*/
+app.use(connectLiveReload());
 
 const fileUpload = require("express-fileupload")
 //const cors = require('cors')
