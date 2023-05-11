@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="pm2 connect server" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="pm2 connect server + liveReloadServer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,14 +167,7 @@
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
       <workItem from="1683517862239" duration="105543000" />
-      <workItem from="1683751866565" duration="24448000" />
-    </task>
-    <task id="LOCAL-00078" summary="vercel mock server">
-      <created>1683612665013</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1683612665013</updated>
+      <workItem from="1683751866565" duration="26140000" />
     </task>
     <task id="LOCAL-00079" summary="vercel mock server">
       <created>1683613163847</created>
@@ -509,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683780086922</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="pm2 connect server + liveReloadServer">
+      <created>1683781439555</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1683781439555</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Change Basket list, &#10;Change DeviceList&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js" />
     <MESSAGE value="Change Basket list, &#10;Change DeviceList,&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js" />
     <MESSAGE value="&#10;Selector Changes, deleteFrom Basket&#10;=&gt; Selector / SelectorBar.js" />
     <MESSAGE value="Selector Bar =&gt; Selector Logic Reworking in Progress" />
@@ -552,7 +554,8 @@
     <MESSAGE value="vercel mock server" />
     <MESSAGE value="render.com deploy server online-store" />
     <MESSAGE value="pm2 connect server" />
-    <option name="LAST_COMMIT_MESSAGE" value="pm2 connect server" />
+    <MESSAGE value="pm2 connect server + liveReloadServer" />
+    <option name="LAST_COMMIT_MESSAGE" value="pm2 connect server + liveReloadServer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
