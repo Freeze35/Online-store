@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="render.com deploy server online-store">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreatePageInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreatePageInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/mocker/deviceInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/mocker/deviceInfo.json" afterDir="false" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="pm2 connect server">
       <change beforePath="$PROJECT_DIR$/mocker_server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +71,7 @@
       <recent name="D:\T\online-store\online-store\client\src\pages\Device\DeviceItem" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.pm2_kill">
+  <component name="RunManager" selected="npm.pm2_start">
     <configuration name="nodemon_start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/mocker_server/package.json" />
       <command value="run" />
@@ -97,21 +92,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="pm_start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="pm2_start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/mocker_server/package.json" />
       <command value="run" />
       <scripts>
-        <script value="pm_start" />
+        <script value="pm2_start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="pm_start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/mocker_server/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="pm_start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -129,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.pm2_start" />
         <item itemvalue="npm.pm2_kill" />
         <item itemvalue="npm.pm_start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.nodemon_start" />
-        <item itemvalue="npm.start (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -171,14 +166,7 @@
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
       <workItem from="1683517862239" duration="105543000" />
-      <workItem from="1683751866565" duration="14039000" />
-    </task>
-    <task id="LOCAL-00067" summary="vercel mock server">
-      <created>1683598833636</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1683598833636</updated>
+      <workItem from="1683751866565" duration="14752000" />
     </task>
     <task id="LOCAL-00068" summary="vercel mock server">
       <created>1683603072249</created>
@@ -516,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683757289901</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="pm2 connect server">
+      <created>1683766536456</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1683766536456</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SelectorBrand work =&gt; Brand Adapting Over &#10;-- Clear Version" />
     <MESSAGE value="Change Basket list, &#10;Change DeviceList&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js" />
     <MESSAGE value="Change Basket list, &#10;Change DeviceList,&#10;Started to change&#10;=&gt; Prise Selector / SelectorBar.js" />
     <MESSAGE value="&#10;Selector Changes, deleteFrom Basket&#10;=&gt; Selector / SelectorBar.js" />
@@ -559,7 +553,8 @@
     <MESSAGE value="vercel config" />
     <MESSAGE value="vercel mock server" />
     <MESSAGE value="render.com deploy server online-store" />
-    <option name="LAST_COMMIT_MESSAGE" value="render.com deploy server online-store" />
+    <MESSAGE value="pm2 connect server" />
+    <option name="LAST_COMMIT_MESSAGE" value="pm2 connect server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
