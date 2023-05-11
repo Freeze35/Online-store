@@ -228,3 +228,13 @@ app.use(function(req, res, next) {
     next();
 });
 ```
+
+### PM2 for production
+
+For removing cmd on watch
+```
+ npm install pm2@next -g
+ pm2 update
+ pm2 start index.js --watch
+```
+[Article for connecting process manager](https://habr.com/ru/articles/480670/)

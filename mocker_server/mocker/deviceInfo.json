@@ -4,7 +4,7 @@
     "title": "Оперативная память",
     "description": "32 ГБ",
     "createdAt": "2023-02-08T16:03:49.369Z",
-    "updatedAt": "2023-05-10T11:23:55.446Z",
+    "updatedAt": "2023-05-11T00:42:31.501Z",
     "deviceId": 1
   },
   {
@@ -58,9 +58,9 @@
   {
     "id": 42,
     "title": "Диагональ",
-    "description": "81,38 см",
+    "description": "81,28 см",
     "createdAt": "2023-02-16T22:14:38.873Z",
-    "updatedAt": "2023-05-10T11:33:32.531Z",
+    "updatedAt": "2023-05-11T00:54:11.971Z",
     "deviceId": 4
   }
 ]
