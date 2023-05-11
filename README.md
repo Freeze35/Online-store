@@ -206,8 +206,8 @@ mocker_server/mocker/devicesApi.json
 
 ## Adding server on render.com
 confirmed on 10.05.2023
-Unfortunately, deploying a web service on USA servers gives numerous failures. Preference Singapore or Europe  
-Default port for express server deploy 10000  
+Default port for express server deploy 10000 !IMPORTANT
+Unfortunately, deploying a web service on USA servers gives numerous failures. Preference Singapore or Europe
 Using only res.headers for server policy instead default app.cors({'*''})
 
 ### [CORS Problem](https://stackoverflow.com/questions/73931111/getting-no-access-control-allow-origin-cors-error-but-the-header-is-set-and-work)
@@ -230,11 +230,7 @@ app.use(function(req, res, next) {
 ```
 
 ### PM2 for production
-
-For removing cmd on watch
-```
- npm install pm2@next -g
- pm2 update
- pm2 start index.js --watch
-```
+for deploy on render.com use script [pm2-runtime](https://community.render.com/t/deploy-to-render-web-service-with-pm2/5556) watch for reloading onchange data  
+```pm2-runtime start ./index.js --watch```
+[difference between pm2 and pm2-runtime](https://stackoverflow.com/questions/53962776/whats-the-difference-between-pm2-and-pm2-runtime)
 [Article for connecting process manager](https://habr.com/ru/articles/480670/)
