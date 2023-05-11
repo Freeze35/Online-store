@@ -205,10 +205,10 @@ Now for requests in client/env we're setting new path REACT_APP_API_URL
 mocker_server/mocker/devicesApi.json
 
 ## Adding server on render.com
-confirmed on 10.05.2023
-Default port for express server deploy 10000 !IMPORTANT
-Unfortunately, deploying a web service on USA servers gives numerous failures. Preference Singapore or Europe
-Using only res.headers for server policy instead default app.cors({'*''})
+confirmed on 10.05.2023  
+Default port for express server deploy 10000 !IMPORTANT  
+Unfortunately, deploying a web service on USA servers gives numerous failures. Preference Singapore or Europe  
+Using only res.headers for server policy instead default app.cors({'*''})  
 
 ### [CORS Problem](https://stackoverflow.com/questions/73931111/getting-no-access-control-allow-origin-cors-error-but-the-header-is-set-and-work)
 Replace express().use(cors())
