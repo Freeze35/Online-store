@@ -1,5 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
-import {Button, Image} from "react-bootstrap";
+import {Button} from "react-bootstrap";
 import {useParams} from "react-router-dom";
 import {deleteOneInfoDevice, fetchOneDevice} from "../../../http/deviceApi";
 import {Context} from "../../../index.js";
@@ -57,7 +57,9 @@ const DevicePage = observer(() => {
             <div className="full_block">
                 <div className="up_block">
                     <div className="img_block">
-                        <Image className="image_device" src={process.env.REACT_APP_API_URL + device.img}/>
+                        <img className="image_device" src={process.env.REACT_APP_API_URL + device.img}
+                             alt='img' loading="lazy"
+                        />
                         <p>{device.name}</p>
                     </div>
                     <div className="rating_block">

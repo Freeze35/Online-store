@@ -35,8 +35,8 @@ const DeviceItem = ({device, brands}) => {
             <div className="container_device"
                   onClick={() => navigate(DEVICE_ROUTE + "/" + device.id)}
             >
-                <Image src={process.env.REACT_APP_API_URL + device.img}
-                       className="device_image"
+                <img src={process.env.REACT_APP_API_URL + device.img}
+                       className="device_image" alt="Item" loading="lazy"
                 />
                 <div className="rating_name" style={{width:"100%"}}>
                     <div className="device_name">

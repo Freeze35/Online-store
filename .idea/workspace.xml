@@ -4,7 +4,8 @@
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="pm2 connect server + liveReloadServer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/mocker/deviceInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/mocker/deviceInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,21 +169,7 @@
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
       <workItem from="1683517862239" duration="105543000" />
-      <workItem from="1683751866565" duration="35689000" />
-    </task>
-    <task id="LOCAL-00089" summary="vercel mock server">
-      <created>1683691614897</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1683691614897</updated>
-    </task>
-    <task id="LOCAL-00090" summary="vercel mock server">
-      <created>1683694981535</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1683694981535</updated>
+      <workItem from="1683751866565" duration="38419000" />
     </task>
     <task id="LOCAL-00091" summary="vercel mock server">
       <created>1683695596075</created>
@@ -513,7 +500,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683804343112</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="pm2 connect server + liveReloadServer">
+      <created>1683842520707</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1683842520707</updated>
+    </task>
+    <task id="LOCAL-00139" summary="pm2 connect server + liveReloadServer">
+      <created>1683842554571</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1683842554571</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
