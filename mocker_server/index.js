@@ -9,7 +9,7 @@ let connectLiveReload = require("connect-livereload");
 app.use(function(req, res, next) {
     // res.header("Access-Control-Allow-Origin", "*");
     const allowedOrigins = ['*','http://localhost:3000', 'https://store-petr-elshin-github-freeze35.netlify.app',
-        'https://online-store-ybltoxnv3-freeze35.vercel.app/'];
+        'https://online-store-ybltoxnv3-freeze35.vercel.app'];
     const origin = req.headers.origin;
     if (allowedOrigins.includes(origin)) {
         res.setHeader('Access-Control-Allow-Origin', origin);
