@@ -2,10 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="pm2 connect server + liveReloadServer">
+      <change afterPath="$PROJECT_DIR$/mocker_server/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006SM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mocker_server/static/27822895-f37b-46ad-b26c-ae5d3b260189SM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mocker_server/static/4546bb7d-beb4-4595-b5ff-d62956c58a7eSM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mocker_server/static/ccd380e3-4f8a-4946-93a1-f734b6884704SM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006SM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/27822895-f37b-46ad-b26c-ae5d3b260189SM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/4546bb7d-beb4-4595-b5ff-d62956c58a7eSM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/ccd380e3-4f8a-4946-93a1-f734b6884704SM.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/mocker/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/mocker/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/mocker/devicesApi.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/mocker/devicesApi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/modals/CreatePageInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/CreatePageInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/controllers/brandController.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/controllers/brandController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/controllers/deviceController.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/controllers/deviceController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/controllers/deviceInfoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/controllers/deviceInfoController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/mocker/deviceInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/mocker/deviceInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/mocker/devicesApi.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/mocker/devicesApi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.webp" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/static/27822895-f37b-46ad-b26c-ae5d3b260189.webp" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/static/27822895-f37b-46ad-b26c-ae5d3b260189.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/static/4546bb7d-beb4-4595-b5ff-d62956c58a7e.webp" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/static/4546bb7d-beb4-4595-b5ff-d62956c58a7e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/static/ccd380e3-4f8a-4946-93a1-f734b6884704.webp" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/static/ccd380e3-4f8a-4946-93a1-f734b6884704.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/deviceController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/deviceController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.webp" beforeDir="false" afterPath="$PROJECT_DIR$/server/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/static/27822895-f37b-46ad-b26c-ae5d3b260189.webp" beforeDir="false" afterPath="$PROJECT_DIR$/server/static/27822895-f37b-46ad-b26c-ae5d3b260189.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/static/4546bb7d-beb4-4595-b5ff-d62956c58a7e.webp" beforeDir="false" afterPath="$PROJECT_DIR$/server/static/4546bb7d-beb4-4595-b5ff-d62956c58a7e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/static/ccd380e3-4f8a-4946-93a1-f734b6884704.webp" beforeDir="false" afterPath="$PROJECT_DIR$/server/static/ccd380e3-4f8a-4946-93a1-f734b6884704.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,56 +65,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.6&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/T/online-store/online-store/mocker_server&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\T\\online-store\\online-store\\client\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.12.1",
+    "javascript.nodejs.core.library.typings.version": "18.14.6",
+    "last_opened_file_path": "D:/T/online-store/online-store/server/static",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Errors",
+    "ts.external.directory.path": "D:\\T\\online-store\\online-store\\client\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\server\static" />
+      <recent name="D:\T\online-store\online-store\mocker_server\static" />
       <recent name="D:\T\online-store\online-store\mocker_server" />
       <recent name="D:\T\online-store\online-store\server" />
       <recent name="D:\T\online-store\online-store\client\src" />
-      <recent name="D:\T\online-store\online-store\client\src\assets" />
-      <recent name="D:\T\online-store\online-store\client\src\assets\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\mocker_server\static" />
       <recent name="D:\T\online-store\online-store\mocker_server" />
       <recent name="D:\T\online-store\online-store\client" />
       <recent name="D:\T\online-store\online-store\client\src\components\Pages" />
       <recent name="D:\T\online-store\online-store\client\src\pages\Device\DevicePage" />
-      <recent name="D:\T\online-store\online-store\client\src\pages\Device\DeviceItem" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="nodemon_start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/mocker_server/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="nodemon_start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.pm2_start">
     <configuration name="pm2_kill" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/mocker_server/package.json" />
       <command value="run" />
@@ -115,6 +135,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/mocker_server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -127,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.pm2_start" />
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.pm2_kill" />
         <item itemvalue="npm.pm_start" />
-        <item itemvalue="npm.nodemon_start" />
       </list>
     </recent_temporary>
   </component>
@@ -169,14 +199,7 @@
       <workItem from="1683125388783" duration="161705000" />
       <workItem from="1683505933940" duration="10619000" />
       <workItem from="1683517862239" duration="105543000" />
-      <workItem from="1683751866565" duration="38419000" />
-    </task>
-    <task id="LOCAL-00091" summary="vercel mock server">
-      <created>1683695596075</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1683695596075</updated>
+      <workItem from="1683751866565" duration="56140000" />
     </task>
     <task id="LOCAL-00092" summary="vercel mock server">
       <created>1683696449128</created>
@@ -514,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683842554571</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="pm2 connect server + liveReloadServer">
+      <created>1683845382703</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1683845382703</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

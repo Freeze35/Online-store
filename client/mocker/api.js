@@ -11,7 +11,7 @@ let allDeviceInfo = JSON.parse(fs.readFileSync(path.join(__dirname, "./deviceInf
 let allTypes = JSON.parse(fs.readFileSync(path.join(__dirname, "./typesApi.json"), "utf-8"));
 let allBrands = JSON.parse(fs.readFileSync(path.join(__dirname, "./brandApi.json"), "utf-8"));
 
-//import dis from "../client/src/assets/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.webp"
+//import dis from "../client/src/assets/static/062eb0e4-4791-4cb0-bd06-1d7f4022a006.png"
 
 const proxy = {
 
@@ -122,10 +122,10 @@ const proxy = {
         return res.json(allBrands)
     },
     //get our images. If change place mocker folder change this
-    'GET /:url.webp': (req, res) => {
+    'GET /:url.png': (req, res) => {
         const {url} = req.params;
 
-        res.sendFile(path.resolve(__dirname, `../src/assets/static/${url}.webp`))
+        res.sendFile(path.resolve(__dirname, `../src/assets/static/${url}.png`))
     },
     'DELETE /api/device-info/:id': (req, res) => {
         const {id} = req.params
@@ -252,7 +252,7 @@ const proxy = {
     'POST /api/device': async (req, res,next) => {
 
         const {name, price, brandId, typeId, info} = req.body
-        let fileName = uuidv4() + ".webp" // для создания уникального имения для img файла
+        let fileName = uuidv4() + ".png" // для создания уникального имения для img файла
         const img = req.files.img
         await img.mv(path.resolve(__dirname, '../client/src/assets/', 'static', fileName))
         let newDevId = 0
@@ -324,7 +324,7 @@ const proxy = {
 
     /*const {name, price, brandId, typeId, info} = req.body
     const {img} = req.files
-    let fileName = uuid.v4() + ".webp" // для создания уникального имения для img файла
+    let fileName = uuid.v4() + ".png" // для создания уникального имения для img файла
     await img.mv(path.resolve(__dirname, '..', 'static', fileName)) //Прописываем путь для передачи через браузер пути для файла
     const device = await Device.create({name, price, brandId, typeId, img: fileName})
     if(info){

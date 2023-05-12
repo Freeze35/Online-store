@@ -2,7 +2,7 @@ import React from 'react';
 import {observer} from "mobx-react-lite";
 import Modal from "react-bootstrap/Modal";
 import {Button} from "react-bootstrap";
-import {createDeviceInfo, fetchOneDevice, updateDeviceInfo} from "../../http/deviceApi";
+import {createDeviceInfo, updateDeviceInfo} from "../../http/deviceApi";
 import InfoForm from "./InfoForm";
 
 const CreatePageInfo = observer(({show, onHide,device,setDevice,
@@ -14,11 +14,12 @@ const CreatePageInfo = observer(({show, onHide,device,setDevice,
         const formData = new URLSearchParams()
         formData.append('deviceId', device.id)
         formData.append('info', JSON.stringify(info))
-        createDeviceInfo(formData).then(() => onHide())
-        fetchOneDevice(id).then(data => {
-            setDevice(data)
+        createDeviceInfo(formData).then(newDeviceInfo => {
+            setDevice({...device,info:newDeviceInfo})
             setLoading(false)
+            onHide()
         })
+
         clearInfo()
     }
 
@@ -29,7 +30,7 @@ const CreatePageInfo = observer(({show, onHide,device,setDevice,
         formData.append('deviceId', id)
         formData.append('infoId', info.at(0).id)
         updateDeviceInfo(id,formData).then(newDeviceInfo => {
-            setDevice({...device,info:[newDeviceInfo]})
+            setDevice({...device,info:newDeviceInfo})
             setLoading(false)
             clearInfo() // чистка поля для добавления данных
             setUpdate(false)

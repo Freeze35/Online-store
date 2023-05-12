@@ -34,7 +34,12 @@ class deviceInfoController {
         fs.writeFileSync(path.join(__dirname, "./../mocker/deviceInfo.json"),
             JSON.stringify(allDeviceInfo, null, 2), "utf-8");
 
-        res.status(200).send({message: "Info added"})
+        let returnInfo = allDeviceInfo.filter(devInfo=>
+            ~~devInfo.deviceId === ~~deviceId
+        )
+
+        res.json(returnInfo)
+        //res.status(200).send({message: "Info added"})
     }
     async getAll(req,res){
         /*let {deviceID,limit,page} =req.query
@@ -49,13 +54,13 @@ class deviceInfoController {
             devices = await DeviceInfo.findAndCountAll({where:{deviceID},limit, offset})
         }
 */
-        return res.json(allDeviceInfo)
+        res.json(allDeviceInfo)
     }
     async getOne(req, res) {
         const {id} = req.params
         //let dev = devices.rows.filter(dev => ~~dev.id === ~~id)[0]
         let dev = {...allDeviceInfo.filter(info => ~~info.deviceId === ~~id)[0]}
-        return res.json(dev)
+        res.json(dev)
     }
 
     async deleteOne(req, res) {
@@ -73,6 +78,7 @@ class deviceInfoController {
 
     async updateInfo(req, res){
         const {info} = req.body
+        const {id} = req.params
         let parseInfo = JSON.parse(info)[0]// преобразовываем к JSON объекту
 
         let idChangeElem = allDeviceInfo.findIndex(devInfo =>
@@ -85,7 +91,11 @@ class deviceInfoController {
         fs.writeFileSync(path.join(__dirname, "./../mocker/deviceInfo.json"),
             JSON.stringify(allDeviceInfo, null, 2), "utf-8");
 
-        return res.json(parseInfo)
+        let returnInfo = allDeviceInfo.filter( deviceInfo=>
+              ~~deviceInfo.deviceId === ~~id
+        )
+
+        res.json(returnInfo)
     }
 }
 module.exports = new deviceInfoController()

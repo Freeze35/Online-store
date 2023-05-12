@@ -9,7 +9,7 @@ class deviceController {
 
             const {name, price, brandId, typeId, info} = req.body
             const {img} = req.files
-            let fileName = uuid.v4() + ".webp" // для создания уникального имения для img файла
+            let fileName = uuid.v4() + ".png" // для создания уникального имения для img файла
             await img.mv(path.resolve(__dirname, '..', 'static', fileName)) //Прописываем путь для передачи через браузер пути для файла
             const device = await Device.create({name, price, brandId, typeId, img: fileName})
             if(info){

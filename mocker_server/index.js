@@ -38,9 +38,11 @@ app.use(fileUpload({}))
 
 app.use("/api", router)
 
-app.get("/:url.webp", (req, res) => {
+app.get("/:url.png", (req, res) => {
     const {url} = req.params;
-    res.sendFile(path.resolve(__dirname, `./static/${url}.webp`))
+    console.log(url)
+    console.log(`./static/${url}.png`)
+    res.sendFile(path.resolve(__dirname, `./static/${url}.png`))
 });
 
 app.listen(10000,"localhost", () => console.log(`Server started on port ${10000}`))

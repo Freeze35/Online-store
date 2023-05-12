@@ -64,6 +64,14 @@
     padding-top: 5px;
 }
 
+.loading_image{
+    filter: blur(10px);
+}
+.loaded_image{
+    filter: blur(0);
+    transition: filter 0.15s linear;
+}
+
 @media screen and (max-width: 768px) {
     .device_name{
         padding-top: 20px;

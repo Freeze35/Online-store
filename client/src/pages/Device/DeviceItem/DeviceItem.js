@@ -1,5 +1,4 @@
 import React, {useContext} from 'react';
-import {Image} from "react-bootstrap";
 import star from "../../../assets/star_orange.png"
 import {useNavigate} from "react-router-dom";
 import {DEVICE_ROUTE} from "../../../utils/consts";
@@ -8,6 +7,7 @@ import {Context} from "../../../index.js";
 import add_to_basket from "../../../assets/add_to_basket.png";
 import "../buttonDeviceAddToBasket.css"
 import "./DeviceItem.css"
+import ProgressiveImage from "react-progressive-graceful-image";
 
 const DeviceItem = ({device, brands}) => {
     let navigate = useNavigate();
@@ -35,15 +35,23 @@ const DeviceItem = ({device, brands}) => {
             <div className="container_device"
                   onClick={() => navigate(DEVICE_ROUTE + "/" + device.id)}
             >
-                <img src={process.env.REACT_APP_API_URL + device.img}
+                <ProgressiveImage src={process.env.REACT_APP_API_URL + device.img}
+                                  placeholder={process.env.REACT_APP_API_URL + device.img.split(".")[0]+"SM.png"}>
+                {(src,loading) =>
+                <img className={loading?"device_image loading_image":"device_image loaded_image"}
+                    src={src} alt="an image" loading="lazy" />
+                }
+                </ProgressiveImage>
+                {/*<img src={process.env.REACT_APP_API_URL + device.img}
                        className="device_image" alt="Item" loading="lazy"
-                />
+                />*/}
+
                 <div className="rating_name" style={{width:"100%"}}>
                     <div className="device_name">
                         {setName()} {device.name}
                     </div>
                     <div className="rating_name" style={{flexDirection:"column",paddingRight:15}}>
-                        <Image src={star} className="star"></Image>
+                        <img src={star} className="star" alt="star"></img>
                         <div style={{color:"orange"}}>{device.rating}</div>
                     </div>
                 </div>

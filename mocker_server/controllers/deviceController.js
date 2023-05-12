@@ -8,7 +8,7 @@ let allDeviceInfo = JSON.parse(fs.readFileSync(path.join(__dirname, "./../mocker
 class deviceController {
     async create(req,res){
         const {name, price, brandId, typeId, info} = req.body
-        let fileName = uuidv4() + ".webp" // для создания уникального имения для img файла
+        let fileName = uuidv4() + ".png" // для создания уникального имения для img файла
         const img = req.files.img
         await img.mv(path.resolve(__dirname, '..', 'static', fileName))
         let newDevId = 0

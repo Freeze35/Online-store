@@ -8,6 +8,7 @@ import {addToBasket} from "../AddDeviceToBasket";
 import "./DevicePage.css"
 import star from "../../../assets/star_orange.png"
 import {observer} from "mobx-react-lite";
+import ProgressiveImage from "react-progressive-graceful-image";
 
 const DevicePage = observer(() => {
     const [device, setDevice] = useState({info: []})
@@ -22,10 +23,8 @@ const DevicePage = observer(() => {
         fetchOneDevice(id).then(data => {
             setDevice(data)
             setLoading(false)
-
         })
-
-    }, [device, id])
+    }, [])
 
     const clearInfo = () => {
         setInfo(info.filter(i => i.number === 0))
@@ -57,9 +56,13 @@ const DevicePage = observer(() => {
             <div className="full_block">
                 <div className="up_block">
                     <div className="img_block">
-                        <img className="image_device" src={process.env.REACT_APP_API_URL + device.img}
-                             alt='img' loading="lazy"
-                        />
+                        <ProgressiveImage src={process.env.REACT_APP_API_URL + device.img}
+                                          placeholder={process.env.REACT_APP_API_URL + device.img.split(".")[0]+"SM.png"}>
+                            {(src,loading) =>
+                                <img className={loading?"image_device loading_image":"image_device loaded_image"}
+                                     src={src} alt="an image" loading="lazy" />
+                            }
+                        </ProgressiveImage>
                         <p>{device.name}</p>
                     </div>
                     <div className="rating_block">
