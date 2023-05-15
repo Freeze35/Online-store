@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add webpack txt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/Shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop/Shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,14 +168,7 @@
       <workItem from="1683517862239" duration="105543000" />
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
-      <workItem from="1684121174864" duration="25855000" />
-    </task>
-    <task id="LOCAL-00099" summary="vercel mock server">
-      <created>1683703491700</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1683703491700</updated>
+      <workItem from="1684121174864" duration="26199000" />
     </task>
     <task id="LOCAL-00100" summary="vercel mock server">
       <created>1683705552360</created>
@@ -515,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684156317407</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Add webpack txt">
+      <created>1684157866631</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1684157866631</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
