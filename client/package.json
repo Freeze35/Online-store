@@ -75,6 +75,7 @@
     "node-polyfill-webpack-plugin": "^2.0.1",
     "obsolete-webpack-plugin": "^0.5.6",
     "path": "^0.12.7",
+    "raw-loader": "^4.0.2",
     "sass-loader": "^13.2.2",
     "source-map-loader": "^4.0.1",
     "style-loader": "^3.3.2",
