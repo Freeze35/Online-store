@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add webpack txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/PagesLimit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Pages/PagesLimit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/modals/InfoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/InfoForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/AdminPanel/AdminPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/AdminPanel/AdminPanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/basketController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/basketController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,14 +168,7 @@
       <workItem from="1683517862239" duration="105543000" />
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
-      <workItem from="1684121174864" duration="23412000" />
-    </task>
-    <task id="LOCAL-00097" summary="vercel mock server">
-      <created>1683700182948</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1683700182948</updated>
+      <workItem from="1684121174864" duration="24141000" />
     </task>
     <task id="LOCAL-00098" summary="vercel mock server">
       <created>1683701931282</created>
@@ -520,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684148752508</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Add webpack txt">
+      <created>1684149496053</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1684149496053</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
