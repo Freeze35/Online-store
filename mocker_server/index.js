@@ -6,9 +6,11 @@ let livereload = require("livereload");
 let connectLiveReload = require("connect-livereload");
 
 
+//Cors controller
 app.use(function(req, res, next) {
     // res.header("Access-Control-Allow-Origin", "*");
-    const allowedOrigins = ['*','http://localhost:3000', 'https://store-petr-elshin-github-freeze35.netlify.app',
+    const allowedOrigins = ['*','http://localhost:3000',"http://localhost:10000",
+        'https://store-petr-elshin-github-freeze35.netlify.app',
         'https://online-store-ybltoxnv3-freeze35.vercel.app'];
     const origin = req.headers.origin;
     if (allowedOrigins.includes(origin)) {

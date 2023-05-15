@@ -4,6 +4,7 @@
     margin: 0 1vw 0;
 }
 .up_block{
+    margin-top: 20px;
     display: flex;
     flex-flow: row wrap;
     flex-direction: row;
@@ -15,7 +16,7 @@
     width: 30%;
     display: flex;
     flex-direction: column;
-    font-size: clamp(5px, 6vw, 200px);
+    font-size: clamp(5px, 4vw, 200px);
     align-items: center;
     justify-content: center;
     margin-left: 1vw;
@@ -111,11 +112,15 @@
 }
 
 .info_data{
-    height: 10vh;
-    font-size:  clamp(2px, 3vw, 400px);
+    height: auto;
+    font-size:  clamp(8px, 2vw, 400px);
     display: flex;
     vertical-align: center;
     padding: 0 10px 0;
+}
+
+.btn{
+    font-size:  clamp(2px, 1.5vw, 400px) !important;
 }
 
 @media screen and (max-width: 768px) {

@@ -239,3 +239,73 @@ for deploy on render.com use script [pm2-runtime](https://community.render.com/t
 [png supports browsers](https://caniuse.com/?search=png)  
 Progressive loading image from small to large resolution   
 [Прогрессивные изображения](https://www.youtube.com/watch?v=mXxU_kGm_BQ&ab_channel=%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%D0%9D%D0%B5%D0%BF%D0%BE%D0%BC%D0%BD%D1%8F%D1%89%D0%B8%D0%B9)
+
+## Ремарка подключения fonts and Optimizing images
+[Таким образом, браузеры, поддерживающие предварительную загрузку, будут предварительно загружать woff2 // So browsers that support preloading will preload woff2
+](https://stackoverflow.com/questions/1330825/preloading-font-face-fonts)
+[connect fonts](https://www.youtube.com/watch?v=GwA0BN5RgB0)  
+В файле fontface.css описываем подключаемые шрифты для разных систем  
+экспортируем к нашему центральному App.css и  
+объявляем на глобальном уровне именно этот font  //  
+In the fontface.css file, we describe the included fonts for different systems
+export to our central App.css and
+we declare at the global level exactly this font  serif for default
+```
+*{
+font-family: Rubik-Regular, serif;}
+```
+
+for optimize images =>
+use resolution picture 1920 1280 or on choice author[better]
+changing in any redactor of picture   
+=>
+compress (reduce 50-90% size) our image [compresspng.com](https://compresspng.com/)  
+=>  
+for better optimaztion ready image use | recommended WEBP format of picture [squoosh](https://squoosh.app/)
+
+для отдельных изображений для ускорения подгрузки лучше использовать loading="lazy"[loading="lazy"](https://stackoverflow.com/questions/69054825/how-should-i-implement-lazy-loading-for-my-images-in-react)
+
+```
+<img className="book_image"
+     src={TakeDataBookComponent("imageBook",book)}
+     alt={""}
+     loading="lazy"
+/>
+```
+
+## Add change txt file to json and add to any deviceFile
+Учитываются пробелы при разделение Head and Characters[key,value]  
+Пустые строки для разделения Head первый может иметь только нижний пропуск  
+Characters.txt and ChangeTxt.json  
+Затем приобразуем файл txt используя команду node src/components/helpers/ReadText.mjs или node_to_json  
+Заходим на строницу device/{id} => Добавить свойство => Добавить файл(Сам считает ChangeTxt.json) => Сохранить [Временное решение будет обрабатываться на серверной части]  
+
+Characters.txt example:
+```
+Габариты и вес
+
+Ширина
+70.9 мм
+Высота
+146.1 мм
+Толщина
+9.5 мм
+Вес
+160 г
+
+Питание
+
+Тип аккумулятора
+Li-polymer
+Емкость аккумулятора
+2600 мАч
+Съемный аккумулятор
+есть
+Выходная мощность ЗУ
+5 Вт
+Поддержка быстрой зарядки
+нет
+Поддержка беспроводной зарядки
+Нет
+```
+

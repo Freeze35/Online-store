@@ -48,6 +48,7 @@ const Shop = observer(() => {
                 <SelectorBar/>
             </div>
             <div className="right_side"
+                 id="right_side"
             >
                 <SortBar/>
                 <DeviceList/>

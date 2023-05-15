@@ -28,10 +28,11 @@
     scale: 110%;
 }
 .device_name{
-    font-size: clamp(20px, 1vw, 80px);
+    font-size: clamp(15px, 1.3vw, 100px);
 }
 
 .rating_name{
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;

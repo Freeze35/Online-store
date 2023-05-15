@@ -1,66 +1,4434 @@
 [
   {
-    "id": 21,
-    "title": "Оперативная память",
+    "id": 52,
+    "title": "Гарантия от производителя",
+    "description": "12 мес.",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 53,
+    "title": "Страна-производитель",
+    "description": "Россия",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 54,
+    "title": "Тип",
+    "description": "телевизор LED",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 55,
+    "title": "Модель",
+    "description": "LG 32LM576BPLD",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 56,
+    "title": "Питание",
+    "description": "100-240 В ～ 50/60 Гц",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 57,
+    "title": "Цвет рамки",
+    "description": "черный",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 58,
+    "title": "Цвет подставки",
+    "description": "коричневый",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 59,
+    "title": "Дата начала производства",
+    "description": "2021",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 60,
+    "title": "Тип подсветки экрана",
+    "description": "Direct LED",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 61,
+    "title": "Диагональ экрана (дюйм)",
+    "description": "32",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 62,
+    "title": "Диагональ экрана",
+    "description": "80 см",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 63,
+    "title": "Разрешение экрана",
+    "description": "HD, 1366x768",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 64,
+    "title": "Формат экрана",
+    "description": "16:9",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 65,
+    "title": "Стандарты HDTV",
+    "description": "HD 720p",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 66,
+    "title": "Поддержка HDR",
+    "description": "есть",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 67,
+    "title": "Технология HDR",
+    "description": "Active HDR, HDR10 Pro, HLG",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 68,
+    "title": "Частота обновления экрана",
+    "description": "50 Гц",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 69,
+    "title": "Операционная система",
+    "description": "webOS",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 70,
+    "title": "Поддержка Smart TV",
+    "description": "есть",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 71,
+    "title": "Wi-Fi",
+    "description": "встроенный",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 72,
+    "title": "Стандарт Wi-Fi",
+    "description": "5 (802.11ac)",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 73,
+    "title": "Цифровые тюнеры",
+    "description": "DVB-C, DVB-C2, DVB-S, DVB-S2, DVB-T, DVB-T2",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 74,
+    "title": "Телетекст",
+    "description": "Есть",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 75,
+    "title": "Мощность звука",
+    "description": "10 Вт",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 76,
+    "title": "Технология звука",
+    "description": "Virtual Surround Plus",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 77,
+    "title": "Сабвуфер",
+    "description": "нет",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 78,
+    "title": "Объемное звучание",
+    "description": "Есть",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 79,
+    "title": "Воспроизведение с внешних носителей",
+    "description": "есть",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 80,
+    "title": "Поддерживаемые носители",
+    "description": "USB",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 81,
+    "title": "Форматы аудиофайлов",
+    "description": "AAC, AC3, EAC3, HE AAC, MP2, MP3, PCM, WMA",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 82,
+    "title": "Количество HDMI портов",
+    "description": "2",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 83,
+    "title": "Версия HDMI",
+    "description": "HDMI 1.4",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 84,
+    "title": "Выход на наушники",
+    "description": "нет",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 85,
+    "title": "Другие аудио-/видеовыходы",
+    "description": "аудио S/PDIF (оптический)",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 86,
+    "title": "Количество USB",
+    "description": "1",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 87,
+    "title": "Слот для CI/PCMCIA",
+    "description": "есть",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 88,
+    "title": "Устройство для чтения карт памяти",
+    "description": "нет",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 89,
+    "title": "Bluetooth",
+    "description": "есть",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 90,
+    "title": "Порт Ethernet",
+    "description": "Есть",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 91,
+    "title": "Игровой телевизор",
+    "description": "нет",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 92,
+    "title": "Функция TimeShift",
+    "description": "нет",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 93,
+    "title": "Запись видео",
+    "description": "Нет",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 94,
+    "title": "Возможность настенного крепления",
+    "description": "есть",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 95,
+    "title": "Размер VESA",
+    "description": "200 x 200",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 96,
+    "title": "Расположение подставки",
+    "description": "по бокам",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 97,
+    "title": "Комплектация",
+    "description": "батарейки, документация, кабель питания, пульт ДУ",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 98,
+    "title": "Ширина без подставки",
+    "description": "739 мм",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 99,
+    "title": "Высота без подставки",
+    "description": "441 мм",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 100,
+    "title": "Толщина без подставки",
+    "description": "84 мм",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 101,
+    "title": "Вес без подставки",
+    "description": "4.85 кг",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 102,
+    "title": "Ширина с подставкой",
+    "description": "739 мм",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 103,
+    "title": "Высота с подставкой",
+    "description": "472 мм",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 104,
+    "title": "Толщина с подставкой",
+    "description": "168 мм",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 105,
+    "title": "Вес с подставкой",
+    "description": "4.9 кг",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 106,
+    "title": "Ширина подставки",
+    "description": "661 мм",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 107,
+    "title": "Ширина коробки",
+    "description": "812 мм",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 108,
+    "title": "Высота коробки",
+    "description": "510 мм",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.272Z",
+    "updatedAt": "2023-05-15T01:57:48.272Z"
+  },
+  {
+    "id": 109,
+    "title": "Глубина коробки",
+    "description": "142 мм",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.273Z",
+    "updatedAt": "2023-05-15T01:57:48.273Z"
+  },
+  {
+    "id": 110,
+    "title": "Вес в упаковке",
+    "description": "6.1 кг",
+    "deviceId": 4,
+    "createdAt": "2023-05-15T01:57:48.273Z",
+    "updatedAt": "2023-05-15T01:57:48.273Z"
+  },
+  {
+    "id": 111,
+    "title": "Гарантия АСЦ",
+    "description": "12 мес.",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 112,
+    "title": "Страна-производитель",
+    "description": "Вьетнам",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 113,
+    "title": "Год релиза",
+    "description": "2016",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 114,
+    "title": "Цвет задней панели",
+    "description": "серебристый",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 115,
+    "title": "Цвет передней панели",
+    "description": "белый",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 116,
+    "title": "Цвет граней",
+    "description": "Серебристый",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 117,
+    "title": "Поддержка сетей 2G",
+    "description": "GSM 1800, GSM 1900, GSM 850, GSM 900",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 118,
+    "title": "Поддержка сетей 3G",
+    "description": "UMTS 1900, UMTS 2100, UMTS 850, UMTS 900",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 119,
+    "title": "Поддержка сетей 4G (LTE)",
+    "description": "есть",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 120,
+    "title": "Диапазонов частот LTE",
+    "description": "LTE 1700 (B4), LTE 1800 (B3), LTE 1900 (B2), LTE 1900 (B25), LTE 2100 (B1), LTE 2600 (B7), LTE 700 (B12), LTE 700 (B13), LTE 700 (B17), LTE 700 (B28), LTE 800 (B18), LTE 800 (B19), LTE 800 (B20), LTE 800 (B26), LTE 850 (B5), LTE 900 (B8)",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 121,
+    "title": "Формат SIM-карт",
+    "description": "Nano-SIM (12.3x8.8x0.67 мм)",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 122,
+    "title": "Количество SIM-карт",
+    "description": "2 SIM",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 123,
+    "title": "Диагональ экрана (дюйм)",
+    "description": "5.1\"",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 124,
+    "title": "Разрешение экрана",
+    "description": "2560x1440",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 125,
+    "title": "Плотность пикселей (ppi)",
+    "description": "577 ppi",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 126,
+    "title": "Технология изготовления экрана",
+    "description": "Super AMOLED",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 127,
+    "title": "Количество цветов экрана",
+    "description": "16 млн",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 128,
+    "title": "Материал корпуса",
+    "description": "металл, стекло",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 129,
+    "title": "Защищенность",
+    "description": "защита от пыли и влаги, защитное покрытие экрана от царапин",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 130,
+    "title": "Вид защитного покрытия экрана",
+    "description": "Corning Gorilla Glass 4",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 131,
+    "title": "Степень защиты IP",
+    "description": "IP68",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 132,
+    "title": "Операционная система",
+    "description": "Android",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 133,
+    "title": "Производитель процессора",
+    "description": "Samsung",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 134,
+    "title": "Модель процессора",
+    "description": "Exynos 8 Octa 8890",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 135,
+    "title": "Количество ядер",
+    "description": "8",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 136,
+    "title": "Частота работы процессора (ГГц)",
+    "description": "1.6 ГГц, 2.3 ГГц",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 137,
+    "title": "Конфигурация процессора",
+    "description": "4x ARMv8 Mongoose 2.3 ГГц, 4x Cortex-A53 1.6 ГГц",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 138,
+    "title": "Техпроцесс",
+    "description": "14 нм",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 139,
+    "title": "Графический ускоритель",
+    "description": "Mali-T880 MP12",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 140,
+    "title": "Объем оперативной памяти",
+    "description": "4 ГБ",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 141,
+    "title": "Объем встроенной памяти",
     "description": "32 ГБ",
-    "createdAt": "2023-02-08T16:03:49.369Z",
-    "updatedAt": "2023-05-12T03:35:52.954Z",
-    "deviceId": 1
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
   },
   {
-    "id": 40,
-    "title": "Диаметр экрана",
-    "description": "7 дюймов",
-    "createdAt": "2023-02-15T18:16:27.922Z",
-    "updatedAt": "2023-02-15T18:16:27.922Z",
-    "deviceId": 1
+    "id": 142,
+    "title": "Слот для карты памяти",
+    "description": "есть (универсальный слот SIM + SIM / SIM + microSD)",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
   },
   {
-    "id": 7,
+    "id": 143,
+    "title": "Типы поддерживаемых карт памяти",
+    "description": "microSD, microSDHC, microSDXC",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 144,
+    "title": "Максимальный объем карты памяти",
+    "description": "256 ГБ",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 145,
+    "title": "Датчики",
+    "description": "акселерометр, барометр, геомагнитный датчик, гироскоп, датчик освещения, датчик приближения, датчик сердечного ритма, датчик Холла",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 146,
+    "title": "FM радио",
+    "description": "Нет",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 147,
+    "title": "Количество основных (тыловых) камер",
+    "description": "1",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 148,
+    "title": "Количество мегапикселей основной камеры (Мп)",
+    "description": "12",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 149,
+    "title": "Апертура основной камеры",
+    "description": "ƒ/1.7",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 150,
+    "title": "Автофокусировка основной камеры",
+    "description": "есть",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 151,
+    "title": "Тип вспышки",
+    "description": "светодиодная",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 152,
+    "title": "Оптическая стабилизация",
+    "description": "есть",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.034Z",
+    "updatedAt": "2023-05-15T02:24:50.034Z"
+  },
+  {
+    "id": 153,
+    "title": "Зум (фото)",
+    "description": "цифровой зум",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 154,
+    "title": "Разрешение снимков",
+    "description": "2160x2160, 2560x1440, 2880x2160, 3024x3024, 4032x2268, 4032x3024",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 155,
+    "title": "Особенности и технологии тыловой оптики",
+    "description": "технология Dual Pixel",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 156,
+    "title": "Режимы и функции фотосъемки",
+    "description": "RAW, автоспуск, выбор сцены, географические метки, контроль экспозиции, макросъёмка, настройка ISO, настройка баланса белого, панорамная съёмка, распознавание лица, режим HDR, сенсорная фокусировка, серийная съемка",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 157,
+    "title": "Формат видеосъемки",
+    "description": "Full HD, HD, Quad HD, Ultra HD 4K",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 158,
+    "title": "Разрешение видео и частота кадров",
+    "description": "1280x720 (30 кадр./сек.), 1920x1080 (30 кадр./сек.), 1920x1080 (60 кадр./сек.), 2560x1440 (30 кадр./сек.), 3840x2160 (30 кадр./сек.)",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 159,
+    "title": "Замедленная видеосъемка",
+    "description": "1280x720 (240 кадр./сек.), 1920x1080 (120 кадр./сек.)",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 160,
+    "title": "Зум (видео)",
+    "description": "цифровой зум",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 161,
+    "title": "Двойная фронтальная камера",
+    "description": "нет",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 162,
+    "title": "Количество мегапикселей фронтальной камеры (Мп)",
+    "description": "5",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 163,
+    "title": "Апертура фронтальной камеры",
+    "description": "ƒ/1.7",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 164,
+    "title": "Автофокусировка",
+    "description": "нет",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 165,
+    "title": "Встроенная вспышка",
+    "description": "нет",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 166,
+    "title": "Разрешение снимков",
+    "description": "2560x1920",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 167,
+    "title": "Разрешение видеосъемки",
+    "description": "1920x1080 (30 кадр./сек.)",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 168,
+    "title": "Особенности и технологии фронтальной оптики",
+    "description": "CMOS",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 169,
+    "title": "Режимы и функции съемки",
+    "description": "режим «Авто HDR»",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 170,
+    "title": "Версия Bluetooth",
+    "description": "4.2",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 171,
+    "title": "Стандарт Wi-Fi",
+    "description": "802.11a, 802.11ac, 802.11b, 802.11g, 802.11n",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 172,
+    "title": "NFC",
+    "description": "есть",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 173,
+    "title": "Бесконтактная технология оплаты",
+    "description": "Google Pay, Samsung Pay",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 174,
+    "title": "ГЛОНАСС",
+    "description": "есть",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 175,
+    "title": "GPS",
+    "description": "есть",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 176,
+    "title": "A-GPS",
+    "description": "есть",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 177,
+    "title": "ИК-порт",
+    "description": "Нет",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 178,
+    "title": "Интерфейс",
+    "description": "micro USB",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 179,
+    "title": "Поддержка MHL",
+    "description": "нет",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 180,
+    "title": "Поддержка OTG",
+    "description": "есть",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 181,
+    "title": "Разъем для наушников",
+    "description": "Mini Jack 3.5 мм",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 182,
+    "title": "Комплектация",
+    "description": "OTG-адаптер, USB-кабель, документация, зарядное устройство, наушники, скрепка для извлечения слота SIM-карты",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 183,
+    "title": "Биометрическая защита",
+    "description": "сканер отпечатков пальцев",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 184,
+    "title": "Особенности, дополнительно",
+    "description": "несъемный аккумулятор, совместимость с Gear VR",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 185,
+    "title": "Тип аккумулятора",
+    "description": "Li-Ion",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 186,
+    "title": "Емкость аккумулятора (мАч)",
+    "description": "3000 мАч",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 187,
+    "title": "Поддержка быстрой зарядки",
+    "description": "Quick Charge 2.0",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 188,
+    "title": "Поддержка беспроводной зарядки",
+    "description": "есть",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 189,
+    "title": "Время работы в режиме ожидания (ч)",
+    "description": "365 ч",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 190,
+    "title": "Время работы в режиме разговора (ч)",
+    "description": "22 ч",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 191,
+    "title": "Ширина (мм)",
+    "description": "69.6 мм",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 192,
+    "title": "Высота (мм)",
+    "description": "142.4 мм",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 193,
+    "title": "Толщина (мм)",
+    "description": "7.9 мм",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 194,
+    "title": "Вес (г)",
+    "description": "152 г",
+    "deviceId": 1,
+    "createdAt": "2023-05-15T02:24:50.035Z",
+    "updatedAt": "2023-05-15T02:24:50.035Z"
+  },
+  {
+    "id": 195,
+    "title": "Гарантия",
+    "description": "1 год",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 196,
+    "title": "Страна",
+    "description": "Южная Корея",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 197,
     "title": "Высота",
     "description": "200 см",
-    "createdAt": "2023-02-06T15:42:03.978Z",
-    "updatedAt": "2023-02-09T20:27:46.684Z",
-    "deviceId": 2
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
   },
   {
-    "id": 8,
+    "id": 198,
     "title": "Ширина",
     "description": "60 см",
-    "createdAt": "2023-02-06T15:42:03.978Z",
-    "updatedAt": "2023-02-06T15:42:03.978Z",
-    "deviceId": 2
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
   },
   {
-    "id": 9,
+    "id": 199,
     "title": "Глубина",
-    "description": "60 см",
-    "createdAt": "2023-02-06T15:42:03.978Z",
-    "updatedAt": "2023-02-06T15:42:03.978Z",
-    "deviceId": 2
+    "description": "65 см",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
   },
   {
-    "id": 10,
+    "id": 200,
     "title": "Объем холодильной камеры",
     "description": "232 л",
-    "createdAt": "2023-02-06T15:42:03.978Z",
-    "updatedAt": "2023-02-06T15:42:03.978Z",
-    "deviceId": 2
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
   },
   {
-    "id": 41,
-    "title": "Хранилище",
+    "id": 201,
+    "title": "Объем зоны свежести",
+    "description": "16 л",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 202,
+    "title": "Объем морозильной камеры",
+    "description": "96 л",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 203,
+    "title": "Полок в холодильной камере",
+    "description": "4",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 204,
+    "title": "Полок на двери холодильной камеры",
+    "description": "7",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 205,
+    "title": "Складных полок",
+    "description": "1",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 206,
+    "title": "Зона сохранения свежести",
+    "description": "Да",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 207,
+    "title": "Тип зоны сохранения свежести",
+    "description": "сухая",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 208,
+    "title": "Ящиков в зоне сохранения свежести",
+    "description": "1",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 209,
+    "title": "Отделений в морозильной камере",
+    "description": "4",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 210,
+    "title": "Ящиков в морозильной камере",
+    "description": "3",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 211,
+    "title": "Мощность замораживания",
+    "description": "14.4 кг/сутки",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 212,
+    "title": "Климатический класс",
+    "description": "N-T",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.218Z",
+    "updatedAt": "2023-05-15T03:54:06.218Z"
+  },
+  {
+    "id": 213,
+    "title": "Размораживание холодильной камеры",
+    "description": "No Frost",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 214,
+    "title": "Размораживание морозильной камеры",
+    "description": "No Frost",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 215,
+    "title": "Режим \"отпуск\"",
+    "description": "Да",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 216,
+    "title": "Режим суперзамораживания",
+    "description": "Да",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 217,
+    "title": "Материал двери",
+    "description": "нержавеющая сталь",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 218,
+    "title": "Перенавешиваемые двери",
+    "description": "Да",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 219,
+    "title": "Установка вплотную к стене",
+    "description": "Да",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 220,
+    "title": "Защитное покрытие от отпечатков пальцев",
+    "description": "Да",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 221,
+    "title": "Материал полок",
+    "description": "стекло/ пластик/ нержавеющая сталь",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 222,
+    "title": "Количество компрессоров",
+    "description": "1",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 223,
+    "title": "Тип компрессора",
+    "description": "Инверторный",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 224,
+    "title": "Класс энергоэффективности",
+    "description": "A+",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 225,
+    "title": "Энергопотребление в год",
+    "description": "315 кВтч",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 226,
+    "title": "Тип дисплея",
+    "description": "Цифровой",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 227,
+    "title": "Индикация режима работы",
+    "description": "Да",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 228,
+    "title": "Индикация температуры в холодильной камере",
+    "description": "Да",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 229,
+    "title": "Индикация температуры в морозильной камере",
+    "description": "Да",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 230,
+    "title": "Тип управления",
+    "description": "Сенсорный",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 231,
+    "title": "Тип освещения",
+    "description": "Светодиодное",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 232,
+    "title": "Максимальный уровень шума",
+    "description": "41 дБ",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 233,
+    "title": "Подставка для яиц",
+    "description": "в комплекте",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 234,
+    "title": "Цвет",
+    "description": "нержавеющая сталь",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 235,
+    "title": "Вес",
+    "description": "76 кг",
+    "deviceId": 2,
+    "createdAt": "2023-05-15T03:54:06.219Z",
+    "updatedAt": "2023-05-15T03:54:06.219Z"
+  },
+  {
+    "id": 236,
+    "title": "Гарантия от производителя",
+    "description": "12 мес.",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.393Z",
+    "updatedAt": "2023-05-15T04:02:36.393Z"
+  },
+  {
+    "id": 237,
+    "title": "Тип",
+    "description": "смартфон",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.393Z",
+    "updatedAt": "2023-05-15T04:02:36.393Z"
+  },
+  {
+    "id": 238,
+    "title": "Модель",
+    "description": "ZTE Blade A3 2020",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.393Z",
+    "updatedAt": "2023-05-15T04:02:36.393Z"
+  },
+  {
+    "id": 239,
+    "title": "Код производителя",
+    "description": "[ZTE-A3.NFC.2020.DG]",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.393Z",
+    "updatedAt": "2023-05-15T04:02:36.393Z"
+  },
+  {
+    "id": 240,
+    "title": "Год релиза",
+    "description": "2020",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.393Z",
+    "updatedAt": "2023-05-15T04:02:36.393Z"
+  },
+  {
+    "id": 241,
+    "title": "Цвет задней панели",
+    "description": "черный",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.393Z",
+    "updatedAt": "2023-05-15T04:02:36.393Z"
+  },
+  {
+    "id": 242,
+    "title": "Цвет передней панели",
+    "description": "черный",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.393Z",
+    "updatedAt": "2023-05-15T04:02:36.393Z"
+  },
+  {
+    "id": 243,
+    "title": "Цвет граней",
+    "description": "черный",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.393Z",
+    "updatedAt": "2023-05-15T04:02:36.393Z"
+  },
+  {
+    "id": 244,
+    "title": "Цвет, заявленный производителем",
+    "description": "черный графит",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.393Z",
+    "updatedAt": "2023-05-15T04:02:36.393Z"
+  },
+  {
+    "id": 245,
+    "title": "Поддержка сетей 2G",
+    "description": "GSM 1800, GSM 1900, GSM 850, GSM 900",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 246,
+    "title": "Поддержка сетей 3G",
+    "description": "UMTS 1900, UMTS 2100, UMTS 850, UMTS 900",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 247,
+    "title": "Поддержка сетей 4G (LTE)",
+    "description": "есть",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 248,
+    "title": "Диапазоны частот LTE",
+    "description": "LTE 1800 (B3), LTE 2100 (B1), LTE 2600 (B7), LTE 800 (B20), LTE 850 (B5), LTE 900 (B8)",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 249,
+    "title": "Поддержка сетей 5G",
+    "description": "нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 250,
+    "title": "Формат SIM-карт",
+    "description": "Nano-SIM (12.3x8.8x0.67 мм)",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 251,
+    "title": "Количество SIM-карт",
+    "description": "2 SIM",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 252,
+    "title": "Поддержка eSIM",
+    "description": "Нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 253,
+    "title": "Диагональ экрана",
+    "description": "5.45\"",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 254,
+    "title": "Разрешение экрана",
+    "description": "1440x720",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 255,
+    "title": "Плотность пикселей",
+    "description": "295 ppi",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 256,
+    "title": "Технология изготовления экрана",
+    "description": "IPS",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 257,
+    "title": "Соотношение сторон",
+    "description": "18:9",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 258,
+    "title": "Количество цветов экрана",
+    "description": "16 млн",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 259,
+    "title": "Частота обновления экрана",
+    "description": "60 Гц",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 260,
+    "title": "Материал корпуса",
+    "description": "пластик",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 261,
+    "title": "Защищенность",
+    "description": "Нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 262,
+    "title": "Операционная система",
+    "description": "Android",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 263,
+    "title": "Версия ОС",
+    "description": "Android 9.0 Pie Go",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 264,
+    "title": "Производитель процессора",
+    "description": "Unisoc (Spreadtrum)",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 265,
+    "title": "Модель процессора",
+    "description": "Spreadtrum SC9832E",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 266,
+    "title": "Количество ядер",
+    "description": "4",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 267,
+    "title": "Частота работы процессора",
+    "description": "1.4 ГГц",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 268,
+    "title": "Конфигурация процессора",
+    "description": "4x Cortex-A53 1.4 ГГц",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 269,
+    "title": "Техпроцесс",
+    "description": "28 нм",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 270,
+    "title": "Графический ускоритель",
+    "description": "Mali-T820 MP1",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 271,
+    "title": "Объем оперативной памяти",
+    "description": "1 Гб",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 272,
+    "title": "Объем встроенной памяти",
     "description": "32 ГБ",
-    "createdAt": "2023-02-15T21:20:49.535Z",
-    "updatedAt": "2023-02-15T21:20:49.535Z",
-    "deviceId": 3
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
   },
   {
-    "id": 42,
-    "title": "Диагональ",
-    "description": "81,28 см",
-    "createdAt": "2023-02-16T22:14:38.873Z",
-    "updatedAt": "2023-05-11T13:29:49.478Z",
-    "deviceId": 4
+    "id": 273,
+    "title": "Слот для карты памяти",
+    "description": "есть (отдельный слот)",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 274,
+    "title": "Типы поддерживаемых карт памяти",
+    "description": "microSD",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 275,
+    "title": "Датчики",
+    "description": "акселерометр, датчик приближения",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 276,
+    "title": "FM радио",
+    "description": "Есть",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 277,
+    "title": "Количество основных (тыловых) камер",
+    "description": "1",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 278,
+    "title": "Количество мегапикселей основной камеры",
+    "description": "8 Мп",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 279,
+    "title": "Апертура основной камеры",
+    "description": "ƒ/2.4",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 280,
+    "title": "Автофокусировка основной камеры",
+    "description": "есть",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 281,
+    "title": "Тип вспышки",
+    "description": "светодиодная",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 282,
+    "title": "Оптическая стабилизация",
+    "description": "Нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 283,
+    "title": "Формат видеосъемки",
+    "description": "HD",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 284,
+    "title": "Разрешение видео и частота кадров",
+    "description": "1280x720 (30 кадр./сек.)",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 285,
+    "title": "Замедленная видеосъемка",
+    "description": "Нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 286,
+    "title": "Двойная фронтальная камера",
+    "description": "нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 287,
+    "title": "Количество мегапикселей фронтальной камеры",
+    "description": "5 Мп",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 288,
+    "title": "Апертура фронтальной камеры",
+    "description": "ƒ/2.8",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 289,
+    "title": "Автофокусировка",
+    "description": "есть",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 290,
+    "title": "Встроенная вспышка",
+    "description": "нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 291,
+    "title": "Разрешение видеосъемки",
+    "description": "1280x720 (30 кадр./сек.)",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 292,
+    "title": "Отдельный ЦАП",
+    "description": "нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 293,
+    "title": "Стереодинамики",
+    "description": "Нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.394Z",
+    "updatedAt": "2023-05-15T04:02:36.394Z"
+  },
+  {
+    "id": 294,
+    "title": "Версия Bluetooth",
+    "description": "4.2",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 295,
+    "title": "Стандарт Wi-Fi",
+    "description": "4 (802.11n)",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 296,
+    "title": "NFC",
+    "description": "есть",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 297,
+    "title": "Бесконтактная технология оплаты",
+    "description": "Google Pay",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 298,
+    "title": "Системы навигации",
+    "description": "A-GPS, GPS",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 299,
+    "title": "ИК-порт",
+    "description": "Нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 300,
+    "title": "Интерфейс",
+    "description": "micro USB",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 301,
+    "title": "Разъем для наушников",
+    "description": "Mini Jack 3.5 мм",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 302,
+    "title": "Наушники в комплекте",
+    "description": "нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 303,
+    "title": "Зарядное устройство в комплекте",
+    "description": "есть",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 304,
+    "title": "Комплектация",
+    "description": "документация, зарядное устройство, кабель micro USB",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 305,
+    "title": "Биометрическая защита",
+    "description": "нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 306,
+    "title": "LED-индикатор уведомлений",
+    "description": "Есть",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 307,
+    "title": "Тип аккумулятора",
+    "description": "Li-polymer",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 308,
+    "title": "Емкость аккумулятора",
+    "description": "2600 мАч",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 309,
+    "title": "Съемный аккумулятор",
+    "description": "есть",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 310,
+    "title": "Выходная мощность ЗУ",
+    "description": "5 Вт",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 311,
+    "title": "Поддержка быстрой зарядки",
+    "description": "нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 312,
+    "title": "Поддержка беспроводной зарядки",
+    "description": "Нет",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 313,
+    "title": "Ширина",
+    "description": "70.9 мм",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 314,
+    "title": "Высота",
+    "description": "146.1 мм",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 315,
+    "title": "Толщина",
+    "description": "9.5 мм",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 316,
+    "title": "Вес",
+    "description": "160 г",
+    "deviceId": 3,
+    "createdAt": "2023-05-15T04:02:36.395Z",
+    "updatedAt": "2023-05-15T04:02:36.395Z"
+  },
+  {
+    "id": 317,
+    "title": "Гарантия от производителя",
+    "description": "12 мес.",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.581Z",
+    "updatedAt": "2023-05-15T04:33:30.581Z"
+  },
+  {
+    "id": 318,
+    "title": "Год выпуска",
+    "description": "2019",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.581Z",
+    "updatedAt": "2023-05-15T04:33:30.581Z"
+  },
+  {
+    "id": 319,
+    "title": "Цвет задней панели",
+    "description": "черный",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.581Z",
+    "updatedAt": "2023-05-15T04:33:30.581Z"
+  },
+  {
+    "id": 320,
+    "title": "Цвет передней панели",
+    "description": "черный",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.581Z",
+    "updatedAt": "2023-05-15T04:33:30.581Z"
+  },
+  {
+    "id": 321,
+    "title": "Цвет граней",
+    "description": "черный",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.581Z",
+    "updatedAt": "2023-05-15T04:33:30.581Z"
+  },
+  {
+    "id": 322,
+    "title": "Цвет, заявленный производителем",
+    "description": "Черный",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.581Z",
+    "updatedAt": "2023-05-15T04:33:30.581Z"
+  },
+  {
+    "id": 323,
+    "title": "Поддержка сетей 2G",
+    "description": "GSM 1800, GSM 1900, GSM 850, GSM 900",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.581Z",
+    "updatedAt": "2023-05-15T04:33:30.581Z"
+  },
+  {
+    "id": 324,
+    "title": "Поддержка сетей 3G",
+    "description": "UMTS 2100, UMTS 850, UMTS 900",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 325,
+    "title": "Поддержка сетей 4G (LTE)",
+    "description": "есть",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 326,
+    "title": "Диапазонов частот LTE",
+    "description": "LTE 1800 (B3), LTE 2100 (B1), LTE 2600 (B7), LTE 800 (B20), LTE 850 (B5), LTE 900 (B8)",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 327,
+    "title": "Формат SIM-карт",
+    "description": "Nano-SIM (12.3x8.8x0.67 мм)",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 328,
+    "title": "Количество SIM-карт",
+    "description": "2 SIM",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 329,
+    "title": "Диагональ экрана",
+    "description": "5\"",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 330,
+    "title": "Разрешение экрана",
+    "description": "960x480",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 331,
+    "title": "Плотность пикселей",
+    "description": "214 ppi",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 332,
+    "title": "Технология изготовления экрана",
+    "description": "TN",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 333,
+    "title": "Соотношение сторон",
+    "description": "18:9",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 334,
+    "title": "Материал корпуса",
+    "description": "пластик",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 335,
+    "title": "Степень защиты IP",
+    "description": "Нет",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 336,
+    "title": "Версия ОС",
+    "description": "Android 9.0 Pie Go",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 337,
+    "title": "Производитель процессора",
+    "description": "Spreadtrum",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 338,
+    "title": "Модель процессора",
+    "description": "Spreadtrum SC9832E",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 339,
+    "title": "Количество ядер",
+    "description": "4",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 340,
+    "title": "Частота работы процессора",
+    "description": "1.4 ГГц",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 341,
+    "title": "Конфигурация процессора",
+    "description": "4x Cortex-A53 1.4 ГГц",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 342,
+    "title": "Техпроцесс",
+    "description": "28 нм",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 343,
+    "title": "Графический ускоритель",
+    "description": "Mali-T820 MP1",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 344,
+    "title": "Объем оперативной памяти",
+    "description": "1 ГБ",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 345,
+    "title": "Объем встроенной памяти",
+    "description": "16 ГБ",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.582Z",
+    "updatedAt": "2023-05-15T04:33:30.582Z"
+  },
+  {
+    "id": 346,
+    "title": "Слот для карты памяти",
+    "description": "есть (отдельный слот)",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 347,
+    "title": "Типы поддерживаемых карт памяти",
+    "description": "microSD",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 348,
+    "title": "Максимальный объем карты памяти",
+    "description": "128 ГБ",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 349,
+    "title": "Датчики",
+    "description": "Акселерометр",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 350,
+    "title": "Количество основных (тыловых) камер",
+    "description": "1",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 351,
+    "title": "Автофокусировка основной камеры",
+    "description": "есть",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 352,
+    "title": "Тип вспышки",
+    "description": "Светодиодная",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 353,
+    "title": "Двойная фронтальная камера",
+    "description": "Нет",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 354,
+    "title": "Версия Bluetooth",
+    "description": "4.2",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 355,
+    "title": "Стандарт Wi-Fi",
+    "description": "802.11b, 802.11g, 802.11n",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 356,
+    "title": "NFC",
+    "description": "нет",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 357,
+    "title": "ГЛОНАСС",
+    "description": "есть",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 358,
+    "title": "GPS",
+    "description": "есть",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 359,
+    "title": "A-GPS",
+    "description": "Есть",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 360,
+    "title": "Интерфейс",
+    "description": "micro USB",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 361,
+    "title": "Разъем для наушников",
+    "description": "Mini Jack 3.5 мм",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 362,
+    "title": "Биометрическая защита",
+    "description": "Нет",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 363,
+    "title": "Емкость аккумулятора",
+    "description": "2000 мАч",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 364,
+    "title": "Ширина",
+    "description": "67.5 мм",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 365,
+    "title": "Высота",
+    "description": "137.3 мм",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 366,
+    "title": "Толщина",
+    "description": "10.5 мм",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 367,
+    "title": "Вес",
+    "description": "144 г",
+    "deviceId": 5,
+    "createdAt": "2023-05-15T04:33:30.583Z",
+    "updatedAt": "2023-05-15T04:33:30.583Z"
+  },
+  {
+    "id": 368,
+    "title": "Гарантия от производителя",
+    "description": "12 мес.",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.077Z",
+    "updatedAt": "2023-05-15T04:54:22.077Z"
+  },
+  {
+    "id": 369,
+    "title": "Год выпуска",
+    "description": "2019",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.077Z",
+    "updatedAt": "2023-05-15T04:54:22.077Z"
+  },
+  {
+    "id": 370,
+    "title": "Цвет задней панели",
+    "description": "синий",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.077Z",
+    "updatedAt": "2023-05-15T04:54:22.077Z"
+  },
+  {
+    "id": 371,
+    "title": "Цвет, заявленный производителем",
+    "description": "Синий",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.077Z",
+    "updatedAt": "2023-05-15T04:54:22.077Z"
+  },
+  {
+    "id": 372,
+    "title": "Поддержка сетей 2G",
+    "description": "GSM 1800, GSM 1900, GSM 850, GSM 900",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.077Z",
+    "updatedAt": "2023-05-15T04:54:22.077Z"
+  },
+  {
+    "id": 373,
+    "title": "Поддержка сетей 3G",
+    "description": "UMTS 2100, UMTS 850, UMTS 900",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.077Z",
+    "updatedAt": "2023-05-15T04:54:22.077Z"
+  },
+  {
+    "id": 374,
+    "title": "Поддержка сетей 4G (LTE)",
+    "description": "есть",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.077Z",
+    "updatedAt": "2023-05-15T04:54:22.077Z"
+  },
+  {
+    "id": 375,
+    "title": "Диапазонов частот LTE",
+    "description": "LTE 1800 (B3), LTE 2100 (B1), LTE 2600 (B7), LTE 800 (B20), LTE 850 (B5), LTE 900 (B8)",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.077Z",
+    "updatedAt": "2023-05-15T04:54:22.077Z"
+  },
+  {
+    "id": 376,
+    "title": "Формат SIM-карт",
+    "description": "Nano-SIM (12.3x8.8x0.67 мм)",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.077Z",
+    "updatedAt": "2023-05-15T04:54:22.077Z"
+  },
+  {
+    "id": 377,
+    "title": "Количество SIM-карт",
+    "description": "2 SIM",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 378,
+    "title": "Диагональ экрана",
+    "description": "6.3\"",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 379,
+    "title": "Разрешение экрана",
+    "description": "2280x1080",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 380,
+    "title": "Плотность пикселей",
+    "description": "400 ppi",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 381,
+    "title": "Технология изготовления экрана",
+    "description": "IPS",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 382,
+    "title": "Соотношение сторон",
+    "description": "19:9",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 383,
+    "title": "Конструктивные особенности экрана",
+    "description": "Безрамочный",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 384,
+    "title": "8",
+    "description": "Частота работы процессора",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 385,
+    "title": "Материал корпуса",
+    "description": "пластик",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 386,
+    "title": "Система",
+    "description": "Версия ОС",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 387,
+    "title": "Android 9.0 Pie",
+    "description": "Производитель процессора",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 388,
+    "title": "MediaTek",
+    "description": "Модель процессора",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 389,
+    "title": "MediaTek Helio P70",
+    "description": "Количество ядер",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 390,
+    "title": "2.1 ГГц",
+    "description": "Техпроцесс",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 391,
+    "title": "12 нм",
+    "description": "Графический ускоритель",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 392,
+    "title": "Mali-G72 MP3",
+    "description": "Объем оперативной памяти",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 393,
+    "title": "4 ГБ",
+    "description": "Объем встроенной памяти",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 394,
+    "title": "64 ГБ",
+    "description": "Слот для карты памяти",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 395,
+    "title": "есть (универсальный слот SIM + SIM / SIM + карта памяти)",
+    "description": "Типы поддерживаемых карт памяти",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 396,
+    "title": "microSD",
+    "description": "Максимальный объем карты памяти",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.078Z",
+    "updatedAt": "2023-05-15T04:54:22.078Z"
+  },
+  {
+    "id": 397,
+    "title": "256 ГБ",
+    "description": "Датчики",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 398,
+    "title": "Количество основных (тыловых) камер",
+    "description": "2",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 399,
+    "title": "Автофокусировка основной камеры",
+    "description": "есть",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 400,
+    "title": "Тип вспышки",
+    "description": "светодиодная",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 401,
+    "title": "Режимы и функции фотосъемки",
+    "description": "автоопределение сцен, фазовый автофокус",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 402,
+    "title": "Двойная фронтальная камера",
+    "description": "нет",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 403,
+    "title": "Количество мегапикселей фронтальной камеры",
+    "description": "32 Мп",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 404,
+    "title": "Автофокусировка",
+    "description": "есть",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 405,
+    "title": "Режимы и функции съемки",
+    "description": "Beautify, режим HDR, эффект Боке",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 406,
+    "title": "Версия Bluetooth",
+    "description": "4.2",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 407,
+    "title": "Стандарт Wi-Fi",
+    "description": "802.11ac, 802.11b, 802.11g, 802.11n",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 408,
+    "title": "NFC",
+    "description": "есть",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 409,
+    "title": "Бесконтактная технология оплаты",
+    "description": "Google Pay",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 410,
+    "title": "ГЛОНАСС",
+    "description": "есть",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 411,
+    "title": "GPS",
+    "description": "есть",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 412,
+    "title": "A-GPS",
+    "description": "Есть",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 413,
+    "title": "Интерфейс",
+    "description": "USB Type-C",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 414,
+    "title": "Разъем для наушников",
+    "description": "Mini Jack 3.5 мм",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 415,
+    "title": "Биометрическая защита",
+    "description": "сканер лица, сканер отпечатков пальцев",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 416,
+    "title": "Емкость аккумулятора",
+    "description": "3200 мАч",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 417,
+    "title": "Ширина",
+    "description": "75.2 мм",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 418,
+    "title": "Высота",
+    "description": "157.8 мм",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 419,
+    "title": "Толщина",
+    "description": "7.8 мм",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 420,
+    "title": "Вес",
+    "description": "156 г",
+    "deviceId": 6,
+    "createdAt": "2023-05-15T04:54:22.079Z",
+    "updatedAt": "2023-05-15T04:54:22.079Z"
+  },
+  {
+    "id": 421,
+    "title": "Гарантия от производителя",
+    "description": "24 мес.",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.963Z",
+    "updatedAt": "2023-05-15T07:01:11.963Z"
+  },
+  {
+    "id": 422,
+    "title": "Страна-производитель",
+    "description": "Польша",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.963Z",
+    "updatedAt": "2023-05-15T07:01:11.963Z"
+  },
+  {
+    "id": 423,
+    "title": "Тип",
+    "description": "телевизор LED",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.963Z",
+    "updatedAt": "2023-05-15T07:01:11.963Z"
+  },
+  {
+    "id": 424,
+    "title": "Модель",
+    "description": "LG 24TQ510S-PZ",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.963Z",
+    "updatedAt": "2023-05-15T07:01:11.963Z"
+  },
+  {
+    "id": 425,
+    "title": "Код производителя",
+    "description": "24TQ510S-PZ.ARUA",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.963Z",
+    "updatedAt": "2023-05-15T07:01:11.963Z"
+  },
+  {
+    "id": 426,
+    "title": "Питание",
+    "description": "100-240 В ～ 50/60 Гц",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.963Z",
+    "updatedAt": "2023-05-15T07:01:11.963Z"
+  },
+  {
+    "id": 427,
+    "title": "Цвет рамки",
+    "description": "черный",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.963Z",
+    "updatedAt": "2023-05-15T07:01:11.963Z"
+  },
+  {
+    "id": 428,
+    "title": "Цвет подставки",
+    "description": "Черный",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.963Z",
+    "updatedAt": "2023-05-15T07:01:11.963Z"
+  },
+  {
+    "id": 429,
+    "title": "Тип подсветки экрана",
+    "description": "Direct LED",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 430,
+    "title": "Расширенная технология экрана",
+    "description": "нет",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 431,
+    "title": "Диагональ экрана (дюйм)",
+    "description": "24\"",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 432,
+    "title": "Диагональ экрана",
+    "description": "60 см",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 433,
+    "title": "Разрешение экрана",
+    "description": "HD, 1366x768",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 434,
+    "title": "Формат экрана",
+    "description": "16:9",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 435,
+    "title": "Стандарты HDTV",
+    "description": "HD 720p",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 436,
+    "title": "Тип матрицы",
+    "description": "WVA",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 437,
+    "title": "Яркость",
+    "description": "250 Кд/м²",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 438,
+    "title": "Контрастность",
+    "description": "1000",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 439,
+    "title": "Угол обзора",
+    "description": "178° / 178°",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 440,
+    "title": "Smart TV",
+    "description": "Операционная система",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 441,
+    "title": "webOS",
+    "description": "Поддержка Smart TV",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 442,
+    "title": "есть",
+    "description": "Wi-Fi",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 443,
+    "title": "Цифровые тюнеры",
+    "description": "DVB-C, DVB-T, DVB-T2",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 444,
+    "title": "Телетекст",
+    "description": "Есть",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 445,
+    "title": "Мощность звука",
+    "description": "10 Вт",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 446,
+    "title": "Технология звука",
+    "description": "AI Sound, Dolby Audio",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.964Z",
+    "updatedAt": "2023-05-15T07:01:11.964Z"
+  },
+  {
+    "id": 447,
+    "title": "Сабвуфер",
+    "description": "Нет",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 448,
+    "title": "Воспроизведение с внешних носителей",
+    "description": "есть",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 449,
+    "title": "Поддерживаемые носители",
+    "description": "USB",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 450,
+    "title": "Количество HDMI портов",
+    "description": "2",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 451,
+    "title": "Другие аудио-/видеовходы",
+    "description": "антенный вход",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 452,
+    "title": "Выход на наушники",
+    "description": "нет",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 453,
+    "title": "Другие аудио-/видеовыходы",
+    "description": "аудио S/PDIF (оптический)",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 454,
+    "title": "Количество USB",
+    "description": "1",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 455,
+    "title": "Слот для CI/PCMCIA",
+    "description": "есть",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 456,
+    "title": "Bluetooth",
+    "description": "есть",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 457,
+    "title": "Порт Ethernet",
+    "description": "Есть",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 458,
+    "title": "HDMI CEC",
+    "description": "есть (SIMPLINK)",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 459,
+    "title": "HDMI ARC",
+    "description": "есть",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 460,
+    "title": "Поддержка AirPlay",
+    "description": "AirPlay",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 461,
+    "title": "Управление со смартфона",
+    "description": "да",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 462,
+    "title": "Приложение для управления",
+    "description": "LG ThinQ",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 463,
+    "title": "Возможность настенного крепления",
+    "description": "есть",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 464,
+    "title": "Размер VESA",
+    "description": "75 x 75",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 465,
+    "title": "Расположение подставки",
+    "description": "по центру",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 466,
+    "title": "Максимальная потребляемая мощность",
+    "description": "26 Вт",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 467,
+    "title": "Комплектация",
+    "description": "батарейки, документация, кабель питания, пульт ДУ",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 468,
+    "title": "Особенности, дополнительно",
+    "description": "Miracast, USB 2.0, аудиогид, преобразование речи в текст, ручная/автоматическая настройка, система Motion Eye Care, таймер включения/выключения, телегид, технология Screen Share, функция «Универсальный Пульт», эквалайзер",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 469,
+    "title": "Ширина без подставки",
+    "description": "563.1 мм",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 470,
+    "title": "Высота без подставки",
+    "description": "340.9 мм",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 471,
+    "title": "Толщина без подставки",
+    "description": "58 мм",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 472,
+    "title": "Вес без подставки",
+    "description": "3.25 кг",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 473,
+    "title": "Ширина с подставкой",
+    "description": "563.1 мм",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 474,
+    "title": "Высота с подставкой",
+    "description": "393.8 мм",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 475,
+    "title": "Толщина с подставкой",
+    "description": "148.6 мм",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.965Z",
+    "updatedAt": "2023-05-15T07:01:11.965Z"
+  },
+  {
+    "id": 476,
+    "title": "Вес с подставкой",
+    "description": "3.6 кг",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.966Z",
+    "updatedAt": "2023-05-15T07:01:11.966Z"
+  },
+  {
+    "id": 477,
+    "title": "Ширина коробки",
+    "description": "700 мм",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.966Z",
+    "updatedAt": "2023-05-15T07:01:11.966Z"
+  },
+  {
+    "id": 478,
+    "title": "Высота коробки",
+    "description": "402 мм",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.966Z",
+    "updatedAt": "2023-05-15T07:01:11.966Z"
+  },
+  {
+    "id": 479,
+    "title": "Глубина коробки",
+    "description": "142 мм",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.966Z",
+    "updatedAt": "2023-05-15T07:01:11.966Z"
+  },
+  {
+    "id": 480,
+    "title": "Вес в упаковке",
+    "description": "4.8 кг",
+    "deviceId": 7,
+    "createdAt": "2023-05-15T07:01:11.966Z",
+    "updatedAt": "2023-05-15T07:01:11.966Z"
+  },
+  {
+    "id": 481,
+    "title": "Гарантия от производителя",
+    "description": "12 мес.",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.362Z",
+    "updatedAt": "2023-05-15T08:32:33.362Z"
+  },
+  {
+    "id": 482,
+    "title": "Страна-производитель",
+    "description": "Турция",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.362Z",
+    "updatedAt": "2023-05-15T08:32:33.362Z"
+  },
+  {
+    "id": 483,
+    "title": "Тип",
+    "description": "посудомоечная машина",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.362Z",
+    "updatedAt": "2023-05-15T08:32:33.362Z"
+  },
+  {
+    "id": 484,
+    "title": "Модель",
+    "description": "Vestel DF45E41W",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.362Z",
+    "updatedAt": "2023-05-15T08:32:33.362Z"
+  },
+  {
+    "id": 485,
+    "title": "Код производителя",
+    "description": "[MCO00082950]",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.362Z",
+    "updatedAt": "2023-05-15T08:32:33.362Z"
+  },
+  {
+    "id": 486,
+    "title": "Основной цвет",
+    "description": "белый",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.362Z",
+    "updatedAt": "2023-05-15T08:32:33.362Z"
+  },
+  {
+    "id": 487,
+    "title": "Дополнительный цвет",
+    "description": "Нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.362Z",
+    "updatedAt": "2023-05-15T08:32:33.362Z"
+  },
+  {
+    "id": 488,
+    "title": "Количество размещаемых комплектов",
+    "description": "10",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.362Z",
+    "updatedAt": "2023-05-15T08:32:33.362Z"
+  },
+  {
+    "id": 489,
+    "title": "Количество корзин",
+    "description": "2 шт",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.362Z",
+    "updatedAt": "2023-05-15T08:32:33.362Z"
+  },
+  {
+    "id": 490,
+    "title": "Энергопотребление за цикл",
+    "description": "739 Вт*ч",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 491,
+    "title": "Инверторный мотор",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 492,
+    "title": "Тип сушки",
+    "description": "конденсационная",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 493,
+    "title": "Сенсор чистоты воды",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 494,
+    "title": "Автоматическое определение жесткости воды",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 495,
+    "title": "Минимальная температура",
+    "description": "40 °C",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 496,
+    "title": "Максимальная температура",
+    "description": "65 °C",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 497,
+    "title": "Материал бака",
+    "description": "нержавеющая сталь",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 498,
+    "title": "Дисплей",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 499,
+    "title": "Тип управления",
+    "description": "кнопки",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 500,
+    "title": "Таймер отсрочки запуска",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 501,
+    "title": "Максимальное время отсрочки запуска",
+    "description": "24 ч",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 502,
+    "title": "Управление со смартфона",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 503,
+    "title": "Приложение для управления",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 504,
+    "title": "Голосовой помощник",
+    "description": "Нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.363Z",
+    "updatedAt": "2023-05-15T08:32:33.363Z"
+  },
+  {
+    "id": 505,
+    "title": "Количество программ мойки",
+    "description": "4",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 506,
+    "title": "Автоматическая программа",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 507,
+    "title": "Стандартная программа",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 508,
+    "title": "Экспресс-программа (быстрый цикл)",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 509,
+    "title": "Экономичная программа",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 510,
+    "title": "Программа интенсивной мойки",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 511,
+    "title": "БИО-программа (использование био-добавок)",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 512,
+    "title": "Деликатная программа для хрупкой посуды",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 513,
+    "title": "Режим полоскания",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 514,
+    "title": "Режим половинной загрузки",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 515,
+    "title": "Режим предварительного ополаскивания (замачивания)",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 516,
+    "title": "Прочие программы и режимы",
+    "description": "Нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 517,
+    "title": "Защита от протечек",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 518,
+    "title": "Блокировка от детей",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 519,
+    "title": "Автооткрывание дверцы",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 520,
+    "title": "Корзина для столовых приборов",
+    "description": "отдельная корзинка",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 521,
+    "title": "Использование средств \"3 в 1\"",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 522,
+    "title": "Регулируемая по высоте корзина для посуды",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 523,
+    "title": "Разбрызгиватель над верхней корзиной",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 524,
+    "title": "Освещение",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 525,
+    "title": "Особенности конструкции корзин",
+    "description": "полочки для чашек",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 526,
+    "title": "Индикатор наличия соли",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 527,
+    "title": "Индикатор наличия ополаскивателя",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 528,
+    "title": "Звуковой сигнал",
+    "description": "нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 529,
+    "title": "Луч на полу",
+    "description": "Нет",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 530,
+    "title": "Класс энергопотребления",
+    "description": "A++",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 531,
+    "title": "Класс мойки",
+    "description": "A",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 532,
+    "title": "Класс сушки",
+    "description": "A",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 533,
+    "title": "Максимальная потребляемая мощность",
+    "description": "1900 Вт",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 534,
+    "title": "Мощность в выключенном режиме",
+    "description": "0.5 Вт",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 535,
+    "title": "Напряжение питания",
+    "description": "220-240 В/50 Гц",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 536,
+    "title": "Потребляемая мощность в спящем режиме",
+    "description": "1 Вт",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 537,
+    "title": "Возможность установки под столешницу",
+    "description": "есть",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 538,
+    "title": "Уровень шума при работе",
+    "description": "49 дБ",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.364Z",
+    "updatedAt": "2023-05-15T08:32:33.364Z"
+  },
+  {
+    "id": 539,
+    "title": "Дополнительно",
+    "description": "6 уровней регулировки жесткости воды, высота верхней крышки 3 см, индикация времени до окончания программы, регулируемые по высоте ножки",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.365Z",
+    "updatedAt": "2023-05-15T08:32:33.365Z"
+  },
+  {
+    "id": 540,
+    "title": "Ширина",
+    "description": "44.8 см",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.365Z",
+    "updatedAt": "2023-05-15T08:32:33.365Z"
+  },
+  {
+    "id": 541,
+    "title": "Высота",
+    "description": "85 см",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.365Z",
+    "updatedAt": "2023-05-15T08:32:33.365Z"
+  },
+  {
+    "id": 542,
+    "title": "Глубина",
+    "description": "59.8 см",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.365Z",
+    "updatedAt": "2023-05-15T08:32:33.365Z"
+  },
+  {
+    "id": 543,
+    "title": "Вес",
+    "description": "38.3 кг",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.365Z",
+    "updatedAt": "2023-05-15T08:32:33.365Z"
+  },
+  {
+    "id": 544,
+    "title": "Ширина упаковки",
+    "description": "49.4 см",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.365Z",
+    "updatedAt": "2023-05-15T08:32:33.365Z"
+  },
+  {
+    "id": 545,
+    "title": "Высота упаковки",
+    "description": "89.1 см",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.365Z",
+    "updatedAt": "2023-05-15T08:32:33.365Z"
+  },
+  {
+    "id": 546,
+    "title": "Глубина упаковки",
+    "description": "66.1 см",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.365Z",
+    "updatedAt": "2023-05-15T08:32:33.365Z"
+  },
+  {
+    "id": 547,
+    "title": "Вес в упаковке",
+    "description": "46 кг",
+    "deviceId": 8,
+    "createdAt": "2023-05-15T08:32:33.365Z",
+    "updatedAt": "2023-05-15T08:32:33.365Z"
+  },
+  {
+    "id": 548,
+    "title": "Гарантия от продавца",
+    "description": "12 мес.",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.525Z",
+    "updatedAt": "2023-05-15T09:33:59.525Z"
+  },
+  {
+    "id": 549,
+    "title": "Страна-производитель",
+    "description": "Беларусь",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.525Z",
+    "updatedAt": "2023-05-15T09:33:59.525Z"
+  },
+  {
+    "id": 550,
+    "title": "Тип",
+    "description": "стиральная машина",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.525Z",
+    "updatedAt": "2023-05-15T09:33:59.525Z"
+  },
+  {
+    "id": 551,
+    "title": "Модель",
+    "description": "Samsung WW60J32G0PWOLD",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.525Z",
+    "updatedAt": "2023-05-15T09:33:59.525Z"
+  },
+  {
+    "id": 552,
+    "title": "Вид",
+    "description": "автомат",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.525Z",
+    "updatedAt": "2023-05-15T09:33:59.525Z"
+  },
+  {
+    "id": 553,
+    "title": "Основной цвет",
+    "description": "белый",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.525Z",
+    "updatedAt": "2023-05-15T09:33:59.525Z"
+  },
+  {
+    "id": 554,
+    "title": "Дополнительный цвет",
+    "description": "Черный",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 555,
+    "title": "Ширина",
+    "description": "60 см",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 556,
+    "title": "Высота",
+    "description": "85 см",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 557,
+    "title": "Глубина",
+    "description": "44 см",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 558,
+    "title": "Глубина с учетом выступающих элементов",
+    "description": "51 см",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 559,
+    "title": "Вес",
+    "description": "55 кг",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 560,
+    "title": "Габариты в упаковке (ШxВxГ)",
+    "description": "67x90x54 см",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 561,
+    "title": "Вес в упаковке",
+    "description": "57 кг",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 562,
+    "title": "Тип загрузки",
+    "description": "фронтальная",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 563,
+    "title": "Загрузка белья для стирки и отжима",
+    "description": "6 кг",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 564,
+    "title": "Загрузка для сушки",
+    "description": "нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 565,
+    "title": "Тепловой насос",
+    "description": "нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.526Z",
+    "updatedAt": "2023-05-15T09:33:59.526Z"
+  },
+  {
+    "id": 566,
+    "title": "Прямой привод",
+    "description": "нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.527Z",
+    "updatedAt": "2023-05-15T09:33:59.527Z"
+  },
+  {
+    "id": 567,
+    "title": "Инверторный двигатель",
+    "description": "есть",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.527Z",
+    "updatedAt": "2023-05-15T09:33:59.527Z"
+  },
+  {
+    "id": 568,
+    "title": "Активатор",
+    "description": "нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.527Z",
+    "updatedAt": "2023-05-15T09:33:59.527Z"
+  },
+  {
+    "id": 569,
+    "title": "Дисплей",
+    "description": "есть",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.527Z",
+    "updatedAt": "2023-05-15T09:33:59.527Z"
+  },
+  {
+    "id": 570,
+    "title": "Тип управления",
+    "description": "кнопочное, поворотный механизм",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.527Z",
+    "updatedAt": "2023-05-15T09:33:59.527Z"
+  },
+  {
+    "id": 571,
+    "title": "Язык панели управления",
+    "description": "русский",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.527Z",
+    "updatedAt": "2023-05-15T09:33:59.527Z"
+  },
+  {
+    "id": 572,
+    "title": "Изменение температуры стирки",
+    "description": "есть",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.527Z",
+    "updatedAt": "2023-05-15T09:33:59.527Z"
+  },
+  {
+    "id": 573,
+    "title": "Диапазон температур",
+    "description": "20 - 95 °C",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.527Z",
+    "updatedAt": "2023-05-15T09:33:59.527Z"
+  },
+  {
+    "id": 574,
+    "title": "Уровень шума при стирке",
+    "description": "50 дБ",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.527Z",
+    "updatedAt": "2023-05-15T09:33:59.527Z"
+  },
+  {
+    "id": 575,
+    "title": "Расход воды за стирку",
+    "description": "36 л",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.527Z",
+    "updatedAt": "2023-05-15T09:33:59.527Z"
+  },
+  {
+    "id": 576,
+    "title": "Сторона открывания двери",
+    "description": "Налево",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 577,
+    "title": "Напряжение питания",
+    "description": "220-240 В / 50Гц",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 578,
+    "title": "Потребляемая мощность за цикл",
+    "description": "0.9 кВт*ч",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 579,
+    "title": "Мощность в выключенном режиме",
+    "description": "Нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 580,
+    "title": "Функциональные особенности",
+    "description": "обработка паром, пузырьковая система, самодиагностика",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 581,
+    "title": "Количество программ стирки",
+    "description": "12",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 582,
+    "title": "Программы",
+    "description": "E-Хлопок, быстрая 15’, детские вещи, ежедневная, отжим, очистка барабана, полоскание + отжим, постельное белье, синтетика, спортивная одежда, хлопок, шерсть/деликатные ткани",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 583,
+    "title": "Прочие режимы и функции",
+    "description": "блокировка управления, включение/выключение звука, выбор скорости отжима, выбор температуры стирки, замачивание, интенсивная стирка, отсрочка старта, полоскание+, предварительная стирка, старт/пауза, функция Smart Check",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 584,
+    "title": "Управление со смартфона",
+    "description": "нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 585,
+    "title": "Приложение для управления",
+    "description": "нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 586,
+    "title": "Голосовой помощник",
+    "description": "нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 587,
+    "title": "Отсрочка запуска",
+    "description": "есть",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 588,
+    "title": "Максимальное время отсрочки запуска",
+    "description": "24 ч",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 589,
+    "title": "Звуковой сигнал окончания стирки",
+    "description": "есть",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 590,
+    "title": "Подсветка барабана",
+    "description": "нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 591,
+    "title": "Индикация",
+    "description": "блокировки дверцы, блокировки управления, времени до конца цикла, отключенного звука, ошибок, рабочего цикла, скорости отжима, температуры, этапа программы",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 592,
+    "title": "Автовзвешивание",
+    "description": "нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 593,
+    "title": "Бак для воды",
+    "description": "Нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 594,
+    "title": "Максимальная скорость отжима",
+    "description": "1200 об/мин",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 595,
+    "title": "Выбор скорости отжима",
+    "description": "есть",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 596,
+    "title": "Уровень шума при отжиме",
+    "description": "73 дБ",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 597,
+    "title": "Защита от скачков напряжения",
+    "description": "есть",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 598,
+    "title": "Защита от протечек",
+    "description": "нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 599,
+    "title": "Блокировка от детей",
+    "description": "есть",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 600,
+    "title": "Класс стирки",
+    "description": "A",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 601,
+    "title": "Класс отжима",
+    "description": "B",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 602,
+    "title": "Класс энергопотребления",
+    "description": "A",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 603,
+    "title": "Возможность установки под столешницу",
+    "description": "нет",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 604,
+    "title": "Комплектация",
+    "description": "гаечный ключ, документация, заглушки отверстий для транспортировочных болтов, кронштейн для крепления шланга, наливной шланг, сливной шланг, транспортировочные болты",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
+  },
+  {
+    "id": 605,
+    "title": "Дополнительно",
+    "description": "барабан Diamond drum, гигиеническая очистка барабана, регулируемые ножки",
+    "deviceId": 9,
+    "createdAt": "2023-05-15T09:33:59.528Z",
+    "updatedAt": "2023-05-15T09:33:59.528Z"
   }
 ]

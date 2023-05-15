@@ -23,8 +23,8 @@ const PriceAccordion = observer(({children, type}) => {
     const maxValue = () => {
         device.devices.map(d => {
             if (d.price > maxPrice && type.id === d.typeId) {
-                setMaxPrice(d.price)
-                setRangeValues({...rangeValues, max: d.price})
+                setMaxPrice(~~d.price)
+                setRangeValues({...rangeValues, max: ~~d.price})
             }
         })
 
@@ -132,7 +132,7 @@ const PriceAccordion = observer(({children, type}) => {
                                              min: Number(e.min),
                                              max: Number(e.max)
                                          })
-                                         takeSliderParams(e.min,e.max)
+                                         takeSliderParams(~~e.min,~~e.max)
                                      }}
                                      formatter={(x) => `${x}`}
                                      tooltipPosition="over"

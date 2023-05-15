@@ -49,8 +49,8 @@ const proxy = {
         limit = limit || 8
         let offset = page * limit - limit
         //devices.count = 15
-        //devices.rows = [devices.rows[2],devices.rows[0]]
-        //devices.rows = devices.rows.filter(row => row.id > 2)
+        //devices.rows = [devices.rows[Characters.txt],devices.rows[0]]
+        //devices.rows = devices.rows.filter(row => row.id > Characters.txt)
 
         const limitDevs = (i, dev) => {
             dev.count = ~~dev.count

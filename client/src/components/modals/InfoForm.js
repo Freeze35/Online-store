@@ -1,11 +1,27 @@
 import React from 'react';
 import {Button, Col, Form, Row} from "react-bootstrap";
+import file3 from "../helpers/ChangeTxt.json"
 
 const InfoForm = (props) => {
 
     //number временный ключ для map метода
     const addInfo = () => {
         props.setInfo([...props.info, {title: '', description: '', number: Date.now()}])
+    }
+
+    const addFile = () => {
+        let  timedList ={}
+        for (let [key,outValue] of Object.entries(file3)) {
+            for (let [key,value] of Object.entries(outValue)) {
+                timedList = {...timedList,title: key, description: value, number: Date.now()}
+                props.info.push(timedList)
+                props.setInfo([...props.info])
+
+            }
+
+        }
+        console.log(props.info)
+        /*props.setInfo([...props.info, {title: '', description: '', number: Date.now()}])*/
     }
 
     const removeInfo = (number) => {
@@ -25,6 +41,15 @@ const InfoForm = (props) => {
                 variant={"outline-dark"}
                 onClick={addInfo}>
                 Добавить характеристику
+                </Button>
+                :<></>
+            }
+            {!props.update
+                ? <Button
+                    style={{marginLeft:50}}
+                    variant={"outline-dark"}
+                    onClick={addFile}>
+                    Загрузить внутренний json файл
                 </Button>
                 :<></>
             }

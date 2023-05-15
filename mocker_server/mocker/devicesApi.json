@@ -1,9 +1,10 @@
 {
-  "count": 4,
+  "count": 11,
   "rows": [
     {
       "id": 4,
       "name": "LG LQ57",
+      "typeModel": "Телевизор",
       "price": 15000,
       "rating": 4.63,
       "img": "27822895-f37b-46ad-b26c-ae5d3b260189.png",
@@ -15,6 +16,7 @@
     {
       "id": 1,
       "name": "S7",
+      "typeModel": "Смартфон",
       "price": 63000,
       "rating": 3.21,
       "img": "062eb0e4-4791-4cb0-bd06-1d7f4022a006.png",
@@ -26,6 +28,7 @@
     {
       "id": 2,
       "name": "RL55TGBIH",
+      "typeModel": "Холодильник",
       "price": 70000,
       "rating": 2.76,
       "img": "ccd380e3-4f8a-4946-93a1-f734b6884704.png",
@@ -37,6 +40,7 @@
     {
       "id": 3,
       "name": "ZTE Blade A3 2020",
+      "typeModel": "Смартфон",
       "price": 16000,
       "rating": 4.5,
       "img": "4546bb7d-beb4-4595-b5ff-d62956c58a7e.png",
@@ -44,6 +48,66 @@
       "updatedAt": "2023-02-15T21:20:49.343Z",
       "typeId": 5,
       "brandId": 2
+    },
+    {
+      "id": 5,
+      "name": "ZTE Blade A3 2019",
+      "typeModel": "Смартфон",
+      "price": 12000,
+      "rating": 0,
+      "img": "d6a71d2e-12eb-4a0f-bdd0-66b384af35bf.png",
+      "createdAt": "2023-05-15T04:33:30.581Z",
+      "updatedAt": "2023-05-15T04:33:30.581Z",
+      "typeId": 5,
+      "brandId": 2
+    },
+    {
+      "id": 6,
+      "name": "ZTE Blade V10",
+      "typeModel": "Смартфон",
+      "price": 30000,
+      "rating": 0,
+      "img": "9fe824fe-093d-4a2c-80cb-359e2e1efe78.png",
+      "createdAt": "2023-05-15T04:54:22.076Z",
+      "updatedAt": "2023-05-15T04:54:22.076Z",
+      "typeId": 5,
+      "brandId": 2
+    },
+    {
+      "id": 7,
+      "name": "LG 24TQ510S-PZ",
+      "typeModel": "Телевизор",
+      "price": 20000,
+      "rating": 0,
+      "img": "7d71859c-d681-4d54-98dd-4f5e051b65c8.png",
+      "createdAt": "2023-05-15T07:01:11.963Z",
+      "updatedAt": "2023-05-15T07:01:11.963Z",
+      "typeId": 6,
+      "brandId": 3
+    },
+    {
+      "id": 8,
+      "name": "Vestel DF45E41W",
+      "typeModel": "Посудомоечная машина",
+      "price": 19000,
+      "rating": 0,
+      "img": "7cbf8524-9b0d-4075-8c9d-a95cddde0a4b.png",
+      "createdAt": "2023-05-15T08:32:33.361Z",
+      "updatedAt": "2023-05-15T08:32:33.361Z",
+      "typeId": 6,
+      "brandId": 5
+    },
+    {
+      "id": 9,
+      "name": "WW60J32G0PWOLD",
+      "typeModel": "Стиральная машина",
+      "price": 32000,
+      "rating": 0,
+      "img": "a161e512-0c99-46d7-9b51-c26969f27201.png",
+      "createdAt": "2023-05-15T09:33:59.525Z",
+      "updatedAt": "2023-05-15T09:33:59.525Z",
+      "typeId": 5,
+      "brandId": 1
     }
   ]
 }

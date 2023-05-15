@@ -103,7 +103,8 @@
     "eject": "react-scripts eject",
     "start-webpack-devServer": "webpack-dev-server --open --hot --mode development --config webpack.dev.js",
     "start-webpack-prodServer": "webpack-dev-server --mode production --open --hot --config webpack.prod.js",
-    "build-webpack-prod": "webpack --mode production --config webpack.prod.js"
+    "build-webpack-prod": "webpack --mode production --config webpack.prod.js",
+    "node_to_json": "node src/components/helpers/ReadText.mjs"
   },
   "browserslist": {
     "production": [

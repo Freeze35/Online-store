@@ -7,7 +7,7 @@ let allDeviceInfo = JSON.parse(fs.readFileSync(path.join(__dirname, "./../mocker
 
 class deviceController {
     async create(req,res){
-        const {name, price, brandId, typeId, info} = req.body
+        const {name,typeModel, price, brandId, typeId, info} = req.body
         let fileName = uuidv4() + ".png" // для создания уникального имения для img файла
         const img = req.files.img
         await img.mv(path.resolve(__dirname, '..', 'static', fileName))
@@ -26,13 +26,14 @@ class deviceController {
                 {
                     "id": newDevId,
                     "name": name,
-                    "price": price,
+                    "typeModel": typeModel,
+                    "price": ~~price,
                     "rating": 0,
                     "img": fileName,
                     "createdAt": new Date().toISOString(),
                     "updatedAt": new Date().toISOString(),
-                    "typeId": typeId,
-                    "brandId": brandId
+                    "typeId": ~~typeId,
+                    "brandId": ~~brandId
 
                 }
             )

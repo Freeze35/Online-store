@@ -57,14 +57,14 @@ const SelectorBar = observer(() => {
         //
         if (document.getElementById("selector_div").className === "selector_div") {
             document.getElementById("selector_div").className = "selector_div_closed"
+            document.getElementById("right_side").style.display = "grid"
+
         } else {
             document.getElementById("selector_div").className = "selector_div"
             ClearTypes()
-
+            //when open 768 search none items shows
+            document.getElementById("right_side").style.display = "none"
         }
-
-
-        //clearing all types marks
 
     }
 

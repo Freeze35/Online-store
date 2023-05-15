@@ -45,7 +45,7 @@
     box-shadow: 0 0 3px black inset;
     border-radius: 20px;
     padding-left: 20px;
-    font-size: clamp(10px, 4vw, 500px);
+    font-size: clamp(10px, 2vw, 500px);
 }
 
 @media screen and (max-width: 768px) {

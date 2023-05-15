@@ -7,7 +7,7 @@ const {User,Basket} = require('../models/models')
 const generateJwt = (id, email, role) => {
     return jsonwebtoken.sign(
         {id,email,role},
-        process.env.SECRET_KEY, //передаём в jwt 2-ым параметром secretkey
+        process.env.SECRET_KEY, //передаём в jwt Characters.txt-ым параметром secretkey
         {expiresIn:"3h"} // Действует 3 часа
     )
 }

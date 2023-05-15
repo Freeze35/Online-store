@@ -8,8 +8,9 @@ import InfoForm from "./InfoForm";
 
 const CreateDevice = observer(({show, onHide}) => {
     const {device} = useContext(Context)
-    const [name, setName] = useState('')
-    const [price, setPrice] = useState()
+    const [name, setName] = useState("")
+    const [price, setPrice] = useState("")
+    const [typeModel, setTypeModel] = useState("")
     const [file, setFile] = useState(null)
     const [info, setInfo] = useState([])
 
@@ -28,11 +29,29 @@ const CreateDevice = observer(({show, onHide}) => {
         formData.append('name', name)
         formData.append('price', `${price}`)
         formData.append('img', file)
+        formData.append('typeModel', typeModel)
         formData.append('brandId', device.selectedBrand.id)
         formData.append('typeId', device.selectedType.id)
         formData.append('info', JSON.stringify(info))
-        console.log(file)
-        createDevice(formData,file).then(() => onHide())
+        //Check new file
+        if(name.length > 50){
+            alert("Name to big")
+        }
+        else if(!price || price.length >7){
+            alert("price = 0 or wrong number")
+        }
+        else if(!file){
+            alert("file empty")
+        }
+        else if(!device.selectedBrand.id){
+            alert("Brand Empty")
+        }
+        else if(!device.selectedType.id){
+            alert("Type Empty")
+        }
+        else {
+            createDevice(formData,file).then(() => onHide())
+        }
     }
 
     return (
@@ -83,6 +102,12 @@ const CreateDevice = observer(({show, onHide}) => {
                         onChange={e => setName(e.target.value)}
                         className="mt-3"
                         placeholder="Введите название устройства"
+                    />
+                    <Form.Control
+                        value={typeModel}
+                        onChange={e => setTypeModel(e.target.value)}
+                        className="mt-3"
+                        placeholder="Введите тип устройства"
                     />
                     <Form.Control
                         value={Number(price)}

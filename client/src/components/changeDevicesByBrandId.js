@@ -16,7 +16,7 @@ const findDeviceByTypeAndBrandId = (device,optionDevice)=>{
             ) !== undefined
         )
     }
-    //select all TypeId what includes in specialID ([6_2] 6-type 2-brandid)
+    //select all TypeId what includes in specialID ([6_2] 6-type Characters.txt-brandid)
     device.setChangedDevices(device.devices.filter(dev =>
         optionDevice.specialID.find(oneSpId =>
             ~~dev.typeId === ~~oneSpId.split("_")[0] && ~~dev.brandId === ~~oneSpId.split("_")[1]
