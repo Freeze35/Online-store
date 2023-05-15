@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add webpack txt" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add webpack txt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,14 +169,7 @@
       <workItem from="1683517862239" duration="105543000" />
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
-      <workItem from="1684121174864" duration="27495000" />
-    </task>
-    <task id="LOCAL-00103" summary="vercel mock server">
-      <created>1683709267747</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1683709267747</updated>
+      <workItem from="1684121174864" duration="28901000" />
     </task>
     <task id="LOCAL-00104" summary="vercel mock server">
       <created>1683709274347</created>
@@ -511,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684159108776</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="Add webpack txt">
+      <created>1684160065304</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1684160065304</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

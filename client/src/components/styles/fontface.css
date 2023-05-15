@@ -1,5 +1,5 @@
 @font-face {
-
+    font-display: optional;
     font-family: "Rubik-Regular";
     /* IE9 Compat Modes */
     src: url("../../assets/fonts/Rubik-Regular.eot");
