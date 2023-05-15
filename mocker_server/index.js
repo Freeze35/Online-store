@@ -43,8 +43,7 @@ app.use("/api", router)
 
 app.get("/:url.png", (req, res) => {
     const {url} = req.params;
-    console.log(url)
-    console.log(`./static/${url}.png`)
+    //return all file.png
     res.sendFile(path.resolve(__dirname, `./static/${url}.png`))
 });
 

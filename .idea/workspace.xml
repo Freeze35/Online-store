@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add devices, restrict naming + txt=&gt;json">
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add webpack txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/PagesLimit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Pages/PagesLimit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SortBar/SortBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/modals/InfoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/InfoForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/AdminPanel/AdminPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/AdminPanel/AdminPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/basketController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/basketController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,14 +175,7 @@
       <workItem from="1683517862239" duration="105543000" />
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
-      <workItem from="1684121174864" duration="22488000" />
-    </task>
-    <task id="LOCAL-00096" summary="vercel mock server">
-      <created>1683699548117</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1683699548117</updated>
+      <workItem from="1684121174864" duration="23412000" />
     </task>
     <task id="LOCAL-00097" summary="vercel mock server">
       <created>1683700182948</created>
@@ -514,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684147735880</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Add webpack txt">
+      <created>1684148752508</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1684148752508</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Selector Bar =&gt; Selector Logic Reworking in Progress" />
     <MESSAGE value="Add PGSqlDB =&gt; &#10;Selector Logic Reworking in Progress" />
     <MESSAGE value="BrandAccordion.js =&gt; Fix Button" />
     <MESSAGE value="SelectorBar.js =&gt; Fix TypeBrandSelector and PriceSelector" />
@@ -557,7 +562,8 @@
     <MESSAGE value="pm2 connect server + liveReloadServer" />
     <MESSAGE value="change loading png images" />
     <MESSAGE value="Add devices, restrict naming + txt=&gt;json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add devices, restrict naming + txt=&gt;json" />
+    <MESSAGE value="Add webpack txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add webpack txt" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

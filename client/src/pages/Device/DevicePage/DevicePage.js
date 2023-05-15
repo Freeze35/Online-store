@@ -25,7 +25,6 @@ const DevicePage = observer(() => {
         fetchOneDevice(id).then(data => {
             setDevice(data)
             setLoading(false)
-            console.log(data)
         })
 
     }, [])

@@ -5,7 +5,6 @@ class BasketController{
     async CreateBasketDevices(req,res,next){
         try {
             const {basketData,basketId,totalAmount} = req.body
-            //console.log(totalAmount)
             let purchaseHistory = await PurchaseHistory.create({totalAmount})
             let parseInfo = JSON.parse(basketData)// преобразовываем к JSON объекту
             parseInfo.forEach(i => {

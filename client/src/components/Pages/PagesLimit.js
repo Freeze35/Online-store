@@ -5,7 +5,6 @@ const PagesLimit = (device) => {
     let offset = device.page * limit - limit
     let newDevices = []
 
-    //console.log()
     /*if(optionDevice.sortOptions.length){
         console.log(optionDevice.sortOptions)
         sortList(device,optionDevice.sortOptions.sortValue)

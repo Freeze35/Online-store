@@ -14,7 +14,7 @@ const AdminPanel = observer(() => {
     const  [deviceVisible,setDeviceVisible]=useState(false)
     const  [brandVisible,setBrandVisible]=useState(false)
     const {device}=useContext(Context)
-    console.log(device.devices)
+
 return (
 <div className="admin_block">
     <div className="upper_add">

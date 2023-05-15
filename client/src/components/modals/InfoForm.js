@@ -20,8 +20,6 @@ const InfoForm = (props) => {
             }
 
         }
-        console.log(props.info)
-        /*props.setInfo([...props.info, {title: '', description: '', number: Date.now()}])*/
     }
 
     const removeInfo = (number) => {

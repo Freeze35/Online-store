@@ -28,7 +28,6 @@ const SortBar = () => {
 
         if (e.target.checked) {
             optionDevice.setSortOptions({sortOption:[`${option.value}`]})
-            console.log(optionDevice.sortOptions.sortOption.length > 0)
             const activeClass= "button_toggles_active"
             element.className = checkLast(options,index,activeClass)
             document.getElementById(`${option.value}rotate${option.name}`).click()
