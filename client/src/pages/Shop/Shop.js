@@ -15,7 +15,7 @@ const Shop = observer(() => {
     //Подключаем наши get запросы на сервер
     // page текущая страница limit относиться к deviceController в котором указываем сколько элементов запрашивать
     useEffect(() => {
-        setTimeout(fetchDevices(null, null, 1, limitPages).then(data => {
+        fetchDevices(null, null, 1, limitPages).then(data => {
             device.setDevices(data.rows)
             device.setTotalCount(data.count)
             device.setLimit(limitPages)
@@ -23,13 +23,13 @@ const Shop = observer(() => {
                 typeId: dev.typeId,
                 brandId: dev.brandId
             }]))
-        }), 1000)
+        })
         fetchTypes().then(data => device.setTypes(data)) // Загружаем типы с сервера
         fetchBrands().then(data => device.setBrands(data)) // Загружаем бренды с сервера
         device.setSelectedBrand([])// Чистка выборки Brand при загрузке
         device.setSelectedType([])// Чистка выборки Type при загрузке
 
-        /*if(!device.devices && !device.brands && !device.types){
+        if(!device.selectedType && !device.selectedBrand){
             setTimeout(fetchDevices(null, null, 1, limitPages).then(data => {
                 device.setDevices(data.rows)
                 device.setTotalCount(data.count)
@@ -38,7 +38,7 @@ const Shop = observer(() => {
                     typeId: dev.typeId,
                     brandId: dev.brandId
                 }]))
-            }), 3000);}*/ //timeout for Render.com server
+            }), 1000);} //timeout for Render.com server
 
 
     }, [])
