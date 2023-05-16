@@ -1,13 +1,13 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {observer} from "mobx-react-lite";
 import {Context} from "../../index.js";
-import "./accordion.css"
-
 import TypeAccordion from "./TypeAccordion";
 import BrandAccordion from "./BrandAccordion";
-import "./SelectorBar.css"
 import PriceAccordion from "./PriceAccordion";
 import Scrollbars from "react-custom-scrollbars-2";
+import "./accordion.css"
+import "./SelectorBar.css"
+import search_loop from "../../assets/Search_Loop.svg"
 
 const SelectorBar = observer(() => {
     const {device, optionDevice} = useContext(Context)
@@ -57,7 +57,7 @@ const SelectorBar = observer(() => {
         //
         if (document.getElementById("selector_div").className === "selector_div") {
             document.getElementById("selector_div").className = "selector_div_closed"
-            document.getElementById("right_side").style.display = "grid"
+            document.getElementById("right_side").style.display = ""
 
         } else {
             document.getElementById("selector_div").className = "selector_div"
@@ -103,7 +103,7 @@ const SelectorBar = observer(() => {
             </div>
         </div>
     <div className="detailed_search" onClick={closeDetailedSearch}>
-        Подробный поиск
+       <img className="img_search" src={search_loop} alt="{search_loop}"></img> Подробный поиск
     </div>
     </div>
 

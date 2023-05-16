@@ -34,14 +34,22 @@
     transition: 0.3s;
 }
 
+.img_search{
+    width: clamp(10px,5vw,60px);
+    height: clamp(10px,5vw,60px);
+    filter: brightness(0) invert(1);
+
+}
+
 @media screen and (max-width: 768px) {
     .detailed_search{
+        box-sizing: border-box;
         display: inline-block;
         vertical-align: center;
         height: 10vh;
         line-height: 10vh;
         background: #007afe;
-        width: 97.5vw;
+        width: calc(100vw - 17px);
         color: white;
         text-align: center;
         font-size: 6vw;
@@ -56,4 +64,5 @@
         height: 65vh;
         width: clamp(150px, 80%, 900%);
     }
+
 }

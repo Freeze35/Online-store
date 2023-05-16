@@ -6,7 +6,7 @@ import {createBasketBuy} from "../../http/basketApi";
 import {LOGIN_ROUTE} from "../../utils/consts";
 import {useNavigate} from "react-router-dom";
 import {observer} from "mobx-react-lite";
-
+import "./Basket.css"
 
 
 const Basket = observer(() => {
@@ -50,7 +50,8 @@ const Basket = observer(() => {
                                         {basketInfo.name}<br/>
                                     </div>
                                     <BasketNumberOfDevicesInput basketInfo={basketInfo} setTotalAmount={setTotalAmount} totalAmount={totalAmount}/>
-                                    <Button className="btn" onClick={()=>{DeleteDeviceBasket(basketInfo)}} variant="outline-danger" style={{height:35,width:35,fontSize:15}}>
+                                    <Button className="btn remove_basket_device" onClick={()=>{DeleteDeviceBasket(basketInfo)}} variant="outline-danger"
+                                            style={{height:35,width:35,fontSize:15}}>
                                         x
                                     </Button>
                                 </div>

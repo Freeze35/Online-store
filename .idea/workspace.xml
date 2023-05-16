@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add webpack txt" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add webpack txt">
+      <change afterPath="$PROJECT_DIR$/client/src/assets/Search_Loop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop/Shop.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +77,7 @@
       <recent name="D:\T\online-store\online-store\mocker_server" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build-webpack-prod">
+  <component name="RunManager" selected="npm.pm2_start">
     <configuration name="build-webpack-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -122,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build-webpack-prod" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.pm2_start" />
+        <item itemvalue="npm.build-webpack-prod" />
         <item itemvalue="npm.node_to_json" />
         <item itemvalue="npm.node_test" />
-        <item itemvalue="npm.pm2_start" />
       </list>
     </recent_temporary>
   </component>
@@ -166,14 +174,7 @@
       <workItem from="1683517862239" duration="105543000" />
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
-      <workItem from="1684121174864" duration="29563000" />
-    </task>
-    <task id="LOCAL-00105" summary="render.com deploy server online-store">
-      <created>1683712266702</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1683712266702</updated>
+      <workItem from="1684121174864" duration="35418000" />
     </task>
     <task id="LOCAL-00106" summary="render.com deploy server online-store">
       <created>1683716809178</created>
@@ -511,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684161221480</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="Add webpack txt">
+      <created>1684162257633</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1684162257633</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

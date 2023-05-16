@@ -29,18 +29,6 @@ const Shop = observer(() => {
         device.setSelectedBrand([])// Чистка выборки Brand при загрузке
         device.setSelectedType([])// Чистка выборки Type при загрузке
 
-        if(!device.selectedType && !device.selectedBrand){
-            setTimeout(fetchDevices(null, null, 1, limitPages).then(data => {
-                device.setDevices(data.rows)
-                device.setTotalCount(data.count)
-                device.setLimit(limitPages)
-                data.rows.map(dev => optionDevice.setTypeBrandListId([...optionDevice.typeBrandListId, {
-                    typeId: dev.typeId,
-                    brandId: dev.brandId
-                }]))
-            }), 1000);} //timeout for Render.com server
-
-
     }, [])
 
     //Мониторинг изменений брендов или типов(постоянное автоматические запросы)
