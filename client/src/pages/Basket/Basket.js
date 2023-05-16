@@ -1,12 +1,13 @@
 import React, {useContext, useState} from 'react';
 import {Context} from "../../index.js";
-import {Button, Col, Container, Image, Row} from "react-bootstrap";
-import BasketNumberOfDevicesInput from "./BasketNumberOfDevicesInput";
+import {Button, Image} from "react-bootstrap";
+import BasketNumberOfDevicesInput from "./NumberOfDevices/BasketNumberOfDevicesInput";
 import {createBasketBuy} from "../../http/basketApi";
 import {LOGIN_ROUTE} from "../../utils/consts";
 import {useNavigate} from "react-router-dom";
 import {observer} from "mobx-react-lite";
 import "./Basket.css"
+import FontSizeBigName from "../../components/helpers/FontSizeBigName";
 
 
 const Basket = observer(() => {
@@ -14,72 +15,83 @@ const Basket = observer(() => {
     let [totalAmount, setTotalAmount] = useState(0)
     const navigate = useNavigate()
 
-    const Pay =()=>{
+    const Pay = () => {
         const formData = new FormData()
         formData.append('totalAmount', `${totalAmount}`)
         formData.append('basketData', JSON.stringify(user.basket))
-        formData.append('basketId', user.userId==="not_authorized"?1:user.userId)
+        formData.append('basketId', user.userId === "not_authorized" ? 1 : user.userId)
         createBasketBuy(formData)
 
     }
 
-    const DeleteDeviceBasket=(basketInfo)=>{
-        user.setBasket([...user.basket.filter(basketDevice=> basketDevice !== basketInfo)])
+    const DeleteDeviceBasket = (basketInfo) => {
+        user.setBasket([...user.basket.filter(basketDevice => basketDevice !== basketInfo)])
     }
 
+    const brandCheck = (basketInfo) => {
+        return device.brands.map(b =>
+            b.id === basketInfo.brandId
+            && basketInfo.name.split(" ")[0] !== b.name
+                ? b.name
+                : " ")
+    }
 
     return (
-        <Container>
-            <Row>
-                <Col md={9}>
-                    {user.basket.length>0?
-                        user.basket.map(basketInfo => {
+        <div className="basket">
+            <div className="basket_devs_block" style={{width: "75%"}}>
+                {user.basket.length > 0 ?
+                    user.basket.map(basketInfo => {
                             return (
-                                <div key={`${basketInfo.brandId}+${basketInfo.name}`} className="d-flex bd-highlight mb-3"
-                                     style={{boxShadow: "0px 0px 3px black", borderRadius: 5, padding: 20}}>
-                                    <Image key={basketInfo.defaultValue} className="p-2 bd-highlight" style={{
-                                        height: 160, width: 160, marginLeft: 50, boxShadow: "0px 0px 3px black",
-                                        borderRadius: 5, padding: 5, margin: 22
-                                    }}
-                                           src={process.env.REACT_APP_API_URL + basketInfo.img}>
-                                    </Image>
-                                    <div key={`${basketInfo.brandId}_${basketInfo.name}`} className="m-auto align-self-center"
-                                         style={{paddingRight: 40, fontSize: 40}}>
-                                        {device.brands.map(b =>
-                                            b.id === basketInfo.brandId && basketInfo.name.split(" ")[0] !==b.name ? b.name : "")}
-                                        {basketInfo.name}<br/>
+                                <div key={`${basketInfo.brandId}+${basketInfo.name}`} className="basket_device">
+                                    <div style={{width: "33%"}}>
+                                        <Image key={basketInfo.defaultValue} className=" basket_device_image"
+                                               src={process.env.REACT_APP_API_URL + basketInfo.img}>
+                                        </Image>
                                     </div>
-                                    <BasketNumberOfDevicesInput basketInfo={basketInfo} setTotalAmount={setTotalAmount} totalAmount={totalAmount}/>
-                                    <Button className="btn remove_basket_device" onClick={()=>{DeleteDeviceBasket(basketInfo)}} variant="outline-danger"
-                                            style={{height:35,width:35,fontSize:15}}>
+                                    <div style={{width: "33%"}} key={`${basketInfo.brandId}_${basketInfo.name}`}
+                                         className="basket_device_name">
+                                        {brandCheck(basketInfo)}
+                                        {FontSizeBigName(device,basketInfo.name,"50%")}<br/>
+                                    </div>
+
+                                    <BasketNumberOfDevicesInput style={{width: "33%"}}
+                                                                basketInfo={basketInfo}
+                                                                setTotalAmount={setTotalAmount}
+                                                                totalAmount={totalAmount}>
+                                    </BasketNumberOfDevicesInput>
+                                    <Button className="remove_basket_device" onClick={() => {
+                                        DeleteDeviceBasket(basketInfo)
+                                    }}
+                                            variant="outline-danger">
                                         x
                                     </Button>
                                 </div>
                             )
                         }
-                    ):<div style={{fontSize:50,marginLeft:220,marginRight:220,marginTop:80,marginBottom:40}}>Корзина Пуста</div>
+                    ) : <div className="empty_text">Корзина Пуста</div>
+                }
+            </div>
+            <div style={{width: "25%"}} className="upper_to_pay_block">
+                <div className="to_pay_block">
+                    <label className="to_pay_text">
+                        К Оплате: <br/>
+                    </label>
+                    <label className="to_pay_total_amount">
+                        {totalAmount} <label className="to_pay_total_amount">руб.</label></label>
+                    {user.userId !== "not_authorized"
+                        ?
+                        <Button className="pay_auth" variant="outline-primary" onClick={() => {
+                            Pay()
+                        }}>Оплатить</Button>
+                        :
+                        <button className="pay_auth" onClick={() => {
+                            navigate(LOGIN_ROUTE)
+                            Pay()
+                        }}>Авторизация</button>
                     }
-                </Col>
-                <Col md={3}>
-                    <div style={{boxShadow: "0px 0px 3px black", borderRadius: 5, padding: 20}}>
-                        <label  style={{fontSize: 45,fontWeight:200}}>
-                            К Оплате: <br/>
-                        </label>
-                        <label style={{ display:"inline-block", fontSize: 40,fontWeight:400,justifyContent:"center",color: "#007afe"}}>
-                        {totalAmount} <label style={{fontSize: 30, marginRight:10}}>руб.</label></label>
-                        {user.userId!=="not_authorized"?
-                            <Button variant="outline-primary" onClick={()=> {
-                                Pay()
-                            }}> Оплатить</Button>:
-                            <Button variant="outline-primary" onClick={()=> {
-                                navigate(LOGIN_ROUTE)
-                                Pay()
-                            }}>Авторизация</Button>
-                        }
-                    </div>
-                </Col>
-            </Row>
-        </Container>
+                </div>
+            </div>
+        </div>
     );
 });
 

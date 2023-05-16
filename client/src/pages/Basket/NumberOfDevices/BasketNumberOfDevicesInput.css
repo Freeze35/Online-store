@@ -1,0 +1,87 @@
+:root{
+    --my_number_of_dev_color: #007afe;
+    --text_color: #007afe;
+    --font_text_size_button: clamp(15px, 2vw, 500px);
+    --number_of_dev_heigth: clamp(20px, 4vw, 500px);
+}
+
+.block_number_of_devices{
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(10px, 2.5vw, 500px);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.price_basket_device{
+    color: var(--my_number_of_dev_color);
+
+}
+.currency{
+    font-size: var(--my_number_of_dev_color);
+    padding-left: 5px;
+}
+
+.number_of_devices_inside_block{
+    display: flex;
+    flex-direction: row;
+}
+
+.number_of_dev_button{
+    display: block;
+    align-items: center;
+    width: clamp(30px, 3vw, 400px);
+    height: var(--number_of_dev_heigth);
+    font-size: var(--font_text_size_button);
+    border-radius: 5px 0 0 5px;
+    border: solid var(--my_number_of_dev_color) 1px;
+    color: var(--text_color);
+    transition: 0.3s;
+}
+
+.number_of_dev_button:hover{
+    background: var(--my_number_of_dev_color);
+    color: white;
+    outline: none;
+    box-shadow: 0 0 3px var(--my_number_of_dev_color);
+}
+.number_of_dev_button:focus{
+    outline: none;
+}
+
+.input_number_of_dev{
+    height: var(--number_of_dev_heigth);
+    width: clamp(20px, 8vw, 400px);
+    font-size: var(--font_text_size_button);
+    text-align: center;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 25%);
+}
+
+.input_number_of_dev:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0 0 3px var(--my_number_of_dev_color);
+}
+
+.left_button{
+    border-radius: 10px 0 0 10px;
+}
+
+.right_button{
+    border-radius: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .number_of_dev_button{
+        width: clamp(10px, 6vw, 400px);
+        height: clamp(40px, 3vw, 400px);
+    }
+    .input_number_of_dev{
+        height: clamp(40px, 3vw, 400px);
+        width: clamp(15px, 6vw, 400px);
+    }
+    .block_number_of_devices{
+        font-size: clamp(5px, 4vw, 400px);
+    }
+}

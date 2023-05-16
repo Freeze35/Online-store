@@ -8,6 +8,7 @@ import add_to_basket from "../../../assets/add_to_basket.png";
 import "../buttonDeviceAddToBasket.css"
 import "./DeviceItem.css"
 import ProgressiveImage from "react-progressive-graceful-image";
+import FontSizeBigName from "../../../components/helpers/FontSizeBigName";
 
 const DeviceItem = ({device, brands}) => {
     let navigate = useNavigate();
@@ -30,17 +31,6 @@ const DeviceItem = ({device, brands}) => {
         e.stopPropagation()
     }
 
-    const FontSize =()=>{
-        let limittext = 10
-        if(device.name.split(" ").some(text=>text.length>limittext)){
-            return <div style={{fontSize:"70%",margin:"5 0 5"}}> {device.name}</div>
-        }
-        else {
-            return device.name
-        }
-
-    }
-
     return (
 
             <div className="container_device"
@@ -59,7 +49,7 @@ const DeviceItem = ({device, brands}) => {
 
                 <div className="rating_name" style={{width:"100%"}}>
                     <div className="device_name" id="device_name" style={{width:"75%"}}>
-                        {device.typeModel} {setName()} {FontSize()}
+                        {device.typeModel} {setName()} {FontSizeBigName(device,device.name)}
                     </div>
                     <div className="rating_name" style={{flexDirection:"column",width:"25%",paddingRight:15}}>
                         <img src={star} className="star" alt="star"></img>

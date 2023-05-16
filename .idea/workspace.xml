@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add webpack txt">
-      <change afterPath="$PROJECT_DIR$/client/src/assets/Search_Loop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.css" afterDir="false" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reworking 768 adapting search">
+      <change afterPath="$PROJECT_DIR$/client/src/components/helpers/FontSizeBigName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Basket/NumberOfDevices/BasketNumberOfDevicesInput.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop/Shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/BasketNumberOfDevicesInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/NumberOfDevices/BasketNumberOfDevicesInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,29 +39,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.12.1",
-    "javascript.nodejs.core.library.typings.version": "18.14.6",
-    "last_opened_file_path": "D:/T/online-store/online-store/mocker_server/static",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "Errors",
-    "ts.external.directory.path": "D:\\T\\online-store\\online-store\\client\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.6&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/T/online-store/online-store/mocker_server/static&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\T\\online-store\\online-store\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\T\online-store\online-store\mocker_server\static" />
@@ -70,14 +71,14 @@
       <recent name="D:\T\online-store\online-store\server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\T\online-store\online-store\client\src\pages\Basket\NumberOfDevices" />
       <recent name="D:\T\online-store\online-store\mocker_server\static" />
       <recent name="D:\T\online-store\online-store\client\src\components\helpers" />
       <recent name="D:\T\online-store\online-store\client\src" />
       <recent name="D:\T\online-store\online-store\client" />
-      <recent name="D:\T\online-store\online-store\mocker_server" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.pm2_start">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build-webpack-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -174,14 +175,8 @@
       <workItem from="1683517862239" duration="105543000" />
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
-      <workItem from="1684121174864" duration="35418000" />
-    </task>
-    <task id="LOCAL-00106" summary="render.com deploy server online-store">
-      <created>1683716809178</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1683716809178</updated>
+      <workItem from="1684121174864" duration="36616000" />
+      <workItem from="1684227063387" duration="24582000" />
     </task>
     <task id="LOCAL-00107" summary="render.com deploy server online-store">
       <created>1683716900310</created>
@@ -519,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684162257633</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="Reworking 768 adapting search">
+      <created>1684215549272</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1684215549272</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add PGSqlDB =&gt; &#10;Selector Logic Reworking in Progress" />
     <MESSAGE value="BrandAccordion.js =&gt; Fix Button" />
     <MESSAGE value="SelectorBar.js =&gt; Fix TypeBrandSelector and PriceSelector" />
     <MESSAGE value="Basket.js =&gt; Fix Empty" />
@@ -562,7 +563,8 @@
     <MESSAGE value="change loading png images" />
     <MESSAGE value="Add devices, restrict naming + txt=&gt;json" />
     <MESSAGE value="Add webpack txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add webpack txt" />
+    <MESSAGE value="Reworking 768 adapting search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reworking 768 adapting search" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
