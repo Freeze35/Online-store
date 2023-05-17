@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reworking Basket 768 adapting">
-      <change afterPath="$PROJECT_DIR$/client/src/components/helpers/resizeHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/helpers/FontSizeBigName.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/helpers/FontSizeBigName.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/NumberOfDevices/BasketNumberOfDevicesInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/NumberOfDevices/BasketNumberOfDevicesInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mocker_server/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/vercel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,14 +170,7 @@
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
       <workItem from="1684121174864" duration="36616000" />
-      <workItem from="1684227063387" duration="40260000" />
-    </task>
-    <task id="LOCAL-00108" summary="render.com deploy server online-store">
-      <created>1683753029298</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1683753029299</updated>
+      <workItem from="1684227063387" duration="40635000" />
     </task>
     <task id="LOCAL-00109" summary="render.com deploy server online-store">
       <created>1683753256434</created>
@@ -524,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684258596593</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="Reworking Basket 768 adapting">
+      <created>1684326463401</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1684326463402</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
