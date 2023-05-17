@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reworking Basket 768 adapting">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reworking Basket 768 adapting" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,21 +167,7 @@
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
       <workItem from="1684121174864" duration="36616000" />
-      <workItem from="1684227063387" duration="50714000" />
-    </task>
-    <task id="LOCAL-00115" summary="render.com deploy server online-store">
-      <created>1683757289901</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1683757289901</updated>
-    </task>
-    <task id="LOCAL-00116" summary="pm2 connect server">
-      <created>1683766536456</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1683766536456</updated>
+      <workItem from="1684227063387" duration="51583000" />
     </task>
     <task id="LOCAL-00117" summary="pm2 connect server">
       <created>1683767473774</created>
@@ -514,7 +498,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684336562338</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="Reworking Basket 768 adapting">
+      <created>1684339809942</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1684339809942</updated>
+    </task>
+    <task id="LOCAL-00165" summary="Reworking Basket 768 adapting">
+      <created>1684340033681</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1684340033681</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
