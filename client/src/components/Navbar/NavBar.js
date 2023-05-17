@@ -20,7 +20,7 @@ const NavBar = observer(() => {
     }
 
     return (
-        <div className="navbar_box">
+        <div className="navbar_box" id="navbar_box">
             <div className="inside_navbar_block">
                 <div>
                     <NavLink to ={SHOP_ROUTE} className="nav_link">

@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reworking 768 adapting search">
-      <change afterPath="$PROJECT_DIR$/client/src/components/helpers/FontSizeBigName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Basket/NumberOfDevices/BasketNumberOfDevicesInput.css" afterDir="false" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reworking Basket 768 adapting">
+      <change afterPath="$PROJECT_DIR$/client/src/components/helpers/resizeHelper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SelectorBar/SelectorBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/helpers/FontSizeBigName.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/helpers/FontSizeBigName.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/BasketNumberOfDevicesInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/NumberOfDevices/BasketNumberOfDevicesInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DeviceItem/DeviceItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/NumberOfDevices/BasketNumberOfDevicesInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/NumberOfDevices/BasketNumberOfDevicesInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocker_server/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/vercel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,14 +179,7 @@
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
       <workItem from="1684121174864" duration="36616000" />
-      <workItem from="1684227063387" duration="24582000" />
-    </task>
-    <task id="LOCAL-00107" summary="render.com deploy server online-store">
-      <created>1683716900310</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1683716900310</updated>
+      <workItem from="1684227063387" duration="40260000" />
     </task>
     <task id="LOCAL-00108" summary="render.com deploy server online-store">
       <created>1683753029298</created>
@@ -521,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684215549272</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Reworking Basket 768 adapting">
+      <created>1684258596592</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1684258596593</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BrandAccordion.js =&gt; Fix Button" />
     <MESSAGE value="SelectorBar.js =&gt; Fix TypeBrandSelector and PriceSelector" />
     <MESSAGE value="Basket.js =&gt; Fix Empty" />
     <MESSAGE value="DeviceItem.js.js =&gt; Add to Basket Button" />
@@ -564,7 +566,8 @@
     <MESSAGE value="Add devices, restrict naming + txt=&gt;json" />
     <MESSAGE value="Add webpack txt" />
     <MESSAGE value="Reworking 768 adapting search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reworking 768 adapting search" />
+    <MESSAGE value="Reworking Basket 768 adapting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reworking Basket 768 adapting" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -8,6 +8,7 @@ import Scrollbars from "react-custom-scrollbars-2";
 import "./accordion.css"
 import "./SelectorBar.css"
 import search_loop from "../../assets/Search_Loop.svg"
+import resizeHelper from "../helpers/resizeHelper";
 
 const SelectorBar = observer(() => {
     const {device, optionDevice} = useContext(Context)
@@ -29,18 +30,8 @@ const SelectorBar = observer(() => {
 
     }
 
-    //get width our window
-    useEffect(() => {
-        const handleWindowResize = () => {
-            setWindowWidth(window.innerWidth);
-        };
+    resizeHelper(setWindowWidth)
 
-        window.addEventListener('resize', handleWindowResize);
-
-        return () => {
-            window.removeEventListener('resize', handleWindowResize);
-        };
-    });
 
     useEffect(() => {
         ClearTypes()

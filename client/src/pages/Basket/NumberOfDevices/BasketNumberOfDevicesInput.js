@@ -5,6 +5,7 @@ import "./BasketNumberOfDevicesInput.css"
 const BasketNumberOfDevicesInput = ({children, basketInfo, setTotalAmount}) => {
     const {user} = useContext(Context)
     const [numbersValue, setNumbersValue] = useState(1)
+    const limitDevices = 999
 
     useEffect(() => {
         if (basketInfo.numberOfDevices !== numbersValue) {
@@ -18,13 +19,16 @@ const BasketNumberOfDevicesInput = ({children, basketInfo, setTotalAmount}) => {
 
     const changeNumbersDevicesBasket = () => {
         let valueOfDevices = document.getElementById(`${basketInfo.brandId}_${basketInfo.price}`).value
-        setNumbersValue(valueOfDevices > 0 ? valueOfDevices < 9999 ? valueOfDevices : 9999 : 1)
+        setNumbersValue(valueOfDevices > 0
+            ? valueOfDevices < limitDevices
+                ? valueOfDevices : limitDevices
+                : 1)
         user.setBasket(user.basket.map(el => el.deviceId === basketInfo.deviceId ? {
             ...el, numberOfDevices: valueOfDevices.length &&
             valueOfDevices > 0
-                ? valueOfDevices < 9999
+                ? valueOfDevices < limitDevices
                     ? valueOfDevices
-                    : 9999
+                    : limitDevices
                 : 1
         } : el))
 
@@ -44,9 +48,13 @@ const BasketNumberOfDevicesInput = ({children, basketInfo, setTotalAmount}) => {
     const increment = () => {
         let number_of_devices =
             Number(document.getElementById(`${basketInfo.brandId}_${basketInfo.price}`).value)
-        setNumbersValue(number_of_devices < 9999 ? number_of_devices + 1 : 9999)
+        setNumbersValue(number_of_devices < limitDevices
+            ? number_of_devices + 1
+            : limitDevices)
         user.setBasket(user.basket.map(el => el.deviceId === basketInfo.deviceId ? {
-            ...el, numberOfDevices: number_of_devices < 9999 ? number_of_devices + 1 : 9999
+            ...el, numberOfDevices: number_of_devices < limitDevices
+                ? number_of_devices + 1
+                : limitDevices
         } : el))
     }
 

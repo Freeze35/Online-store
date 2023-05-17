@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext, useState, Suspense } from 'react';
 import {Context} from "../../index.js";
 import {Button, Image} from "react-bootstrap";
 import BasketNumberOfDevicesInput from "./NumberOfDevices/BasketNumberOfDevicesInput";
@@ -9,11 +9,18 @@ import {observer} from "mobx-react-lite";
 import "./Basket.css"
 import FontSizeBigName from "../../components/helpers/FontSizeBigName";
 
-
 const Basket = observer(() => {
     const {user, device} = useContext(Context)
+    const [barHeight, setBarHeight] = useState(100);
     let [totalAmount, setTotalAmount] = useState(0)
     const navigate = useNavigate()
+
+    //set barHeight check change height or not
+    if(document.getElementById('navbar_box')
+        && barHeight < document.getElementById('navbar_box')?.offsetHeight
+        || barHeight > document.getElementById('navbar_box')?.offsetHeight){
+        setBarHeight(document.getElementById('navbar_box').offsetHeight)
+    }
 
     const Pay = () => {
         const formData = new FormData()
@@ -37,6 +44,7 @@ const Basket = observer(() => {
     }
 
     return (
+        <Suspense fallback={""}>
         <div className="basket">
             <div className="basket_devs_block" style={{width: "75%"}}>
                 {user.basket.length > 0 ?
@@ -71,13 +79,15 @@ const Basket = observer(() => {
                     ) : <div className="empty_text">Корзина Пуста</div>
                 }
             </div>
-            <div style={{width: "25%"}} className="upper_to_pay_block">
+            <div style={{width: "25%",top:barHeight}} className="upper_to_pay_block">
                 <div className="to_pay_block">
                     <label className="to_pay_text">
                         К Оплате: <br/>
                     </label>
                     <label className="to_pay_total_amount">
-                        {totalAmount} <label className="to_pay_total_amount">руб.</label></label>
+                        {FontSizeBigName(device, `${totalAmount}`,"70%")}
+                        <label className="to_pay_total_amount">
+                            {FontSizeBigName(device, `руб.`,"70%")}</label></label>
                     {user.userId !== "not_authorized"
                         ?
                         <Button className="pay_auth" variant="outline-primary" onClick={() => {
@@ -92,6 +102,7 @@ const Basket = observer(() => {
                 </div>
             </div>
         </div>
+            </Suspense>
     );
 });
 

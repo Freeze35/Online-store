@@ -1,9 +1,11 @@
+import React from 'react';
 import AdminPanel from "./pages/AdminPanel/AdminPanel";
 import {ADMIN_ROUTE, BASKET_ROUTE, DEVICE_ROUTE, LOGIN_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE} from "./utils/consts";
-import Basket from "./pages/Basket/Basket";
 import Auth from "./pages/Auth";
 import Shop from "./pages/Shop/Shop";
 import DevicePage from "./pages/Device/DevicePage/DevicePage";
+
+const Basket = React.lazy(() => import("./pages/Basket/Basket"))
 
 export const authRoutes = [
     {
@@ -12,6 +14,7 @@ export const authRoutes = [
     },
     {
         path:BASKET_ROUTE,
+
         Component: Basket
     }
 ]
