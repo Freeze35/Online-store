@@ -1,4 +1,4 @@
-import React, {useContext, useState, Suspense } from 'react';
+import React, {useContext, useState, useEffect} from 'react';
 import {Context} from "../../index.js";
 import {Button, Image} from "react-bootstrap";
 import BasketNumberOfDevicesInput from "./NumberOfDevices/BasketNumberOfDevicesInput";
@@ -8,19 +8,30 @@ import {useNavigate} from "react-router-dom";
 import {observer} from "mobx-react-lite";
 import "./Basket.css"
 import FontSizeBigName from "../../components/helpers/FontSizeBigName";
+import resizeHelper from "../../components/helpers/resizeHelper";
 
 const Basket = observer(() => {
     const {user, device} = useContext(Context)
     const [barHeight, setBarHeight] = useState(100);
     let [totalAmount, setTotalAmount] = useState(0)
+    const [windowWidthBasket, setWindowWidthBasket] = useState(window.innerWidth);
     const navigate = useNavigate()
 
-    //set barHeight check change height or not
-    if(document.getElementById('navbar_box')
-        && barHeight < document.getElementById('navbar_box')?.offsetHeight
-        || barHeight > document.getElementById('navbar_box')?.offsetHeight){
-        setBarHeight(document.getElementById('navbar_box').offsetHeight)
-    }
+    resizeHelper(setWindowWidthBasket)
+
+    //For check height Bar and set Top install in Routes Basket for lazy loading
+    useEffect(() => {
+            //set barHeight check change height or not
+            if(document.getElementById('navbar_box')
+                && barHeight < document.getElementById('navbar_box')?.offsetHeight
+                || barHeight > document.getElementById('navbar_box')?.offsetHeight
+            )
+            {
+                setBarHeight(document.getElementById('navbar_box').offsetHeight)
+            }
+    }, [windowWidthBasket])
+
+
 
     const Pay = () => {
         const formData = new FormData()
@@ -44,7 +55,6 @@ const Basket = observer(() => {
     }
 
     return (
-        <Suspense fallback={""}>
         <div className="basket">
             <div className="basket_devs_block" style={{width: "75%"}}>
                 {user.basket.length > 0 ?
@@ -102,7 +112,6 @@ const Basket = observer(() => {
                 </div>
             </div>
         </div>
-            </Suspense>
     );
 });
 
