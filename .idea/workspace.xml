@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reworking Basket 768 adapting" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reworking Basket 768 adapting">
+      <change beforePath="$PROJECT_DIR$/mocker_server/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/vercel.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,14 +169,7 @@
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
       <workItem from="1684121174864" duration="36616000" />
-      <workItem from="1684227063387" duration="51583000" />
-    </task>
-    <task id="LOCAL-00117" summary="pm2 connect server">
-      <created>1683767473774</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1683767473774</updated>
+      <workItem from="1684227063387" duration="51826000" />
     </task>
     <task id="LOCAL-00118" summary="pm2 connect server">
       <created>1683769702721</created>
@@ -512,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684340033681</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Reworking Basket 768 adapting">
+      <created>1684340979761</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1684340979762</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
