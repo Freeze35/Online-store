@@ -142,6 +142,7 @@
     .to_pay_text{
         font-size: clamp(5px, 4vw, 500px);
         padding-right: 20px;
+        margin-bottom: 0;
     }
 
     .to_pay_total_amount{
@@ -154,5 +155,6 @@
         width: clamp(20px, 18vw, 500px);
         height: clamp(20px, 7vw, 500px);
         font-size: clamp(5px, 2vw, 500px);
+        margin-top: 0;
     }
 }
