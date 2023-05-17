@@ -69,7 +69,7 @@ const Basket = observer(() => {
                                     <div style={{width: "33%"}} key={`${basketInfo.brandId}_${basketInfo.name}`}
                                          className="basket_device_name">
                                         {brandCheck(basketInfo)}
-                                        {FontSizeBigName(device,basketInfo.name,"50%")}<br/>
+                                        {FontSizeBigName(device,basketInfo.name,"80%")}<br/>
                                     </div>
 
                                     <BasketNumberOfDevicesInput style={{width: "33%"}}
