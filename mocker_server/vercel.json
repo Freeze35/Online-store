@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "src": ".*",
+      "src": "/(.*)",
       "dest": "/",
       "methods": [
         "GET",
@@ -17,26 +17,6 @@
         "PATCH",
         "OPTIONS",
         "DELETE"
-      ]
-    }
-  ],
-  "headers": [
-    {
-      "source": ".*",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "http://localhost:3000"
-        },
-        {
-          "key": "Access-Control-Allow-Headers",
-          "value": "X-Requested-With, Access-Control-Allow-Origin, X-HTTP-Method-Override, Content-Type, Authorization, Accept"
-        },
-        {
-          "key": "Access-Control-Allow-Credentials",
-          "value": "true"
-        }
-
       ]
     }
   ]
