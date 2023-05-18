@@ -1,6 +1,6 @@
 import React, {useContext, useState, useEffect} from 'react';
 import {Context} from "../../index.js";
-import {Button, Image} from "react-bootstrap";
+import {Button} from "react-bootstrap";
 import BasketNumberOfDevicesInput from "./NumberOfDevices/BasketNumberOfDevicesInput";
 import {createBasketBuy} from "../../http/basketApi";
 import {LOGIN_ROUTE} from "../../utils/consts";
@@ -9,6 +9,7 @@ import {observer} from "mobx-react-lite";
 import "./Basket.css"
 import FontSizeBigName from "../../components/helpers/FontSizeBigName";
 import resizeHelper from "../../components/helpers/resizeHelper";
+import ProgressiveImage from "react-progressive-graceful-image";
 
 const Basket = observer(() => {
     const {user, device} = useContext(Context)
@@ -62,14 +63,20 @@ const Basket = observer(() => {
                             return (
                                 <div key={`${basketInfo.brandId}+${basketInfo.name}`} className="basket_device">
                                     <div style={{width: "33%"}}>
-                                        <Image key={basketInfo.defaultValue} className=" basket_device_image"
-                                               src={process.env.REACT_APP_API_URL + basketInfo.img}>
-                                        </Image>
+                                        <ProgressiveImage key={basketInfo.defaultValue}
+                                            className="basket_device_image"
+                                            src={process.env.REACT_APP_API_URL + basketInfo.img}
+                                            placeholder={process.env.REACT_APP_API_URL + basketInfo.img.split(".")[0]+"SM.png"}>
+                                            {(src,loading) =>
+                                                <img className={loading?"device_image loading_image":"device_image loaded_image"}
+                                                     src={src} alt="an image" loading="lazy" />
+                                            }
+                                        </ProgressiveImage>
                                     </div>
                                     <div style={{width: "33%"}} key={`${basketInfo.brandId}_${basketInfo.name}`}
                                          className="basket_device_name">
                                         {brandCheck(basketInfo)}
-                                        {FontSizeBigName(device,basketInfo.name,"80%")}<br/>
+                                        {FontSizeBigName(device,basketInfo.name)}<br/>
                                     </div>
 
                                     <BasketNumberOfDevicesInput style={{width: "33%"}}
