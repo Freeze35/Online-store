@@ -9,33 +9,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/",
-      "methods": [
-        "GET",
-        "POST",
-        "PUT",
-        "PATCH",
-        "OPTIONS",
-        "DELETE"
-      ],
-      "continue": true
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/",
-      "methods": [
-        "GET",
-        "POST",
-        "PUT",
-        "PATCH",
-        "OPTIONS",
-        "DELETE"
-      ],
-      "continue": true
-    },
-    {
-      "src": "/device/(.*)",
-      "dest": "/",
+      "dest": "dist/index.js",
       "methods": [
         "GET",
         "POST",

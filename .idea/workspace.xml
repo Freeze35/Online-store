@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reworking Basket css">
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add request on render.com every 10 minutes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Shop/Shop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,14 +169,7 @@
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
       <workItem from="1684121174864" duration="36616000" />
-      <workItem from="1684227063387" duration="66027000" />
-    </task>
-    <task id="LOCAL-00133" summary="pm2 connect server + liveReloadServer">
-      <created>1683794620529</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1683794620529</updated>
+      <workItem from="1684227063387" duration="67428000" />
     </task>
     <task id="LOCAL-00134" summary="pm2 connect server + liveReloadServer">
       <created>1683795183284</created>
@@ -515,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684391500176</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Add request on render.com every 10 minutes">
+      <created>1684396604757</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1684396604757</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Basket.js =&gt; Fix Empty" />
     <MESSAGE value="DeviceItem.js.js =&gt; Add to Basket Button" />
     <MESSAGE value="AdminPanel.js =&gt; Add field" />
     <MESSAGE value="Webpack adding for frontend" />
@@ -558,7 +556,8 @@
     <MESSAGE value="Reworking 768 adapting search" />
     <MESSAGE value="Reworking Basket 768 adapting" />
     <MESSAGE value="Reworking Basket css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reworking Basket css" />
+    <MESSAGE value="Add request on render.com every 10 minutes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add request on render.com every 10 minutes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
