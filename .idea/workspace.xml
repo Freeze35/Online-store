@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add request on render.com every 10 minutes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.pm2_start" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.pm2_start" />
         <item itemvalue="npm.build-webpack-prod (1)" />
         <item itemvalue="npm.build-webpack-prod" />
         <item itemvalue="npm.node_to_json" />
@@ -169,14 +170,7 @@
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
       <workItem from="1684121174864" duration="36616000" />
-      <workItem from="1684227063387" duration="72871000" />
-    </task>
-    <task id="LOCAL-00138" summary="pm2 connect server + liveReloadServer">
-      <created>1683842520707</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1683842520707</updated>
+      <workItem from="1684227063387" duration="73853000" />
     </task>
     <task id="LOCAL-00139" summary="pm2 connect server + liveReloadServer">
       <created>1683842554571</created>
@@ -514,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684413272578</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="Add request on render.com every 10 minutes">
+      <created>1684414131867</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1684414131868</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
