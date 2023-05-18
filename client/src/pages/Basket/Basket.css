@@ -80,8 +80,8 @@
     font-size: clamp(4px, 1.5vw, 500px);
     width: 100%;
     height: clamp(20px, 5vw, 500px);
-    border: solid var(--my_number_of_dev_color) 1px;
-    color: var(--text_color);
+    border: solid #007afe 1px;
+    color: #007afe;
     border-radius: 5px;
     transition: 0.3s;
     justify-content: center;
@@ -89,10 +89,10 @@
 }
 
 .pay_auth:hover{
-    background: var(--my_number_of_dev_color);
+    background: #007afe;
     color: white;
     outline: none;
-    box-shadow: 0 0 3px var(--my_number_of_dev_color);
+    box-shadow: 0 0 3px #007afe;
 }
 
 .pay_auth:focus{

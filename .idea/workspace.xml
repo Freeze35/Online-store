@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Reworking Basket 768 adapting">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/Basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/Basket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket/NumberOfDevices/BasketNumberOfDevicesInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket/NumberOfDevices/BasketNumberOfDevicesInput.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +74,9 @@
       <recent name="D:\T\online-store\online-store\client" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="build-webpack-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
+  <component name="RunManager" selected="npm.build-webpack-prod (1)">
+    <configuration name="build-webpack-prod (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build-webpack-prod" />
@@ -82,11 +85,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="node_test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="build-webpack-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
       <scripts>
-        <script value="node_test" />
+        <script value="build-webpack-prod" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -124,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build-webpack-prod (1)" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.pm2_start" />
         <item itemvalue="npm.build-webpack-prod" />
         <item itemvalue="npm.node_to_json" />
-        <item itemvalue="npm.node_test" />
       </list>
     </recent_temporary>
   </component>
@@ -169,35 +172,7 @@
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
       <workItem from="1684121174864" duration="36616000" />
-      <workItem from="1684227063387" duration="58818000" />
-    </task>
-    <task id="LOCAL-00127" summary="pm2 connect server + liveReloadServer">
-      <created>1683781439555</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1683781439555</updated>
-    </task>
-    <task id="LOCAL-00128" summary="pm2 connect server + liveReloadServer">
-      <created>1683784631136</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1683784631136</updated>
-    </task>
-    <task id="LOCAL-00129" summary="pm2 connect server + liveReloadServer">
-      <created>1683785075792</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1683785075792</updated>
-    </task>
-    <task id="LOCAL-00130" summary="pm2 connect server + liveReloadServer">
-      <created>1683787924968</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1683787924968</updated>
+      <workItem from="1684227063387" duration="62307000" />
     </task>
     <task id="LOCAL-00131" summary="pm2 connect server + liveReloadServer">
       <created>1683789081104</created>
@@ -514,7 +489,35 @@
       <option name="project" value="LOCAL" />
       <updated>1684386014762</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="Reworking Basket 768 adapting">
+      <created>1684386344850</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1684386344850</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Reworking Basket 768 adapting">
+      <created>1684386926480</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1684386926480</updated>
+    </task>
+    <task id="LOCAL-00178" summary="Reworking Basket 768 adapting">
+      <created>1684387187286</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1684387187286</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Reworking Basket 768 adapting">
+      <created>1684387705013</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1684387705014</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
