@@ -171,14 +171,7 @@
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
       <workItem from="1684121174864" duration="36616000" />
-      <workItem from="1684227063387" duration="76028000" />
-    </task>
-    <task id="LOCAL-00142" summary="change loading png images">
-      <created>1683869307811</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1683869307812</updated>
+      <workItem from="1684227063387" duration="77204000" />
     </task>
     <task id="LOCAL-00143" summary="change loading png images">
       <created>1683869809835</created>
@@ -516,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684419330152</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="Add request on render.com every 10 minutes">
+      <created>1684419575601</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1684419575601</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
