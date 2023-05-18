@@ -107,9 +107,9 @@ const Basket = observer(() => {
                             {FontSizeBigName(device, `руб.`,"70%")}</label></label>
                     {user.userId !== "not_authorized"
                         ?
-                        <Button className="pay_auth" variant="outline-primary" onClick={() => {
+                        <button className="pay_auth" onClick={() => {
                             Pay()
-                        }}>Оплатить</Button>
+                        }}>Оплатить</button>
                         :
                         <button className="pay_auth" onClick={() => {
                             navigate(LOGIN_ROUTE)
