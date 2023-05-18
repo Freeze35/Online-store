@@ -11,6 +11,11 @@ import "./Shop.css"
 const Shop = observer(() => {
     const {device, optionDevice} = useContext(Context)
     let limitPages = 8
+    //call request for render.com every 10 minutes
+    setInterval(()=>{
+        fetchDevices(null, null, 1, limitPages)
+
+    },600000)
 
     //Подключаем наши get запросы на сервер
     // page текущая страница limit относиться к deviceController в котором указываем сколько элементов запрашивать
