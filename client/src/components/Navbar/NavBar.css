@@ -25,9 +25,9 @@
     background: #030028FF;
     vertical-align: middle;
     padding: 0 0.5vw 0;
-    border-radius: 40px;
-    font-size: clamp(6px, 1.25vw, 40px);
-    height: clamp(20px, 2.5vw, 60px);
+    border-radius: 25px;
+    font-size: clamp(10px, 1.55vw, 40px);
+    height: clamp(40px, 4vw, 150px);
     transition: 0.3s;
 }
 
@@ -58,7 +58,7 @@
 
 /*Filter styles*/
 .basket_img {
-    width: clamp(20px, 3vw, 180px);
+    width: clamp(20px, 4vw, 180px);
     margin: 0 25px 0 15px;
     transition-duration: 0.15s;
 }
@@ -79,13 +79,13 @@
     }
     .basket_img {
         margin: 0 15px 0 0;
-        height: clamp(25px, 5vw, 30px);
-        width: clamp(25px, 5vw, 30px);
+        height: clamp(35px, 6vw, 30px);
+        width: clamp(35px, 6vw, 30px);
 
     }
     .auth_button{
-        font-size: clamp(8px, 2.5vw, 40px);
-        height: 25px;
+        font-size: clamp(5px, 2.5vw, 40px);
+        height: clamp(5px,6vh, 30px);
     }
 
     .auth_margin_right{
