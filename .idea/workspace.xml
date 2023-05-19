@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Add request on render.com every 10 minutes">
-      <change afterPath="$PROJECT_DIR$/mocker_server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mocker_server/mocker/userApi.json" afterDir="false" />
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="User reworking">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Device/DevicePage/DevicePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/mocker/deviceInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/mocker/deviceInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocker_server/routes/userRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/mocker_server/routes/userRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/userRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/userRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,14 +169,7 @@
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
       <workItem from="1684121174864" duration="36616000" />
-      <workItem from="1684227063387" duration="91183000" />
-    </task>
-    <task id="LOCAL-00148" summary="Add webpack txt">
-      <created>1684157866631</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1684157866631</updated>
+      <workItem from="1684227063387" duration="92548000" />
     </task>
     <task id="LOCAL-00149" summary="Add webpack txt">
       <created>1684158212156</created>
@@ -526,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684466386160</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="User reworking">
+      <created>1684480388994</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1684480388994</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DeviceItem.js.js =&gt; Add to Basket Button" />
     <MESSAGE value="AdminPanel.js =&gt; Add field" />
     <MESSAGE value="Webpack adding for frontend" />
     <MESSAGE value="Reworking selector system" />
@@ -569,7 +556,8 @@
     <MESSAGE value="Reworking Basket 768 adapting" />
     <MESSAGE value="Reworking Basket css" />
     <MESSAGE value="Add request on render.com every 10 minutes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add request on render.com every 10 minutes" />
+    <MESSAGE value="User reworking" />
+    <option name="LAST_COMMIT_MESSAGE" value="User reworking" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -45,7 +45,7 @@ const DeviceItem = ({device, brands}) => {
                 </ProgressiveImage>
                 <div className="rating_name" style={{width:"100%"}}>
                     <div className="device_name" id="device_name" style={{width:"75%"}}>
-                        {device.typeModel} {setName()} {FontSizeBigName(device,device.name,"75%",10)}
+                        {device.typeModel} {setName()} {FontSizeBigName(device,device.name,"60%",10)}
                     </div>
                     <div className="rating_name" style={{flexDirection:"column",width:"25%",paddingRight:15}}>
                         <img src={star} className="star" alt="star"></img>
