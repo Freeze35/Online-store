@@ -125,7 +125,7 @@ const DevicePage = observer(() => {
                                      borderRadius: index === 0 ? "0 5px 5px 5px" : "5px",
                                  }}>
                                 {user.isAuth
-                                    ? <div style={{display: "flex",width:"100%",alignItems:"center"}}>
+                                    ? <div key={infoData.id+"2"} style={{display: "flex",width:"100%",alignItems:"center"}}>
                                         <Button variant="outline-success"
                                                 style={{height: "60px",width:"15%"}}
                                                 onClick={() => {

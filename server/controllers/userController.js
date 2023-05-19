@@ -25,7 +25,7 @@ class userController {
         let salt = bcrypt.genSaltSync(4);
         const hashPassword = await bcrypt.hash(password,salt)
         const user = await User.create({email,role,password:hashPassword,})
-        const basket = await Basket.create({userId:user.id})
+        await Basket.create({userId:user.id})
         const token = generateJwt(user.id, user.email,user.role)
         const id = user.id
         return res.json({token,id})
@@ -51,6 +51,10 @@ class userController {
         const token = generateJwt(user.id,user.email,user.role) /// пересоздаем токен если он невалиден
         return res.json({token})
 
+    }
+    async takeUsers(req,res){
+        let users = await User.findAndCountAll()
+        return res.json(users)
     }
 }
 module.exports = new userController()

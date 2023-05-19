@@ -1,0 +1,69 @@
+{
+  "count": 8,
+  "rows": [
+    {
+      "id": 1,
+      "email": "sese2d@mail.ru",
+      "password": "$2b$04$iKK92.HCVsqwVtUuzymPvO0YhAge9ZY1hfOWEGv8n/q0tOObxcM9i",
+      "role": "USER",
+      "createdAt": "2023-02-01T06:39:19.950Z",
+      "updatedAt": "2023-02-01T06:39:19.950Z"
+    },
+    {
+      "id": 2,
+      "email": "dsfese32d@mail.ru",
+      "password": "$2b$04$E.N9W1jVRgBlBRP3oFJnDur9iH9xnelbOTbuuiXpkXs8EjtTM7qem",
+      "role": "USER",
+      "createdAt": "2023-02-01T07:03:17.827Z",
+      "updatedAt": "2023-02-01T07:03:17.827Z"
+    },
+    {
+      "id": 3,
+      "email": "gyese32d@mail.ru",
+      "password": "$2b$04$ZWYSWAS9NpIKqYX3k8SZRu0MpYz47ggK59qQ.0gkgZDvk7ik8BX1C",
+      "role": "ADMIN",
+      "createdAt": "2023-02-01T09:16:05.948Z",
+      "updatedAt": "2023-02-01T09:16:05.948Z"
+    },
+    {
+      "id": 4,
+      "email": "232ds@mail.cr",
+      "password": "$2b$04$ki13WmcsbadN4NqPjtHIvuOvxMATUXRVxOHxpq712X/ocHQ77ZM0e",
+      "role": "ADMIN",
+      "createdAt": "2023-02-05T12:45:22.148Z",
+      "updatedAt": "2023-02-05T12:45:22.148Z"
+    },
+    {
+      "id": 5,
+      "email": "mer@mail.ru",
+      "password": "$2b$04$X/S6hpQYgvbgK5Unmk0v0uwG6djrC.k70KQB5iXP9io4O6Vgay2wq",
+      "role": "ADMIN",
+      "createdAt": "2023-02-05T15:45:22.567Z",
+      "updatedAt": "2023-02-05T15:45:22.567Z"
+    },
+    {
+      "id": 6,
+      "email": "33qwe@mail.ru",
+      "password": "$2b$04$nEJiTVRiaYx6xtF0FQoaWefiKPKSocWYd4AkHdC1ZsKm7SlGEzDfy",
+      "role": "ADMIN",
+      "createdAt": "2023-02-05T16:30:20.298Z",
+      "updatedAt": "2023-02-05T16:30:20.298Z"
+    },
+    {
+      "id": 7,
+      "email": "33qwe",
+      "password": "$2b$04$r4E5jEAgns/G5ZUbuJ83pO5X1RFBtQnKYjW7mhlzbA5Jc3BAYuj5.",
+      "role": "USER",
+      "createdAt": "2023-02-05T18:36:03.662Z",
+      "updatedAt": "2023-02-05T18:36:03.662Z"
+    },
+    {
+      "id": 8,
+      "email": "23232@mail",
+      "password": "$2b$04$ZVXCgyKL5HC1yNjzoa5xHOLraTeeWkougLc//pZet0WhSPa4Qjc3a",
+      "role": "ADMIN",
+      "createdAt": "2023-02-05T20:15:54.697Z",
+      "updatedAt": "2023-02-05T20:15:54.697Z"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ const router = require('./routes/index.js')
 const app = express()
 let livereload = require("livereload");
 let connectLiveReload = require("connect-livereload");
-
+const PORT = process.env.PORT || 10000
 
 //Cors controller
 app.use(function(req, res, next) {
@@ -32,10 +32,9 @@ liveReloadServer.server.once("connection", () => {
 app.use(connectLiveReload());
 
 const fileUpload = require("express-fileupload")
-//const cors = require('cors')
 
+//const cors = require('cors')
 app.use(express.urlencoded({ extended: true }));
-//app.use(cors({origin: '*'}))
 app.use(express.json()) //парсим json формат
 app.use(fileUpload({}))
 
@@ -47,6 +46,6 @@ app.get("/:url.png", (req, res) => {
     res.sendFile(path.resolve(__dirname, `./static/${url}.png`))
 });
 
-app.listen(10000,"localhost", () => console.log(`Server started on port ${10000}`))
+app.listen(PORT,"localhost", () => console.log(`Server started on port ${PORT}`))
 
 module.exports = app;
