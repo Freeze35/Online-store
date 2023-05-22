@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="User reworking">
+    <list default="true" id="69ffb995-fd5c-4980-9e54-74d475bdbf13" name="Changes" comment="Change Name size =&gt; 60%">
+      <change afterPath="$PROJECT_DIR$/client/src/components/helpers/Debounce.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AppRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/NavBar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "18.12.1",
     "javascript.nodejs.core.library.typings.version": "18.14.6",
-    "last_opened_file_path": "D:/T/online-store/online-store/mocker_server",
+    "last_opened_file_path": "D:/T/online-store/online-store/client/src/components/helpers",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -169,14 +172,9 @@
       <workItem from="1683751866565" duration="57052000" />
       <workItem from="1683868586091" duration="68748000" />
       <workItem from="1684121174864" duration="36616000" />
-      <workItem from="1684227063387" duration="92548000" />
-    </task>
-    <task id="LOCAL-00149" summary="Add webpack txt">
-      <created>1684158212156</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1684158212156</updated>
+      <workItem from="1684227063387" duration="97172000" />
+      <workItem from="1684558189354" duration="9338000" />
+      <workItem from="1684648750745" duration="5043000" />
     </task>
     <task id="LOCAL-00150" summary="Add webpack txt">
       <created>1684158413606</created>
@@ -514,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684480388994</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="Change Name size =&gt; 60%">
+      <created>1684483142405</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1684483142405</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AdminPanel.js =&gt; Add field" />
     <MESSAGE value="Webpack adding for frontend" />
     <MESSAGE value="Reworking selector system" />
     <MESSAGE value="Adaptive resizing" />
@@ -557,7 +561,8 @@
     <MESSAGE value="Reworking Basket css" />
     <MESSAGE value="Add request on render.com every 10 minutes" />
     <MESSAGE value="User reworking" />
-    <option name="LAST_COMMIT_MESSAGE" value="User reworking" />
+    <MESSAGE value="Change Name size =&gt; 60%" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Name size =&gt; 60%" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
